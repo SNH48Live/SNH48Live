@@ -4,7 +4,7 @@ This repository hosts technical documentation and helpers for the [SNH48 Live](h
 
 ## Docs
 
-- [`partially-blocked.txt`](partially-blocked.txt): short list of videos that are blocked in some countries (see `claims.md` for details).
+- [`partially-blocked.txt`](partially-blocked.txt): short list of videos that are blocked in some countries (see `claims.md` for details). To get around region blocks, use a VPN service, e.g. [Private Internet Access](https://www.privateinternetaccess.com/).
 - [`claims.md`](claims.md): list of videos and their associated copyright claims.
 - [`claims.json`](claims.json): list of videos and their associated copyright claims, in JSON format.
 

@@ -1,0 +1,147 @@
+#!/usr/bin/env python3
+
+# Requires chrome-cli.
+#
+# Point Chrome to https://www.youtube.com/video_copynotice?v=XXXXXXXXXXX
+# before running the script.
+
+import collections
+import fileinput
+import json
+import os
+import re
+import subprocess
+import textwrap
+import urllib.parse
+
+import bs4
+
+HERE = os.path.dirname(os.path.realpath(__file__))
+ROOT = os.path.dirname(HERE)
+PARTIALLY_BLOCKED_LIST = os.path.join(ROOT, 'partially-blocked.txt')
+CLAIMS_MD = os.path.join(ROOT, 'claims.md')
+CLAIMS_JSON = os.path.join(ROOT, 'claims.json')
+
+Claim = collections.namedtuple('Claim', ['content', 'claimant', 'policy'])
+
+class VideoWithClaims(object):
+
+    def __init__(self, title, link):
+        self.title = title
+        self.link = link
+        self.video_id = re.search(r'\?v=(?P<id>[A-Za-z0-9_-]{11})', link).group('id')
+        self.claims = []
+
+    @property
+    def youtu_be(self):
+        return f'https://youtu.be/{self.video_id}'
+
+    @property
+    def short_desc(self):
+        return f'{self.youtu_be} {self.title}'
+
+    @property
+    def markdown(self):
+        md = textwrap.dedent(f'''\
+        [{self.title}]({self.link})
+
+        | Content | Claimant | Policy |
+        | --- | --- | --- |
+        ''')
+        for claim in self.claims:
+            row = '|'
+            for cell in claim:
+                escaped_text = cell.replace('|', '\|')
+                row += f' {escaped_text} |'
+            row += '\n'
+            md += row
+        md += '\n---\n'
+        return md
+
+    @property
+    def jsonizable(self):
+        return collections.OrderedDict([
+            ('video_id', self.video_id),
+            ('title', self.title),
+            ('link', self.link),
+            ('claims', [claim._asdict() for claim in self.claims]),
+        ])
+
+def extract(html):
+    soup = bs4.BeautifulSoup(html, 'html.parser')
+    title = soup.find(id='creator-editor-title-link').text.strip()
+    link = urllib.parse.urljoin('https://youtube.com',
+                                soup.find(id='creator-editor-title-link')['href'])
+    video  = VideoWithClaims(title, link)
+    table = soup.find(class_='copynotice-claim-details-table')
+
+    strip_pattern = re.compile(r'\s+(Your video can\'t be played in these countries|play match)')
+    transform_cell = lambda text: strip_pattern.sub('', text).strip()
+    for row in table.find_all('tr')[1:]:
+        columns = []
+        for td in row.find_all('td')[:3]:
+            columns.append('<br>'.join(transform_cell(li.text) for li in td.find_all('li')))
+        video.claims.append(Claim(*columns))
+    return video
+
+def gethtml():
+    return subprocess.check_output(['chrome-cli', 'source'])
+
+def insert_partially_blocked_list(video):
+    # Prepend entry
+    orig = PARTIALLY_BLOCKED_LIST
+    bak = f'{orig}.bak'
+    os.rename(orig, bak)
+    with open(orig, 'w') as fp:
+        print(video.short_desc, file=fp)
+        with open(bak, 'r') as fp2:
+            for line in fp2:
+                fp.write(line)
+    os.unlink(bak)
+
+def insert_markdown(video):
+    with fileinput.FileInput([CLAIMS_MD], inplace=True) as fp:
+        for line in fp:
+            print(line, end='')
+            if line.strip() == '<!-- AUTO INSERTION POINT -->':
+                print()
+                print(video.markdown, end='')
+
+def insert_json(video):
+    with open(CLAIMS_JSON) as fp:
+        objs = json.load(fp, object_pairs_hook=collections.OrderedDict)
+    objs.insert(0, video.jsonizable)
+    with open(CLAIMS_JSON, 'w') as fp:
+        json.dump(objs, fp, ensure_ascii=False, indent=2)
+
+def section(title):
+    green = '\x1b[32m'
+    reset = '\x1b[0m'
+    print(f'{green}{title}{reset}')
+    print(f'{green}{"=" * len(title)}{reset}')
+
+def show_tab_info():
+    section('Tab')
+    subprocess.run(['chrome-cli', 'info'])
+    print()
+
+def pretty_print(video):
+    section('Short description')
+    print(video.short_desc)
+    print()
+    section('Markdown')
+    print(video.markdown)
+    section('JSON')
+    print(json.dumps(video.jsonizable, ensure_ascii=False, indent=2))
+
+def main():
+    show_tab_info()
+    video = extract(gethtml())
+    if 'Blocked in some countries' in video.markdown:
+        insert_partially_blocked_list(video)
+    insert_markdown(video)
+    insert_json(video)
+    pretty_print(video)
+
+if __name__ == '__main__':
+    main()

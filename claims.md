@@ -1,0 +1,53 @@
+# Videos with copyright claims
+
+<!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
+<!-- AUTO INSERTION POINT -->
+
+[20170317 SNH48 Team X 梦想的旗帜 18](https://youtube.com/watch?v=HDIFOb8Zijo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:01 - 0:43 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170315 SNH48 Team NⅡ 专属派对 32](https://youtube.com/watch?v=Gg0DAhaSEd0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Visual content<br>0:00 - 4:35 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170311 SNH48 白色情人节特别公演 晚场](https://youtube.com/watch?v=LltTPj2bGKc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 暖暖 - 梁靜茹<br>Sound recording<br>46:52 - 47:37 | Bin Music<br>On behalf of: Bin Music | Monetized by copyright owner |
+| Audio content<br>4:05 - 6:08 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Audio content<br>1:03:01 - 1:03:59 | AKS Co., Ltd | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| 凉凉 - 楊宗緯+張碧晨<br>Sound recording<br>56:11 - 59:55 | linfair_records<br>On behalf of: 上海譚旋音樂工作室 | Monetized by copyright owner |
+| Kokoro no Placard - AKB48<br>Sound recording<br>2:03:49 - 2:05:17 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+
+---
+
+[20170311 SNH48 白色情人节特别公演 午场](https://youtube.com/watch?v=qfjLpEGKcyw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Kokoro no Placard - AKB48<br>Sound recording<br>2:13:34 - 2:15:44 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+| てもでもの涙 instrumental - フレンチ・キス<br>Sound recording<br>48:10 - 50:00 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
+| Audio content<br>6:19 - 8:02 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Lay down - AKB48<br>Sound recording<br>44:44 - 46:41 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+---
+
+[20170308 SNH48 Team SⅡ 心的旅程 45 男装特别公演](https://youtube.com/watch?v=7Mxaxog8ris)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| True Blood - Justin Timberlake<br>Sound recording<br>1:23:46 - 1:24:34 | SME<br>On behalf of: RCA Records Label | Monetized by copyright owner |
+| 02-只對你有感覺 - 東方茱麗葉電影原聲帶<br>Sound recording<br>1:18:34 - 1:19:42 | HIMservice<br>On behalf of: HIM International Music | Monetized by copyright owner |
+| Audiovisual content<br>2:52:47 - 2:53:20 | WebTVAsia (Music) | Monetized by copyright owner |
+| Practice Love - JJ Lin<br>Sound recording<br>1:12:50 - 1:17:34 | WMG<br>On behalf of: JFJ Productions Corp. | Monetized by copyright owner |
+| JJan! Koong! Kwang!(짠쿵쾅) - MOMOLAND(모모랜드)<br>Sound recording<br>1:22:17 - 1:23:40 | Loen Entertainment<br>On behalf of: DUBLEKICK COMPANY, LOEN ENTERTAINMENT | Monetized by copyright owner |

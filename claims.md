@@ -51,3 +51,11 @@
 | Audiovisual content<br>2:52:47 - 2:53:20 | WebTVAsia (Music) | Monetized by copyright owner |
 | Practice Love - JJ Lin<br>Sound recording<br>1:12:50 - 1:17:34 | WMG<br>On behalf of: JFJ Productions Corp. | Monetized by copyright owner |
 | JJan! Koong! Kwang!(짠쿵쾅) - MOMOLAND(모모랜드)<br>Sound recording<br>1:22:17 - 1:23:40 | Loen Entertainment<br>On behalf of: DUBLEKICK COMPANY, LOEN ENTERTAINMENT | Monetized by copyright owner |
+
+---
+
+[20170304 SNH48 Team NⅡ 专属派对 28 曾艳芬生日主题公演](https://youtube.com/watch?v=aC-fevSjh_U)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 桜の花びらたち(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>1:12:47 - 1:13:37 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |

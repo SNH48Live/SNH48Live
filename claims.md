@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170329 SNH48 Team X 梦想的旗帜 21 沈阳巡演](https://youtube.com/watch?v=vjBVEF9dahE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audio content<br>2:46:01 - 2:47:34 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+
+---
+
 [20170317 SNH48 Team X 梦想的旗帜 18](https://youtube.com/watch?v=HDIFOb8Zijo)
 
 | Content | Claimant | Policy |

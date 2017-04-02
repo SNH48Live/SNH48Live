@@ -79,23 +79,23 @@ VALID_PRIVACY_STATUSES = ('public', 'private', 'unlisted')
 
 
 def get_authenticated_service(args):
-  flow = oauth2client.client.flow_from_clientsecrets(
-      CLIENT_SECRETS_FILE,
-      scope=YOUTUBE_UPLOAD_SCOPE,
-      message=MISSING_CLIENT_SECRETS_MESSAGE,
-  )
+    flow = oauth2client.client.flow_from_clientsecrets(
+        CLIENT_SECRETS_FILE,
+        scope=YOUTUBE_UPLOAD_SCOPE,
+        message=MISSING_CLIENT_SECRETS_MESSAGE,
+    )
 
-  storage = oauth2client.file.Storage(OAUTH_CREDENTIALS_FILE)
-  credentials = storage.get()
+    storage = oauth2client.file.Storage(OAUTH_CREDENTIALS_FILE)
+    credentials = storage.get()
 
-  if credentials is None or credentials.invalid:
-      credentials = oauth2client.tools.run_flow(flow, storage, args)
+    if credentials is None or credentials.invalid:
+        credentials = oauth2client.tools.run_flow(flow, storage, args)
 
-  return googleapiclient.discovery.build(
-      YOUTUBE_API_SERVICE_NAME,
-      YOUTUBE_API_VERSION,
-      http=credentials.authorize(httplib2.Http()),
-  )
+    return googleapiclient.discovery.build(
+        YOUTUBE_API_SERVICE_NAME,
+        YOUTUBE_API_VERSION,
+        http=credentials.authorize(httplib2.Http()),
+    )
 
 
 # https://developers.google.com/youtube/v3/docs/videos/insert
@@ -163,7 +163,7 @@ def resumable_upload(insert_request):
             time.sleep(sleep_seconds)
 
 
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser(
         description=__doc__,
         parents=[oauth2client.tools.argparser],
@@ -193,3 +193,7 @@ if __name__ == '__main__':
         initialize_upload(youtube_client, args)
     except HttpError as e:
         print('An HTTP error %d occurred:\n%s' % (e.resp.status, e.content))
+
+
+if __name__ == '__main__':
+    main()

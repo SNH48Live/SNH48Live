@@ -4,7 +4,6 @@
 
 import argparse
 import http.client
-import httplib2
 import os
 import random
 import sys
@@ -12,6 +11,7 @@ import time
 
 import googleapiclient.discovery
 import googleapiclient.http
+import httplib2
 import oauth2client.client
 import oauth2client.file
 import oauth2client.tools

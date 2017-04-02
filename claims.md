@@ -3,6 +3,15 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170402 SNH48 Team X 梦想的旗帜 23 X队成立两周年特别公演](https://youtube.com/watch?v=ogJhDhkXlEQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 泣きながら微笑んで(Not yet ver.) - Not yet<br>Sound recording<br>1:11:44 - 1:12:16 | columbia<br>On behalf of: COLUMBIA | Blocked in some countries |
+| 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>4:28 - 6:15 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
 [20170329 SNH48 Team X 梦想的旗帜 21 沈阳巡演](https://youtube.com/watch?v=vjBVEF9dahE)
 
 | Content | Claimant | Policy |

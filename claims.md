@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170403 SNH48 Team SⅡ 心的旅程 50 蒋芸生日主题公演](https://youtube.com/watch?v=QS5jw3lo_74)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 凉凉 - 楊宗緯+張碧晨<br>Sound recording<br>1:29:07 - 1:29:59 | linfair_records<br>On behalf of: 上海譚旋音樂工作室 | Monetized by copyright owner |
+
+---
+
 [20170402 SNH48 Team X 梦想的旗帜 23 X队成立两周年特别公演](https://youtube.com/watch?v=ogJhDhkXlEQ)
 
 | Content | Claimant | Policy |

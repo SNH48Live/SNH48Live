@@ -38,7 +38,7 @@ class VideoWithClaims(object):
 
     @property
     def short_desc(self):
-        return f'{self.youtu_be} {self.title}'
+        return f'{self.youtu_be}\t{self.title}'
 
     @property
     def markdown(self):

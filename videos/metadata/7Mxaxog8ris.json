@@ -1,0 +1,78 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H58M6S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/D5bGk0aERa4DWSVSVkWtAvRHIlQ\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "128809",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3612992",
+    "container": "mpeg_ts",
+    "fileName": "20170308 Team SⅡ 心的旅程 45 男装特别公演.ts",
+    "fileSize": "5240151260",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3484183",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "7Mxaxog8ris",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/136\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\nCopyright claims:\n- True Blood - Justin Timberlake, sound recording, 1:23:46 - 1:24:34; SME, on behalf of: RCA Records Label; monetized by copyright owner;\n- 02-只對你有感覺 - 東方茱麗葉電影原聲帶, sound recording, 1:18:34 - 1:19:42; HIMservice, on behalf of: HIM International Music; monetized by copyright owner;\n- Audiovisual content, 2:52:47 - 2:53:20; WebTVAsia (Music); monetized by copyright owner;\n- Practice Love - JJ Lin, sound recording, 1:12:50 - 1:17:34; WMG, on behalf of: JFJ Productions Corp.; monetized by copyright owner;\n- JJan! Koong! Kwang!(짠쿵쾅) - MOMOLAND(모모랜드), sound recording, 1:22:17 - 1:23:40; Loen Entertainment, on behalf of: DUBLEKICK COMPANY, LOEN ENTERTAINMENT; monetized by copyright owner.",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/136\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\nCopyright claims:\n- True Blood - Justin Timberlake, sound recording, 1:23:46 - 1:24:34; SME, on behalf of: RCA Records Label; monetized by copyright owner;\n- 02-只對你有感覺 - 東方茱麗葉電影原聲帶, sound recording, 1:18:34 - 1:19:42; HIMservice, on behalf of: HIM International Music; monetized by copyright owner;\n- Audiovisual content, 2:52:47 - 2:53:20; WebTVAsia (Music); monetized by copyright owner;\n- Practice Love - JJ Lin, sound recording, 1:12:50 - 1:17:34; WMG, on behalf of: JFJ Productions Corp.; monetized by copyright owner;\n- JJan! Koong! Kwang!(짠쿵쾅) - MOMOLAND(모모랜드), sound recording, 1:22:17 - 1:23:40; Loen Entertainment, on behalf of: DUBLEKICK COMPANY, LOEN ENTERTAINMENT; monetized by copyright owner.",
+      "title": "20170308 SNH48 Team SⅡ 心的旅程 45 男装特别公演"
+    },
+    "publishedAt": "2017-03-24T04:16:43.000Z",
+    "tags": [
+      "SNH48",
+      "心的旅程"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/7Mxaxog8ris/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/7Mxaxog8ris/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/7Mxaxog8ris/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/7Mxaxog8ris/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170308 SNH48 Team SⅡ 心的旅程 45 男装特别公演"
+  }
+}

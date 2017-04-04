@@ -1,0 +1,88 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H55M39S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "US",
+        "MX",
+        "JP",
+        "KR",
+        "NZ",
+        "AU"
+      ]
+    }
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/QGcYx30OWyBvG-4P115OKUSwXP0\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "128724",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3614626",
+    "container": "mpeg_ts",
+    "fileName": "20170304 Team NⅡ 专属派对 28 曾艳芬生日.ts",
+    "fileSize": "5158658336",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3485902",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "aC-fevSjh_U",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/133\n\n本视频约47分钟和50分钟位置各剪掉了不足一分钟的片段。（原片段损毁且无法修复。）\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/133\n\n本视频约47分钟和50分钟位置各剪掉了不足一分钟的片段。（原片段损毁且无法修复。）\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170304 SNH48 Team NⅡ 专属派对 28 曾艳芬生日主题公演"
+    },
+    "publishedAt": "2017-03-25T00:14:12.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/aC-fevSjh_U/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/aC-fevSjh_U/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/aC-fevSjh_U/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/aC-fevSjh_U/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170304 SNH48 Team NⅡ 专属派对 28 曾艳芬生日主题公演"
+  }
+}

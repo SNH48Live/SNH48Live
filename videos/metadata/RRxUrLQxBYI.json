@@ -1,0 +1,79 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H39M30S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/eNRv6UjoUX7eWS6IUZOiIbGUAKU\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "132430",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3424443",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4685228652",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3292013",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "RRxUrLQxBYI",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/160\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/160\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170402 SNH48 Team XⅡ 代号XⅡ 15"
+    },
+    "publishedAt": "2017-04-02T16:30:01.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/RRxUrLQxBYI/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/RRxUrLQxBYI/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/RRxUrLQxBYI/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/RRxUrLQxBYI/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170402 SNH48 Team XⅡ 代号XⅡ 15"
+  }
+}

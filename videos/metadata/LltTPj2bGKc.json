@@ -1,0 +1,86 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H8M6S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "NZ",
+        "KR",
+        "US",
+        "AU",
+        "MX"
+      ]
+    }
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/kvymtGbq5L0SufKv3TGp2UZX8mY\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "128663",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3714791",
+    "container": "mpeg_ts",
+    "fileName": "20170311 白色情人节特别公演 晚场.ts",
+    "fileSize": "3768701768",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3586128",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "LltTPj2bGKc",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/140\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\nCopyright claims:\n- 暖暖 - 梁靜茹, sound recording, 46:52 - 47:37; Bin Music, on behalf of: Bin Music; monetized by copyright owner;\n- Audio content, 1:03:01 - 1:03:59; AKS Co., Ltd; blocked in some countries;\n- 凉凉 - 楊宗緯+張碧晨, sound recording, 56:11 - 59:55; linfair_records, on behalf of: 上海譚旋音樂工作室; monetized by copyright owner;\n- Kokoro no Placard - AKB48, sound recording, 2:03:49 - 2:05:17; WMG, on behalf of: King Record Company Limited; monetized by copyright owner.\n\nBlocked countries: Australia, Mexico, New Zealand, South Korea, United States.",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/140\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\nCopyright claims:\n- 暖暖 - 梁靜茹, sound recording, 46:52 - 47:37; Bin Music, on behalf of: Bin Music; monetized by copyright owner;\n- Audio content, 1:03:01 - 1:03:59; AKS Co., Ltd; blocked in some countries;\n- 凉凉 - 楊宗緯+張碧晨, sound recording, 56:11 - 59:55; linfair_records, on behalf of: 上海譚旋音樂工作室; monetized by copyright owner;\n- Kokoro no Placard - AKB48, sound recording, 2:03:49 - 2:05:17; WMG, on behalf of: King Record Company Limited; monetized by copyright owner.\n\nBlocked countries: Australia, Mexico, New Zealand, South Korea, United States.",
+      "title": "20170311 SNH48 白色情人节特别公演 晚场"
+    },
+    "publishedAt": "2017-03-24T03:13:14.000Z",
+    "tags": [
+      "SNH48"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/LltTPj2bGKc/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/LltTPj2bGKc/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/LltTPj2bGKc/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/LltTPj2bGKc/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170311 SNH48 白色情人节特别公演 晚场"
+  }
+}

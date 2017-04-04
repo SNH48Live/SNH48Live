@@ -1,0 +1,87 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H18M13S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "US",
+        "MX",
+        "JP",
+        "KR",
+        "NZ",
+        "AU"
+      ]
+    }
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/ovggYA0wxv4IJ9FZXmtXM7DvUaM\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "128517",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3521249",
+    "container": "mpeg_ts",
+    "fileName": "20170311 白色情人节特别公演 午场.ts",
+    "fileSize": "4066628752",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3392732",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "qfjLpEGKcyw",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/139\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\nCopyright claims:\n- Kokoro no Placard - AKB48, sound recording, 2:13:34 - 2:15:44; WMG, on behalf of: King Record Company Limited; monetized by copyright owner;\n- てもでもの涙 instrumental - フレンチ・キス, sound recording, 48:10 - 50:00; AVEX GROUP HOLDINGS.INC, on behalf of: avex entertainment; monetized by copyright owner;\n- Audio content, 6:19 - 8:02; AKB48; blocked in some countries ;\n- Lay down - AKB48, sound recording 44:44 - 46:41; Sony Music Entertainment (Japan) Inc., on behalf of: (P)2013 Defstar Records Inc.; blocked in some countries.\n\nBlocked countries: Australia, Japan, Mexico, New Zealand, South Korea, United States.",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/139\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\nCopyright claims:\n- Kokoro no Placard - AKB48, sound recording, 2:13:34 - 2:15:44; WMG, on behalf of: King Record Company Limited; monetized by copyright owner;\n- てもでもの涙 instrumental - フレンチ・キス, sound recording, 48:10 - 50:00; AVEX GROUP HOLDINGS.INC, on behalf of: avex entertainment; monetized by copyright owner;\n- Audio content, 6:19 - 8:02; AKB48; blocked in some countries ;\n- Lay down - AKB48, sound recording 44:44 - 46:41; Sony Music Entertainment (Japan) Inc., on behalf of: (P)2013 Defstar Records Inc.; blocked in some countries.\n\nBlocked countries: Australia, Japan, Mexico, New Zealand, South Korea, United States.",
+      "title": "20170311 SNH48 白色情人节特别公演 午场"
+    },
+    "publishedAt": "2017-03-24T02:57:51.000Z",
+    "tags": [
+      "SNH48"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/qfjLpEGKcyw/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/qfjLpEGKcyw/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/qfjLpEGKcyw/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/qfjLpEGKcyw/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170311 SNH48 白色情人节特别公演 午场"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H48M50S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/0Q5FDrURaAe70dQQXh-99VN6VxI\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "129836",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3584728",
+    "container": "mpeg_ts",
+    "fileName": "20170326 Team SⅡ 心的旅程 48 李宇琪生日.ts",
+    "fileSize": "4966656004",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3454892",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "Jk6kl4L0WhY",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/155\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/155\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170326 SNH48 Team SⅡ 心的旅程 48 李宇琪生日主题公演"
+    },
+    "publishedAt": "2017-03-26T15:32:23.000Z",
+    "tags": [
+      "SNH48",
+      "心的旅程"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Jk6kl4L0WhY/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Jk6kl4L0WhY/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Jk6kl4L0WhY/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Jk6kl4L0WhY/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170326 SNH48 Team SⅡ 心的旅程 48 李宇琪生日主题公演"
+  }
+}

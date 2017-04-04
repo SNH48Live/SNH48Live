@@ -1,0 +1,155 @@
+#!/usr/bin/env python3
+
+import argparse
+import json
+import os
+import sys
+
+import httplib2
+
+import googleapiclient.discovery
+import oauth2client.client
+import oauth2client.file
+import oauth2client.tools
+
+
+# 全部公演
+# https://www.youtube.com/playlist?list=PL0-h3TcYaV9GWj2qGYa1cWgFCP-k3Blaj
+PLAYLIST_ID = 'PL0-h3TcYaV9GWj2qGYa1cWgFCP-k3Blaj'
+
+YOUTUBE_READONLY_SCOPE = 'https://www.googleapis.com/auth/youtube.readonly'
+YOUTUBE_API_SERVICE_NAME = 'youtube'
+YOUTUBE_API_VERSION = 'v3'
+
+HERE = os.path.dirname(os.path.realpath(__file__))
+ROOT = os.path.dirname(HERE)
+
+METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
+
+# Download clients_secrets.json from
+#   https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
+# YouTube Data API needs to be enabled for the project.
+CLIENT_SECRETS_FILE = os.path.join(ROOT, 'config', 'client_secrets.json')
+
+# Auto generated.
+OAUTH_CREDENTIALS_FILE = os.path.join(ROOT, 'config', 'metadata_fetcher_credentials.json')
+
+# This variable defines a message to display if the CLIENT_SECRETS_FILE is
+# missing.
+MISSING_CLIENT_SECRETS_MESSAGE = f'''
+WARNING: Please configure OAuth 2.0 by downloading client_secrets.json from
+
+  https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
+
+and putting it at
+
+  {CLIENT_SECRETS_FILE}
+
+For more information about the client_secrets.json file format, please visit:
+https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
+'''
+
+
+def get_authenticated_service(args):
+    flow = oauth2client.client.flow_from_clientsecrets(
+        CLIENT_SECRETS_FILE,
+        scope=YOUTUBE_READONLY_SCOPE,
+        message=MISSING_CLIENT_SECRETS_MESSAGE,
+    )
+
+    storage = oauth2client.file.Storage(OAUTH_CREDENTIALS_FILE)
+    credentials = storage.get()
+
+    if credentials is None or credentials.invalid:
+        credentials = oauth2client.tools.run_flow(flow, storage, args)
+
+    return googleapiclient.discovery.build(
+        YOUTUBE_API_SERVICE_NAME,
+        YOUTUBE_API_VERSION,
+        http=credentials.authorize(httplib2.Http()),
+    )
+
+
+# https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlistItems.html#list
+def list_videos(youtube_client):
+    videos = []
+
+    list_request = youtube_client.playlistItems().list(
+        part='snippet',
+        playlistId=PLAYLIST_ID,
+        maxResults=50,
+    )
+    while list_request:
+        list_response = list_request.execute()
+        videos.extend((playlist_item['snippet']['resourceId']['videoId'],
+                       playlist_item['snippet']['title'])
+                      for playlist_item in list_response['items'])
+        list_request = youtube_client.playlistItems().list_next(list_request, list_response)
+
+    return videos
+
+
+# https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.videos.html#list
+def fetch_video_metadata(youtube_client, video_ids):
+    metadata_items = []
+
+    list_request = youtube_client.videos().list(
+        part='contentDetails,fileDetails,snippet',
+        id=','.join(video_ids),
+        maxResults=50,
+    )
+    while list_request:
+        list_response = list_request.execute()
+        metadata_items.extend(list_response['items'])
+        list_request = youtube_client.videos().list_next(list_request, list_response)
+
+    return metadata_items
+
+
+# data is a map mapping video ids to metadata objects
+def persist_video_metadata(data):
+    for video_id, metadata_obj in data.items():
+        path = os.path.join(METADATA_DIR, f'{video_id}.json')
+        print(path)
+        with open(path, 'w') as fp:
+            json.dump(metadata_obj, fp, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        parents=[oauth2client.tools.argparser],
+    )
+    add = parser.add_argument
+    add('-o', '--overwrite', action='store_true',
+        help='overwrite already persisted data')
+    add('-s', '--short', action='store_true',
+        help='populate the video short list videos.txt instead; all other arguments are ignored in this mode')
+    add('video_ids', nargs='*', metavar='VIDEO_ID',
+        help='if no video id is given, fetch for all videos in the "全部公演" playlist')
+    args = parser.parse_args()
+
+    youtube_client = get_authenticated_service(args)
+
+    if args.short:
+        with open(os.path.join(ROOT, 'videos.txt'), 'w') as fp:
+            for vid, title in list_videos(youtube_client):
+                print(f'https://youtu.be/{vid}\t{title}', file=fp)
+        sys.exit(0)
+
+    video_ids = args.video_ids if args.video_ids else [vid for vid, title in list_videos(youtube_client)]
+    if not args.overwrite:
+        video_ids = [vid for vid in video_ids
+                     if not os.path.exists(os.path.join(METADATA_DIR, f'{vid}.json'))]
+    if video_ids:
+        print(f'Fetching metadata for {",".join(video_ids)}.')
+    else:
+        print('Nothing to fetch.')
+
+    metadata_objs = fetch_video_metadata(youtube_client, video_ids)
+    os.makedirs(METADATA_DIR, exist_ok=True)
+    persist_video_metadata(dict(zip(video_ids, metadata_objs)))
+
+
+if __name__ == '__main__':
+    main()

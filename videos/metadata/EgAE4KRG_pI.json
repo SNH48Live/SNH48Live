@@ -1,0 +1,78 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H24M7S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/21gXlhSCPfEoU2uf-f-UBKfQsGI\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "128816",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3721796",
+    "container": "mpeg_ts",
+    "fileName": "20170312 Team NⅡ 专属派对 31.ts",
+    "fileSize": "4240412756",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3592980",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "EgAE4KRG_pI",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/141\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/141\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170312 SNH48 Team NⅡ 专属派对 31"
+    },
+    "publishedAt": "2017-03-24T02:03:30.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/EgAE4KRG_pI/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/EgAE4KRG_pI/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/EgAE4KRG_pI/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/EgAE4KRG_pI/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170312 SNH48 Team NⅡ 专属派对 31"
+  }
+}

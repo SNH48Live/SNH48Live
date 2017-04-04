@@ -1,0 +1,78 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H36M53S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/8ginS098E0ElgZnTHNDfu2bffEM\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "128728",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3517770",
+    "container": "mpeg_ts",
+    "fileName": "20170309 Team SⅡ 心的旅程 46.ts",
+    "fileSize": "4616190728",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3389042",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "vcmhHS1GHSE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/137\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/137\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170309 SNH48 Team SⅡ 心的旅程 46"
+    },
+    "publishedAt": "2017-03-24T04:16:42.000Z",
+    "tags": [
+      "SNH48",
+      "心的旅程"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/vcmhHS1GHSE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/vcmhHS1GHSE/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/vcmhHS1GHSE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/vcmhHS1GHSE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170309 SNH48 Team SⅡ 心的旅程 46"
+  }
+}

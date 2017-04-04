@@ -1,0 +1,57 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H39M44S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/RxEs0jUmcOeY62013ho10eohQs0\"",
+  "fileDetails": {
+    "fileName": "20170319 Team X 梦想的旗帜 19.ts"
+  },
+  "id": "2blPiBifrU8",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/147\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/147\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170319 SNH48 Team X 梦想的旗帜 19"
+    },
+    "publishedAt": "2017-03-22T20:44:28.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/2blPiBifrU8/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/2blPiBifrU8/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/2blPiBifrU8/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/2blPiBifrU8/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170319 SNH48 Team X 梦想的旗帜 19"
+  }
+}

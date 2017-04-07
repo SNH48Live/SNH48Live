@@ -1,0 +1,77 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT1H40M43S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/mGbdngHVVU_FebihTfSF2pUKszM\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "132114",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3424561",
+    "container": "mpeg_ts",
+    "fileName": "20170407 7SENSES 出道演唱会.ts",
+    "fileSize": "2958285656",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3292447",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "0zBTmTE2ya8",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/165\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/165\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170407 SNH48 7SENSES 出道演唱会"
+    },
+    "publishedAt": "2017-04-07T15:46:15.000Z",
+    "tags": [
+      "SNH48"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/0zBTmTE2ya8/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/0zBTmTE2ya8/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/0zBTmTE2ya8/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/0zBTmTE2ya8/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170407 SNH48 7SENSES 出道演唱会"
+  }
+}

@@ -3,6 +3,15 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170407 SNH48 7SENSES 出道演唱会](https://youtube.com/watch?v=0zBTmTE2ya8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>20:43 - 23:35 | WebTVAsia (Music) | Monetized by copyright owner |
+| Mind Over Matter<br>Sound recording<br>1:22:25 - 1:23:49 | APM Music<br>On behalf of: Juice Music | Monetized by copyright owner |
+
+---
+
 [20170403 SNH48 Team SⅡ 心的旅程 50 蒋芸生日主题公演](https://youtube.com/watch?v=QS5jw3lo_74)
 
 | Content | Claimant | Policy |

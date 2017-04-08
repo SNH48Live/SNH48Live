@@ -1,0 +1,79 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT3H13M59S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/LjAqHw7XO4mXh-UbdRFAug1CW84\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "132314",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3517017",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5697903624",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3384703",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "DXGYrz1Ifyk",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/166\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/166\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170408 SNH48 丝芭偶像节特别公演"
+    },
+    "publishedAt": "2017-04-08T16:03:01.000Z",
+    "tags": [
+      "SNH48",
+      "丝芭偶像节"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/DXGYrz1Ifyk/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/DXGYrz1Ifyk/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/DXGYrz1Ifyk/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/DXGYrz1Ifyk/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170408 SNH48 丝芭偶像节特别公演"
+  }
+}

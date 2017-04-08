@@ -3,6 +3,20 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170408 SNH48 丝芭偶像节特别公演](https://youtube.com/watch?v=DXGYrz1Ifyk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 不夠成熟 - By2<br>Sound recording<br>42:35 - 43:26 | The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司 | Monetized by copyright owner |
+| Lay down - AKB48<br>Sound recording<br>2:11:54 - 2:13:35 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries |
+| わがままな流れ星 - SKE48（Team E）<br>Sound recording<br>2:15:32 - 2:17:06 | AKB48<br>On behalf of: avex trax | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| ｴﾝﾄﾞﾛｰﾙ - SKE48(Team E)<br>Sound recording<br>2:22:14 - 2:24:04 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audiovisual content<br>1:50:52 - 1:51:39 | ELTA Technology | Monetized by copyright owner |
+| River - Bishop Briggs<br>Sound recording<br>2:08:34 - 2:09:59 | UMG<br>On behalf of: Teleport Records / Island Records | Monetized by copyright owner |
+| Audio content<br>33:48 - 35:29 | AKS Co., Ltd | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+
+---
+
 [20170407 SNH48 7SENSES 出道演唱会](https://youtube.com/watch?v=0zBTmTE2ya8)
 
 | Content | Claimant | Policy |

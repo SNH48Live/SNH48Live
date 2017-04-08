@@ -6,9 +6,19 @@
     "duration": "PT3H13M59S",
     "hasCustomThumbnail": true,
     "licensedContent": false,
-    "projection": "rectangular"
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "JP",
+        "KR",
+        "AU",
+        "MX",
+        "US",
+        "NZ"
+      ]
+    }
   },
-  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/LjAqHw7XO4mXh-UbdRFAug1CW84\"",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/za_5YSByUi2wfBRpdCnlKmVw0AE\"",
   "fileDetails": {
     "audioStreams": [
       {

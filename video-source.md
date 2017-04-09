@@ -10,4 +10,4 @@ so it should be very easy to extract. Once we have the .m3u8 file, the rest is t
 
 At the moment (03/24/2017), the highest quality streams offered by live.snh48.com contain 1080p H.264 video streams at 25fps and a bitrate of ~3800 kbps, and ~128 kbps AAC audio streams. The resulting video files measure ~1.6 GiB per hour. I always upload the uncut original streams to YouTube (with at most timestamp fixes done by FFmpeg, except when certain segments are damaged and unsalvageable, in which case they are removed with a notice).
 
-The actual highest quality as served by YouTube appears to be vary accross browsers, but `youtube-dl --list-formats` should almost always find your the highest quality streams.
+The actual highest quality as served by YouTube appears to vary accross browsers, but `youtube-dl --list-formats` should almost always find you the highest quality streams.

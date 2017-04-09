@@ -1,0 +1,80 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT2H39M20S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/2NY3O_-_rVBuFYGToDoKCCLAwgM\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131937",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3908072",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4680636564",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3776135",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "agBCI33ZdzE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/169\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/169\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170409 SNH48 Team HⅡ 美丽世界 02"
+    },
+    "publishedAt": "2017-04-09T16:19:24.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "Beautiful World"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/agBCI33ZdzE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/agBCI33ZdzE/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/agBCI33ZdzE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/agBCI33ZdzE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170409 SNH48 Team HⅡ 美丽世界 02"
+  }
+}

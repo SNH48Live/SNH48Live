@@ -1,0 +1,22 @@
+#!/usr/bin/env zsh
+
+# Generate images with the iconic five stripes, carrying the team colors of the
+# five teams.
+#
+# Usage: generate <width> <height> <output>
+#
+# <width> should be a multiple of five.
+
+width=$1
+height=$2
+output=$3
+(( strip_width = width / 5 ))
+
+cmdline=( convert )
+for color in '#a1d5ed' '#be98c7' '#f8941d' '#b1d61b' '#03c070'; do
+    cmdline+=( \( -size ${strip_width}x${height} "xc:$color" \) )
+done
+cmdline+=( +append $output )
+
+print -R ${(q-)cmdline}
+$cmdline

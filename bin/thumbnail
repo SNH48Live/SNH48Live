@@ -125,4 +125,5 @@ if [[ -n $identifier ]]; then
 fi
 mkdir -p $generated_dir
 convert $input $input_resize_opts $date_label_opts $identifier_label_opts $output
-print -R ${(q-)output}
+optipng $output
+identify $output

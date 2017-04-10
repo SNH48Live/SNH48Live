@@ -86,9 +86,12 @@ else
 fi
 [[ $date =~ ^[0-9]{8}$ ]] || die "${(q-)date} is not a valid date."
 
-output=$generated_dir/$date-${input:t:r}
-[[ -n $identifier ]] && output+=-$identifier
-output+=.png
+output_basename=${input:t:r}
+# Prepend date if the basename isn't already prefixed with the date
+[[ $output_basename == $date-* ]] || output_basename=$date-$output_basename
+[[ -n $identifier ]] && output_basename+=-$identifier
+output_basename+=.png
+output=$generated_dir/$output_basename
 
 size=1280x720
 date_label_pointsize=72

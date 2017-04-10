@@ -1,0 +1,94 @@
+#!/usr/bin/env zsh
+
+print_error () print -R $'\e[31m'"Error: $*"$'\e[0m' >&2
+die () { print_error $@; exit 1; }
+
+here=$0:A:h
+root=$here:h
+base_dir=$root/thumbnails/base
+generated_dir=$root/thumbnails/generated
+
+chinese_label=0
+while [[ $1 == -* ]]; do
+    case $1 in
+        -h|--help)
+            cat >&2 <<EOF
+Usage: $0:t [options] <baseimage> <date> [<identifier>]
+
+Generate custom thumbnail.
+
+Positional arguments:
+    <baseimage>
+        Path or name of the base image. When only the name is given (i.e.,
+        <baseimage> does not contain a forward slash), assume it can be found in
+            ${(q-)basedir}
+        In that case, if the extension is omitted, assume .png (with priority)
+        or .jpg.
+        Example: 美丽世界
+    <date>
+        Date of the performance, in YYYYMMDD format.
+        Example: 20170408
+    <identifier>
+        (Optional.) Identifier of the performance within its series, usually a
+        number.
+        Example: 01
+
+Options:
+    -h, --help
+        Print this help and exit.
+    -z, --zh
+        Use Heiti-SC-Medium for the identifier label. Used when the identifier
+        is Chinese text rather than a number, e.g. "午" or "晚".
+EOF
+            exit 1
+            ;;
+        -z|--zh)
+            chinese_label=1
+            ;;
+        --)
+            shift
+            break
+            ;;
+        *)
+            die "Unknown option ${(q-)1}."
+            ;;
+    esac
+    shift
+done
+baseimage=$1
+date=$2
+identifier=$3
+
+if [[ $baseimage == */* ]]; then
+    input=$baseimage
+else
+    input=$base_dir/$baseimage
+    if [[ $baseimage == *.* ]]; then
+        [[ -f $input ]] || die "${(q-)input} does not exist."
+    else
+        if [[ -f $input.png ]]; then
+            input=$input.png
+        elif [[ -f $input.jpg ]]; then
+            input=$input.jpg
+        else
+            die "${(q-)input}.(png|jpg) does not exist."
+        fi
+    fi
+fi
+[[ $date =~ ^[0-9]{8}$ ]] || die "${(q-)date} is not a valid date."
+
+output=$generated_dir/$date-${input:t:r}
+[[ -n $identifier ]] && output+=-$identifier
+output+=.png
+
+size=640x360
+input_resize_opts=( -resize $size -background black -gravity center -extent $size )
+date_label_opts=( \( -font Monaco -pointsize 36 -background white -gravity southwest label:$date -bordercolor white -border 5x3 \) -composite )
+identifier_label_opts=()
+if [[ -n $identifier ]]; then
+    (( chinese_label )) && identifier_label_opts+=( -font Heiti-SC-Medium ) || identifier_label_opts+=( -font Monaco )
+    identifier_label_opts+=( \( -pointsize 48 -background white -gravity northeast label:$identifier -bordercolor white -border 12x8 \) -composite )
+fi
+mkdir -p $generated_dir
+convert $input $input_resize_opts $date_label_opts $identifier_label_opts $output
+print -R ${(q-)output}

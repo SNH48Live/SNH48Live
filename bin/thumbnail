@@ -8,6 +8,7 @@ root=$here:h
 base_dir=$root/thumbnails/base
 generated_dir=$root/thumbnails/generated
 
+fit=0
 chinese_label=0
 while [[ $1 == -* ]]; do
     case $1 in
@@ -36,11 +37,19 @@ Positional arguments:
 Options:
     -h, --help
         Print this help and exit.
+    -f, --fit
+        Fit the base image into the 16:9 box (preserving aspect ratio), with
+        black padding, instead of stretching it to 16:9 (the default). Used
+        when the base image is not remotely 16:9 (e.g. a square) and stretching
+        would heavily distort it.
     -z, --zh
         Use Heiti-SC-Medium for the identifier label. Used when the identifier
         is Chinese text rather than a number, e.g. "午" or "晚".
 EOF
             exit 1
+            ;;
+        -f|--fit)
+            fit=1
             ;;
         -z|--zh)
             chinese_label=1
@@ -89,12 +98,18 @@ identifier_label_border=24x16
 default_font=Monaco
 chinese_font=Heiti-SC-Medium
 
-input_resize_opts=(
-    -resize $size
-    -background black
-    -gravity center
-    -extent $size
-)
+if (( fit )); then
+    input_resize_opts=(
+        -resize $size
+        -background black
+        -gravity center
+        -extent $size
+    )
+else
+    input_resize_opts=(
+        -resize $size\!
+    )
+fi
 date_label_opts=(
     \(
          -font $default_font

@@ -81,11 +81,11 @@ output=$generated_dir/$date-${input:t:r}
 [[ -n $identifier ]] && output+=-$identifier
 output+=.png
 
-size=640x360
-date_label_pointsize=36
-identifier_label_pointsize=48
-date_label_border=5x3
-identifier_label_border=12x8
+size=1280x720
+date_label_pointsize=72
+identifier_label_pointsize=96
+date_label_border=10x6
+identifier_label_border=24x16
 default_font=Monaco
 chinese_font=Heiti-SC-Medium
 

@@ -82,12 +82,46 @@ output=$generated_dir/$date-${input:t:r}
 output+=.png
 
 size=640x360
-input_resize_opts=( -resize $size -background black -gravity center -extent $size )
-date_label_opts=( \( -font Monaco -pointsize 36 -background white -gravity southwest label:$date -bordercolor white -border 5x3 \) -composite )
+date_label_pointsize=36
+identifier_label_pointsize=48
+date_label_border=5x3
+identifier_label_border=12x8
+default_font=Monaco
+chinese_font=Heiti-SC-Medium
+
+input_resize_opts=(
+    -resize $size
+    -background black
+    -gravity center
+    -extent $size
+)
+date_label_opts=(
+    \(
+         -font $default_font
+         -pointsize $date_label_pointsize
+         -background white
+         -gravity southwest
+         -bordercolor white
+         -border $date_label_border
+         label:$date
+    \)
+    -composite
+)
 identifier_label_opts=()
 if [[ -n $identifier ]]; then
-    (( chinese_label )) && identifier_label_opts+=( -font Heiti-SC-Medium ) || identifier_label_opts+=( -font Monaco )
-    identifier_label_opts+=( \( -pointsize 48 -background white -gravity northeast label:$identifier -bordercolor white -border 12x8 \) -composite )
+    (( chinese_label )) && identifier_label_font=$chinese_font || identifier_label_font=$default_font
+    identifier_label_opts=(
+        \(
+             -font $identifier_label_font
+             -pointsize $identifier_label_pointsize
+             -background white
+             -gravity northeast
+             -bordercolor white
+             -border $identifier_label_border
+             label:$identifier
+        \)
+        -composite
+    )
 fi
 mkdir -p $generated_dir
 convert $input $input_resize_opts $date_label_opts $identifier_label_opts $output

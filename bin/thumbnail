@@ -112,13 +112,13 @@ else
 fi
 date_label_opts=(
     \(
-         -font $default_font
-         -pointsize $date_label_pointsize
-         -background white
-         -gravity southwest
-         -bordercolor white
-         -border $date_label_border
-         label:$date
+        -font $default_font
+        -pointsize $date_label_pointsize
+        -background white
+        -gravity southwest
+        -bordercolor white
+        -border $date_label_border
+        label:$date
     \)
     -composite
 )
@@ -127,13 +127,13 @@ if [[ -n $identifier ]]; then
     (( chinese_label )) && identifier_label_font=$chinese_font || identifier_label_font=$default_font
     identifier_label_opts=(
         \(
-             -font $identifier_label_font
-             -pointsize $identifier_label_pointsize
-             -background white
-             -gravity northeast
-             -bordercolor white
-             -border $identifier_label_border
-             label:$identifier
+            -font $identifier_label_font
+            -pointsize $identifier_label_pointsize
+            -background white
+            -gravity northeast
+            -bordercolor white
+            -border $identifier_label_border
+            label:$identifier
         \)
         -composite
     )

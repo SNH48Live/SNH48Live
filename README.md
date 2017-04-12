@@ -4,6 +4,7 @@ This repository hosts technical documentation and helpers for the [SNH48 Live](h
 
 ## Docs
 
+- [`about.md`](about.md): general description of the channel.
 - [`video-source.md`](video-source.md): technical info on how videos on the channel are extracted, and qualities thereof.
 - [`videos.txt`](videos.txt): short list of all content videos (channel info videos are not included).
 - [`videos/metadata/*.json`](videos/metadata): metadata of content videos directly from YouTube API v3.

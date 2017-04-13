@@ -16,4 +16,5 @@ This repository hosts technical documentation and helpers for the [SNH48 Live](h
 
 - [`extract-claims`](bin/extract-claims): extract video info and associated copyright claims from a YouTube copyright claims page, and automatically populate related datastores.
 - [`fetch-metadata`](bin/fetch-metadata): fetch metadata of all content videos.
+- [`stats`](bin/stats): fetch and display channel analytics data.
 - [`thumbnail`](bin/thumbnail): generate custom thumbnails.

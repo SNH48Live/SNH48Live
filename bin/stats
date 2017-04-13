@@ -1,0 +1,246 @@
+#!/usr/bin/env python3
+
+import argparse
+import datetime
+import os
+import textwrap
+
+import httplib2
+
+import attrdict
+import googleapiclient.discovery
+import oauth2client.client
+import oauth2client.file
+import oauth2client.tools
+
+CHANNEL_ID = 'UC10BBCJQasWk_08Fdz0XCsQ'
+# "Uploads from SNH48 Live"
+# https://www.youtube.com/playlist?list=UU10BBCJQasWk_08Fdz0XCsQ
+UPLOADS_PLAYLIST_ID = 'UU10BBCJQasWk_08Fdz0XCsQ'
+
+# Number of videos to include in the report
+RECENT_VIDEOS_COUNT = 5
+TOP_VIDEOS_COUNT = 5
+
+# API related constants
+YOUTUBE_SCOPES = [
+    'https://www.googleapis.com/auth/youtube.readonly',
+    'https://www.googleapis.com/auth/yt-analytics.readonly',
+]
+YOUTUBE_API_SERVICE_NAME = 'youtube'
+YOUTUBE_ANALYTICS_API_SERVICE_NAME = 'youtubeAnalytics'
+YOUTUBE_API_VERSION = 'v3'
+YOUTUBE_ANALYTICS_API_VERSION = 'v1'
+
+HERE = os.path.dirname(os.path.realpath(__file__))
+ROOT = os.path.dirname(HERE)
+
+# Download clients_secrets.json from
+#   https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
+# YouTube Data API needs to be enabled for the project.
+CLIENT_SECRETS_FILE = os.path.join(ROOT, 'config', 'client_secrets.json')
+
+# Auto generated.
+OAUTH_CREDENTIALS_FILE = os.path.join(ROOT, 'config', 'stats_aggregator_credentials.json')
+
+# This variable defines a message to display if the CLIENT_SECRETS_FILE is
+# missing.
+MISSING_CLIENT_SECRETS_MESSAGE = f'''
+WARNING: Please configure OAuth 2.0 by downloading client_secrets.json from
+
+  https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
+
+and putting it at
+
+  {CLIENT_SECRETS_FILE}
+
+For more information about the client_secrets.json file format, please visit:
+https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
+'''
+
+def get_authenticated_service(args):
+    flow = oauth2client.client.flow_from_clientsecrets(
+        CLIENT_SECRETS_FILE,
+        scope=' '.join(YOUTUBE_SCOPES),
+        message=MISSING_CLIENT_SECRETS_MESSAGE,
+    )
+
+    storage = oauth2client.file.Storage(OAUTH_CREDENTIALS_FILE)
+    credentials = storage.get()
+
+    if credentials is None or credentials.invalid:
+        credentials = oauth2client.tools.run_flow(flow, storage, args)
+
+    http = credentials.authorize(httplib2.Http())
+    youtube = googleapiclient.discovery.build(
+        YOUTUBE_API_SERVICE_NAME,
+        YOUTUBE_API_VERSION,
+        http=http,
+    )
+    youtube_analytics = googleapiclient.discovery.build(
+        YOUTUBE_ANALYTICS_API_SERVICE_NAME,
+        YOUTUBE_ANALYTICS_API_VERSION,
+        http=http,
+    )
+
+    return youtube, youtube_analytics
+
+# Returns an AttrDict with the following attributes:
+# - viewCount
+# - commentCount
+# - subscriberCount
+# - hiddenSubscriberCount (bool)
+# - videoCount
+# https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.channels.html#list
+def get_channel_stats(youtube):
+    response = youtube.channels().list(part='statistics', id=CHANNEL_ID).execute()
+    return attrdict.AttrDict(response)('items')[0].statistics
+
+# Returns a list of ids of the top videos by view count.
+# Not always up-to-date due to the way YouTube Analytics API works.
+# https://developers.google.com/youtube/analytics/v1/data_model
+# https://developers.google.com/youtube/analytics/v1/channel_reports#top-videos-reports
+# https://developers.google.com/resources/api-libraries/documentation/youtubeAnalytics/v1/python/latest/youtubeAnalytics_v1.reports.html#query
+def get_top_videos(youtube_analytics, max_results=5):
+    today = datetime.datetime.now().strftime('%Y-%m-%d')
+    response = youtube_analytics.reports().query(
+        ids=f'channel=={CHANNEL_ID}',
+        start_date='1970-01-01',
+        end_date=today,
+        metrics='views',
+        dimensions='video',
+        max_results=max_results,
+        sort='-views',
+    ).execute()
+    # response.rows look like
+    #
+    #   [
+    #     ['0zBTmTE2ya8', 307.0],
+    #     ['Jk6kl4L0WhY', 119.0],
+    #     ['qyX4O-C3a_s', 103.0],
+    #     ['LMWojlwoTCo', 79.0],
+    #     ['OplqD48kxCM', 76.0],
+    #   ]
+    return list(next(zip(*response['rows'])))
+
+# Get a list of ids of recently uploaded videos.
+# max_results is capped at 50.
+# https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlistItems.html#list
+def get_recent_videos(youtube, max_results=5):
+    response = youtube.playlistItems().list(
+        part='contentDetails',
+        playlistId=UPLOADS_PLAYLIST_ID,
+        maxResults=min(max_results, 50),
+    ).execute()
+    return [item.contentDetails.videoId for item in attrdict.AttrDict(response)('items')]
+
+# Returns a list of AttrDict's with the following attributes:
+# - id
+# - title
+# - viewCount
+# - likeCount
+# - dislikeCount
+# - favoriteCount
+# - commentCount
+# Limited to 50 entries.
+# https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.videos.html#list
+def get_video_stats(youtube, video_ids):
+    response = youtube.videos().list(
+        part='snippet,statistics',
+        id=','.join(video_ids),
+        maxResults=50,
+    ).execute()
+    videos = []
+    for item in response['items']:
+        video = attrdict.AttrDict(item['statistics'])
+        video.id = item['id']
+        video.title = item['snippet']['title']
+        videos.append(video)
+    return videos
+
+def prepare_report_data(youtube, youtube_analytics):
+    channel_stats = get_channel_stats(youtube)
+    recent_vids = get_recent_videos(youtube, max_results=RECENT_VIDEOS_COUNT)
+    top_vids = get_top_videos(youtube_analytics, max_results=TOP_VIDEOS_COUNT)
+    video_stats = get_video_stats(youtube, recent_vids + top_vids)
+    recent_video_stats = video_stats[:RECENT_VIDEOS_COUNT]
+    top_video_stats = video_stats[RECENT_VIDEOS_COUNT:]
+    return {
+        'channel_stats': channel_stats.copy(),
+        'recent_videos': [video.copy() for video in recent_video_stats],
+        'top_videos': [video.copy() for video in top_video_stats],
+    }
+
+def generate_textual_report(data, color=True):
+    red = '\x1b[31m'
+    green = '\x1b[32m'
+    yellow = '\x1b[33m'
+    blue = '\x1b[34m'
+    magenta = '\x1b[35m'
+    cyan = '\x1b[36m'
+    white = '\x1b[37m'
+    bold = '\x1b[1m'
+    reset = '\x1b[0m'
+
+    section_title_color = (bold + blue) if color else ''
+    channel_stat_color = green if color else ''
+    video_title_color = bold if color else ''
+    video_url_color = ''
+    views_color = cyan if color else ''
+    likes_color = green if color else ''
+    dislikes_color = red if color else ''
+    comments_color = cyan if color else ''
+    reset = reset if color else ''
+
+    data = attrdict.AttrDict(data)
+    report = textwrap.dedent(f'''\
+    {section_title_color}=== CHANNEL ==={reset}
+    videos:      {channel_stat_color}{data.channel_stats.videoCount}{reset}
+    subscribers: {channel_stat_color}{data.channel_stats.subscriberCount}{reset}
+    views:       {channel_stat_color}{data.channel_stats.viewCount}{reset}
+    comments:    {channel_stat_color}{data.channel_stats.commentCount}{reset}
+
+    ''')
+
+    for section_title, videos in [('RECENT VIDEOS', data.recent_videos),
+                                  ('TOP VIDEOS', data.top_videos)]:
+        report += f'{section_title_color}=== {section_title} ==={reset}\n'
+        for video in videos:
+            title = video.title
+            url = f'https://youtu.be/{video.id}'
+            views = f'{video.viewCount}v'
+            likes = f'+{video.likeCount}'
+            dislikes = f'-{video.dislikeCount}'
+            comments = f'{video.commentCount}c'
+            report += textwrap.dedent(f'''\
+            {video_title_color}{title}{reset}
+            {video_url_color}{url}{reset}
+            {views_color}{views}{reset}\t{likes_color}{likes}{reset}\t{dislikes_color}{dislikes}{reset}\t{comments_color}{comments}{reset}
+
+            ''')
+
+    return report
+
+def main():
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+	parents=[oauth2client.tools.argparser],
+    )
+    add = parser.add_argument
+    add('-nc', '--no-color', action='store_true',
+        help='do not colorize output')
+    add('-np', '--no-pager', action='store_true',
+        help='do not use pager')
+    args = parser.parse_args()
+
+    youtube, youtube_analytics = get_authenticated_service(args)
+    data = prepare_report_data(youtube, youtube_analytics)
+    report = generate_textual_report(data, color=not args.no_color)
+    if args.no_pager:
+        print(report, end='')
+    else:
+        import pydoc
+        pydoc.pager(report)
+
+if __name__ == '__main__':
+    main()

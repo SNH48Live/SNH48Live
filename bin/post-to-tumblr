@@ -101,7 +101,7 @@ def get_youtube_video_title(video_id):
     with open(metadata_file) as fp:
         return json.load(fp)['snippet']['title']
 
-
+# https://www.tumblr.com/docs/en/api/v2#posting
 def post_youtube_video(tumblr, video_id, tags=None):
     video_url = f'https://youtu.be/{video_id}'
     title = get_youtube_video_title(video_id)
@@ -109,7 +109,7 @@ def post_youtube_video(tumblr, video_id, tags=None):
     params = {
         'type': 'video',
         'tags': ','.join(tags),
-        'caption': title,
+        'caption': f'{title}\n{video_url}',
         'embed': video_url,
     }
     api_url = f'{API_BASE}/blog/{BLOG_ID}/post'

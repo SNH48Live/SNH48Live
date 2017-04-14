@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+
+import argparse
+import json
+import os
+import sys
+
+import httplib2
+
+import googleapiclient.discovery
+import oauth2client.client
+import oauth2client.file
+import oauth2client.tools
+
+
+# 全部公演
+# https://www.youtube.com/playlist?list=PL0-h3TcYaV9GWj2qGYa1cWgFCP-k3Blaj
+PLAYLIST_ID = 'PL0-h3TcYaV9GWj2qGYa1cWgFCP-k3Blaj'
+
+YOUTUBE_UPLOAD_SCOPE = 'https://www.googleapis.com/auth/youtube.upload'
+YOUTUBE_API_SERVICE_NAME = 'youtube'
+YOUTUBE_API_VERSION = 'v3'
+
+HERE = os.path.dirname(os.path.realpath(__file__))
+ROOT = os.path.dirname(HERE)
+
+METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
+
+# Download clients_secrets.json from
+#   https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
+# YouTube Data API needs to be enabled for the project.
+CLIENT_SECRETS_FILE = os.path.join(ROOT, 'config', 'client_secrets.json')
+
+# Auto generated.
+OAUTH_CREDENTIALS_FILE = os.path.join(ROOT, 'config', 'thumbnail_setter_credentials.json')
+
+# This variable defines a message to display if the CLIENT_SECRETS_FILE is
+# missing.
+MISSING_CLIENT_SECRETS_MESSAGE = f'''
+WARNING: Please configure OAuth 2.0 by downloading client_secrets.json from
+
+  https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
+
+and putting it at
+
+  {CLIENT_SECRETS_FILE}
+
+For more information about the client_secrets.json file format, please visit:
+https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
+'''
+
+
+def get_authenticated_service(args):
+    flow = oauth2client.client.flow_from_clientsecrets(
+        CLIENT_SECRETS_FILE,
+        scope=YOUTUBE_UPLOAD_SCOPE,
+        message=MISSING_CLIENT_SECRETS_MESSAGE,
+    )
+
+    storage = oauth2client.file.Storage(OAUTH_CREDENTIALS_FILE)
+    credentials = storage.get()
+
+    if credentials is None or credentials.invalid:
+        credentials = oauth2client.tools.run_flow(flow, storage, args)
+
+    return googleapiclient.discovery.build(
+        YOUTUBE_API_SERVICE_NAME,
+        YOUTUBE_API_VERSION,
+        http=credentials.authorize(httplib2.Http()),
+    )
+
+def set_thumbnail(youtube, video_id, thumbnail_file):
+    youtube.thumbnails().set(
+        videoId=video_id,
+        media_body=thumbnail_file,
+    ).execute()
+
+def main():
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        parents=[oauth2client.tools.argparser],
+    )
+    add = parser.add_argument
+    add('video_id', help='id of the video')
+    add('file', help='path to the thumbnail file')
+    args = parser.parse_args()
+
+    if not os.path.isfile(args.file):
+        exit(f'Error: {args.file} not found.')
+
+    youtube_client = get_authenticated_service(args)
+    set_thumbnail(youtube_client, args.video_id, args.file)
+
+if __name__ == '__main__':
+    main()

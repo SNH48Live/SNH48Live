@@ -7,6 +7,7 @@ here=$0:A:h
 root=$here:h
 base_dir=$root/thumbnails/base
 generated_dir=$root/thumbnails/generated
+logo=$root/identity/logo.png
 
 fit=0
 chinese_label=0
@@ -113,6 +114,14 @@ else
         -resize $size\!
     )
 fi
+logo_opts=(
+    \(
+        $logo
+        -resize 103x103
+        -gravity southeast
+    \)
+    -composite
+)
 date_label_opts=(
     \(
         -font $default_font
@@ -142,6 +151,6 @@ if [[ -n $identifier ]]; then
     )
 fi
 mkdir -p $generated_dir
-convert $input $input_resize_opts $date_label_opts $identifier_label_opts $output
+convert $input $input_resize_opts $logo_opts $date_label_opts $identifier_label_opts $output
 optipng $output
 identify $output

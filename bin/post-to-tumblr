@@ -1,0 +1,148 @@
+#!/usr/bin/env python3
+
+# This frigging script feels so ancient due to having to use a rather
+# poorly-written dinosaur package for OAuth 1.0a. Bear with me...
+
+import argparse
+import collections
+import json
+import os
+import sys
+import textwrap
+import urllib.parse
+
+# This is https://github.com/joestump/python-oauth2, the library called oauth2
+# that implements OAuth 1.0, not to be confused with Google's oauth2client that
+# implements OAuth 2.0...
+import oauth2 as oauth
+
+BLOG_ID = 'snh48live'
+
+HERE = os.path.dirname(os.path.realpath(__file__))
+ROOT = os.path.dirname(HERE)
+
+VIDEO_METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
+
+# OAuth stuff
+# Tumblr uses OAuth 1.0a. Thanks Tumblr!
+
+# A JSON file containing consumer_key and consumer_secret.
+# https://www.tumblr.com/oauth/apps
+CLIENT_SECRETS_FILE = os.path.join(ROOT, 'config', 'tumblr_client_secrets.json')
+
+# Auto-generated file containing access_token and access_token_secret in
+# addition to consumer_key and consumer_secret..
+CREDENTIALS_FILE = os.path.join(ROOT, 'config', 'tumblr_poster_credentials.json')
+
+API_BASE = 'https://api.tumblr.com/v2'
+REQUEST_TOKEN_URL = 'https://www.tumblr.com/oauth/request_token'
+AUTHORIZE_URL = 'https://www.tumblr.com/oauth/authorize'
+ACCESS_TOKEN_URL = 'https://www.tumblr.com/oauth/access_token'
+
+# Returns an OrderedDict with consumer_key, consumer_secret, access_token, and access_token_secret
+def authorize():
+    # Modeled on https://github.com/joestump/python-oauth2/wiki/Twitter-Three-legged-OAuth
+    with open(CLIENT_SECRETS_FILE) as fp:
+        credentials = json.load(fp)
+
+    consumer_key = credentials['consumer_key']
+    consumer_secret = credentials['consumer_secret']
+
+    consumer = oauth.Consumer(consumer_key, consumer_secret)
+    client = oauth.Client(consumer)
+    resp, content = client.request(REQUEST_TOKEN_URL, 'GET')
+    assert resp['status'] == '200'
+    request_token = dict(urllib.parse.parse_qsl(content.decode('utf-8')))
+
+    authorize_url = f'{AUTHORIZE_URL}?oauth_token={request_token["oauth_token"]}'
+    print(textwrap.dedent(f'''\
+    Visit to the following URL in a browser to authorize the app:
+
+        {authorize_url}
+
+    When done, paste the redirected URL below.
+    '''))
+    redirect_url = input('Redirect URL: ')
+    oauth_verifier = dict(urllib.parse.parse_qsl(urllib.parse.urlparse(redirect_url).query))['oauth_verifier']
+
+    token = oauth.Token(request_token['oauth_token'], request_token['oauth_token_secret'])
+    token.set_verifier(oauth_verifier)
+    client = oauth.Client(consumer, token)
+    resp, content = client.request(ACCESS_TOKEN_URL, 'POST')
+    assert resp['status'] == '200'
+    access_token = dict(urllib.parse.parse_qsl(content.decode('utf-8')))
+
+    return collections.OrderedDict([
+        ('consumer_key', consumer_key),
+        ('consumer_secret', consumer_secret),
+        ('access_token', access_token['oauth_token']),
+        ('access_token_secret', access_token['oauth_token_secret']),
+    ])
+
+# Returns an authorized Tumblr OAuth client
+def tumblr_client():
+    try:
+        with open(CREDENTIALS_FILE) as fp:
+            credentials = json.load(fp, object_pairs_hook=collections.OrderedDict)
+    except Exception:
+        credentials = authorize()
+        with open(CREDENTIALS_FILE, 'w') as fp:
+            json.dump(credentials, fp, indent=2)
+
+    consumer = oauth.Consumer(credentials['consumer_key'], credentials['consumer_secret'])
+    token = oauth.Token(credentials['access_token'], credentials['access_token_secret'])
+    return oauth.Client(consumer, token)
+
+def get_youtube_video_title(video_id):
+    metadata_file = os.path.join(VIDEO_METADATA_DIR, f'{video_id}.json')
+    if not os.path.isfile(metadata_file):
+        print(f'Error: {metadata_file} does not exist; please run `fetch-metadata {video_id}`')
+        sys.exit(1)
+    with open(metadata_file) as fp:
+        return json.load(fp)['snippet']['title']
+
+
+def post_youtube_video(tumblr, video_id, tags=None):
+    video_url = f'https://youtu.be/{video_id}'
+    title = get_youtube_video_title(video_id)
+    tags = tags if tags is not None else []
+    params = {
+        'type': 'video',
+        'tags': ','.join(tags),
+        'caption': title,
+        'embed': video_url,
+    }
+    api_url = f'{API_BASE}/blog/{BLOG_ID}/post'
+    resp, content = tumblr.request(api_url, 'POST', body=urllib.parse.urlencode(params))
+    if resp['status'] != '201':
+        status = resp['status']
+        reason = content.decode('utf-8')
+        print(f'HTTP {status}: {reason}', file=sys.stderr)
+        sys.exit(1)
+    post_id = json.loads(content.decode('utf-8'))['response']['id']
+    post_url = f'https://{BLOG_ID}.tumblr.com/post/{post_id}'
+    return post_url, title, video_url
+
+def main():
+    parser = argparse.ArgumentParser()
+    add = parser.add_argument
+    add('-t', '--tags',
+        help='''comma-delimited list of tags, without the hash symbol;
+        snh48 is automatically tagged so no need to tag that''')
+    add('video_id',
+        help='the YouTube video ID')
+    args = parser.parse_args()
+
+    video_id = args.video_id
+    tags = args.tags.split(',') if args.tags is not None else []
+    if 'snh48' not in tags:
+        tags = ['snh48'] + tags
+
+    tumblr = tumblr_client()
+    post_url, title, video_url = post_youtube_video(tumblr, video_id, tags=tags)
+    print(post_url)
+    print(title)
+    print(video_url)
+
+if __name__ == '__main__':
+    main()

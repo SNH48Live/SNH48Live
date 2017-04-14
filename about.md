@@ -23,6 +23,7 @@ Twitter: @snh48live
 - 哔哩哔哩 寒影AkiNa：https://space.bilibili.com/1315101/
 - 腾讯：http://v.qq.com/livemusic/snh48/
 - 乐视：http://music.letv.com/izt/snh48/
+- Tumblr：https://snh48live.tumblr.com
 - 频道技术文档：https://git.io/snh48live
 
 附本人属性：H豚、S喵。原首推陈怡馨，现首推莫寒、二推许杨玉琢，二推以外不表。高冷嘉兴路厨，不看分团←_←（嘉兴路也只看S、H和部分X，很少看N和X2。）不隶属任何组织，拒绝被别人代表、为别人背锅。

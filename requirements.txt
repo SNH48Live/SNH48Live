@@ -1,3 +1,5 @@
 attrdict
 bs4
 google-api-python-client
+oauth2
+pytumblr

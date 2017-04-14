@@ -72,7 +72,7 @@ def extract(html):
     title = soup.find(id='creator-editor-title-link').text.strip()
     link = urllib.parse.urljoin('https://youtube.com',
                                 soup.find(id='creator-editor-title-link')['href'])
-    video  = VideoWithClaims(title, link)
+    video = VideoWithClaims(title, link)
     table = soup.find(class_='copynotice-claim-details-table')
 
     strip_pattern = re.compile(r'\s+(Your video can\'t be played in these countries|play match)')

@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170415 SNH48 Team HⅡ 美丽世界 03 杨惠婷生日主题公演](https://youtube.com/watch?v=kpZTXuM6E6g)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| July - Kris Wu<br>Sound recording<br>1:29:52 - 1:30:58 | Taihe Music Group (Hong Kong) Limited | Monetized by copyright owner |
+
+---
+
 [20170408 SNH48 丝芭偶像节特别公演](https://youtube.com/watch?v=DXGYrz1Ifyk)
 
 | Content | Claimant | Policy |

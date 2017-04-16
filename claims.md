@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170416 SNH48 Team SⅡ 心的旅程 52 戴萌生日主题公演](https://youtube.com/watch?v=jd74BATSAOo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 被馴服的象 - 蔡健雅<br>Sound recording<br>1:27:33 - 1:28:33 | The Orchard Music<br>AsiaMuseEntertainme<br>On behalf of: AsiaMuse | Monetized by copyright owner |
+
+---
+
 [20170415 SNH48 Team HⅡ 美丽世界 03 杨惠婷生日主题公演](https://youtube.com/watch?v=kpZTXuM6E6g)
 
 | Content | Claimant | Policy |

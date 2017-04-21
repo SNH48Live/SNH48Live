@@ -1,0 +1,35 @@
+#!/usr/bin/env zsh
+
+# live.snh48.com has unhelpfully started to slap the god awful official SNH48
+# logo on top of video thumbnails. See this screenshot:
+#   https://i.imgur.com/M0iIIfn.png
+# as well as 我们向前冲-orig.jpg.
+#
+# Fortunately, they are using the same background canvas for the thumbnails of
+# all regular stages, at least for now, so we can patch out the logo (and slap
+# on our own) using the unstained thumbnails. Unfortunately though, that canvas
+# is a combination of a grid pattern and a gradient, and in the older unstained
+# thumbnails the quality of the grid was very rough, with missing grid lines
+# all over the place, whereas in the new watermarked thumbnails the grid is
+# fairly crisp. This is not surprising considering the file sizes; for
+# instance, the old thumbnail of 代号XⅡ measures 55126 bytes, whereas the new
+# one measures 110242 bytes; that's 100% larger -- apparently they raised the
+# JPEG quality value by quite a bit. This mismatch of quality apparently means
+# an overlay will leave a low-quality region in the high quality
+# background. However, the artifacts are not *that* noticeable, and this
+# approach is much easier than meticulous photoshopping (well, it actually is
+# much faster than writing a long technical explanation of my choice, but you
+# know, I'm a programmer).
+
+die () { echo -E "Error: $*" >&2; exit 1; }
+
+here=$0:A:h
+guide=$here/美丽世界.jpg
+input=$1
+output=$2
+[[ -f $input ]] || die "${(q-)input} does not exist."
+[[ -n $output ]] || die "Output not specified."
+
+# Layer the (860, 380)-(940, 490) rectangular region of guide image on top of
+# the input image.
+convert -page +0+0 $input -page +0+0 \( $guide -crop 80x110+860+380 \) -flatten $output

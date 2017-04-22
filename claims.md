@@ -3,6 +3,15 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170422 SNH48 Team NⅡ 专属派对 35 林思意生日主题公演](https://youtube.com/watch?v=44jXZrwFIqo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Ta Xia Le Xia Tian - Soda Green<br>Sound recording<br>1:45:24 - 1:47:05 | UMG<br>On behalf of: Universal Music | Monetized by copyright owner |
+| 你曾是少年 - S.H.E<br>Sound recording<br>1:34:43 - 1:36:17 | HIMservice<br>On behalf of: HIM International Music Inc. | Monetized by copyright owner |
+
+---
+
 [20170416 SNH48 Team SⅡ 心的旅程 52 戴萌生日主题公演](https://youtube.com/watch?v=jd74BATSAOo)
 
 | Content | Claimant | Policy |

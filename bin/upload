@@ -6,6 +6,7 @@ import argparse
 import http.client
 import os
 import random
+import subprocess
 import sys
 import time
 
@@ -124,7 +125,10 @@ def initialize_upload(youtube_client, args):
         media_body=googleapiclient.http.MediaFileUpload(args.file, chunksize=-1, resumable=True)
     )
 
-    resumable_upload(insert_request)
+    video_id = resumable_upload(insert_request)
+    if args.thumbnail:
+        print('Setting thumbnail...')
+        subprocess.run([os.path.join(HERE, 'set-thumbnail'), video_id, args.thumbnail])
 
 
 # This method implements an exponential backoff strategy to resume a
@@ -139,7 +143,9 @@ def resumable_upload(insert_request):
             status, response = insert_request.next_chunk()
             if response is not None:
                 if 'id' in response:
-                    print('Video id \'%s\' was successfully uploaded.' % response['id'])
+                    video_id = response['id']
+                    print('Video id \'%s\' was successfully uploaded.' % video_id)
+                    return video_id
                 else:
                     exit('The upload failed with an unexpected response: %s' % response)
         except HttpError as e:
@@ -183,6 +189,8 @@ def main():
         help='video privacy status; default is unlisted')
     add('-l', '--language', default='zh-CN',
         help='language of the video\'s title, description, and default audio track; default is \'zh-CN\'')
+    add('--thumbnail', default=None,
+        help='path to the custom thumbnail for the video')
     args = parser.parse_args()
 
     if not os.path.isfile(args.file):

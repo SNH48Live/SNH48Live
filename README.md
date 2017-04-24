@@ -1,6 +1,6 @@
 # SNH48 Live
 
-This repository hosts technical documentation and helpers for the [SNH48 Live](https://www.youtube.com/channel/UC10BBCJQasWk_08Fdz0XCsQ) YouTube channel.
+This repository hosts technical documentation and helpers for the [SNH48 Live](https://www.youtube.com/SNH48Live) YouTube channel.
 
 ## Docs
 

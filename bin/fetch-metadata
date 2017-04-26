@@ -142,7 +142,7 @@ def main():
         video_ids = [vid for vid in video_ids
                      if not os.path.exists(os.path.join(METADATA_DIR, f'{vid}.json'))]
     if video_ids:
-        print(f'Fetching metadata for {",".join(video_ids)}.')
+        print(f'Fetching metadata for {",".join(video_ids)}')
     else:
         print('Nothing to fetch.')
 

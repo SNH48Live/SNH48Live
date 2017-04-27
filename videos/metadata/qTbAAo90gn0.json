@@ -1,0 +1,91 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H8M50S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/aEOYpkwYkbn6jehmMc2MYevDa-Y\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131047",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3081216",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "3082270716",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "2950169",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 720,
+        "widthPixels": 1280
+      }
+    ]
+  },
+  "id": "qTbAAo90gn0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.bej48.com/Index/invedio/id/116\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\n注：live.bej48.com当前最高清晰度仅720p。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.bej48.com/Index/invedio/id/116\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\n注：live.bej48.com当前最高清晰度仅720p。",
+      "title": "20170427 SNH48 7SENSES 1st Showcase in Beijing 北京首演"
+    },
+    "publishedAt": "2017-04-27T14:55:28.000Z",
+    "tags": [
+      "SNH48",
+      "7SENSES",
+      "戴萌",
+      "陈琳",
+      "孔肖吟",
+      "许佳琪",
+      "许杨玉琢",
+      "张语格",
+      "赵粤"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/qTbAAo90gn0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/qTbAAo90gn0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/qTbAAo90gn0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/qTbAAo90gn0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/qTbAAo90gn0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170427 SNH48 7SENSES 1st Showcase in Beijing 北京首演"
+  }
+}

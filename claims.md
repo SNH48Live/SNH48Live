@@ -3,6 +3,23 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170427 SNH48 7SENSES 1st Showcase in Beijing 北京首演](https://youtube.com/watch?v=qTbAAo90gn0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>4:15 - 4:47 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:19 - 0:51 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>30:48 - 34:45 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>5:19 - 5:53 | WebTVAsia (Music) | Monetized by copyright owner |
+| Mind Over Matter<br>Sound recording<br>1:49:01 - 1:49:36 | APM Music<br>On behalf of: Juice Music | Monetized by copyright owner |
+| Audiovisual content<br>6:27 - 6:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>7:36 - 8:13 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>5:54 - 6:27 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>8:10 - 8:43 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:29 - 3:07 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170422 SNH48 Team NⅡ 专属派对 35 林思意生日主题公演](https://youtube.com/watch?v=44jXZrwFIqo)
 
 | Content | Claimant | Policy |

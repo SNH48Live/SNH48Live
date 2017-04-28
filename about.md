@@ -14,6 +14,7 @@ This is an **unofficial, nonprofit, fan-operated** channel. The operator is NOT 
 
 ---
 
+辅助网站：https://snh48live.org
 联系邮箱：snh48live AT gmail.com
 Twitter: @snh48live
 

@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170428 SNH48 7SENSES《Lucky Seven Baby》EP01](https://youtube.com/watch?v=LAW434JzKiA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 달빛에 비친 안개 - Various Artists<br>Sound recording<br>25:11 - 25:43 | Recording Industry Association of Korea<br>On behalf of: RIAK | Monetized by copyright owner |
+
+---
+
 [20170427 SNH48 7SENSES 1st Showcase in Beijing 北京首演](https://youtube.com/watch?v=qTbAAo90gn0)
 
 | Content | Claimant | Policy |

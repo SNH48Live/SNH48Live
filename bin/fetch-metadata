@@ -13,9 +13,9 @@ import oauth2client.file
 import oauth2client.tools
 
 
-# 全部公演
-# https://www.youtube.com/playlist?list=PL0-h3TcYaV9GWj2qGYa1cWgFCP-k3Blaj
-PLAYLIST_ID = 'PL0-h3TcYaV9GWj2qGYa1cWgFCP-k3Blaj'
+# 全部（包括全部公演和其它）
+# https://www.youtube.com/playlist?list=PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW
+PLAYLIST_ID = 'PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW'
 
 YOUTUBE_READONLY_SCOPE = 'https://www.googleapis.com/auth/youtube.readonly'
 YOUTUBE_API_SERVICE_NAME = 'youtube'

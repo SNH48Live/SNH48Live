@@ -1,0 +1,99 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H26M47S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/DYzuGuFvPkOQa9lDujYnmaLQfz4\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131747",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3611760",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4311601024",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3480013",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "FuV08NpZTu0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/186\n\n1:19:53–1:24:43的《雨中钢琴师》由于版权原因已剪掉，否则视频在全球均无法发布。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/186\n\n1:19:53–1:24:43的《雨中钢琴师》由于版权原因已剪掉，否则视频在全球均无法发布。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170428 SNH48 我们向前冲 01"
+    },
+    "publishedAt": "2017-04-28T23:04:43.000Z",
+    "tags": [
+      "SNH48",
+      "我们向前冲",
+      "张雨鑫",
+      "赵晔",
+      "王露皎",
+      "成珏",
+      "吕一",
+      "潘燕琦",
+      "赵韩倩",
+      "江真仪",
+      "刘菊子",
+      "张雅梦",
+      "许逸",
+      "袁一琦",
+      "曾晓雯",
+      "徐诗琪",
+      "姚祎纯"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/FuV08NpZTu0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/FuV08NpZTu0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/FuV08NpZTu0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/FuV08NpZTu0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/FuV08NpZTu0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170428 SNH48 我们向前冲 01"
+  }
+}

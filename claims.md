@@ -3,6 +3,17 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170428 SNH48 我们向前冲 01](https://youtube.com/watch?v=FuV08NpZTu0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:05:51 - 1:09:57 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:21:32 - 2:23:52 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:37:27 - 1:38:31 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
+| 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:05:00 - 2:05:48 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
 [20170428 SNH48 7SENSES《Lucky Seven Baby》EP01](https://youtube.com/watch?v=LAW434JzKiA)
 
 | Content | Claimant | Policy |

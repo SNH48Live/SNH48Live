@@ -3,6 +3,24 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170429 SNH48 Team HⅡ 美丽世界 06](https://youtube.com/watch?v=skxUEDOBIvU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 青藏高原<br>Music composition<br>2:02:42 - 2:03:41 | AdShare (Publishing)<br>CASH | Monetized by copyright owner |
+
+---
+
+[20170429 SNH48 我们向前冲 02](https://youtube.com/watch?v=M7kCjzCJEOQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audio content<br>2:12:17 - 2:13:43 | AKS Co., Ltd | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:08:50 - 1:09:59 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audio content<br>1:34:19 - 1:35:29 | AKS Co., Ltd | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+
+---
+
 [20170428 SNH48 我们向前冲 01](https://youtube.com/watch?v=FuV08NpZTu0)
 
 | Content | Claimant | Policy |

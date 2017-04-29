@@ -1,0 +1,95 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H40M15S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/pJMRSlKF4keqNdD2F81VYJD-N-I\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131303",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3612043",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4707333692",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3480740",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "skxUEDOBIvU",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170429 SNH48 Team HⅡ 美丽世界 第06场\nhttp://live.snh48.com/Index/invedio/id/188\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170429 SNH48 Team HⅡ 美丽世界 第06场\nhttp://live.snh48.com/Index/invedio/id/188\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170429 SNH48 Team HⅡ 美丽世界 06"
+    },
+    "publishedAt": "2017-04-29T15:06:35.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "徐伊人",
+      "谢妮",
+      "刘佩鑫",
+      "徐晗",
+      "林楠",
+      "杨惠婷",
+      "沈梦瑶",
+      "王露皎",
+      "袁航",
+      "孙珍妮",
+      "袁一琦"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/skxUEDOBIvU/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/skxUEDOBIvU/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/skxUEDOBIvU/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/skxUEDOBIvU/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/skxUEDOBIvU/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170429 SNH48 Team HⅡ 美丽世界 06"
+  }
+}

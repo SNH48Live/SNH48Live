@@ -1,0 +1,108 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT2H35M12S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "NZ",
+        "AU",
+        "KR",
+        "US",
+        "MX"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/1_E3gtIaOboLZMJcW28ExwewPsg\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131998",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3538697",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4655217984",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3406699",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "M7kCjzCJEOQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170429 SNH48 我们向前冲 第02场\nhttp://live.snh48.com/Index/invedio/id/187\n\n原录播1:22:49–1:27:45的《雨中钢琴师》（由姚祎纯、许逸、张雨鑫表演）由于被YouTube Content ID系统屏蔽所以剪掉了，否则视频在全球均无法发布。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170429 SNH48 我们向前冲 第02场\nhttp://live.snh48.com/Index/invedio/id/187\n\n原录播1:22:49–1:27:45的《雨中钢琴师》（由姚祎纯、许逸、张雨鑫表演）由于被YouTube Content ID系统屏蔽所以剪掉了，否则视频在全球均无法发布。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170429 SNH48 我们向前冲 02"
+    },
+    "publishedAt": "2017-04-29T10:35:40.000Z",
+    "tags": [
+      "SNH48",
+      "我们向前冲",
+      "张雨鑫",
+      "赵晔",
+      "王露皎",
+      "成珏",
+      "吕一",
+      "潘燕琦",
+      "赵韩倩",
+      "江真仪",
+      "刘菊子",
+      "张雅梦",
+      "许逸",
+      "袁一琦",
+      "曾晓雯",
+      "徐诗琪",
+      "姚祎纯"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/M7kCjzCJEOQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/M7kCjzCJEOQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/M7kCjzCJEOQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/M7kCjzCJEOQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/M7kCjzCJEOQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170429 SNH48 我们向前冲 02"
+  }
+}

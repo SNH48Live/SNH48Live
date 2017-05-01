@@ -3,6 +3,22 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170501 SNH48 五一劳动节特别公演](https://youtube.com/watch?v=XgqCeoTSmBw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Bar Bar Bar - 左左右右<br>Sound recording<br>1:30:24 - 1:31:44 | forward_music<br>On behalf of: FORWARD MUSIC CO.,LTD | Monetized by copyright owner |
+| K２ndメドレー(ﾁｰﾑK Ver.) - AKB48<br>Sound recording<br>2:30:38 - 2:31:18 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2007 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| AKB参上！ - AKB48<br>Sound recording<br>2:34:20 - 2:35:48 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| 入陣曲 - 五月天<br>Sound recording<br>1:03:30 - 1:06:53 | Bin Music<br>On behalf of: Bin Music | Monetized by copyright owner |
+| Guan Zhou Hao - Dong Shan Shao Ye<br>Sound recording<br>1:00:48 - 1:01:41 | UMG<br>On behalf of: Universal Music | Monetized by copyright owner |
+| Chu Du - Truong Kha<br>Sound recording<br>56:18 - 56:50 | POPS Worldwide | Monetized by copyright owner |
+| Maeshika mukaenee - AKB48<br>Sound recording<br>10:35 - 12:09 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+| 愛しきナターシャ - 指原莉乃<br>Sound recording<br>1:25:43 - 1:26:18 | AKB48<br>AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Blocked in some countries: South Korea |
+| Xi Wang (Album Version) - Kelly Chen<br>Sound recording<br>1:27:50 - 1:29:33 | UMG<br>On behalf of: Go East | Monetized by copyright owner |
+
+---
+
 [20170429 SNH48 Team HⅡ 美丽世界 06](https://youtube.com/watch?v=skxUEDOBIvU)
 
 | Content | Claimant | Policy |

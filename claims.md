@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170501 SNH48 Team SⅡ 心的旅程 55 温晶婕生日主题公演](https://youtube.com/watch?v=RAaqbg03ZlM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Company - Justin Bieber<br>Sound recording<br>1:14:55 - 1:16:30 | UMG<br>On behalf of: RBMG/Def Jam | Monetized by copyright owner |
+
+---
+
 [20170501 SNH48 五一劳动节特别公演](https://youtube.com/watch?v=XgqCeoTSmBw)
 
 | Content | Claimant | Policy |

@@ -3,6 +3,15 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170428 SNH48 7SENSES《Lucky Seven Baby》EP02](https://youtube.com/watch?v=DmZyUessufY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 달빛에 비친 안개 - Various Artists<br>Sound recording<br>12:49 - 13:19 | Recording Industry Association of Korea<br>On behalf of: RIAK | Monetized by copyright owner |
+| 기억속으로 - Various Artists<br>Sound recording<br>7:06 - 8:56 | CJ E&M Music<br>On behalf of: CJ E&M | Monetized by copyright owner |
+
+---
+
 [20170501 SNH48 Team SⅡ 心的旅程 55 温晶婕生日主题公演](https://youtube.com/watch?v=RAaqbg03ZlM)
 
 | Content | Claimant | Policy |

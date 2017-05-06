@@ -1,0 +1,102 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H8M40S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/6CJkn7jhdCqfn3YJzbEP1MqZFYY\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "128636",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "778234",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "2517213216",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "649598",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 720,
+        "widthPixels": 1280
+      }
+    ]
+  },
+  "id": "Q9De_MZSoAQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170506 SNH48 Team X 《梦想的旗帜》第28场（北京巡演）\nhttp://live.bej48.com/Index/invedio/id/123\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\n本场公演由于官方录播迟迟不出“超清”版，于是上传了“高清”版。但对比发现，BEJ的超清与高清平均单帧清晰度相当，仅帧率有别（720p50对720p25），而之前上传的50fps视频均被降到了25fps，所以估计质量区别不大。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170506 SNH48 Team X 《梦想的旗帜》第28场（北京巡演）\nhttp://live.bej48.com/Index/invedio/id/123\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\n本场公演由于官方录播迟迟不出“超清”版，于是上传了“高清”版。但对比发现，BEJ的超清与高清平均单帧清晰度相当，仅帧率有别（720p50对720p25），而之前上传的50fps视频均被降到了25fps，所以估计质量区别不大。",
+      "title": "20170506 SNH48 Team X 梦想的旗帜 28 北京巡演"
+    },
+    "publishedAt": "2017-05-06T16:25:14.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "邵雪聪",
+      "宋昕冉",
+      "孙歆文",
+      "汪佳翎",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "杨韫玉",
+      "张丹三",
+      "张嘉予",
+      "林忆宁",
+      "祁静",
+      "姚祎纯"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Q9De_MZSoAQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Q9De_MZSoAQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/Q9De_MZSoAQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Q9De_MZSoAQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Q9De_MZSoAQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170506 SNH48 Team X 梦想的旗帜 28 北京巡演"
+  }
+}

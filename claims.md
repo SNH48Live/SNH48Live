@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170506 SNH48 Team XⅡ 代号XⅡ 22 严佼君生日主题公演](https://youtube.com/watch?v=x0ytwF3c4ew)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| キャンディー off vocal - 河西智美<br>Sound recording<br>1:09:29 - 1:10:00 | crownrecord<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+
+---
+
 [20170428 SNH48 7SENSES《Lucky Seven Baby》EP02](https://youtube.com/watch?v=DmZyUessufY)
 
 | Content | Claimant | Policy |

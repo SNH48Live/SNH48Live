@@ -1,0 +1,98 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT3H11M41S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/DAdv08nVCuOiXo-krwXoYYy_8eE\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "130793",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3549708",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5630220428",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3418915",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "x0ytwF3c4ew",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170506 SNH48 Team XⅡ 代号XⅡ 第22场 严佼君生日主题公演\nhttp://live.snh48.com/Index/invedio/id/195\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170506 SNH48 Team XⅡ 代号XⅡ 第22场 严佼君生日主题公演\nhttp://live.snh48.com/Index/invedio/id/195\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170506 SNH48 Team XⅡ 代号XⅡ 22 严佼君生日主题公演"
+    },
+    "publishedAt": "2017-05-06T13:58:04.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "洪珮雲",
+      "蒋舒婷",
+      "刘增艳",
+      "潘瑛琪",
+      "宋雨珊",
+      "严佼君",
+      "於佳怡",
+      "邹佳佳",
+      "张文静",
+      "张怡",
+      "吕梦莹",
+      "李佳恩",
+      "曾晓雯",
+      "徐诗琪"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/x0ytwF3c4ew/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/x0ytwF3c4ew/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/x0ytwF3c4ew/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/x0ytwF3c4ew/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/x0ytwF3c4ew/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170506 SNH48 Team XⅡ 代号XⅡ 22 严佼君生日主题公演"
+  }
+}

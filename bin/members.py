@@ -1,8 +1,7 @@
 import collections
 
-# Populated on 2017/05/06 using data from http://www.snh48.com/member_list.php.
-# Members on hiatus (seven at the moment) are also included.
-TEAM_ASSOCIATIONS = collections.OrderedDict([
+# This list does not include all ex-members.
+TEAM_AFFILIATIONS = collections.OrderedDict([
     ('陈观慧', 's2'),
     ('成珏', 's2'),
     ('陈思', 's2'),
@@ -11,11 +10,13 @@ TEAM_ASSOCIATIONS = collections.OrderedDict([
     ('孔肖吟', 's2'),
     ('吕一', 's2'),
     ('李宇琪', 's2'),
+    ('刘力玮', 's2'),
     ('莫寒', 's2'),
     ('潘燕琦', 's2'),
     ('钱蓓婷', 's2'),
     ('邱欣怡', 's2'),
     ('孙芮', 's2'),
+    ('申月姣', 's2'),
     ('沈之琳', 's2'),
     ('温晶婕', 's2'),
     ('吴哲晗', 's2'),
@@ -31,6 +32,7 @@ TEAM_ASSOCIATIONS = collections.OrderedDict([
 
     ('陈佳莹', 'n2'),
     ('陈问言', 'n2'),
+    ('邓艳秋菲', 'n2'),
     ('董艳芸', 'n2'),
     ('冯薪朵', 'n2'),
     ('龚诗淇', 'n2'),
@@ -46,6 +48,7 @@ TEAM_ASSOCIATIONS = collections.OrderedDict([
     ('刘瀛', 'n2'),
     ('李艺彤', 'n2'),
     ('孟玥', 'n2'),
+    ('钱艺', 'n2'),
     ('唐安琪', 'n2'),
     ('万丽娜', 'n2'),
     ('许逸', 'n2'),
@@ -67,6 +70,7 @@ TEAM_ASSOCIATIONS = collections.OrderedDict([
     ('沈梦瑶', 'h2'),
     ('孙珍妮', 'h2'),
     ('王柏硕', 'h2'),
+    ('王金铭', 'h2'),
     ('王璐', 'h2'),
     ('王露皎', 'h2'),
     ('吴燕文', 'h2'),
@@ -92,11 +96,13 @@ TEAM_ASSOCIATIONS = collections.OrderedDict([
     ('汪束', 'x'),
     ('王晓佳', 'x'),
     ('谢天依', 'x'),
+    ('闫明筠', 'x'),
     ('杨冰怡', 'x'),
-    ('姚祎纯', 'x'),
     ('杨韫玉', 'x'),
+    ('姚祎纯', 'x'),
     ('张丹三', 'x'),
     ('张嘉予', 'x'),
+    ('张韵雯', 'x'),
 
     ('陈音', 'x2'),
     ('陈韫凌', 'x2'),
@@ -118,4 +124,4 @@ TEAM_ASSOCIATIONS = collections.OrderedDict([
     ('张怡', 'x2'),
 ])
 
-MEMBERS = list(TEAM_ASSOCIATIONS.keys())
+MEMBERS = list(TEAM_AFFILIATIONS.keys())

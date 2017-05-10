@@ -20,6 +20,7 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 - [`fetch-metadata`](bin/fetch-metadata): fetch metadata of all content videos.
 - [`performers`](bin/performers): retrieve performers lists from official streaming site.
 - [`post-to-tumblr`](bin/post-to-tumblr): cross-post to [Tumblr](https://snh48live.tumblr.com) — a healthy dose of SEO and discoverability shenanigans doesn't hurt, right?
+- [`record-performance`](bin/record-performance): record performance metadata into `performances.json`.
 - [`stats`](bin/stats): fetch and display channel analytics data.
 - [`thumbnail`](bin/thumbnail): generate custom thumbnails.
 - [`upload`](bin/upload): YouTube video uploader (WIP).

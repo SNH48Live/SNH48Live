@@ -1,14 +1,14 @@
 {
   "contentDetails": {
     "caption": "false",
-    "definition": "sd",
+    "definition": "hd",
     "dimension": "2d",
     "duration": "PT2H36M5S",
     "hasCustomThumbnail": true,
     "licensedContent": false,
     "projection": "rectangular"
   },
-  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/3WGD8bOFrOGfiStRQzHNwsOsiLM\"",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/-IDaBEvYIaMcmUgM-J7wvXjpiA4\"",
   "fileDetails": {
     "audioStreams": [
       {
@@ -41,11 +41,11 @@
     "channelTitle": "SNH48 Live",
     "defaultAudioLanguage": "zh-CN",
     "defaultLanguage": "zh-CN",
-    "description": "20170510 SNH48 Team XⅡ 《代号XⅡ》公演 第22场\nhttp://live.snh48.com/Index/invedio/id/199\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "description": "20170510 SNH48 Team XⅡ 《代号XⅡ》公演 第23场\nhttp://live.snh48.com/Index/invedio/id/199\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
     "liveBroadcastContent": "none",
     "localized": {
-      "description": "20170510 SNH48 Team XⅡ 《代号XⅡ》公演 第22场\nhttp://live.snh48.com/Index/invedio/id/199\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
-      "title": "20170510 SNH48 Team XⅡ 代号XⅡ 22"
+      "description": "20170510 SNH48 Team XⅡ 《代号XⅡ》公演 第23场\nhttp://live.snh48.com/Index/invedio/id/199\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170510 SNH48 Team XⅡ 代号XⅡ 23"
     },
     "publishedAt": "2017-05-10T15:55:50.000Z",
     "tags": [
@@ -94,6 +94,6 @@
         "width": 640
       }
     },
-    "title": "20170510 SNH48 Team XⅡ 代号XⅡ 22"
+    "title": "20170510 SNH48 Team XⅡ 代号XⅡ 23"
   }
 }

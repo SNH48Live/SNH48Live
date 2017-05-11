@@ -6,9 +6,18 @@
     "duration": "PT2H36M5S",
     "hasCustomThumbnail": true,
     "licensedContent": false,
-    "projection": "rectangular"
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "AU",
+        "MX",
+        "US",
+        "KR",
+        "NZ"
+      ]
+    }
   },
-  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/-IDaBEvYIaMcmUgM-J7wvXjpiA4\"",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/r4FZUM7vs-NSCLLVtftwcEs-vBU\"",
   "fileDetails": {
     "audioStreams": [
       {

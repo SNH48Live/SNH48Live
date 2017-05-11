@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170510 SNH48 Team XⅡ 代号XⅡ 23](https://youtube.com/watch?v=Hwv_auy2WE0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audio content<br>2:32:27 - 2:34:23 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+
+---
+
 [20170506 SNH48 Team XⅡ 代号XⅡ 22 严佼君生日主题公演](https://youtube.com/watch?v=x0ytwF3c4ew)
 
 | Content | Claimant | Policy |

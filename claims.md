@@ -3,6 +3,25 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170512 SNH48 我们向前冲 03](https://youtube.com/watch?v=LaiQBV8NJdU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:11:11 - 2:12:23 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audio content<br>1:29:51 - 1:30:54 | AKS Co., Ltd | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:05:22 - 1:05:57 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:28:40 - 2:29:38 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
+[20170512 SNH48 7SENSES《Lucky Seven Baby》EP03](https://youtube.com/watch?v=5a9zUG_6Jgw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:02 - 22:11 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170511 SNH48 Team X 梦想的旗帜 29](https://youtube.com/watch?v=mnVTHyYUk8Q)
 
 | Content | Claimant | Policy |

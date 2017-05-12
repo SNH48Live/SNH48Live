@@ -1,0 +1,72 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT22M12S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/PJOILPKQj7Vx0A4ncEvxqO4eMOk\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "323509459",
+    "fileType": "video"
+  },
+  "id": "5a9zUG_6Jgw",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170512 SNH48 7SENSES《Lucky Seven Baby》第03集\n\n转自哔哩哔哩：https://www.bilibili.com/video/av10498139\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170512 SNH48 7SENSES《Lucky Seven Baby》第03集\n\n转自哔哩哔哩：https://www.bilibili.com/video/av10498139\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170512 SNH48 7SENSES《Lucky Seven Baby》EP03"
+    },
+    "publishedAt": "2017-05-12T08:32:18.000Z",
+    "tags": [
+      "7SENSES",
+      "戴萌",
+      "孔肖吟",
+      "许佳琪",
+      "张语格",
+      "赵粤",
+      "许杨玉琢",
+      "陈琳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/5a9zUG_6Jgw/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/5a9zUG_6Jgw/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/5a9zUG_6Jgw/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/5a9zUG_6Jgw/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/5a9zUG_6Jgw/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170512 SNH48 7SENSES《Lucky Seven Baby》EP03"
+  }
+}

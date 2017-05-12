@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170511 SNH48 Team X 梦想的旗帜 29](https://youtube.com/watch?v=mnVTHyYUk8Q)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audio content<br>2:11:22 - 2:12:03 | AKB48 | Blocked in some countries |
+
+---
+
 [20170510 SNH48 Team XⅡ 代号XⅡ 23](https://youtube.com/watch?v=Hwv_auy2WE0)
 
 | Content | Claimant | Policy |

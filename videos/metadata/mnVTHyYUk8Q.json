@@ -1,14 +1,23 @@
 {
   "contentDetails": {
     "caption": "false",
-    "definition": "sd",
+    "definition": "hd",
     "dimension": "2d",
     "duration": "PT2H14M1S",
     "hasCustomThumbnail": true,
     "licensedContent": false,
-    "projection": "rectangular"
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "KR",
+        "NZ",
+        "MX",
+        "AU",
+        "US"
+      ]
+    }
   },
-  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/VzmJAi5IdrMwKsXPh2vXSUN8Ut8\"",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/xP9llDfxx4LkO3JuFm8hLW3nH7k\"",
   "fileDetails": {
     "audioStreams": [
       {

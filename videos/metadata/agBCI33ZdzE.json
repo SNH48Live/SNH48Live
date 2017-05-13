@@ -1,7 +1,7 @@
 {
   "contentDetails": {
     "caption": "false",
-    "definition": "sd",
+    "definition": "hd",
     "dimension": "2d",
     "duration": "PT2H39M20S",
     "hasCustomThumbnail": true,
@@ -63,6 +63,11 @@
         "height": 360,
         "url": "https://i.ytimg.com/vi/agBCI33ZdzE/hqdefault.jpg",
         "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/agBCI33ZdzE/maxresdefault.jpg",
+        "width": 1280
       },
       "medium": {
         "height": 180,

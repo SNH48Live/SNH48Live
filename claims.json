@@ -46,7 +46,7 @@
       {
         "content": "Audio content<br>2:11:22 - 2:12:03",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries"
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
       }
     ]
   },
@@ -76,7 +76,7 @@
   },
   {
     "video_id": "DmZyUessufY",
-    "title": "20170428 SNH48 7SENSES《Lucky Seven Baby》EP02",
+    "title": "20170505 SNH48 7SENSES《Lucky Seven Baby》EP02",
     "link": "https://youtube.com/watch?v=DmZyUessufY",
     "claims": [
       {
@@ -119,6 +119,11 @@
         "policy": "Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
       },
       {
+        "content": "Audio content<br>6:32 - 8:34",
+        "claimant": "AKB48<br>Channel: AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+      },
+      {
         "content": "AKB参上！ - AKB48<br>Sound recording<br>2:34:20 - 2:35:48",
         "claimant": "AKB48",
         "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
@@ -156,6 +161,23 @@
     ]
   },
   {
+    "video_id": "z6iez1-EfH4",
+    "title": "20170430 SNH48 Team XⅡ 代号XⅡ 21",
+    "link": "https://youtube.com/watch?v=z6iez1-EfH4",
+    "claims": [
+      {
+        "content": "Audio content<br>2:19:53 - 2:21:03",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+      },
+      {
+        "content": "Audio content<br>2:17:52 - 2:18:48",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+      }
+    ]
+  },
+  {
     "video_id": "skxUEDOBIvU",
     "title": "20170429 SNH48 Team HⅡ 美丽世界 06",
     "link": "https://youtube.com/watch?v=skxUEDOBIvU",
@@ -178,6 +200,11 @@
         "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
       },
       {
+        "content": "Audio content<br>5:22 - 7:18",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+      },
+      {
         "content": "抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:08:50 - 1:09:59",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
@@ -195,6 +222,11 @@
     "link": "https://youtube.com/watch?v=FuV08NpZTu0",
     "claims": [
       {
+        "content": "Audio content<br>6:51 - 7:27",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+      },
+      {
         "content": "抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:05:51 - 1:09:57",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
@@ -203,6 +235,11 @@
         "content": "ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:21:32 - 2:23:52",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>4:43 - 6:44",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
       },
       {
         "content": "Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:37:27 - 1:38:31",
@@ -222,8 +259,8 @@
     "link": "https://youtube.com/watch?v=LAW434JzKiA",
     "claims": [
       {
-        "content": "달빛에 비친 안개 - Various Artists<br>Sound recording<br>25:11 - 25:43",
-        "claimant": "Recording Industry Association of Korea<br>On behalf of: RIAK",
+        "content": "Audiovisual content<br>0:02 - 25:47",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
     ]
@@ -332,6 +369,11 @@
     "link": "https://youtube.com/watch?v=DXGYrz1Ifyk",
     "claims": [
       {
+        "content": "Audio content<br>5:20 - 6:35",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+      },
+      {
         "content": "不夠成熟 - By2<br>Sound recording<br>42:35 - 43:26",
         "claimant": "The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司",
         "policy": "Monetized by copyright owner"
@@ -339,7 +381,12 @@
       {
         "content": "Lay down - AKB48<br>Sound recording<br>2:11:54 - 2:13:35",
         "claimant": "Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc.",
-        "policy": "Blocked in some countries"
+        "policy": "Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
+      },
+      {
+        "content": "Audio content<br>9:18 - 9:59",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
       },
       {
         "content": "わがままな流れ星 - SKE48（Team E）<br>Sound recording<br>2:15:32 - 2:17:06",
@@ -405,7 +452,12 @@
       {
         "content": "泣きながら微笑んで(Not yet ver.) - Not yet<br>Sound recording<br>1:11:44 - 1:12:16",
         "claimant": "columbia<br>On behalf of: COLUMBIA",
-        "policy": "Blocked in some countries"
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+      },
+      {
+        "content": "Audio content<br>2:22:42 - 2:23:35",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
       },
       {
         "content": "桜の花びらたち - SKE48(teamS)<br>Sound recording<br>4:28 - 6:15",

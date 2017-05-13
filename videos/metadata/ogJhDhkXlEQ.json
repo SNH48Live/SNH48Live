@@ -1,7 +1,7 @@
 {
   "contentDetails": {
     "caption": "false",
-    "definition": "sd",
+    "definition": "hd",
     "dimension": "2d",
     "duration": "PT2H55M10S",
     "hasCustomThumbnail": true,
@@ -71,6 +71,11 @@
         "height": 360,
         "url": "https://i.ytimg.com/vi/ogJhDhkXlEQ/hqdefault.jpg",
         "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/ogJhDhkXlEQ/maxresdefault.jpg",
+        "width": 1280
       },
       "medium": {
         "height": 180,

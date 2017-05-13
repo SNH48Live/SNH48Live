@@ -63,6 +63,11 @@
         "url": "https://i.ytimg.com/vi/RRxUrLQxBYI/hqdefault.jpg",
         "width": 480
       },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/RRxUrLQxBYI/maxresdefault.jpg",
+        "width": 1280
+      },
       "medium": {
         "height": 180,
         "url": "https://i.ytimg.com/vi/RRxUrLQxBYI/mqdefault.jpg",

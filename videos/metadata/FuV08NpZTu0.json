@@ -6,7 +6,16 @@
     "duration": "PT2H26M47S",
     "hasCustomThumbnail": true,
     "licensedContent": false,
-    "projection": "rectangular"
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "AU",
+        "MX",
+        "US",
+        "NZ",
+        "KR"
+      ]
+    }
   },
   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/DYzuGuFvPkOQa9lDujYnmaLQfz4\"",
   "fileDetails": {
@@ -41,10 +50,10 @@
     "channelTitle": "SNH48 Live",
     "defaultAudioLanguage": "zh-CN",
     "defaultLanguage": "zh-CN",
-    "description": "http://live.snh48.com/Index/invedio/id/186\n\n1:19:53–1:24:43的《雨中钢琴师》由于版权原因已剪掉，否则视频在全球均无法发布。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "description": "20170428 SNH48 我们向前冲 第01场\nhttp://live.snh48.com/Index/invedio/id/186\n\n原录播1:19:53–1:24:43的《雨中钢琴师》（由姚祎纯、许逸、张雨鑫表演）由于被YouTube Content ID系统屏蔽所以剪掉了，否则视频在全球均无法发布。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
     "liveBroadcastContent": "none",
     "localized": {
-      "description": "http://live.snh48.com/Index/invedio/id/186\n\n1:19:53–1:24:43的《雨中钢琴师》由于版权原因已剪掉，否则视频在全球均无法发布。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "description": "20170428 SNH48 我们向前冲 第01场\nhttp://live.snh48.com/Index/invedio/id/186\n\n原录播1:19:53–1:24:43的《雨中钢琴师》（由姚祎纯、许逸、张雨鑫表演）由于被YouTube Content ID系统屏蔽所以剪掉了，否则视频在全球均无法发布。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
       "title": "20170428 SNH48 我们向前冲 01"
     },
     "publishedAt": "2017-04-28T23:04:43.000Z",

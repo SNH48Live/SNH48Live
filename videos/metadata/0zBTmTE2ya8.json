@@ -1,7 +1,7 @@
 {
   "contentDetails": {
     "caption": "false",
-    "definition": "sd",
+    "definition": "hd",
     "dimension": "2d",
     "duration": "PT1H40M43S",
     "hasCustomThumbnail": true,
@@ -48,7 +48,8 @@
     },
     "publishedAt": "2017-04-07T15:46:15.000Z",
     "tags": [
-      "SNH48"
+      "SNH48",
+      "7SENSES"
     ],
     "thumbnails": {
       "default": {
@@ -60,6 +61,11 @@
         "height": 360,
         "url": "https://i.ytimg.com/vi/0zBTmTE2ya8/hqdefault.jpg",
         "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/0zBTmTE2ya8/maxresdefault.jpg",
+        "width": 1280
       },
       "medium": {
         "height": 180,

@@ -1,7 +1,7 @@
 {
   "contentDetails": {
     "caption": "false",
-    "definition": "sd",
+    "definition": "hd",
     "dimension": "2d",
     "duration": "PT3H19M42S",
     "hasCustomThumbnail": true,
@@ -41,10 +41,10 @@
     "channelTitle": "SNH48 Live",
     "defaultAudioLanguage": "zh-CN",
     "defaultLanguage": "zh-CN",
-    "description": "http://live.bej48.com/Index/invedio/id/122\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "description": "http://live.bej48.com/Index/invedio/id/122\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\n注：live.bej48.com当前最高清晰度仅720p。",
     "liveBroadcastContent": "none",
     "localized": {
-      "description": "http://live.bej48.com/Index/invedio/id/122\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "description": "http://live.bej48.com/Index/invedio/id/122\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\n注：live.bej48.com当前最高清晰度仅720p。",
       "title": "20170505 SNH48 Team X 梦想的旗帜 27 北京巡演"
     },
     "publishedAt": "2017-05-05T16:34:33.000Z",

@@ -26,7 +26,7 @@
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>2:11:22 - 2:12:03 | AKB48 | Blocked in some countries |
+| Audio content<br>2:11:22 - 2:12:03 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 
 ---
 
@@ -46,7 +46,7 @@
 
 ---
 
-[20170428 SNH48 7SENSES《Lucky Seven Baby》EP02](https://youtube.com/watch?v=DmZyUessufY)
+[20170505 SNH48 7SENSES《Lucky Seven Baby》EP02](https://youtube.com/watch?v=DmZyUessufY)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -69,6 +69,7 @@
 | --- | --- | --- |
 | Bar Bar Bar - 左左右右<br>Sound recording<br>1:30:24 - 1:31:44 | forward_music<br>On behalf of: FORWARD MUSIC CO.,LTD | Monetized by copyright owner |
 | K２ndメドレー(ﾁｰﾑK Ver.) - AKB48<br>Sound recording<br>2:30:38 - 2:31:18 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2007 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| Audio content<br>6:32 - 8:34 | AKB48<br>Channel: AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | AKB参上！ - AKB48<br>Sound recording<br>2:34:20 - 2:35:48 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | 入陣曲 - 五月天<br>Sound recording<br>1:03:30 - 1:06:53 | Bin Music<br>On behalf of: Bin Music | Monetized by copyright owner |
 | Guan Zhou Hao - Dong Shan Shao Ye<br>Sound recording<br>1:00:48 - 1:01:41 | UMG<br>On behalf of: Universal Music | Monetized by copyright owner |
@@ -76,6 +77,15 @@
 | Maeshika mukaenee - AKB48<br>Sound recording<br>10:35 - 12:09 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
 | 愛しきナターシャ - 指原莉乃<br>Sound recording<br>1:25:43 - 1:26:18 | AKB48<br>AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Blocked in some countries: South Korea |
 | Xi Wang (Album Version) - Kelly Chen<br>Sound recording<br>1:27:50 - 1:29:33 | UMG<br>On behalf of: Go East | Monetized by copyright owner |
+
+---
+
+[20170430 SNH48 Team XⅡ 代号XⅡ 21](https://youtube.com/watch?v=z6iez1-EfH4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audio content<br>2:19:53 - 2:21:03 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Audio content<br>2:17:52 - 2:18:48 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 
 ---
 
@@ -92,6 +102,7 @@
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | Audio content<br>2:12:17 - 2:13:43 | AKS Co., Ltd | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Audio content<br>5:22 - 7:18 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:08:50 - 1:09:59 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | Audio content<br>1:34:19 - 1:35:29 | AKS Co., Ltd | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 
@@ -101,8 +112,10 @@
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Audio content<br>6:51 - 7:27 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:05:51 - 1:09:57 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:21:32 - 2:23:52 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audio content<br>4:43 - 6:44 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:37:27 - 1:38:31 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
 | 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:05:00 - 2:05:48 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 
@@ -112,7 +125,7 @@
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| 달빛에 비친 안개 - Various Artists<br>Sound recording<br>25:11 - 25:43 | Recording Industry Association of Korea<br>On behalf of: RIAK | Monetized by copyright owner |
+| Audiovisual content<br>0:02 - 25:47 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -162,8 +175,10 @@
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Audio content<br>5:20 - 6:35 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | 不夠成熟 - By2<br>Sound recording<br>42:35 - 43:26 | The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司 | Monetized by copyright owner |
-| Lay down - AKB48<br>Sound recording<br>2:11:54 - 2:13:35 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries |
+| Lay down - AKB48<br>Sound recording<br>2:11:54 - 2:13:35 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| Audio content<br>9:18 - 9:59 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | わがままな流れ星 - SKE48（Team E）<br>Sound recording<br>2:15:32 - 2:17:06 | AKB48<br>On behalf of: avex trax | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | ｴﾝﾄﾞﾛｰﾙ - SKE48(Team E)<br>Sound recording<br>2:22:14 - 2:24:04 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | Audiovisual content<br>1:50:52 - 1:51:39 | ELTA Technology | Monetized by copyright owner |
@@ -193,7 +208,8 @@
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| 泣きながら微笑んで(Not yet ver.) - Not yet<br>Sound recording<br>1:11:44 - 1:12:16 | columbia<br>On behalf of: COLUMBIA | Blocked in some countries |
+| 泣きながら微笑んで(Not yet ver.) - Not yet<br>Sound recording<br>1:11:44 - 1:12:16 | columbia<br>On behalf of: COLUMBIA | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Audio content<br>2:22:42 - 2:23:35 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>4:28 - 6:15 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 
 ---
@@ -262,3 +278,5 @@
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | 桜の花びらたち(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>1:12:47 - 1:13:37 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+---

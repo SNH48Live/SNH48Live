@@ -1,7 +1,7 @@
 {
   "contentDetails": {
     "caption": "false",
-    "definition": "sd",
+    "definition": "hd",
     "dimension": "2d",
     "duration": "PT2H36M35S",
     "hasCustomThumbnail": true,
@@ -9,15 +9,15 @@
     "projection": "rectangular",
     "regionRestriction": {
       "blocked": [
-        "KR",
+        "MX",
         "AU",
-        "NZ",
+        "KR",
         "US",
-        "MX"
+        "NZ"
       ]
     }
   },
-  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/zqmHFWLvQueLekU6oTUUDRPfJTM\"",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/VeGKnBeYn_dIp-zopaQtJtphb_g\"",
   "fileDetails": {
     "audioStreams": [
       {

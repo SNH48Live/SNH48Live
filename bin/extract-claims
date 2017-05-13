@@ -67,6 +67,22 @@ class VideoWithClaims(object):
             ('claims', [claim._asdict() for claim in self.claims]),
         ])
 
+def init():
+    if not os.path.exists(PARTIALLY_BLOCKED_LIST):
+        with open(PARTIALLY_BLOCKED_LIST, 'w') as fp:
+            pass
+    if not os.path.exists(CLAIMS_MD):
+        with open(CLAIMS_MD, 'w') as fp:
+            fp.write(textwrap.dedent('''\
+            # Videos with copyright claims
+
+            <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
+            <!-- AUTO INSERTION POINT -->
+            '''))
+    if not os.path.exists(CLAIMS_JSON):
+        with open(CLAIMS_JSON, 'w') as fp:
+            fp.write('[]')
+
 def extract(html):
     soup = bs4.BeautifulSoup(html, 'html.parser')
     title = soup.find(id='creator-editor-title-link').text.strip()
@@ -135,6 +151,7 @@ def pretty_print(video):
     print(json.dumps(video.jsonizable, ensure_ascii=False, indent=2))
 
 def main():
+    init()
     show_tab_info()
     video = extract(gethtml())
     if 'Blocked in some countries' in video.markdown:

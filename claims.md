@@ -3,6 +3,23 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170514 SNH48 Team HⅡ 美丽世界 08 孙珍妮生日主题公演](https://youtube.com/watch?v=cDyL73l5r2U)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Burn Break Crash - Aanysa x Snakehips<br>Sound recording<br>1:26:12 - 1:27:46 | SME<br>On behalf of: RCA Records Label | Monetized by copyright owner |
+| 繁花 - 董貞<br>Sound recording<br>1:21:40 - 1:23:37 | linfair_records<br>On behalf of: 上海譚旋音樂工作室 | Monetized by copyright owner |
+
+---
+
+[20170514 SNH48 Team X 梦想的旗帜 30 姚祎纯生日主题公演](https://youtube.com/watch?v=JMIKoxZvK4k)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 我的秘密<br>Music composition<br>1:16:55 - 1:18:27 | KOMCA_CS<br>PEDL<br>Warner Chappell<br>CASH | Monetized by copyright owner |
+
+---
+
 [20170512 SNH48 我们向前冲 03](https://youtube.com/watch?v=LaiQBV8NJdU)
 
 | Content | Claimant | Policy |

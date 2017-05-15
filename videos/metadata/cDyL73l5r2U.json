@@ -1,0 +1,101 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H14M25S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/DvTdNc7IZ5NF14VDfDpfvEuswxo\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131678",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3144895",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4930495896",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3013217",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "cDyL73l5r2U",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170514 SNH48 Team HⅡ《美丽世界》公演 第08场 孙珍妮生日主题公演\nhttp://live.snh48.com/Index/invedio/id/203\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170514 SNH48 Team HⅡ《美丽世界》公演 第08场 孙珍妮生日主题公演\nhttp://live.snh48.com/Index/invedio/id/203\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170514 SNH48 Team HⅡ 美丽世界 08 孙珍妮生日主题公演"
+    },
+    "publishedAt": "2017-05-14T16:21:36.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "郭倩芸",
+      "郝婉晴",
+      "刘炅然",
+      "林楠",
+      "刘佩鑫",
+      "沈梦瑶",
+      "孙珍妮",
+      "王露皎",
+      "吴燕文",
+      "徐晗",
+      "谢妮",
+      "徐伊人",
+      "许杨玉琢",
+      "杨惠婷",
+      "袁一琦",
+      "张昕",
+      "文文"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/cDyL73l5r2U/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/cDyL73l5r2U/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/cDyL73l5r2U/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/cDyL73l5r2U/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/cDyL73l5r2U/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170514 SNH48 Team HⅡ 美丽世界 08 孙珍妮生日主题公演"
+  }
+}

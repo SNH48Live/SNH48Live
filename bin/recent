@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+here=$0:A:h
+root=$here:h
+head $root/videos.txt | sed 's_https://youtu.be/__'

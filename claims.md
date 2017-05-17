@@ -3,6 +3,17 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170517 SNH48 我们向前冲 04](https://youtube.com/watch?v=1Rg9ZbymyjU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:15:54 - 1:18:46 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audio content<br>1:47:11 - 1:48:19 | AKS Co., Ltd | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:48:22 - 2:49:12 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:31:08 - 2:33:03 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
 [20170514 SNH48 Team HⅡ 美丽世界 08 孙珍妮生日主题公演](https://youtube.com/watch?v=cDyL73l5r2U)
 
 | Content | Claimant | Policy |

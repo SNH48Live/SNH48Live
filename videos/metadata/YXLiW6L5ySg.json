@@ -1,0 +1,96 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H24M44S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/CwYUZ5suMNWhkOcJ3hJZ5efKRTw\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131510",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3002226",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "3670605060",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "2870716",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "YXLiW6L5ySg",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170518 SNH48 Team X 《梦想的旗帜》公演 第31场\nhttp://live.snh48.com/Index/invedio/id/205\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170518 SNH48 Team X 《梦想的旗帜》公演 第31场\nhttp://live.snh48.com/Index/invedio/id/205\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170518 SNH48 Team X 梦想的旗帜 31"
+    },
+    "publishedAt": "2017-05-18T18:50:39.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "吕一",
+      "潘燕琦",
+      "陈琳",
+      "冯晓菲",
+      "林忆宁",
+      "祁静",
+      "孙歆文",
+      "汪佳翎",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "姚祎纯"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/YXLiW6L5ySg/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/YXLiW6L5ySg/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/YXLiW6L5ySg/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/YXLiW6L5ySg/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/YXLiW6L5ySg/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170518 SNH48 Team X 梦想的旗帜 31"
+  }
+}

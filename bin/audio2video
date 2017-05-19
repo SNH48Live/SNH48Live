@@ -1,0 +1,15 @@
+#!/usr/bin/env zsh
+
+# Convert an audio track to a video with a cover image.
+#
+# Note that a PNG image results in way faster processing than JPEG, since using
+# a JPEG somehow seems to limit the thread count to 1.
+
+die () { echo "$*" >&2; exit 1; }
+
+image=$1
+bgm=$2
+output=$3
+[[ -f $image && -f $bgm && -n $output ]] || die "Usage: $0:h <image> <bgm> <output>"
+ffmpeg -y -loop 1 -i $image -i $bgm -shortest -map 0:0 -map 1:0 -movflags faststart \
+       -r:v 10 -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p -c:a copy $output

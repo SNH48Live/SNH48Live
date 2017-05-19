@@ -1,0 +1,83 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3M5S",
+    "hasCustomThumbnail": false,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/JfyJk-JRWBPwzY54jTxml-LAROQ\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "319998",
+        "channelCount": 2,
+        "codec": "mp3"
+      }
+    ],
+    "bitrateBps": "544901",
+    "container": "matroska",
+    "fileName": "2017 SNH48 - 限定季.mkv",
+    "fileSize": "11129309",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.0,
+        "bitrateBps": "224903",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 1000,
+        "widthPixels": 1000
+      }
+    ]
+  },
+  "id": "HfmR4rMLips",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "本音频版权归上海丝芭文化传媒集团有限公司所有。\n\n专辑：《夏日柠檬船》A版\n歌手：SNH48\n发行时间：2017-05-18\n歌单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9FsSdyD-p3Da2KKiAkuIPeq\n01. 选拔组《夏日柠檬船》 https://youtu.be/H7NNnZHgWRs\n02. Team SⅡ《第48区》 https://youtu.be/QmNB3UR_JqQ\n03. Team NⅡ《限定季》 https://youtu.be/HfmR4rMLips\n04. Team HⅡ《遥远的梦》 https://youtu.be/H8UEMtXK7ic\n05. Team X《且听风吟》 https://youtu.be/DelO0xYaOg4\n06. Team XⅡ《夏之色》 https://youtu.be/Aswin_9rr24",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "本音频版权归上海丝芭文化传媒集团有限公司所有。\n\n专辑：《夏日柠檬船》A版\n歌手：SNH48\n发行时间：2017-05-18\n歌单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9FsSdyD-p3Da2KKiAkuIPeq\n01. 选拔组《夏日柠檬船》 https://youtu.be/H7NNnZHgWRs\n02. Team SⅡ《第48区》 https://youtu.be/QmNB3UR_JqQ\n03. Team NⅡ《限定季》 https://youtu.be/HfmR4rMLips\n04. Team HⅡ《遥远的梦》 https://youtu.be/H8UEMtXK7ic\n05. Team X《且听风吟》 https://youtu.be/DelO0xYaOg4\n06. Team XⅡ《夏之色》 https://youtu.be/Aswin_9rr24",
+      "title": "SNH48《限定季》"
+    },
+    "publishedAt": "2017-05-18T22:09:20.000Z",
+    "tags": [
+      "SNH48",
+      "夏日柠檬船"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/HfmR4rMLips/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/HfmR4rMLips/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/HfmR4rMLips/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/HfmR4rMLips/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/HfmR4rMLips/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48《限定季》"
+  }
+}

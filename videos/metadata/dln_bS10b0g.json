@@ -1,0 +1,72 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT19M53S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/RZVO1khjm84Q-wkmfSvRDdvatoQ\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "20170519 Lucky Seven Baby S01E04.mp4",
+    "fileSize": "288789565",
+    "fileType": "video"
+  },
+  "id": "dln_bS10b0g",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "20170519 SNH48 7SENSES《Lucky Seven Baby》第04集\n\n转自哔哩哔哩：https://www.bilibili.com/video/av10666455/\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170519 SNH48 7SENSES《Lucky Seven Baby》第04集\n\n转自哔哩哔哩：https://www.bilibili.com/video/av10666455/\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170519 SNH48 7SENSES《Lucky Seven Baby》EP04"
+    },
+    "publishedAt": "2017-05-19T14:31:45.000Z",
+    "tags": [
+      "SNH48",
+      "7SENSES",
+      "戴萌",
+      "孔肖吟",
+      "许佳琪",
+      "张语格",
+      "赵粤",
+      "许杨玉琢",
+      "陈琳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/dln_bS10b0g/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/dln_bS10b0g/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/dln_bS10b0g/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/dln_bS10b0g/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/dln_bS10b0g/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170519 SNH48 7SENSES《Lucky Seven Baby》EP04"
+  }
+}

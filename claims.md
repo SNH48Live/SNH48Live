@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170519 SNH48 Team HⅡ 美丽世界 09](https://youtube.com/watch?v=hbAoJlNm_Yw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Ponytail To Shu Shu - AKB48<br>Sound recording<br>2:49:23 - 2:49:58 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+
+---
+
 [20170517 SNH48 我们向前冲 04](https://youtube.com/watch?v=1Rg9ZbymyjU)
 
 | Content | Claimant | Policy |

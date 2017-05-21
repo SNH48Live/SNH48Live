@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170520 SNH48 Team HⅡ 美丽世界 10 袁航生日主题公演](https://youtube.com/watch?v=wNjfGanAGDc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Lay down - AKB48<br>Sound recording<br>1:22:13 - 1:24:08 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+---
+
 [20170519 SNH48 Team HⅡ 美丽世界 09](https://youtube.com/watch?v=hbAoJlNm_Yw)
 
 | Content | Claimant | Policy |

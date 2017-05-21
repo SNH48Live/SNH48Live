@@ -1,0 +1,84 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H56M1S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/MDFUgE7fwbmgLOtfzslF4eVnESM\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "83151",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "1634939",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "2745153216",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "1551788",
+        "codec": "h264",
+        "frameRateFps": 30.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "0cfTJPGqE5k",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "**注意：2:10:00后视频、音频不同步；修正版在https://youtu.be/j9bNWr_Q91Q **\n**ATTENTION: A/V out of sync after 2:10:00. Fixed at https://youtu.be/j9bNWr_Q91Q **\n\n---\n\n20170520 SNH48 Team XⅡ 《代号XⅡ》公演 第24场 广州巡演\nhttp://live.gnz48.com/Index/invedio/id/89\n\n无官方录播。转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av10704672\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "**注意：2:10:00后视频、音频不同步；修正版在https://youtu.be/j9bNWr_Q91Q **\n**ATTENTION: A/V out of sync after 2:10:00. Fixed at https://youtu.be/j9bNWr_Q91Q **\n\n---\n\n20170520 SNH48 Team XⅡ 《代号XⅡ》公演 第24场 广州巡演\nhttp://live.gnz48.com/Index/invedio/id/89\n\n无官方录播。转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av10704672\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170520 SNH48 Team XⅡ 代号XⅡ 24 广州巡演"
+    },
+    "publishedAt": "2017-05-20T17:33:35.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/0cfTJPGqE5k/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/0cfTJPGqE5k/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/0cfTJPGqE5k/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/0cfTJPGqE5k/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/0cfTJPGqE5k/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170520 SNH48 Team XⅡ 代号XⅡ 24 广州巡演"
+  }
+}

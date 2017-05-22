@@ -3,6 +3,15 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170521 SNH48 Team SⅡ 心的旅程 57 孔肖吟生日主题公演](https://youtube.com/watch?v=G6M_hiOCV-4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Hey Jude - Sun Yan-Zi<br>Sound recording<br>1:42:12 - 1:44:08 | WMG<br>On behalf of: WM Taiwan | Monetized by copyright owner |
+| Sketch (Chinese Ver.) - 효민 (티아라)<br>Sound recording<br>1:37:31 - 1:40:00 | Interpark Corp<br>On behalf of: MBK Entertainment | Monetized by copyright owner |
+
+---
+
 [20170520 SNH48 Team HⅡ 美丽世界 10 袁航生日主题公演](https://youtube.com/watch?v=wNjfGanAGDc)
 
 | Content | Claimant | Policy |

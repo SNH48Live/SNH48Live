@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170524 SNH48 Team HⅡ 美丽世界 11](https://youtube.com/watch?v=AByemGbi2hE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| PONIITEERUTO SHUSHU<br>Music composition<br>2:35:22 - 2:36:21 | COMPASS_CS<br>WAMI_CS<br>CASH<br>MACP | Monetized by copyright owner |
+
+---
+
 [20170521 SNH48 Team SⅡ 心的旅程 57 孔肖吟生日主题公演](https://youtube.com/watch?v=G6M_hiOCV-4)
 
 | Content | Claimant | Policy |

@@ -1,0 +1,98 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H38M36S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/unNkcpZEAeqCRyxo_HW5KyfknDs\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131561",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3147326",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4022195328",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3015765",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "AByemGbi2hE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170524 SNH48 Team HⅡ 《美丽世界》公演 第11场\nhttp://live.snh48.com/Index/invedio/id/211\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170524 SNH48 Team HⅡ 《美丽世界》公演 第11场\nhttp://live.snh48.com/Index/invedio/id/211\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170524 SNH48 Team HⅡ 美丽世界 11"
+    },
+    "publishedAt": "2017-05-24T15:54:11.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "郝婉晴",
+      "林楠",
+      "刘炅然",
+      "刘佩鑫",
+      "沈梦瑶",
+      "王露皎",
+      "文文",
+      "吴燕文",
+      "谢妮",
+      "徐晗",
+      "徐伊人",
+      "杨惠婷",
+      "袁一琦",
+      "张昕"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/AByemGbi2hE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/AByemGbi2hE/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/AByemGbi2hE/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/AByemGbi2hE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/AByemGbi2hE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170524 SNH48 Team HⅡ 美丽世界 11"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H56M16S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/BgYo4IHp1sQyAAfdn6PUzcgzKdQ\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131570",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3649367",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4470423988",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3517797",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "z0ApJXypGes",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170526 SNH48 Team XⅡ 《代号XⅡ》公演 第26场\nhttp://live.snh48.com/Index/invedio/id/212\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170526 SNH48 Team XⅡ 《代号XⅡ》公演 第26场\nhttp://live.snh48.com/Index/invedio/id/212\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170526 SNH48 Team XⅡ 代号XⅡ 26"
+    },
+    "publishedAt": "2017-05-26T16:02:58.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "赵韩倩",
+      "洪珮雲",
+      "蒋舒婷",
+      "李佳恩",
+      "刘增艳",
+      "吕梦莹",
+      "潘瑛琪",
+      "宋雨珊",
+      "陶波尔",
+      "徐诗琪",
+      "严佼君",
+      "於佳怡",
+      "曾晓雯",
+      "张文静",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/z0ApJXypGes/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/z0ApJXypGes/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/z0ApJXypGes/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/z0ApJXypGes/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/z0ApJXypGes/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170526 SNH48 Team XⅡ 代号XⅡ 26"
+  }
+}

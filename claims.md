@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170526 SNH48 7SENSES《Lucky Seven Baby》EP05](https://youtube.com/watch?v=16HGEZvoJao)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 18:27 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170524 SNH48 Team HⅡ 美丽世界 11](https://youtube.com/watch?v=AByemGbi2hE)
 
 | Content | Claimant | Policy |

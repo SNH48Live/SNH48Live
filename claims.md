@@ -3,6 +3,26 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170528 SNH48 Team HⅡ 美丽世界 12](https://youtube.com/watch?v=YOAzqx_YLbA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Ponytail To Shu Shu - AKB48<br>Sound recording<br>2:27:17 - 2:28:06 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+
+---
+
+[20170528 SNH48 Team NⅡ 专属派对 38 端午节特别公演](https://youtube.com/watch?v=1ONmMKzOL10)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 相思垢 - 金莎<br>Sound recording<br>1:30:56 - 1:35:02 | The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司 | Monetized by copyright owner |
+| I'm not yours (feat. NAMIE AMURO) - Jolin Tsai<br>Sound recording<br>1:09:51 - 1:13:08 | WMG<br>On behalf of: Eternal Music Production Co., Ltd. | Monetized by copyright owner |
+| Chinese Twilight - Klaus Schønning<br>Sound recording<br>1:35:33 - 1:37:11 | The Orchard Music<br>[Merlin] Phonofile<br>On behalf of: MusicVenture | Monetized by copyright owner |
+| ずっとずっと - AKB48<br>Sound recording<br>2:40:28 - 2:41:51 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| taohuachipao - BY2<br>Sound recording<br>1:23:42 - 1:25:38 | Taihe Music Group (Hong Kong) Limited<br>On behalf of: OBS | Monetized by copyright owner |
+
+---
+
 [20170526 SNH48 7SENSES《Lucky Seven Baby》EP05](https://youtube.com/watch?v=16HGEZvoJao)
 
 | Content | Claimant | Policy |

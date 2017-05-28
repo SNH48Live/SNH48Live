@@ -1,0 +1,107 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H47M23S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "KR",
+        "AU",
+        "US",
+        "MX",
+        "NZ"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/C1sLN6HJWUHAgDRFizcpfCycmNc\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131790",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3144012",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4245007288",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3012222",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "1ONmMKzOL10",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170528 SNH48 Team NⅡ 《专属派对》公演 第38场 端午节特别公演\nhttp://live.snh48.com/Index/invedio/id/214\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170528 SNH48 Team NⅡ 《专属派对》公演 第38场 端午节特别公演\nhttp://live.snh48.com/Index/invedio/id/214\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170528 SNH48 Team NⅡ 专属派对 38 端午节特别公演"
+    },
+    "publishedAt": "2017-05-28T12:55:49.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "陈佳莹",
+      "陈问言",
+      "江真仪",
+      "李艺彤",
+      "林思意",
+      "刘菊子",
+      "刘瀛",
+      "陆婷",
+      "万丽娜",
+      "许逸",
+      "易嘉爱",
+      "曾艳芬",
+      "张雅梦",
+      "张雨鑫"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/1ONmMKzOL10/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/1ONmMKzOL10/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/1ONmMKzOL10/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/1ONmMKzOL10/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/1ONmMKzOL10/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170528 SNH48 Team NⅡ 专属派对 38 端午节特别公演"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H37S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/5goXN84DX-XgBYkTk6qKnCXrdDE\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131018",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3149384",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4580460576",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3018366",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "f29dy23UVmY",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170528 SNH48 Team NⅡ 《专属派对》公演 第39场 张雅梦生日主题公演\nhttp://live.snh48.com/Index/invedio/id/217\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170528 SNH48 Team NⅡ 《专属派对》公演 第39场 张雅梦生日主题公演\nhttp://live.snh48.com/Index/invedio/id/217\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170528 SNH48 Team NⅡ 专属派对 39 张雅梦生日主题公演"
+    },
+    "publishedAt": "2017-05-29T15:35:38.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "潘燕琦",
+      "何晓玉",
+      "江真仪",
+      "李艺彤",
+      "林思意",
+      "刘菊子",
+      "刘瀛",
+      "陆婷",
+      "万丽娜",
+      "许逸",
+      "易嘉爱",
+      "曾艳芬",
+      "张雅梦",
+      "张雨鑫",
+      "周怡",
+      "潘瑛琪"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/f29dy23UVmY/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/f29dy23UVmY/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/f29dy23UVmY/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/f29dy23UVmY/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/f29dy23UVmY/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170528 SNH48 Team NⅡ 专属派对 39 张雅梦生日主题公演"
+  }
+}

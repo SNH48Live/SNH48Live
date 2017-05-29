@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170529 SNH48 Team X 梦想的旗帜 32](https://youtube.com/watch?v=NsfotMpYAI4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Deep Thought-Extreme Music - Atil Orvarsson<br>Sound recording<br>4:07 - 4:39 | AdRev for a 3rd Party | Monetized by copyright owner |
+
+---
+
 [20170528 SNH48 Team HⅡ 美丽世界 12](https://youtube.com/watch?v=YOAzqx_YLbA)
 
 | Content | Claimant | Policy |

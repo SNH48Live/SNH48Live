@@ -3,6 +3,18 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170530 SNH48 我们向前冲 05](https://youtube.com/watch?v=jeH8wPDKWcY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Eien Pressure - AKB48<br>Sound recording<br>2:31:17 - 2:31:59 | WMG<br>On behalf of: Gold Typhoon Taiwan | Monetized by copyright owner |
+| ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:25:56 - 2:27:14 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:29:05 - 1:30:00 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:02:47 - 1:03:22 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:10:21 - 2:11:53 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
 [20170529 SNH48 Team X 梦想的旗帜 32](https://youtube.com/watch?v=NsfotMpYAI4)
 
 | Content | Claimant | Policy |

@@ -10,7 +10,9 @@
 | Eien Pressure - AKB48<br>Sound recording<br>2:31:17 - 2:31:59 | WMG<br>On behalf of: Gold Typhoon Taiwan | Monetized by copyright owner |
 | ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:25:56 - 2:27:14 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:29:05 - 1:30:00 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
+| Audio content<br>5:01 - 6:56 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:02:47 - 1:03:22 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audio content<br>8:33 - 9:03 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:10:21 - 2:11:53 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 
 ---

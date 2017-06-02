@@ -1,0 +1,72 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT15M51S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/baFezqceOCUog6BobOeZPPcZfHA\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "20170602 SNH48 7SENSES《Lucky Seven Baby》EP06.mp4",
+    "fileSize": "226759958",
+    "fileType": "video"
+  },
+  "id": "ipKqlnQ0AB0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "20170602 SNH48 7SENSES《Lucky Seven Baby》第06集\n\n转自官方哔哩哔哩频道：https://www.bilibili.com/video/av11012989\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170602 SNH48 7SENSES《Lucky Seven Baby》第06集\n\n转自官方哔哩哔哩频道：https://www.bilibili.com/video/av11012989\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170602 SNH48 7SENSES《Lucky Seven Baby》EP06"
+    },
+    "publishedAt": "2017-06-02T09:11:20.000Z",
+    "tags": [
+      "SNH48",
+      "7SENSES",
+      "戴萌",
+      "孔肖吟",
+      "许佳琪",
+      "张语格",
+      "赵粤",
+      "许杨玉琢",
+      "陈琳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/ipKqlnQ0AB0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/ipKqlnQ0AB0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/ipKqlnQ0AB0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/ipKqlnQ0AB0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/ipKqlnQ0AB0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170602 SNH48 7SENSES《Lucky Seven Baby》EP06"
+  }
+}

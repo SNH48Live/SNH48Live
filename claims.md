@@ -3,6 +3,26 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170602 “我心翱翔”SNH48 Group第四届偶像年度人气总决选启动仪式](https://youtube.com/watch?v=dYEN7kBi2-I)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>53:42 - 55:16 | WebTVAsia (Music) | Monetized by copyright owner |
+| Jet Set - Blue Stahli<br>Sound recording<br>0:33 - 1:19 | PositionMusic (Sound Recordings)<br>On behalf of: FiXT/Position Music | Monetized by copyright owner |
+| キャンディー off vocal - 河西智美<br>Sound recording<br>34:39 - 39:01 | crownrecord<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+| The New York Nightfall - Position Music - Joachim Rygg<br>Sound recording<br>39:20 - 40:00 | PositionMusic (Sound Recordings)<br>On behalf of: Position Music/Choicetracks, Inc. | Monetized by copyright owner |
+
+---
+
+[20170602 SNH48 7SENSES《Lucky Seven Baby》EP06](https://youtube.com/watch?v=ipKqlnQ0AB0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| The strongest type of abnormal(또라이계의 최강자) - Lee roo ri(이루리)<br>Sound recording<br>5:41 - 6:17 | Loen Entertainment<br>On behalf of: SEBUNGURI ENTERTAINMENT, STARENTRY ENTERTAINMENT | Monetized by copyright owner |
+| Sad Walking - Oh Joon Sung<br>Sound recording<br>15:06 - 15:36 | WMG<br>On behalf of: Forest | Monetized by copyright owner |
+
+---
+
 [20170530 SNH48 我们向前冲 05](https://youtube.com/watch?v=jeH8wPDKWcY)
 
 | Content | Claimant | Policy |

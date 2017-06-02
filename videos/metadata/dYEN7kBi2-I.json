@@ -1,0 +1,66 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT55M18S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/8ZewlcWnsUmVEjcvHBIZb3DE1nU\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "777089222",
+    "fileType": "video"
+  },
+  "id": "dYEN7kBi2-I",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "官方无录播，转自哔哩哔哩 寒影AkiNa：http://www.bilibili.com/video/av11020966\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "官方无录播，转自哔哩哔哩 寒影AkiNa：http://www.bilibili.com/video/av11020966\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170602 “我心翱翔”SNH48 Group第四届偶像年度人气总决选启动仪式"
+    },
+    "publishedAt": "2017-06-02T14:43:34.000Z",
+    "tags": [
+      "SNH48",
+      "我心翱翔"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/dYEN7kBi2-I/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/dYEN7kBi2-I/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/dYEN7kBi2-I/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/dYEN7kBi2-I/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/dYEN7kBi2-I/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170602 “我心翱翔”SNH48 Group第四届偶像年度人气总决选启动仪式"
+  }
+}

@@ -3,6 +3,18 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170602 SNH48 Group《我心翱翔》专题纪录片（抢先版）](https://youtube.com/watch?v=yQGf3FzZ9Os)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Receives - Keith Kenniff<br>Sound recording<br>12:19 - 13:07 | [Merlin] Morr Music<br>On behalf of: Unseen | Monetized by copyright owner |
+| Feelin' Fine - Gary Leslie Scargill<br>Sound recording<br>54:09 - 54:39 | APM Music<br>On behalf of: Ded Good | Monetized by copyright owner |
+| Ascensions (a) - Baker, Steve<br>Sound recording<br>26:16 - 27:25 | APM Music<br>On behalf of: APM/KPM | Monetized by copyright owner |
+| ﾌﾗﾐﾝｺﾞの飛来 - ｻﾞ･ｼﾈﾏﾃｨｯｸ･ｵｰｹｽﾄﾗ<br>Sound recording<br>2:04 - 2:46 | AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: WALT DISNEY RECORDS | Monetized by copyright owner |
+| 炭酸ﾅﾄﾘｳﾑ湖ﾅﾄﾛﾝ - ｻﾞ･ｼﾈﾏﾃｨｯｸ･ｵｰｹｽﾄﾗ<br>Sound recording<br>4:41 - 5:35 | AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: WALT DISNEY RECORDS | Monetized by copyright owner |
+
+---
+
 [20170602 “我心翱翔”SNH48 Group第四届偶像年度人气总决选启动仪式](https://youtube.com/watch?v=dYEN7kBi2-I)
 
 | Content | Claimant | Policy |

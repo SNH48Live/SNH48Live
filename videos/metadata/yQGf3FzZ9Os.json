@@ -1,0 +1,83 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H28M50S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/D862AkWTPuP4n-_eQjcxOYCmKUA\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "95478",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "1127351",
+    "container": "mpeg_ts",
+    "fileName": "20170602 SNH48 Group《我心翱翔》专题纪录片.ts",
+    "fileSize": "801060292",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "1031873",
+        "codec": "h264",
+        "frameRateFps": 30.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "yQGf3FzZ9Os",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "转自LIVE直播app的录播。\n\n关于纪录片发布：http://www.snh48.com/html/allnews/zixun/2017/0602/2298.html\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "转自LIVE直播app的录播。\n\n关于纪录片发布：http://www.snh48.com/html/allnews/zixun/2017/0602/2298.html\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170602 SNH48 Group《我心翱翔》专题纪录片（抢先版）"
+    },
+    "publishedAt": "2017-06-02T21:54:40.000Z",
+    "tags": [
+      "SNH48",
+      "我心翱翔"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/yQGf3FzZ9Os/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/yQGf3FzZ9Os/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/yQGf3FzZ9Os/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/yQGf3FzZ9Os/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/yQGf3FzZ9Os/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170602 SNH48 Group《我心翱翔》专题纪录片（抢先版）"
+  }
+}

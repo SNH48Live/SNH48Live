@@ -1,0 +1,80 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H53M51S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/TEwn_FBWOe24xOTuq6-2gb0sskY\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "2445255743",
+    "fileType": "video"
+  },
+  "id": "ISpDW7lqWg0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170603 SNH48 Team HⅡ 《美丽世界》公演 第13场 暨刘炅然、文文总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/220\n\n官方录播严重故障，此版本转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av11050785\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170603 SNH48 Team HⅡ 《美丽世界》公演 第13场 暨刘炅然、文文总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/220\n\n官方录播严重故障，此版本转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av11050785\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170603 SNH48 Team HⅡ 美丽世界 13 暨刘炅然、文文总选拉票公演"
+    },
+    "publishedAt": "2017-06-03T22:57:11.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "郝婉晴",
+      "林楠",
+      "刘炅然",
+      "沈梦瑶",
+      "王露皎",
+      "文文",
+      "吴燕文",
+      "谢妮",
+      "徐晗",
+      "徐伊人",
+      "杨惠婷",
+      "袁一琦",
+      "张昕",
+      "赵梦婷"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/ISpDW7lqWg0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/ISpDW7lqWg0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/ISpDW7lqWg0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/ISpDW7lqWg0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/ISpDW7lqWg0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170603 SNH48 Team HⅡ 美丽世界 13 暨刘炅然、文文总选拉票公演"
+  }
+}

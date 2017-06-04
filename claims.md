@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170603 SNH48 Team HⅡ 美丽世界 13 暨刘炅然、文文总选拉票公演](https://youtube.com/watch?v=ISpDW7lqWg0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| An Jing (Instrumental)<br>Music composition<br>2:30:38 - 2:31:47 | AdShare (Publishing)<br>JVR | Monetized by copyright owner |
+
+---
+
 [20170602 SNH48 Group《我心翱翔》专题纪录片（抢先版）](https://youtube.com/watch?v=yQGf3FzZ9Os)
 
 | Content | Claimant | Policy |

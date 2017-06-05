@@ -1,0 +1,100 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H27M52S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/EuRb1hu_dn_7_hGEWmHWSEYXn1Y\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131716",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3196916",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "3749847248",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3065200",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "SMGHpceqPrY",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170604 SNH48 Team NⅡ 《专属派对》公演 第40场\nhttp://live.snh48.com/Index/invedio/id/221\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170604 SNH48 Team NⅡ 《专属派对》公演 第40场\nhttp://live.snh48.com/Index/invedio/id/221\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170604 SNH48 Team NⅡ 专属派对 40"
+    },
+    "publishedAt": "2017-06-04T11:58:23.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "陈问言",
+      "冯薪朵",
+      "何晓玉",
+      "江真仪",
+      "金莹玥",
+      "李艺彤",
+      "林思意",
+      "刘菊子",
+      "刘瀛",
+      "陆婷",
+      "万丽娜",
+      "许逸",
+      "张雅梦",
+      "张雨鑫",
+      "周怡",
+      "潘瑛琪"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/SMGHpceqPrY/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/SMGHpceqPrY/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/SMGHpceqPrY/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/SMGHpceqPrY/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/SMGHpceqPrY/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170604 SNH48 Team NⅡ 专属派对 40"
+  }
+}

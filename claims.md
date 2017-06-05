@@ -3,6 +3,16 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170604 SNH48 Team XⅡ 代号XⅡ 27 暨费沁源、吕梦莹总选拉票公演](https://youtube.com/watch?v=7sAMbsbbuNY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| キャンディー - 河西智美<br>Sound recording<br>2:13:00 - 2:17:25 | crownrecord<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+| 初恋よ こんにちは(Instrumental) - 渡り廊下走り隊7<br>Sound recording<br>2:29:46 - 2:30:38 | [Merlin] PONYCANYON | Tracked by copyright owner |
+| Audiovisual content<br>0:00 - 1:14 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170603 SNH48 Team HⅡ 美丽世界 13 暨刘炅然、文文总选拉票公演](https://youtube.com/watch?v=ISpDW7lqWg0)
 
 | Content | Claimant | Policy |

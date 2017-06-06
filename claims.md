@@ -3,6 +3,16 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170602 SNH48 Group 2017年度大型青春励志纪录片《我心翱翔》](https://youtube.com/watch?v=cZJqeeikHz8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Receives - Keith Kenniff<br>Sound recording<br>12:36 - 13:24 | [Merlin] Morr Music<br>On behalf of: Unseen | Monetized by copyright owner |
+| ﾌﾗﾐﾝｺﾞの飛来 - ｻﾞ･ｼﾈﾏﾃｨｯｸ･ｵｰｹｽﾄﾗ<br>Sound recording<br>2:05 - 3:04 | AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: WALT DISNEY RECORDS | Monetized by copyright owner |
+| Ascensions (A) - Stephen Julian Baker<br>Sound recording<br>26:33 - 27:17 | APM Music<br>On behalf of: KPM - Main Series | Monetized by copyright owner |
+
+---
+
 [20170604 SNH48 Team XⅡ 代号XⅡ 27 暨费沁源、吕梦莹总选拉票公演](https://youtube.com/watch?v=7sAMbsbbuNY)
 
 | Content | Claimant | Policy |

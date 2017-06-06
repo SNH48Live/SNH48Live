@@ -1,0 +1,65 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H29M8S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/286lY2Om32vCeoBxoN8uiqIaIG4\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "20170602 SNH48 Group 2017年度大型青春励志纪录片《我心翱翔》.mp4",
+    "fileSize": "2214431406",
+    "fileType": "video"
+  },
+  "id": "cZJqeeikHz8",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "转自乐视：http://www.le.com/ptv/vplay/29835920.html\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "转自乐视：http://www.le.com/ptv/vplay/29835920.html\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170602 SNH48 Group 2017年度大型青春励志纪录片《我心翱翔》"
+    },
+    "publishedAt": "2017-06-05T05:34:50.000Z",
+    "tags": [
+      "SNH48",
+      "我心翱翔"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/cZJqeeikHz8/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/cZJqeeikHz8/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/cZJqeeikHz8/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/cZJqeeikHz8/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/cZJqeeikHz8/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170602 SNH48 Group 2017年度大型青春励志纪录片《我心翱翔》"
+  }
+}

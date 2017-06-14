@@ -14,11 +14,14 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 - [`claims.md`](claims.md): list of videos and their associated copyright claims.
 - [`claims.json`](claims.json): list of videos and their associated copyright claims, in JSON format.
 - [`performances.json`](performances.json): a streamable line-oriented JSON data store of metadata of performances, used for [snh48live.org/filter](https://snh48live.org/filter/).
+- [`attendance.txt`](attendance.txt): human-readable attendance sheet (compiled by myself, might contain mistakes).
+- [`attendance.json`](attendance.json): structured version `attendance.txt` for machine consumption.
 
 ## Helpers
 
 - [`extract-claims`](bin/extract-claims): extract video info and associated copyright claims from a YouTube copyright claims page, and automatically populate related datastores.
 - [`fetch-metadata`](bin/fetch-metadata): fetch metadata of all content videos.
+- [`parse-attendance-sheet`](bin/parse-attendance-sheet): convert `attendance.txt` into `attendance.json`.
 - [`performers`](bin/performers): retrieve performers lists from official streaming site.
 - [`post-to-tumblr`](bin/post-to-tumblr): cross-post to [Tumblr](https://snh48live.tumblr.com) — a healthy dose of SEO and discoverability shenanigans doesn't hurt, right?
 - [`record-performance`](bin/record-performance): record performance metadata into `performances.json`.

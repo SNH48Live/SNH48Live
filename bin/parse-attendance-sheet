@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+
+import collections
+import json
+import os
+
+from members import MEMBERS
+
+HERE = os.path.dirname(os.path.realpath(__file__))
+ROOT = os.path.dirname(HERE)
+ATTENDANCE_SHEET = os.path.join(ROOT, 'attendance.txt')
+ATTENDANCE_JSON = os.path.join(ROOT, 'attendance.json')
+
+def parse():
+    data = []
+    sortkey = lambda name: MEMBERS.index(name)
+    with open(ATTENDANCE_SHEET) as fp:
+        final = False
+        while True:
+            title = next(fp).strip()
+            parts = []
+            try:
+                while True:
+                    line = next(fp).strip()
+                    if not line:
+                        break
+                    part, performers = line.split('：')
+                    parts.append((part, sorted(performers.split('、'), key=sortkey)))
+            except StopIteration:
+                final = True
+            aggregated = sorted(set(sum((performers for _, performers in parts), [])), key=sortkey)
+            parts.append(('全部', aggregated))
+            data.append((title, collections.OrderedDict(parts)))
+            if final:
+                break
+    return collections.OrderedDict(data)
+
+def main():
+    data = parse()
+    with open(ATTENDANCE_JSON, 'w') as fp:
+        print(json.dumps(data, ensure_ascii=False, indent=2), file=fp)
+
+if __name__ == '__main__':
+    main()

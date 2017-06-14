@@ -1,0 +1,105 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H41M47S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "US",
+        "KR",
+        "AU",
+        "MX",
+        "NZ"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/SpIwDI3r9cyAUGmBzqTwxUsTYEM\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "130898",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "2931970",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4101256096",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "2801072",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "uu9EEikDlOU",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170607 SNH48 Team XⅡ 《代号XⅡ》公演 第28场 暨洪珮雲、潘瑛琪总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/224\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170607 SNH48 Team XⅡ 《代号XⅡ》公演 第28场 暨洪珮雲、潘瑛琪总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/224\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170607 SNH48 Team XⅡ 代号XⅡ 28 暨洪珮雲、潘瑛琪总选拉票公演"
+    },
+    "publishedAt": "2017-06-07T16:00:03.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "赵韩倩",
+      "费沁源",
+      "洪珮雲",
+      "李佳恩",
+      "刘增艳",
+      "吕梦莹",
+      "潘瑛琪",
+      "陶波尔",
+      "徐诗琪",
+      "曾晓雯",
+      "张文静",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/uu9EEikDlOU/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/uu9EEikDlOU/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/uu9EEikDlOU/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/uu9EEikDlOU/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/uu9EEikDlOU/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170607 SNH48 Team XⅡ 代号XⅡ 28 暨洪珮雲、潘瑛琪总选拉票公演"
+  }
+}

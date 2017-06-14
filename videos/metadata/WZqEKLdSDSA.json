@@ -1,0 +1,105 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H12M11S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/XagfJiZFJFVpktjvSyNsAb0d6DY\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131477",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3615572",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5645382440",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3484095",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "WZqEKLdSDSA",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170610 SNH48 Team SⅡ 《心的旅程》公演 第61场 千秋乐暨蒋芸、孔肖吟总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/227\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170610 SNH48 Team SⅡ 《心的旅程》公演 第61场 千秋乐暨蒋芸、孔肖吟总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/227\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170610 SNH48 Team SⅡ 心的旅程 61 千秋乐暨蒋芸、孔肖吟总选拉票公演"
+    },
+    "publishedAt": "2017-06-10T13:28:56.000Z",
+    "tags": [
+      "SNH48",
+      "心的旅程",
+      "陈观慧",
+      "陈思",
+      "成珏",
+      "戴萌",
+      "蒋芸",
+      "孔肖吟",
+      "吕一",
+      "莫寒",
+      "潘燕琦",
+      "钱蓓婷",
+      "孙芮",
+      "吴哲晗",
+      "徐晨辰",
+      "徐子轩",
+      "许佳琪",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格",
+      "赵韩倩",
+      "赵晔",
+      "冯晓菲"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/WZqEKLdSDSA/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/WZqEKLdSDSA/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/WZqEKLdSDSA/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/WZqEKLdSDSA/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/WZqEKLdSDSA/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170610 SNH48 Team SⅡ 心的旅程 61 千秋乐暨蒋芸、孔肖吟总选拉票公演"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H2M47S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/LjAdKqtTnxpnO_0a5x7f1LW0Kb0\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "2605088501",
+    "fileType": "video"
+  },
+  "id": "Qv2wge6IWxk",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170608 SNH48 Team HⅡ 《美丽世界》公演 第14场 暨郭倩芸、谢妮总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/225\n\n官方录播视频、音频严重脱节，所以实际转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av11175162\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170608 SNH48 Team HⅡ 《美丽世界》公演 第14场 暨郭倩芸、谢妮总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/225\n\n官方录播视频、音频严重脱节，所以实际转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av11175162\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170608 SNH48 Team HⅡ 美丽世界 14 暨郭倩芸、谢妮总选拉票公演"
+    },
+    "publishedAt": "2017-06-08T20:05:29.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "郭倩芸",
+      "郝婉晴",
+      "林楠",
+      "刘炅然",
+      "刘佩鑫",
+      "沈梦瑶",
+      "王露皎",
+      "文文",
+      "吴燕文",
+      "谢妮",
+      "徐晗",
+      "徐伊人",
+      "许杨玉琢",
+      "杨惠婷",
+      "袁一琦",
+      "张昕",
+      "赵梦婷"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Qv2wge6IWxk/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Qv2wge6IWxk/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/Qv2wge6IWxk/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Qv2wge6IWxk/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Qv2wge6IWxk/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170608 SNH48 Team HⅡ 美丽世界 14 暨郭倩芸、谢妮总选拉票公演"
+  }
+}

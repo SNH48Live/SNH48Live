@@ -3,6 +3,66 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170611 SNH48 Team X 梦想的旗帜 34 李晶生日主题公演暨总选拉票公演](https://youtube.com/watch?v=T3mwQtZcIMA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Get Ugly - Jason Derulo<br>Sound recording<br>1:31:46 - 1:32:46 | WMG<br>On behalf of: Warner Bros. Label | Monetized by copyright owner |
+
+---
+
+[20170610 SNH48 Team SⅡ 心的旅程 61 千秋乐暨蒋芸、孔肖吟总选拉票公演](https://youtube.com/watch?v=WZqEKLdSDSA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Beauty and the Beast - Ariana Grande, John Legend<br>Sound recording<br>2:41:25 - 2:42:18 | AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: Walt Disney Records | Monetized by copyright owner |
+
+---
+
+[20170609 SNH48 Team XⅡ 代号XⅡ 29 暨陶波尔、张文静总选拉票公演](https://youtube.com/watch?v=JSNjnTbLH3A)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Remember - A Mei<br>Sound recording<br>2:53:07 - 2:57:45 | WMG<br>On behalf of: WM Hong Kong | Monetized by copyright owner |
+| 極楽浄土 - GARNiDELiA<br>Sound recording<br>2:28:03 - 2:28:53 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2016 SME Records | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+---
+
+[20170609 SNH48 7SENSES《Lucky Seven Baby》EP07](https://youtube.com/watch?v=rXKktsPiNp8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Sad Walking - Oh Joon Sung<br>Sound recording<br>9:22 - 10:00 | WMG<br>On behalf of: Forest | Monetized by copyright owner |
+| Adventure Time - Philter<br>Sound recording<br>11:30 - 12:57 | [Merlin] Phonofile<br>On behalf of: Nordic Records | Monetized by copyright owner |
+
+---
+
+[20170609 SNH48 7SENSES《Lucky Seven Baby》EP07](https://youtube.com/watch?v=rXKktsPiNp8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Sad Walking - Oh Joon Sung<br>Sound recording<br>9:22 - 10:00 | WMG<br>On behalf of: Forest | Monetized by copyright owner |
+| Adventure Time - Philter<br>Sound recording<br>11:30 - 12:57 | [Merlin] Phonofile<br>On behalf of: Nordic Records | Monetized by copyright owner |
+
+---
+
+[20170608 SNH48 Team HⅡ 美丽世界 14 暨郭倩芸、谢妮总选拉票公演](https://youtube.com/watch?v=Qv2wge6IWxk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Roleplay - Lu Han<br>Sound recording<br>2:37:48 - 2:39:00 | Taihe Music Group (Hong Kong) Limited<br>On behalf of: OBS | Monetized by copyright owner |
+
+---
+
+[20170607 SNH48 Team XⅡ 代号XⅡ 28 暨洪珮雲、潘瑛琪总选拉票公演](https://youtube.com/watch?v=uu9EEikDlOU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audio content<br>2:26:19 - 2:27:44 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Audio content<br>2:23:52 - 2:24:36 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+
+---
+
 [20170602 SNH48 Group 2017年度大型青春励志纪录片《我心翱翔》](https://youtube.com/watch?v=cZJqeeikHz8)
 
 | Content | Claimant | Policy |

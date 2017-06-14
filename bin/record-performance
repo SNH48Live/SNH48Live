@@ -4,6 +4,7 @@ import collections
 import json
 import os
 import re
+import subprocess
 import sys
 import tempfile
 try:
@@ -20,6 +21,8 @@ HERE = os.path.dirname(os.path.realpath(__file__))
 ROOT = os.path.dirname(HERE)
 VIDEO_METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
 DATASTORE = os.path.join(ROOT, 'performances.json')
+OFFICIAL_PERFORMER_LIST_FETCHER = os.path.join(ROOT, 'bin', 'performers')
+ATTENDANCE_JSON = os.path.join(ROOT, 'attendance.json')
 
 STAGE_ASSOCIATIONS = {
     '': 'joint',
@@ -57,9 +60,16 @@ def retrieve_youtube_video_title(video_id):
     print(f'[INFO] Title: {title}')
     return title
 
+def validate_live_id(live_id):
+    if not re.match(f'^\d+$', live_id):
+        raise ValueError(f"'{live_id}' is not a valid live.snh48.com video ID (should be numerical)")
+
 def validate_snh48club_video_id(snh48club_video_id):
     if not re.match(f'^\d+$', snh48club_video_id):
         raise ValueError(f"'{snh48club_video_id}' is not a valid snh48club video ID (should be numerical)")
+
+def fetch_performers_from_official_site(live_id):
+    return subprocess.check_output([OFFICIAL_PERFORMER_LIST_FETCHER, str(live_id)]).strip().decode('utf-8') + ','
 
 # SNH48 Club's list of performers appears to be more accurate than the
 # that from live.snh48.com. For instance, compare
@@ -70,14 +80,7 @@ def validate_snh48club_video_id(snh48club_video_id):
 #
 #   http://www.snh48club.com/video/19822.html
 #
-# The official streaming site lists 12 members, while SNH48 Club lists
-# 10; in particular, 江真仪 and 徐真 who are officially listed did not
-# show up, presumably because the official list was based on the
-# original plan (official lists are put up before the stage performances
-# and do not change afterwards), while the unofficial list was actually
-# human-curated post show. Therefore, since I can't review every single
-# VOD, I'd rather trust SNH48 Club on the performer list. (I'm a one man
-# shop after all, compared to apparently a team they've got.)
+# We use this source for crosscheck.
 def fetch_performers_from_snh48club(snh48club_video_id):
     url = f'http://www.snh48club.com/video/{snh48club_video_id}.html'
     resp = requests.get(url)
@@ -96,6 +99,16 @@ def fetch_performers_from_snh48club(snh48club_video_id):
     # member's name is a suffix of another's; I'll worry about that when
     # it actually happens).
     return ','.join(performers) + ','
+
+def fetch_performers_from_attendance_sheet(title):
+    with open(ATTENDANCE_JSON) as fp:
+        data = json.load(fp)
+        if title in data:
+            performers = data[title]['全部']
+            performers.sort(key=lambda name: MEMBERS.index(name))
+            return ','.join(performers) + ','
+        else:
+            return None
 
 # Prepend record a JSON line to the data store.
 def prepend_to_data_store(record):
@@ -128,13 +141,39 @@ def main():
         team_default = stage2team(stage)
         team = input(f'Team [{team_default}]: ') or team_default
         special = input(f'Special? [yN]: ').lower().startswith('y')
+        live_id = input('live.snh48.com video ID: ')
         snh48club_video_id = input('SNH48 Club video ID: ')
+
+        if live_id:
+            validate_live_id(live_id)
+            performers_official = fetch_performers_from_official_site(live_id)
+        else:
+            live_id = None
+            performers_official = None
+
         if snh48club_video_id:
             validate_snh48club_video_id(snh48club_video_id)
-            performers = fetch_performers_from_snh48club(snh48club_video_id)
+            performers_club = fetch_performers_from_snh48club(snh48club_video_id)
         else:
             snh48club_video_id = None
-            performers = input(f'Performers: ')
+            performers_club = None
+
+        performers_local = fetch_performers_from_attendance_sheet(title)
+
+        if performers_local and performers_official == performers_club == performers_local:
+            # All good
+            performers = performers_local
+            print(f'[INFO] Performers: {performers}')
+        else:
+            if performers_official:
+                print(f'[INFO] Performers from live.snh48.com:  {performers_official}')
+            if performers_club:
+                print(f'[INFO] Performers from snh48club.com:   {performers_club}')
+            if performers_local:
+                print(f'[INFO] Performers from attendance.json: {performers_local}')
+            performers = input(f'Performers [use attendance.json]: ')
+            if not performers:
+                performers = performers_local
 
         record = collections.OrderedDict([
             ('title', title),

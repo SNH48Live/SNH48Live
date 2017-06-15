@@ -1,0 +1,90 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H49M38S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "US",
+        "NZ",
+        "AU",
+        "MX",
+        "KR"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/NulgNAsMb_IoNOq8o2-82l3iwvU\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "2496369211",
+    "fileType": "video"
+  },
+  "id": "2GlQ1gREU6w",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170615 SNH48 《我们向前冲》公演 第06场 暨江真仪、许逸总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/233\n\n官方未发录播。实际转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av11356232\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170615 SNH48 《我们向前冲》公演 第06场 暨江真仪、许逸总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/233\n\n官方未发录播。实际转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av11356232\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170615 SNH48 我们向前冲 06 暨江真仪、许逸总选拉票公演"
+    },
+    "publishedAt": "2017-06-15T18:59:01.000Z",
+    "tags": [
+      "SNH48",
+      "我们向前冲",
+      "成珏",
+      "吕一",
+      "潘燕琦",
+      "赵韩倩",
+      "赵晔",
+      "江真仪",
+      "刘菊子",
+      "许逸",
+      "张雅梦",
+      "张雨鑫",
+      "祁静",
+      "姚祎纯",
+      "陶波尔",
+      "徐诗琪",
+      "曾晓雯"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/2GlQ1gREU6w/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/2GlQ1gREU6w/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/2GlQ1gREU6w/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/2GlQ1gREU6w/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/2GlQ1gREU6w/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170615 SNH48 我们向前冲 06 暨江真仪、许逸总选拉票公演"
+  }
+}

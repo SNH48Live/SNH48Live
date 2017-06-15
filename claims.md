@@ -3,6 +3,20 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170615 SNH48 我们向前冲 06 暨江真仪、许逸总选拉票公演](https://youtube.com/watch?v=2GlQ1gREU6w)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 夜風の仕業 instrumental - フレンチ・キス<br>Sound recording<br>2:14:14 - 2:15:34 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
+| 虫のバラード - SKE48（Team E）<br>Sound recording<br>2:21:54 - 2:22:24 | AKB48<br>On behalf of: avex trax | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:27:43 - 1:28:25 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
+| 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:04:09 - 2:05:54 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>56:45 - 1:00:00 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 隱形的翅膀 - 張韶涵<br>Sound recording<br>2:15:39 - 2:19:15 | linfair_records<br>On behalf of: Linfair Records Limited | Monetized by copyright owner |
+| 刚好遇见你 - 李玉刚<br>Sound recording<br>2:39:50 - 2:40:44 | Believe Music<br>On behalf of: 百纳 | Monetized by copyright owner |
+
+---
+
 [SNH48 Team SⅡ《第48区》公演宣传片](https://youtube.com/watch?v=ieD8V-Q8nmo)
 
 | Content | Claimant | Policy |

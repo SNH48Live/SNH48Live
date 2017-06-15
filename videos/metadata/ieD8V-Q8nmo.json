@@ -1,0 +1,65 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3M49S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/qt-VCt8wGbISelKG_NcQUn58zdk\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "SNH48 Team SⅡ《第48区》公演宣传片.mp4",
+    "fileSize": "101130603",
+    "fileType": "video"
+  },
+  "id": "ieD8V-Q8nmo",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "转自腾讯视频（官方）：https://v.qq.com/x/page/q0512aswk60.html\n《第48区》公演宣传页：http://www.snh48.com/event/s197/\n同名队歌《第48区》（收录于《夏日柠檬船》）：https://youtu.be/QmNB3UR_JqQ\n首演时间：2017年6月30日\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "转自腾讯视频（官方）：https://v.qq.com/x/page/q0512aswk60.html\n《第48区》公演宣传页：http://www.snh48.com/event/s197/\n同名队歌《第48区》（收录于《夏日柠檬船》）：https://youtu.be/QmNB3UR_JqQ\n首演时间：2017年6月30日\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48 Team SⅡ《第48区》公演宣传片"
+    },
+    "publishedAt": "2017-06-15T01:51:32.000Z",
+    "tags": [
+      "SNH48",
+      "第48区"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/ieD8V-Q8nmo/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/ieD8V-Q8nmo/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/ieD8V-Q8nmo/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/ieD8V-Q8nmo/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/ieD8V-Q8nmo/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 Team SⅡ《第48区》公演宣传片"
+  }
+}

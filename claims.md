@@ -3,6 +3,22 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[SNH48 Team SⅡ《第48区》公演宣传片](https://youtube.com/watch?v=ieD8V-Q8nmo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| A Glimpse Of The Dark<br>Sound recording<br>0:06 - 1:31 | APM Music<br>On behalf of: Juice Music | Monetized by copyright owner |
+
+---
+
+[20170614 SNH48 Team HⅡ 美丽世界 15 暨徐伊人、徐晗总选拉票公演](https://youtube.com/watch?v=i4REecM4yC0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:01 - 1:32 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170611 SNH48 Team X 梦想的旗帜 34 李晶生日主题公演暨总选拉票公演](https://youtube.com/watch?v=T3mwQtZcIMA)
 
 | Content | Claimant | Policy |

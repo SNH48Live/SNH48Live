@@ -1,0 +1,67 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H13M52S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/BS8-jg27lOnx0ZVsk9kT0nd8MWc\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1071475163",
+    "fileType": "video"
+  },
+  "id": "A2jhkBC6Wqg",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170612 《莫莫有闻》第02期 “黑”到深处自然“粉”\n主持人：莫寒\n嘉宾：冯晓菲\n\n转自哔哩哔哩 SNH48TeamSII应援会：https://www.bilibili.com/video/av11278824/\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170612 《莫莫有闻》第02期 “黑”到深处自然“粉”\n主持人：莫寒\n嘉宾：冯晓菲\n\n转自哔哩哔哩 SNH48TeamSII应援会：https://www.bilibili.com/video/av11278824/\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170612 《莫莫有闻》第02期 “黑”到深处自然“粉”"
+    },
+    "publishedAt": "2017-06-19T13:16:04.000Z",
+    "tags": [
+      "莫莫有闻",
+      "莫寒",
+      "冯晓菲"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/A2jhkBC6Wqg/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/A2jhkBC6Wqg/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/A2jhkBC6Wqg/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/A2jhkBC6Wqg/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/A2jhkBC6Wqg/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170612 《莫莫有闻》第02期 “黑”到深处自然“粉”"
+  }
+}

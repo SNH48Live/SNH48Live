@@ -1,0 +1,101 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H19M26S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/m5RkIGZ8KNXpkLbdEyMXJNHew4s\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "130693",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3248313",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5857486672",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3117620",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "FRpeOQrYrqs",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170617 SNH48 Team XⅡ 《代号XⅡ》公演 第31场 宋雨珊生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/236\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170617 SNH48 Team XⅡ 《代号XⅡ》公演 第31场 宋雨珊生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/236\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170617 SNH48 Team XⅡ 代号XⅡ 31 宋雨珊生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-06-17T16:32:08.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "洪珮雲",
+      "姜杉",
+      "蒋舒婷",
+      "李佳恩",
+      "林歆源",
+      "刘增艳",
+      "吕梦莹",
+      "潘瑛琪",
+      "宋雨珊",
+      "陶波尔",
+      "徐诗琪",
+      "严佼君",
+      "於佳怡",
+      "曾晓雯",
+      "张文静",
+      "张怡",
+      "邹佳佳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/FRpeOQrYrqs/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/FRpeOQrYrqs/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/FRpeOQrYrqs/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/FRpeOQrYrqs/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/FRpeOQrYrqs/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170617 SNH48 Team XⅡ 代号XⅡ 31 宋雨珊生日主题公演暨总选拉票公演"
+  }
+}

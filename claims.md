@@ -3,6 +3,24 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170618 SNH48 Team HⅡ 美丽世界 16 林楠生日主题公演暨总选拉票公演](https://youtube.com/watch?v=tHCJZ0qEyVU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 永不消失的彩虹 - 卓文萱<br>Sound recording<br>1:34:50 - 1:36:26 | Rock Records 滾石國際音樂股份有限公司<br>On behalf of: Rock Records | Monetized by copyright owner |
+| 約束よ(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>2:58:24 - 2:59:59 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+---
+
+[20170617 SNH48 Team NⅡ 专属派对 42 暨陆婷、刘瀛总选拉票公演](https://youtube.com/watch?v=LNvDLXy1REU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| taohuachipao - BY2<br>Sound recording<br>2:12:59 - 2:15:00 | Taihe Music Group (Hong Kong) Limited<br>On behalf of: OBS | Monetized by copyright owner |
+| 不害怕 - 張韶涵<br>Sound recording<br>2:24:59 - 2:28:43 | The Orchard Music<br>On behalf of: 北京太合音樂文化發展有限公司 | Monetized by copyright owner |
+
+---
+
 [20170615 SNH48 我们向前冲 06 暨江真仪、许逸总选拉票公演](https://youtube.com/watch?v=2GlQ1gREU6w)
 
 | Content | Claimant | Policy |

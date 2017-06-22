@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170621 SNH48 Team NⅡ 专属派对 43 暨张雨鑫、张雅梦总选拉票公演](https://youtube.com/watch?v=7KcufSycVWk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 星月神話 - 金莎<br>Sound recording<br>2:44:33 - 2:48:20 | The Orchard Music<br>On behalf of: 北京海蝶音樂有限公司 | Monetized by copyright owner |
+
+---
+
 [20170618 SNH48 Team HⅡ 美丽世界 16 林楠生日主题公演暨总选拉票公演](https://youtube.com/watch?v=tHCJZ0qEyVU)
 
 | Content | Claimant | Policy |

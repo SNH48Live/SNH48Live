@@ -1,0 +1,100 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H59M4S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/u8U9jQy5o87ZPSKx69srm_WLW_k\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "130876",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "4071320",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5259291916",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3940444",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "7KcufSycVWk",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170621 SNH48 Team NⅡ 《专属派对》公演 第43场 暨张雨鑫、张雅梦总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/240\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170621 SNH48 Team NⅡ 《专属派对》公演 第43场 暨张雨鑫、张雅梦总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/240\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170621 SNH48 Team NⅡ 专属派对 43 暨张雨鑫、张雅梦总选拉票公演"
+    },
+    "publishedAt": "2017-06-21T21:46:22.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "陈佳莹",
+      "陈问言",
+      "冯薪朵",
+      "何晓玉",
+      "江真仪",
+      "金莹玥",
+      "李艺彤",
+      "刘菊子",
+      "陆婷",
+      "万丽娜",
+      "许逸",
+      "曾艳芬",
+      "张雅梦",
+      "张雨鑫",
+      "周怡",
+      "潘瑛琪"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/7KcufSycVWk/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/7KcufSycVWk/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/7KcufSycVWk/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/7KcufSycVWk/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/7KcufSycVWk/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170621 SNH48 Team NⅡ 专属派对 43 暨张雨鑫、张雅梦总选拉票公演"
+  }
+}

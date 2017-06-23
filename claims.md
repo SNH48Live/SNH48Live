@@ -3,6 +3,15 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170623 SNH48 Team HⅡ 美丽世界 18 暨许杨玉琢、张昕总选拉票公演](https://youtube.com/watch?v=2LQl9Z3RAHc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Trap (Inst.) - 스윙스 & 유성은<br>Sound recording<br>2:15:52 - 2:16:46 | CJ E&M Music<br>On behalf of: CJ E&M | Monetized by copyright owner |
+| Flame - Tinashe<br>Sound recording<br>2:21:41 - 2:22:43 | SME<br>On behalf of: RCA Records Label | Monetized by copyright owner |
+
+---
+
 [20170622 SNH48 Team HⅡ 美丽世界 17 暨刘佩鑫、袁一琦总选拉票公演](https://youtube.com/watch?v=ia8qJwMds8g)
 
 | Content | Claimant | Policy |

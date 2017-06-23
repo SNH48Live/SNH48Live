@@ -1,0 +1,100 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H43M9S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/nD4S0Uefd7gCNYnFLLZZxeKVZRk\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131842",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3518419",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4792215692",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3386577",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "2LQl9Z3RAHc",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170623 SNH48 Team HⅡ 《美丽世界》公演 第18场 暨许杨玉琢、张昕总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/242\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170623 SNH48 Team HⅡ 《美丽世界》公演 第18场 暨许杨玉琢、张昕总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/242\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170623 SNH48 Team HⅡ 美丽世界 18 暨许杨玉琢、张昕总选拉票公演"
+    },
+    "publishedAt": "2017-06-23T15:43:38.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "郭倩芸",
+      "郝婉晴",
+      "李清扬",
+      "林楠",
+      "刘佩鑫",
+      "沈梦瑶",
+      "王柏硕",
+      "吴燕文",
+      "谢妮",
+      "徐晗",
+      "徐伊人",
+      "许杨玉琢",
+      "杨惠婷",
+      "袁一琦",
+      "张昕",
+      "赵梦婷"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/2LQl9Z3RAHc/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/2LQl9Z3RAHc/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/2LQl9Z3RAHc/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/2LQl9Z3RAHc/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/2LQl9Z3RAHc/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170623 SNH48 Team HⅡ 美丽世界 18 暨许杨玉琢、张昕总选拉票公演"
+  }
+}

@@ -3,6 +3,15 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170622 SNH48 Team HⅡ 美丽世界 17 暨刘佩鑫、袁一琦总选拉票公演](https://youtube.com/watch?v=ia8qJwMds8g)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Visual content<br>0:13 - 1:10 | WebTVAsia (Music) | Monetized by copyright owner |
+| 孤獨的總和 - 吳汶芳<br>Sound recording<br>2:30:27 - 2:31:09 | linfair_records<br>On behalf of: Linfairrecords | Monetized by copyright owner |
+
+---
+
 [20170621 SNH48 Team NⅡ 专属派对 43 暨张雨鑫、张雅梦总选拉票公演](https://youtube.com/watch?v=7KcufSycVWk)
 
 | Content | Claimant | Policy |

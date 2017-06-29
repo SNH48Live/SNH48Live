@@ -3,6 +3,65 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170628 SNH48 Team HⅡ 美丽世界 19 暨吴燕文、沈梦瑶总选拉票公演](https://youtube.com/watch?v=d-CEiSD1IuU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>2:10:59 - 2:12:57 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 倍儿爽 (官方正式版) - 大张伟<br>Sound recording<br>1:47:47 - 1:48:30 | Believe Music<br>On behalf of: 恒大音乐 | Monetized by copyright owner |
+| 愛拼才會贏(AI PIN CAI HUI YING) - YE QI TIAN(YE QI TIAN)<br>Sound recording<br>1:32:50 - 1:33:38 | Yoho Taiwan - 數位點子<br>On behalf of: JIMA Music | Monetized by copyright owner |
+
+---
+
+[20170628 SNH48 Team HⅡ 美丽世界 19 暨吴燕文、沈梦瑶总选拉票公演](https://youtube.com/watch?v=d-CEiSD1IuU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>2:10:59 - 2:12:57 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 倍儿爽 (官方正式版) - 大张伟<br>Sound recording<br>1:47:47 - 1:48:30 | Believe Music<br>On behalf of: 恒大音乐 | Monetized by copyright owner |
+| 愛拼才會贏(AI PIN CAI HUI YING) - YE QI TIAN(YE QI TIAN)<br>Sound recording<br>1:32:50 - 1:33:38 | Yoho Taiwan - 數位點子<br>On behalf of: JIMA Music | Monetized by copyright owner |
+
+---
+
+[20170625 SNH48 Team X 梦想的旗帜 37 王晓佳生日主题公演暨总选拉票公演](https://youtube.com/watch?v=KjQC-i-idxA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audio content<br>2:52:18 - 2:54:15 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Empire Of Angels - Thomas Bergersen<br>Sound recording<br>3:19 - 4:13 | AdRev for a 3rd Party<br>Epic Elite (Music Publishing)<br>On behalf of: Extreme Music | Monetized by copyright owner |
+| Audiovisual content<br>1:32:15 - 1:35:17 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170625 SNH48 Team NⅡ 专属派对 44 龚诗淇生日主题公演暨总选拉票公演](https://youtube.com/watch?v=DHJ797A8RFA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 有沒有 - By2<br>Sound recording<br>1:12:52 - 1:15:19 | The Orchard Music<br>On behalf of: 北京海蝶音樂有限公司 | Monetized by copyright owner |
+| You Don't Trust Me At All - 范曉萱<br>Sound recording<br>1:08:24 - 1:09:12 | Golden Dynamic<br>On behalf of: Music Download Limited | Monetized by copyright owner |
+
+---
+
+[20170624 SNH48 Team X 梦想的旗帜 36 谢天依生日主题公演暨总选拉票公演](https://youtube.com/watch?v=yQRE2-wpDvE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:55 - 3:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:00 - 1:51 | WebTVAsia (Music) | Monetized by copyright owner |
+| 我真的很不錯 - 伍思凱<br>Sound recording<br>2:45:18 - 2:48:41 | The Orchard Music<br>On behalf of: Digital Music Development Inc. | Monetized by copyright owner |
+| Cause You! (EDM Mix) - 2Elements<br>Sound recording<br>1:25:19 - 1:26:04 | Believe Music<br>Kontor Records<br>Rebeat Digital GmbH<br>On behalf of: +Mas Label / Tiger Records | Monetized by copyright owner |
+
+---
+
+[20170624 SNH48 Team XⅡ 代号XⅡ 32 李佳恩生日主题公演暨总选拉票公演](https://youtube.com/watch?v=MqkfzBqahHk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| キャンディー off vocal - 河西智美<br>Sound recording<br>2:48:02 - 2:49:41 | crownrecord<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+| Mamma Mia! - KARA<br>Sound recording<br>2:43:16 - 2:44:05 | UMG<br>On behalf of: Universal Sigma | Monetized by copyright owner |
+
+---
+
 [20170623 SNH48 Team HⅡ 美丽世界 18 暨许杨玉琢、张昕总选拉票公演](https://youtube.com/watch?v=2LQl9Z3RAHc)
 
 | Content | Claimant | Policy |

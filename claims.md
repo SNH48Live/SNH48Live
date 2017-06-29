@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170629 SNH48 Team NⅡ 专属派对 45 暨金莹玥总选拉票公演](https://youtube.com/watch?v=qPYs_SgCZy4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 她說 - 林俊傑<br>Sound recording<br>2:23:46 - 2:26:12 | Taihe Music Group (Hong Kong) Limited<br>On behalf of: 新海 | Monetized by copyright owner |
+
+---
+
 [20170628 SNH48 Team HⅡ 美丽世界 19 暨吴燕文、沈梦瑶总选拉票公演](https://youtube.com/watch?v=d-CEiSD1IuU)
 
 | Content | Claimant | Policy |

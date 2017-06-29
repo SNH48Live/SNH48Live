@@ -1,0 +1,99 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H33M8S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/BIZ7K21ygCo37w2Px72h06Vw-LU\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131955",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3518644",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4497752420",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3386689",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "qPYs_SgCZy4",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170629 SNH48 Team NⅡ 《专属派对》公演 第45场 暨金莹玥总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/249\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170629 SNH48 Team NⅡ 《专属派对》公演 第45场 暨金莹玥总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/249\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170629 SNH48 Team NⅡ 专属派对 45 暨金莹玥总选拉票公演"
+    },
+    "publishedAt": "2017-06-29T15:20:34.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "陈佳莹",
+      "陈问言",
+      "冯薪朵",
+      "何晓玉",
+      "金莹玥",
+      "李艺彤",
+      "刘菊子",
+      "刘瀛",
+      "陆婷",
+      "万丽娜",
+      "许逸",
+      "张雅梦",
+      "张雨鑫",
+      "周怡",
+      "潘瑛琪"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/qPYs_SgCZy4/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/qPYs_SgCZy4/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/qPYs_SgCZy4/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/qPYs_SgCZy4/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/qPYs_SgCZy4/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170629 SNH48 Team NⅡ 专属派对 45 暨金莹玥总选拉票公演"
+  }
+}

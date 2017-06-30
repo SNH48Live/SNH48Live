@@ -32,6 +32,7 @@ STAGE_ASSOCIATIONS = {
     '代号XⅡ': 'x2',
     '美丽世界': 'h2',
     '我们向前冲': 'joint',
+    '第48区': 's2',
 }
 
 def title2stage(title):

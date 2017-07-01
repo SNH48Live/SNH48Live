@@ -1,0 +1,102 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H46M53S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/cvamEJHDEtk3vHGuIQWznYklxlk\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131722",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3513295",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4901981184",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3381573",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "Q_bvusD4jgg",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170630 SNH48 Team SⅡ 《第48区》公演 第01场 首演\nhttp://live.snh48.com/Index/invedio/id/250\n\n01. 0:03:17 第48区（含前奏）\n02. 0:08:09 破茧\n03. 0:12:28 Mute\n04. 0:18:07 Drop It\n05. 1:10:37 Mad World\n06. 1:14:48 Good Time\n07. 1:18:21 爱未央\n08. 1:22:15 Go Away\n09. 1:25:55 灵魂使者\n10. 1:30:29 寒夜\n11. 1:40:26 幻\n12. 1:43:34 冒险乐园\n13. 2:14:49 废墟纪元\n14. 2:27:55 战歌\n15. 2:32:12 我的存在\n16. 2:37:19 无尽的世界\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170630 SNH48 Team SⅡ 《第48区》公演 第01场 首演\nhttp://live.snh48.com/Index/invedio/id/250\n\n01. 0:03:17 第48区（含前奏）\n02. 0:08:09 破茧\n03. 0:12:28 Mute\n04. 0:18:07 Drop It\n05. 1:10:37 Mad World\n06. 1:14:48 Good Time\n07. 1:18:21 爱未央\n08. 1:22:15 Go Away\n09. 1:25:55 灵魂使者\n10. 1:30:29 寒夜\n11. 1:40:26 幻\n12. 1:43:34 冒险乐园\n13. 2:14:49 废墟纪元\n14. 2:27:55 战歌\n15. 2:32:12 我的存在\n16. 2:37:19 无尽的世界\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170630 SNH48 Team SⅡ 第48区 01"
+    },
+    "publishedAt": "2017-06-30T15:05:25.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "陈观慧",
+      "陈思",
+      "戴萌",
+      "蒋芸",
+      "孔肖吟",
+      "李宇琪",
+      "莫寒",
+      "潘燕琦",
+      "钱蓓婷",
+      "孙芮",
+      "吴哲晗",
+      "徐晨辰",
+      "徐子轩",
+      "许佳琪",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格",
+      "冯晓菲"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Q_bvusD4jgg/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Q_bvusD4jgg/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/Q_bvusD4jgg/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Q_bvusD4jgg/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Q_bvusD4jgg/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170630 SNH48 Team SⅡ 第48区 01"
+  }
+}

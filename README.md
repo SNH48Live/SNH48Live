@@ -26,5 +26,6 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 - [`post-to-tumblr`](bin/post-to-tumblr): cross-post to [Tumblr](https://snh48live.tumblr.com) — a healthy dose of SEO and discoverability shenanigans doesn't hurt, right?
 - [`record-performance`](bin/record-performance): record performance metadata into `performances.json`.
 - [`stats`](bin/stats): fetch and display channel analytics data.
+- [`tweet`](bin/tweet): tweet to [Twitter](https://twitter.com/snh48live).
 - [`thumbnail`](bin/thumbnail): generate custom thumbnails.
 - [`upload`](bin/upload): YouTube video uploader (WIP).

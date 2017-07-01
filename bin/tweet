@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+
+import argparse
+import json
+import os
+import subprocess
+import sys
+
+HERE = os.path.dirname(os.path.realpath(__file__))
+ROOT = os.path.dirname(HERE)
+
+VIDEO_METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
+
+def get_youtube_video_title(video_id):
+    metadata_file = os.path.join(VIDEO_METADATA_DIR, f'{video_id}.json')
+    if not os.path.isfile(metadata_file):
+        print(f'Error: {metadata_file} does not exist; please run `fetch-metadata {video_id}`')
+        sys.exit(1)
+    with open(metadata_file) as fp:
+        return json.load(fp)['snippet']['title']
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('video_id', help='the YouTube video ID')
+    args = parser.parse_args()
+    video_id = args.video_id
+
+    title = get_youtube_video_title(video_id)
+    url = f'https://youtu.be/{video_id}'
+    tweet = f'{title}: {url} #SNH48'
+
+    subprocess.run(['t', 'update', tweet])
+
+if __name__ == '__main__':
+    main()

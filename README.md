@@ -28,4 +28,5 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 - [`stats`](bin/stats): fetch and display channel analytics data.
 - [`tweet`](bin/tweet): tweet to [Twitter](https://twitter.com/snh48live).
 - [`thumbnail`](bin/thumbnail): generate custom thumbnails.
+- [`update-metadata`](bin/update-metadata): update metadata of videos in various ways (check the subcommands).
 - [`upload`](bin/upload): YouTube video uploader (WIP).

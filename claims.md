@@ -3,6 +3,23 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170701 SNH48 Team SⅡ 第48区 02 张语格生日主题公演暨总选拉票公演](https://youtube.com/watch?v=q25sTDMFAdU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Escalate - Tsar B<br>Sound recording<br>2:43:38 - 2:44:57 | [Merlin] AWAL Digital Limited<br>On behalf of: Tsar B | Monetized by copyright owner |
+
+---
+
+[20170701 SNH48 Team XⅡ 代号XⅡ 33 蒋舒婷生日主题公演暨总选拉票公演](https://youtube.com/watch?v=cYCxX4FlOaU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 1:48 | WebTVAsia (Music) | Monetized by copyright owner |
+| 残念少女 - AKB48<br>Sound recording<br>1:32:43 - 1:34:07 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+
+---
+
 [20170629 SNH48 Team NⅡ 专属派对 45 暨金莹玥总选拉票公演](https://youtube.com/watch?v=qPYs_SgCZy4)
 
 | Content | Claimant | Policy |

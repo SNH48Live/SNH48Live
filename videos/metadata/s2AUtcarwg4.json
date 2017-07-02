@@ -8,7 +8,7 @@
     "licensedContent": false,
     "projection": "rectangular"
   },
-  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/E9NOsvXLgG0Ayw1tZIlwB5MM_fs\"",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/v5GCRmvi75bKJ0prSX5cNtqVQw4\"",
   "fileDetails": {
     "audioStreams": [
       {
@@ -46,7 +46,7 @@
     "liveBroadcastContent": "none",
     "localized": {
       "description": "公演：《第48区》\n表演：SNH48 Team SⅡ\n时间：2017-06-30（首演）\n歌单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9EkxtEUwb7eaWDOw0Sb_9Jd\n首演全场：https://youtu.be/Q_bvusD4jgg\n\n本音频版权归上海丝芭文化传媒集团有限公司所有。",
-      "title": "SNH48 Team SⅡ 第48区《幻》"
+      "title": "SNH48 Team SⅡ 第48区《幻》（现场版）"
     },
     "publishedAt": "2017-06-30T16:11:08.000Z",
     "tags": [
@@ -77,6 +77,6 @@
         "width": 640
       }
     },
-    "title": "SNH48 Team SⅡ 第48区《幻》"
+    "title": "SNH48 Team SⅡ 第48区《幻》（现场版）"
   }
 }

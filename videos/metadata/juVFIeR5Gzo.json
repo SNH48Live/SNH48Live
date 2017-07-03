@@ -1,0 +1,105 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT4M5S",
+    "hasCustomThumbnail": false,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/ggsco_gVgivJaf0eWtL619qjfkw\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "902493",
+        "channelCount": 2,
+        "codec": "flac"
+      }
+    ],
+    "bitrateBps": "952283",
+    "container": "matroska",
+    "fileName": "unknown",
+    "fileSize": "32450338",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.0,
+        "bitrateBps": "49790",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 496,
+        "widthPixels": 496
+      }
+    ]
+  },
+  "id": "juVFIeR5Gzo",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "本音频版权归上海丝芭文化传媒集团有限公司所有。\n\n专辑：《第48区》\n歌手：SNH48（Team SⅡ）\n发行时间：2017-06-30\n歌单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9H4rq6-9o_IpSrQBjrM9mF-\n01. 《第48区》 https://youtu.be/g7ODWb1K8C4\n02. 《破茧》 https://youtu.be/juVFIeR5Gzo\n03. 《Mute》 https://youtu.be/E3v8-XqxMK0\n04. 《Drop It》 https://youtu.be/Cr9VEP-4cQs\n05. 《Mad World》 https://youtu.be/Xcwfj3q_1Go\n06. 《Good Time》 https://youtu.be/i73VCTu0zDw\n07. 《爱未央》 https://youtu.be/JMjfZmzQLgY\n08. 《Go Away》 https://youtu.be/WU67kD_55_Y\n09. 《灵魂使者》 https://youtu.be/Roa25HMVMBM\n10. 《寒夜》 https://youtu.be/bTM3nh8oSZ8\n11. 《幻》 https://youtu.be/QUppZuPEYSE\n12. 《冒险乐园》 https://youtu.be/raij4EL6bTw\n13. 《废墟纪元》 https://youtu.be/_sQtRfgv8A0\n14. 《战歌》 https://youtu.be/ktkR-JcFr6Q\n15. 《我的存在》 https://youtu.be/ELyZmO40Tq4\n16. 《无尽的世界》 https://youtu.be/klrbH3Jj8XE\n\n音频来源：https://y.qq.com/n/yqq/album/004My8i842dw0C.html\n公演：https://www.youtube.com/playlist?list=PL0-h3TcYaV9F30xggHemABXt05-iI4Lid",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "本音频版权归上海丝芭文化传媒集团有限公司所有。\n\n专辑：《第48区》\n歌手：SNH48（Team SⅡ）\n发行时间：2017-06-30\n歌单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9H4rq6-9o_IpSrQBjrM9mF-\n01. 《第48区》 https://youtu.be/g7ODWb1K8C4\n02. 《破茧》 https://youtu.be/juVFIeR5Gzo\n03. 《Mute》 https://youtu.be/E3v8-XqxMK0\n04. 《Drop It》 https://youtu.be/Cr9VEP-4cQs\n05. 《Mad World》 https://youtu.be/Xcwfj3q_1Go\n06. 《Good Time》 https://youtu.be/i73VCTu0zDw\n07. 《爱未央》 https://youtu.be/JMjfZmzQLgY\n08. 《Go Away》 https://youtu.be/WU67kD_55_Y\n09. 《灵魂使者》 https://youtu.be/Roa25HMVMBM\n10. 《寒夜》 https://youtu.be/bTM3nh8oSZ8\n11. 《幻》 https://youtu.be/QUppZuPEYSE\n12. 《冒险乐园》 https://youtu.be/raij4EL6bTw\n13. 《废墟纪元》 https://youtu.be/_sQtRfgv8A0\n14. 《战歌》 https://youtu.be/ktkR-JcFr6Q\n15. 《我的存在》 https://youtu.be/ELyZmO40Tq4\n16. 《无尽的世界》 https://youtu.be/klrbH3Jj8XE\n\n音频来源：https://y.qq.com/n/yqq/album/004My8i842dw0C.html\n公演：https://www.youtube.com/playlist?list=PL0-h3TcYaV9F30xggHemABXt05-iI4Lid",
+      "title": "SNH48 Team SⅡ 第48区《破茧》（音源）"
+    },
+    "publishedAt": "2017-07-02T12:34:35.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "破茧",
+      "陈观慧",
+      "陈思",
+      "成珏",
+      "戴萌",
+      "冯晓菲",
+      "蒋芸",
+      "孔肖吟",
+      "李宇琪",
+      "吕一",
+      "莫寒",
+      "潘燕琦",
+      "钱蓓婷",
+      "邱欣怡",
+      "沈之琳",
+      "孙芮",
+      "温晶婕",
+      "吴哲晗",
+      "徐晨辰",
+      "徐子轩",
+      "许佳琪",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格",
+      "赵韩倩",
+      "赵晔"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/juVFIeR5Gzo/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/juVFIeR5Gzo/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/juVFIeR5Gzo/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/juVFIeR5Gzo/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 Team SⅡ 第48区《破茧》（音源）"
+  }
+}

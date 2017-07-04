@@ -26,6 +26,7 @@ ATTENDANCE_JSON = os.path.join(ROOT, 'attendance.json')
 
 STAGE_ASSOCIATIONS = {
     '': 'joint',
+    '十八个闪耀瞬间': 'h2',
     '心的旅程': 's2',
     '专属派对': 'n2',
     '梦想的旗帜': 'x',

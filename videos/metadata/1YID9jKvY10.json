@@ -1,0 +1,101 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H57M46S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/94tM86bZ8wW_ZqNv_GkIIqo6rPk\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131013",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3911320",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5221102724",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3780307",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "1YID9jKvY10",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170708 SNH48 Team X 《梦想的旗帜》公演 第40场 李钊生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/259\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170708 SNH48 Team X 《梦想的旗帜》公演 第40场 李钊生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/259\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170708 SNH48 Team X 梦想的旗帜 40 李钊生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-07-08T15:29:25.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "林忆宁",
+      "祁静",
+      "宋昕冉",
+      "孙歆文",
+      "汪佳翎",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "杨韫玉",
+      "姚祎纯",
+      "张丹三",
+      "张嘉予"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/1YID9jKvY10/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/1YID9jKvY10/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/1YID9jKvY10/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/1YID9jKvY10/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/1YID9jKvY10/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170708 SNH48 Team X 梦想的旗帜 40 李钊生日主题公演暨总选拉票公演"
+  }
+}

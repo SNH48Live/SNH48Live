@@ -1,0 +1,76 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H3M39S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "KR",
+        "NZ",
+        "AU",
+        "MX",
+        "US"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/YRaxTc2B5CgTvt2dkFKP7LEpCU8\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1848769578",
+    "fileType": "video"
+  },
+  "id": "soFG1EQ33Q0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170708 SNH48 Team NⅡ 《专属派对》公演 46 冯薪朵生日暨总选拉票公演\n\n转自哔哩哔哩直播：https://live.bilibili.com/48\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170708 SNH48 Team NⅡ 《专属派对》公演 46 冯薪朵生日暨总选拉票公演\n\n转自哔哩哔哩直播：https://live.bilibili.com/48\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170708 SNH48 Team NⅡ 专属派对 46 冯薪朵生日暨总选拉票公演"
+    },
+    "publishedAt": "2017-07-08T10:35:38.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "冯薪朵"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/soFG1EQ33Q0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/soFG1EQ33Q0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/soFG1EQ33Q0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/soFG1EQ33Q0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/soFG1EQ33Q0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170708 SNH48 Team NⅡ 专属派对 46 冯薪朵生日暨总选拉票公演"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT53M27S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/e06nEbtqwhQ7Qay_sNXVak8hJD4\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "543067999",
+    "fileType": "video"
+  },
+  "id": "fCxLhzy4jRU",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170707 SNH48 星机女学院 第01集\n\n转自哔哩哔哩直播：https://live.bilibili.com/48\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170707 SNH48 星机女学院 第01集\n\n转自哔哩哔哩直播：https://live.bilibili.com/48\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170707 SNH48 星机女学院 第01集"
+    },
+    "publishedAt": "2017-07-07T16:02:05.000Z",
+    "tags": [
+      "SNH48",
+      "星机女学院"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/fCxLhzy4jRU/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/fCxLhzy4jRU/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/fCxLhzy4jRU/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/fCxLhzy4jRU/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/fCxLhzy4jRU/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170707 SNH48 星机女学院 第01集"
+  }
+}

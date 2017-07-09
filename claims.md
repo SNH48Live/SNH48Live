@@ -3,6 +3,45 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170708 SNH48 Team X 梦想的旗帜 40 李钊生日主题公演暨总选拉票公演](https://youtube.com/watch?v=1YID9jKvY10)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Heart To Heart - Cyndi Wang<br>Sound recording<br>1:18:35 - 1:20:00 | WMG<br>On behalf of: Gold Typhoon Taiwan | Monetized by copyright owner |
+| 想你笑 - 黃雅莉<br>Sound recording<br>1:13:05 - 1:17:09 | linfair_records<br>On behalf of: Linfair Records Limited | Monetized by copyright owner |
+| 瓶中沙 - Twins<br>Sound recording<br>2:41:01 - 2:44:29 | Emperor Entertainment Group<br>On behalf of: EEG Music | Monetized by copyright owner |
+
+---
+
+[20170708 SNH48 Team NⅡ 专属派对 47 冯薪朵生日暨总选拉票公演](https://youtube.com/watch?v=soFG1EQ33Q0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 10-魔力 - S.H.E<br>Sound recording<br>1:27:16 - 1:29:50 | HIMservice<br>On behalf of: HIM International Music | Monetized by copyright owner |
+| Audiovisual content<br>2:44:57 - 2:45:52 | WebTVAsia (Music) | Monetized by copyright owner |
+| only you - Waa Wei<br>Sound recording<br>2:52:51 - 2:54:46 | SME<br>On behalf of: Mr. Wing Creative | Monetized by copyright owner |
+| 街角のパーティー - SKE48（Team E）<br>Sound recording<br>2:22:34 - 2:23:14 | AKB48<br>On behalf of: avex trax | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+
+---
+
+[20170707 SNH48 Team SⅡ 第48区 04 陈观慧、袁丹妮、邱欣怡总选拉票公演](https://youtube.com/watch?v=u0jCtCx7it4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 年輪（電視劇《花千骨》插曲） - 張碧晨<br>Sound recording<br>2:28:04 - 2:30:00 | The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司 | Monetized by copyright owner |
+
+---
+
+[20170706 SNH48 Team X 梦想的旗帜 39 陈琳、祁静总选拉票公演](https://youtube.com/watch?v=eQkIeXsjHGM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Halo - Beyoncé<br>Sound recording<br>2:30:05 - 2:30:39 | SME<br>On behalf of: RCA Records | Monetized by copyright owner |
+| 幸福氧氣 - 卓文萱<br>Sound recording<br>2:17:11 - 2:18:10 | Rock Records 滾石國際音樂股份有限公司<br>On behalf of: Rock Records | Monetized by copyright owner |
+| 小幸運 - 田馥甄<br>Sound recording<br>2:13:06 - 2:15:32 | HIMservice<br>On behalf of: HIM International Music Inc. | Monetized by copyright owner |
+
+---
+
 [20170701 SNH48 Team SⅡ 第48区 02 张语格生日主题公演暨总选拉票公演](https://youtube.com/watch?v=q25sTDMFAdU)
 
 | Content | Claimant | Policy |

@@ -1,0 +1,84 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H19M18S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/c_lhYbdEPHODb1pKMK5H1DKPyh0\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "130656",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "2638141",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5058043556",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "2507485",
+        "codec": "h264",
+        "frameRateFps": 59.94005994005994,
+        "heightPixels": 720,
+        "widthPixels": 1280
+      }
+    ]
+  },
+  "id": "FHlyq-zUwl0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170705 SNH48 Team HⅡ 《美丽世界》公演 第20场 北京巡演\nhttp://live.bej48.com/Index/invedio/id/176\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170705 SNH48 Team HⅡ 《美丽世界》公演 第20场 北京巡演\nhttp://live.bej48.com/Index/invedio/id/176\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170705 SNH48 Team HⅡ 美丽世界 20 北京巡演"
+    },
+    "publishedAt": "2017-07-05T16:26:33.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/FHlyq-zUwl0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/FHlyq-zUwl0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/FHlyq-zUwl0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/FHlyq-zUwl0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/FHlyq-zUwl0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170705 SNH48 Team HⅡ 美丽世界 20 北京巡演"
+  }
+}

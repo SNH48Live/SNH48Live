@@ -1,0 +1,66 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H59M51S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/5auRn4mFPxTR0PT_XjAL2zIo4bI\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1786957638",
+    "fileType": "video"
+  },
+  "id": "u0jCtCx7it4",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170707 SNH48 Team SⅡ 《第48区》公演 04 陈观慧、袁丹妮、邱欣怡总选拉票公演\n\n转自哔哩哔哩直播：https://live.bilibili.com/48\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170707 SNH48 Team SⅡ 《第48区》公演 04 陈观慧、袁丹妮、邱欣怡总选拉票公演\n\n转自哔哩哔哩直播：https://live.bilibili.com/48\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170707 SNH48 Team SⅡ 第48区 04 陈观慧、袁丹妮、邱欣怡总选拉票公演"
+    },
+    "publishedAt": "2017-07-07T16:02:03.000Z",
+    "tags": [
+      "SNH48",
+      "第48区"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/u0jCtCx7it4/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/u0jCtCx7it4/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/u0jCtCx7it4/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/u0jCtCx7it4/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/u0jCtCx7it4/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170707 SNH48 Team SⅡ 第48区 04 陈观慧、袁丹妮、邱欣怡总选拉票公演"
+  }
+}

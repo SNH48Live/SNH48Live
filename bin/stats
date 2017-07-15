@@ -7,6 +7,7 @@ import textwrap
 
 import httplib2
 
+import arrow
 import attrdict
 import googleapiclient.discovery
 import oauth2client.client
@@ -91,10 +92,15 @@ def get_authenticated_service(args):
 # - subscriberCount
 # - hiddenSubscriberCount (bool)
 # - videoCount
+# - days (days since channel was created; this one is not directly in
+#   the API, but rather, calculated)
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.channels.html#list
 def get_channel_stats(youtube):
-    response = youtube.channels().list(part='statistics', id=CHANNEL_ID).execute()
-    return attrdict.AttrDict(response)('items')[0].statistics
+    response = youtube.channels().list(part='statistics,snippet', id=CHANNEL_ID).execute()
+    channel = attrdict.AttrDict(response)('items')[0]
+    stats = channel.statistics
+    stats.days = (arrow.now() - arrow.get(channel.snippet.publishedAt)).days + 1
+    return stats
 
 # Returns a list of ids of the top videos by view count.
 # Not always up-to-date due to the way YouTube Analytics API works.
@@ -195,10 +201,10 @@ def generate_textual_report(data, color=True):
     data = attrdict.AttrDict(data)
     report = textwrap.dedent(f'''\
     {section_title_color}=== CHANNEL ==={reset}
+    days:        {channel_stat_color}{data.channel_stats.days}{reset}
     videos:      {channel_stat_color}{data.channel_stats.videoCount}{reset}
     subscribers: {channel_stat_color}{data.channel_stats.subscriberCount}{reset}
     views:       {channel_stat_color}{data.channel_stats.viewCount}{reset}
-    comments:    {channel_stat_color}{data.channel_stats.commentCount}{reset}
 
     ''')
 

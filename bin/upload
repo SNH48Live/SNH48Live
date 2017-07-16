@@ -123,6 +123,8 @@ class MediaFileUploadWithProgressBar(googleapiclient.http.MediaIoBaseUpload):
         self.bar = fp.bar
         if mimetype is None:
             mimetype, _ = mimetypes.guess_type(file)
+            if mimetype is None:
+                mimetype = 'application/octet-stream'
         super().__init__(fp, mimetype, chunksize=chunksize, resumable=resumable)
 
 

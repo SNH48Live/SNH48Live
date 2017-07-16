@@ -8,7 +8,7 @@ import time
 # A very bare-bones progress bar implementation. No speed or ETA support.
 class ProgressBar(object):
 
-    def __init__(self, total, *, update_threshold=0.1):
+    def __init__(self, total, *, update_threshold=1.0):
         self._total = total
         self._update_threshold = update_threshold
         #  536870912/4294967296 [===>   ]  80%

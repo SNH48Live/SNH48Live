@@ -18,6 +18,7 @@ class ProgressBar(object):
         # Number of characters taken up by fixed-width components
         self._static_length = 2 * len(str(total)) + 9
         self._updated = 0
+        self._pos = 0  # Last known position
 
         self._activated = False
 
@@ -27,10 +28,11 @@ class ProgressBar(object):
         curses.setupterm()
         sys.stderr.buffer.write(curses.tigetstr('civis'))
 
-        self.update(0)
+        self.update(self._pos)
         self._activated = True
 
     def update(self, pos, *, force=False):
+        self._pos = pos
         if not self._activated:
             return
         if not force and time.time() - self._updated < self._update_threshold:
@@ -47,6 +49,8 @@ class ProgressBar(object):
 
     # After calling done(), call activate() to redraw and re-activate the bar.
     def done(self):
+        # Force update to last known pos, in case it wasn't printed due to the threshold
+        self.update(self._pos, force=True)
         sys.stderr.write('\n')
         # Restore cursor
         sys.stderr.buffer.write(curses.tigetstr('cnorm'))

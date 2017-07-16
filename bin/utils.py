@@ -43,6 +43,7 @@ class ProgressBar(object):
         sys.stderr.write(self._fmt.format(
             pos=pos, bar=bar, percentage=percentage,
         ))
+        self._updated = time.time()
 
     # After calling done(), call activate() to redraw and re-activate the bar.
     def done(self):

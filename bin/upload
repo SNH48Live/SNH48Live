@@ -4,6 +4,8 @@
 
 import argparse
 import http.client
+import io
+import mimetypes
 import os
 import random
 import subprocess
@@ -17,6 +19,8 @@ import oauth2client.client
 import oauth2client.file
 import oauth2client.tools
 from apiclient.errors import HttpError
+
+from utils import ProgressBar
 
 
 # Explicitly tell the underlying HTTP transport library not to retry, since
@@ -79,6 +83,49 @@ https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
 VALID_PRIVACY_STATUSES = ('public', 'private', 'unlisted')
 
 
+# Remember to call <obj>.bar.done() when done with the file to finish
+# the progress bar.
+class FileReaderWithProgressBar(io.BufferedReader):
+
+    def __init__(self, file):
+        raw = io.FileIO(file)
+        buffering = io.DEFAULT_BUFFER_SIZE
+        stat = os.fstat(raw.fileno())
+        size = stat.st_size
+        try:
+            block_size = stat.st_blksize
+        except AttributeError:
+            pass
+        else:
+            if block_size > 1:
+                buffering = block_size
+        super().__init__(raw, buffering)
+        self.bar = ProgressBar(size)
+
+    def seek(self, pos, whence=0):
+        abspos = super().seek(pos, whence)
+        self.bar.update(abspos)
+        return abspos
+
+    def read(self, size=-1):
+        result = super().read(size)
+        self.bar.update(self.tell())
+        return result
+
+
+# Remember to call <obj>.bar.done() when done with the upload to finish
+# the progress bar.
+class MediaFileUploadWithProgressBar(googleapiclient.http.MediaIoBaseUpload):
+
+    def __init__(self, file, mimetype=None, chunksize=googleapiclient.http.DEFAULT_CHUNK_SIZE,
+                 resumable=False):
+        fp = FileReaderWithProgressBar(file)
+        self.bar = fp.bar
+        if mimetype is None:
+            mimetype, _ = mimetypes.guess_type(file)
+        super().__init__(fp, mimetype, chunksize=chunksize, resumable=resumable)
+
+
 def get_authenticated_service(args):
     flow = oauth2client.client.flow_from_clientsecrets(
         CLIENT_SECRETS_FILE,
@@ -117,15 +164,17 @@ def initialize_upload(youtube_client, args):
     )
 
     # Call the API's videos.insert method to create and upload the video.
+    # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.videos.html#insert
+    media = MediaFileUploadWithProgressBar(args.file, chunksize=-1, resumable=True)
     insert_request = youtube_client.videos().insert(
         part=','.join(body.keys()),
         body=body,
         # chunksize=-1 (stream in a single request) is most efficient.
         # https://google.github.io/google-api-python-client/docs/epy/googleapiclient.http.MediaFileUpload-class.html
-        media_body=googleapiclient.http.MediaFileUpload(args.file, chunksize=-1, resumable=True)
+        media_body=media,
     )
 
-    video_id = resumable_upload(insert_request)
+    video_id = resumable_upload(insert_request, bar=media.bar)
     if args.thumbnail:
         print('Setting thumbnail...')
         subprocess.run([os.path.join(HERE, 'set-thumbnail'), video_id, args.thumbnail])
@@ -133,20 +182,26 @@ def initialize_upload(youtube_client, args):
 
 # This method implements an exponential backoff strategy to resume a
 # failed upload.
-def resumable_upload(insert_request):
+def resumable_upload(insert_request, bar=None):
     response = None
     error = None
     retry = 0
+    print('Uploading file...')
+    if bar:
+        bar.activate()
     while response is None:
         try:
-            print('Uploading file...')
             status, response = insert_request.next_chunk()
             if response is not None:
                 if 'id' in response:
                     video_id = response['id']
+                    if bar:
+                        bar.done()
                     print('Video id \'%s\' was successfully uploaded.' % video_id)
                     return video_id
                 else:
+                    if bar:
+                        bar.done()
                     exit('The upload failed with an unexpected response: %s' % response)
         except HttpError as e:
             if e.resp.status in RETRIABLE_STATUS_CODES:
@@ -158,6 +213,8 @@ def resumable_upload(insert_request):
             error = 'A retriable error occurred: %s' % e
 
         if error is not None:
+            if bar:
+                bar.done()
             print(error)
             retry += 1
             if retry > MAX_RETRIES:
@@ -167,6 +224,8 @@ def resumable_upload(insert_request):
             sleep_seconds = random.random() * max_sleep
             print('Sleeping %f seconds and then retrying...' % sleep_seconds)
             time.sleep(sleep_seconds)
+            if bar:
+                bar.activate()
 
 
 def main():

@@ -1,0 +1,66 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H15S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/A8TCz6-pUXohVad4WWqQx83gIe0\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1632234028",
+    "fileType": "video"
+  },
+  "id": "cIiTveqFO3E",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "截取自http://live.snh48.com/Index/invedio/id/265\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "截取自http://live.snh48.com/Index/invedio/id/265\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170714 SNH48 星机女学院 第02集"
+    },
+    "publishedAt": "2017-07-14T17:26:21.000Z",
+    "tags": [
+      "SNH48",
+      "星机女学院"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/cIiTveqFO3E/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/cIiTveqFO3E/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/cIiTveqFO3E/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/cIiTveqFO3E/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/cIiTveqFO3E/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170714 SNH48 星机女学院 第02集"
+  }
+}

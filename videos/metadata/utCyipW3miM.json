@@ -1,0 +1,78 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT4H22M56S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "US",
+        "AU",
+        "MX",
+        "JP",
+        "KR",
+        "NZ"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/mTbcQIjd1MFA5EWoGrqo7yltLqs\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "7171927593",
+    "fileType": "video"
+  },
+  "id": "utCyipW3miM",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170709 SNH48 总选拉票专场暨四选中报\nhttp://live.snh48.com/Index/invedio/id/260\n\n2:29:58–2:35:03 刘增艳翻唱的《我心中尚未崩坏的地方》（原唱五月天）由于被YouTube全球屏蔽所以剪掉了。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170709 SNH48 总选拉票专场暨四选中报\nhttp://live.snh48.com/Index/invedio/id/260\n\n2:29:58–2:35:03 刘增艳翻唱的《我心中尚未崩坏的地方》（原唱五月天）由于被YouTube全球屏蔽所以剪掉了。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170709 SNH48 总选拉票专场暨四选中报"
+    },
+    "publishedAt": "2017-07-09T18:32:50.000Z",
+    "tags": [
+      "SNH48",
+      "我心翱翔",
+      "总决选",
+      "中报"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/utCyipW3miM/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/utCyipW3miM/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/utCyipW3miM/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/utCyipW3miM/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/utCyipW3miM/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170709 SNH48 总选拉票专场暨四选中报"
+  }
+}

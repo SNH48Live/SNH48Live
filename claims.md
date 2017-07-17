@@ -1,7 +1,125 @@
-# Videos with copyright claims
+OB# Videos with copyright claims
 
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
+
+[20170716 SNH48 Team NⅡ 专属派对 47 赵粤生日主题公演暨总选拉票公演](https://youtube.com/watch?v=g0DB6nADShQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 那些花兒 - 范瑋琪<br>Sound recording<br>3:12:11 - 3:12:57 | linfair_records<br>On behalf of: Linfair Records Limited | Monetized by copyright owner |
+| Audiovisual content<br>0:01 - 1:33 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170716 SNH48 Team X 梦想的旗帜 42 张嘉予生日主题公演暨总选拉票公演](https://youtube.com/watch?v=nshhVl0Nroo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| SAKURANO SHIORI<br>Music composition<br>1:15:26 - 1:16:26 | APRA_CS<br>WAMI_CS<br>CASH | Monetized by copyright owner |
+| LET IT RAIN<br>Music composition<br>1:57:10 - 1:57:41 | FILSCAP<br>APRA_CS<br>COMPASS_CS<br>SOCAN | Monetized by copyright owner |
+
+---
+
+[20170715 SNH48 Team XⅡ 代号XⅡ 35 张怡生日主题公演暨总选拉票公演](https://youtube.com/watch?v=p-Grv5TNP2M)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:06:38 - 3:07:11 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170715 SNH48 Team HⅡ 美丽世界 22 李清扬生日主题公演暨总选拉票公演](https://youtube.com/watch?v=_nAKUlVLYh8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| となりのバナナ - AKB48<br>Sound recording<br>2:33:14 - 2:35:05 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| わがままな流れ星 - SKE48（Team E）<br>Sound recording<br>2:30:08 - 2:30:58 | AKB48<br>On behalf of: avex trax | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+
+---
+
+[20170714 SNH48 我们向前冲 07 潘燕琦生日主题公演暨总选拉票公演](https://youtube.com/watch?v=yb-O3iKoTVs)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 06-Super Star - S.H.E<br>Sound recording<br>1:26:20 - 1:28:37 | HIMservice<br>On behalf of: HIM International Music | Monetized by copyright owner |
+| 崇拜 - 梁靜茹<br>Sound recording<br>2:43:04 - 2:46:53 | Bin Music<br>On behalf of: Bin Music | Monetized by copyright owner |
+| Audiovisual content<br>2:31:59 - 2:33:27 | WebTVAsia (Music) | Monetized by copyright owner |
+| 有点甜 (feat. By2) - 汪苏泷<br>Sound recording<br>2:39:52 - 2:42:36 | Believe Music<br>On behalf of: 大象音乐 | Monetized by copyright owner |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:05:36 - 1:06:11 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:26:45 - 2:27:33 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:50:28 - 1:51:38 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
+
+---
+
+[20170713 SNH48 Team X 梦想的旗帜 41 林忆宁总选拉票公演](https://youtube.com/watch?v=5nPUIY3rA2k)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 空色デイズ -北京語ver.- - 中川　翔子<br>Sound recording<br>2:08:13 - 2:09:39 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2012 Sony Music Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+---
+
+[20170712 SNH48 Team SⅡ 第48区 05 莫寒、温晶婕总选拉票公演](https://youtube.com/watch?v=qkScOEaJQr0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:20:56 - 2:21:29 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:35:52 - 2:38:01 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170710 《莫莫有闻》第06期 震惊！“亲”女儿居然也进不了圈？](https://youtube.com/watch?v=tHfV-2E7yFc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>54:48 - 55:25 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170709 SNH48 总选拉票专场暨四选中报](https://youtube.com/watch?v=utCyipW3miM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:30:07 - 3:30:55 | WebTVAsia (Music) | Monetized by copyright owner |
+| 06 魔鬼中的天使 - 田馥甄<br>Sound recording<br>24:06 - 26:54 | HIMservice<br>On behalf of: HIM International Music | Monetized by copyright owner |
+| Visual content<br>48:45 - 49:33 | WebTVAsia (Music) | Monetized by copyright owner |
+| 虫のバラード - SKE48（Team E）<br>Sound recording<br>2:00:46 - 2:01:39 | AKB48<br>On behalf of: avex trax | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Visual content<br>2:23:48 - 2:25:52 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:46:06 - 1:47:28 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>27:28 - 28:19 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>1:38:36 - 1:39:23 | WebTVAsia (Music) | Monetized by copyright owner |
+| ポニーテールとシュシュ - SKE48<br>Sound recording<br>6:11 - 6:55 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Finesse - Bruno Mars<br>Sound recording<br>3:10:07 - 3:11:06 | WMG<br>On behalf of: Atlantic Records | Monetized by copyright owner |
+| 我喜歡上你時的内心活動 - 陳綺貞<br>Sound recording<br>1:39:50 - 1:42:49 | teamear<br>On behalf of: Teamear Music | Monetized by copyright owner |
+| Virgin love(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>2:53:56 - 2:55:18 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| Audiovisual content<br>58:38 - 59:47 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:30:07 - 2:31:31 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>3:12:52 - 3:13:57 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>1:56:20 - 1:58:39 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audio content<br>8:14 - 9:32 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Audiovisual content<br>3:22:04 - 3:23:08 | WebTVAsia (Music) | Monetized by copyright owner |
+| taohuachipao - BY2<br>Sound recording<br>2:18:45 - 2:20:00 | Taihe Music Group (Hong Kong) Limited<br>On behalf of: OBS | Monetized by copyright owner |
+| キャンディー - 河西智美<br>Sound recording<br>3:31:44 - 3:34:19 | NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+| 綠袖子 - 元若藍<br>Sound recording<br>1:36:09 - 1:37:50 | Mlsplaymusic<br>On behalf of: 米樂士娛樂股份有限公司 Millions Entertainment co.,Ltd | Monetized by copyright owner |
+| Audiovisual content<br>1:38:38 - 1:39:25 | WebTVAsia (Music) | Monetized by copyright owner |
+| 夜風の仕業 instrumental - フレンチ・キス<br>Sound recording<br>2:37:04 - 2:37:54 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
+| 邓紫棋《桃花诺》(电视剧《上古情歌》片尾曲) - G.E.M.<br>Sound recording<br>3:23:13 - 3:26:45 | hummingbirdmusichk<br>On behalf of: Hummingbird Music Ltd. | Monetized by copyright owner |
+| Audiovisual content<br>2:07:21 - 2:09:20 | WebTVAsia (Music) | Monetized by copyright owner |
+| 小幸運 - 田馥甄<br>Sound recording<br>55:58 - 58:07 | HIMservice<br>On behalf of: HIM International Music Inc. | Monetized by copyright owner |
+| Audiovisual content<br>58:38 - 59:46 | WebTVAsia (Music) | Monetized by copyright owner |
+| Feel Right - Mark Ronson feat. Mystikal<br>Sound recording<br>1:48:15 - 1:49:47 | SME<br>On behalf of: WaterTower Music | Monetized by copyright owner |
+| Audiovisual content<br>1:17:48 - 1:19:30 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>3:22:04 - 3:23:06 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>2:17:35 - 2:18:32 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>17:16 - 18:51 | WebTVAsia (Music) | Monetized by copyright owner |
+| 蒲公英的約定 - 周杰倫<br>Sound recording<br>2:44:24 - 2:46:05 | JVR<br>On behalf of: JVR Music International | Monetized by copyright owner |
+| Visual content<br>3:22:04 - 3:22:43 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:49:06 - 2:51:09 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:39:02 - 3:40:26 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:39:52 - 2:40:45 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
 
 [20170708 SNH48 Team X 梦想的旗帜 40 李钊生日主题公演暨总选拉票公演](https://youtube.com/watch?v=1YID9jKvY10)
 

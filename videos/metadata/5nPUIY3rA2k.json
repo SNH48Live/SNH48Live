@@ -1,0 +1,109 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H15M37S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "MX",
+        "US",
+        "KR",
+        "JP",
+        "AU",
+        "NZ"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/fHZJE9vrt386M6NtZhs3-JA5-wg\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131773",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3520073",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "3983234208",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3388300",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "5nPUIY3rA2k",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/264\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/264\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170713 SNH48 Team X 梦想的旗帜 41 林忆宁总选拉票公演"
+    },
+    "publishedAt": "2017-07-13T16:13:57.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "林忆宁",
+      "祁静",
+      "宋昕冉",
+      "汪佳翎",
+      "汪束",
+      "谢天依",
+      "杨冰怡",
+      "杨韫玉",
+      "姚祎纯",
+      "张丹三",
+      "张嘉予"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/5nPUIY3rA2k/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/5nPUIY3rA2k/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/5nPUIY3rA2k/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/5nPUIY3rA2k/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/5nPUIY3rA2k/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170713 SNH48 Team X 梦想的旗帜 41 林忆宁总选拉票公演"
+  }
+}

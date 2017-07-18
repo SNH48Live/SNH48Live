@@ -3,6 +3,14 @@ OB# Videos with copyright claims
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170717 《莫莫有闻》第07期 今天是Colorful Day!](https://youtube.com/watch?v=b2BpROz000s)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>15:44 - 16:30 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170716 SNH48 Team NⅡ 专属派对 47 赵粤生日主题公演暨总选拉票公演](https://youtube.com/watch?v=g0DB6nADShQ)
 
 | Content | Claimant | Policy |

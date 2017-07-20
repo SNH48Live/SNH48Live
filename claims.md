@@ -3,6 +3,17 @@ OB# Videos with copyright claims
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170719 Team HⅡ 美丽世界 23 咪咕专场暨杨惠婷、袁航总选拉票公演](https://youtube.com/watch?v=TMB4kQHYUvY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 太陽 - 陳綺貞<br>Sound recording<br>1:57:13 - 2:00:00 | teamear<br>AdShare MG for a Third Party<br>On behalf of: Teamear Music | Monetized by copyright owner |
+| Audiovisual content<br>2:11:06 - 2:12:51 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:56:15 - 1:56:59 | WebTVAsia (Music) | Monetized by copyright owner |
+| 虫のバラード - SKE48（Team E）<br>Sound recording<br>2:04:10 - 2:04:45 | AKB48<br>On behalf of: avex trax | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+
+---
+
 [20170717 《莫莫有闻》第07期 今天是Colorful Day!](https://youtube.com/watch?v=b2BpROz000s)
 
 | Content | Claimant | Policy |

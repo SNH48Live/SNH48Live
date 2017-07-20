@@ -15,9 +15,9 @@ import oauth2client.file
 import oauth2client.tools
 
 CHANNEL_ID = 'UC10BBCJQasWk_08Fdz0XCsQ'
-# "Uploads from SNH48 Live"
-# https://www.youtube.com/playlist?list=UU10BBCJQasWk_08Fdz0XCsQ
-UPLOADS_PLAYLIST_ID = 'UU10BBCJQasWk_08Fdz0XCsQ'
+# 全部（包括全部公演和其它）
+# https://www.youtube.com/playlist?list=PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW
+PLAYLIST_ID = 'PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW'
 
 # Number of videos to include in the report
 RECENT_VIDEOS_COUNT = 5
@@ -129,13 +129,13 @@ def get_top_videos(youtube_analytics, max_results=5):
     #   ]
     return list(next(zip(*response['rows'])))
 
-# Get a list of ids of recently uploaded videos.
+# Get a list of ids of recently published videos.
 # max_results is capped at 50.
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlistItems.html#list
 def get_recent_videos(youtube, max_results=5):
     response = youtube.playlistItems().list(
         part='contentDetails',
-        playlistId=UPLOADS_PLAYLIST_ID,
+        playlistId=PLAYLIST_ID,
         maxResults=min(max_results, 50),
     ).execute()
     return [item.contentDetails.videoId for item in attrdict.AttrDict(response)('items')]

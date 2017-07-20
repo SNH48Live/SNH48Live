@@ -1,0 +1,134 @@
+#!/usr/bin/env python3
+
+import argparse
+import json
+import os
+import sys
+
+import attrdict
+import httplib2
+
+import googleapiclient.discovery
+import oauth2client.client
+import oauth2client.file
+import oauth2client.tools
+
+
+YOUTUBE_READONLY_SCOPE = 'https://www.googleapis.com/auth/youtube.readonly'
+YOUTUBE_API_SERVICE_NAME = 'youtube'
+YOUTUBE_API_VERSION = 'v3'
+
+MY_CHANNEL_ID = 'UC10BBCJQasWk_08Fdz0XCsQ'
+
+HERE = os.path.dirname(os.path.realpath(__file__))
+ROOT = os.path.dirname(HERE)
+
+METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
+
+# Download clients_secrets.json from
+#   https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
+# YouTube Data API needs to be enabled for the project.
+CLIENT_SECRETS_FILE = os.path.join(ROOT, 'config', 'client_secrets.json')
+
+# Auto generated.
+OAUTH_CREDENTIALS_FILE = os.path.join(ROOT, 'config', 'search_ranker_credentials.json')
+
+# This variable defines a message to display if the CLIENT_SECRETS_FILE is
+# missing.
+MISSING_CLIENT_SECRETS_MESSAGE = f'''
+WARNING: Please configure OAuth 2.0 by downloading client_secrets.json from
+
+  https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
+
+and putting it at
+
+  {CLIENT_SECRETS_FILE}
+
+For more information about the client_secrets.json file format, please visit:
+https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
+'''
+
+
+def get_authenticated_service(args):
+    flow = oauth2client.client.flow_from_clientsecrets(
+        CLIENT_SECRETS_FILE,
+        scope=YOUTUBE_READONLY_SCOPE,
+        message=MISSING_CLIENT_SECRETS_MESSAGE,
+    )
+
+    storage = oauth2client.file.Storage(OAUTH_CREDENTIALS_FILE)
+    credentials = storage.get()
+
+    if credentials is None or credentials.invalid:
+        credentials = oauth2client.tools.run_flow(flow, storage, args)
+
+    return googleapiclient.discovery.build(
+        YOUTUBE_API_SERVICE_NAME,
+        YOUTUBE_API_VERSION,
+        http=credentials.authorize(httplib2.Http()),
+    )
+
+
+# https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.search.html
+def search(youtube_client):
+    list_request = youtube_client.search().list(
+        part='snippet',
+        q='SNH48',
+        maxResults=50,
+    )
+    list_response = list_request.execute()
+    items = list_response['items']
+    assert len(items) == 50
+    return items
+
+
+# Returns an attrdict.AttrDict with the following attributes:
+# - kind (video, channel, or playlist)
+# - title
+# - channel_id
+# - channel_title
+# - id
+# - url
+def parse_search_result(item):
+    item = attrdict.AttrDict(item)
+    metadata = attrdict.AttrDict()
+    assert item.id.kind.startswith('youtube#')
+    metadata.kind = item.id.kind[8:]
+    metadata.title = item.snippet.title
+    metadata.channel_id = item.snippet.channelId
+    metadata.channel_title = item.snippet.channelTitle
+    if metadata.kind == 'video':
+        metadata.id = item.id.videoId
+        metadata.url = f'https://youtu.be/{metadata.id}'
+    elif metadata.kind == 'channel':
+        metadata.id = item.id.channelId
+        metadata.url = f'https://youtube.com/channel/{metadata.id}'
+    elif metadata.kind == 'playlist':
+        metadata.id = item.id.playlistId
+        metadata.url = f'https://youtube.com/playlist?list={metadata.id}'
+    return metadata
+
+
+def print_search_result(rank, metadata):
+    print(f'{rank:02d} [{metadata.kind}] {metadata.title}')
+    print(f'   {metadata.url}')
+    print()
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        parents=[oauth2client.tools.argparser],
+    )
+    args = parser.parse_args()
+
+    youtube_client = get_authenticated_service(args)
+
+    for index, item in enumerate(search(youtube_client)):
+        metadata = parse_search_result(item)
+        if metadata.channel_id == MY_CHANNEL_ID:
+            print_search_result(index + 1, metadata)
+
+
+if __name__ == '__main__':
+    main()

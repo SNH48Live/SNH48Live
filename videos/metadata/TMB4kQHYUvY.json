@@ -9,15 +9,15 @@
     "projection": "rectangular",
     "regionRestriction": {
       "blocked": [
-        "US",
-        "AU",
-        "MX",
         "NZ",
-        "KR"
+        "AU",
+        "US",
+        "KR",
+        "MX"
       ]
     }
   },
-  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/C6DMq6V64XtweV1mbKdDYjCGTIw\"",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/ARDFL1yqh_uAe8t0CE-O7Z57iIs\"",
   "fileDetails": {
     "container": "mov",
     "fileName": "unknown",
@@ -36,7 +36,7 @@
     "liveBroadcastContent": "none",
     "localized": {
       "description": "转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av12374489\n\n2:10:14–2:11:40杨惠婷、刘佩鑫表演的《Ain't My Fault 》由于被YouTube Content ID系统全球屏蔽所以剪掉了。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
-      "title": "20170719 Team HⅡ 美丽世界 23 咪咕专场暨杨惠婷、袁航总选拉票公演"
+      "title": "20170719 SNH48 Team HⅡ 美丽世界 23 咪咕专场暨杨惠婷、袁航总选拉票公演"
     },
     "publishedAt": "2017-07-20T01:14:07.000Z",
     "tags": [
@@ -70,6 +70,6 @@
         "width": 640
       }
     },
-    "title": "20170719 Team HⅡ 美丽世界 23 咪咕专场暨杨惠婷、袁航总选拉票公演"
+    "title": "20170719 SNH48 Team HⅡ 美丽世界 23 咪咕专场暨杨惠婷、袁航总选拉票公演"
   }
 }

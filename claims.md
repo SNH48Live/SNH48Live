@@ -26,7 +26,7 @@ OB# Videos with copyright claims
 
 ---
 
-[20170719 Team HⅡ 美丽世界 23 咪咕专场暨杨惠婷、袁航总选拉票公演](https://youtube.com/watch?v=TMB4kQHYUvY)
+[20170719 SNH48 Team HⅡ 美丽世界 23 咪咕专场暨杨惠婷、袁航总选拉票公演](https://youtube.com/watch?v=TMB4kQHYUvY)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |

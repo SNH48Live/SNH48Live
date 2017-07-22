@@ -1,0 +1,102 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H1M49S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/nAKXwR9S6asn9qdBifIddAhj9do\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131332",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3517450",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5339720948",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3386118",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "A0vB9EP3lPQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/274\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/274\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170722 SNH48 Team SⅡ 第48区 06 徐晨辰生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-07-22T10:25:23.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "陈观慧",
+      "陈思",
+      "成珏",
+      "戴萌",
+      "蒋芸",
+      "孔肖吟",
+      "李宇琪",
+      "莫寒",
+      "潘燕琦",
+      "钱蓓婷",
+      "孙芮",
+      "温晶婕",
+      "徐晨辰",
+      "徐子轩",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格",
+      "冯晓菲"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/A0vB9EP3lPQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/A0vB9EP3lPQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/A0vB9EP3lPQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/A0vB9EP3lPQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/A0vB9EP3lPQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170722 SNH48 Team SⅡ 第48区 06 徐晨辰生日主题公演暨总选拉票公演"
+  }
+}

@@ -3,6 +3,29 @@ OB# Videos with copyright claims
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170722 SNH48 Team X 梦想的旗帜 43 宋昕冉生日主题公演暨总选拉票公演](https://youtube.com/watch?v=lMFDvCBpL6M)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:08 - 6:29 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:00 - 2:06 | WebTVAsia (Music) | Monetized by copyright owner |
+| Cat and Mouse - By2<br>Sound recording<br>1:46:27 - 1:47:28 | The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司 | Monetized by copyright owner |
+| I - Jolin Tsai<br>Sound recording<br>3:21:09 - 3:22:41 | WMG<br>On behalf of: Mars Entertainment Co., Ltd - 3rd Party Domestic | Monetized by copyright owner |
+
+---
+
+[20170722 SNH48 Team SⅡ 第48区 06 徐晨辰生日主题公演暨总选拉票公演](https://youtube.com/watch?v=A0vB9EP3lPQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 她說 - 林俊傑<br>Sound recording<br>2:56:00 - 2:57:54 | Taihe Music Group (Hong Kong) Limited<br>On behalf of: 新海 | Monetized by copyright owner |
+| Audiovisual content<br>0:00 - 0:32 | WebTVAsia (Music) | Monetized by copyright owner |
+| 曹操 - 林俊傑<br>Sound recording<br>1:37:16 - 1:38:44 | Taihe Music Group (Hong Kong) Limited<br>On behalf of: 新海 | Monetized by copyright owner |
+| Audiovisual content<br>2:41:12 - 2:41:53 | WebTVAsia (Music) | Monetized by copyright owner |
+| My Heart Will Go On (Dialogue Mix) - Céline Dion<br>Sound recording<br>1:34:01 - 1:35:27 | SME<br>On behalf of: Sony Classical | Monetized by copyright owner |
+
+---
+
 [20170719 Team HⅡ 美丽世界 23 咪咕专场暨杨惠婷、袁航总选拉票公演](https://youtube.com/watch?v=TMB4kQHYUvY)
 
 | Content | Claimant | Policy |

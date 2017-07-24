@@ -1,0 +1,102 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H14M25S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/YlKCgm6QgRvzb-DxlperAyhNwlw\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131666",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3616462",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5710422732",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3484796",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "Z8PyNvbF2j0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/276\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/276\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170723 SNH48 我们向前冲 08 吕一生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-07-23T11:02:00.000Z",
+    "tags": [
+      "SNH48",
+      "我们向前冲",
+      "成珏",
+      "吕一",
+      "潘燕琦",
+      "赵韩倩",
+      "赵晔",
+      "江真仪",
+      "金莹玥",
+      "刘菊子",
+      "许逸",
+      "张雨鑫",
+      "王露皎",
+      "徐伊人",
+      "袁一琦",
+      "祁静",
+      "姚祎纯",
+      "陶波尔",
+      "徐诗琪",
+      "曾晓雯"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Z8PyNvbF2j0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Z8PyNvbF2j0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/Z8PyNvbF2j0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Z8PyNvbF2j0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Z8PyNvbF2j0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170723 SNH48 我们向前冲 08 吕一生日主题公演暨总选拉票公演"
+  }
+}

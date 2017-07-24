@@ -3,6 +3,28 @@ OB# Videos with copyright claims
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170723 SNH48 Team X 梦想的旗帜 44 汪佳翎生日主题公演暨总选拉票公演](https://youtube.com/watch?v=6YEX1es9Ctc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Visual content<br>0:00 - 2:11 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:44:59 - 2:46:26 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170723 SNH48 我们向前冲 08 吕一生日主题公演暨总选拉票公演](https://youtube.com/watch?v=Z8PyNvbF2j0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Hanayo Odore - Akina Nakamori<br>Sound recording<br>2:56:01 - 2:56:49 | UMG<br>On behalf of: Universal Music | Monetized by copyright owner |
+| Cai Hong De Wei Xiao - EE(VARIOUS ARTISTS)<br>Sound recording<br>1:26:13 - 1:28:56 | Star Media Distribution Sdn Bhd<br>On behalf of: STARMEDIA (ELEMENTE ENTERTAINMENT) | Monetized by copyright owner |
+| Cinta Pertama Butterfly - JKT48<br>Sound recording<br>2:03:33 - 2:04:43 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:01:44 - 1:04:30 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audiovisual content<br>2:50:55 - 2:52:23 | WebTVAsia (Music) | Monetized by copyright owner |
+| 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:43:15 - 2:45:04 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
 [20170722 SNH48 Team X 梦想的旗帜 43 宋昕冉生日主题公演暨总选拉票公演](https://youtube.com/watch?v=lMFDvCBpL6M)
 
 | Content | Claimant | Policy |

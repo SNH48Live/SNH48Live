@@ -1,4 +1,4 @@
-OB# Videos with copyright claims
+# Videos with copyright claims
 
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->

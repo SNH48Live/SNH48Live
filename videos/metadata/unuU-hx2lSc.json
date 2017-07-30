@@ -1,0 +1,67 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H13M21S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/6DNP8nDCjkYUvCc2hZYKiFzOmiU\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "6335725762",
+    "fileType": "video"
+  },
+  "id": "unuU-hx2lSc",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "演唱会部分：https://youtu.be/OD0eR-eWp1g\n\n转自官方直播：https://youtu.be/0juOdNXHU6g\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "演唱会部分：https://youtu.be/OD0eR-eWp1g\n\n转自官方直播：https://youtu.be/0juOdNXHU6g\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会 发表部分"
+    },
+    "publishedAt": "2017-07-29T16:20:16.000Z",
+    "tags": [
+      "SNH48",
+      "我心翱翔",
+      "总选"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/unuU-hx2lSc/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/unuU-hx2lSc/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/unuU-hx2lSc/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/unuU-hx2lSc/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/unuU-hx2lSc/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会 发表部分"
+  }
+}

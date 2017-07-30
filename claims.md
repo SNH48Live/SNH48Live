@@ -3,6 +3,23 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会 发表部分](https://youtube.com/watch?v=unuU-hx2lSc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Over The Edge-Extreme Music - James S. Levine<br>Sound recording<br>0:06 - 0:41 | AdRev for a 3rd Party | Monetized by copyright owner |
+
+---
+
+[20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会 演唱会部分](https://youtube.com/watch?v=OD0eR-eWp1g)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 公主披風 - SNH48<br>Sound recording<br>2:32 - 5:37 | Rock Mobile Corporation<br>On behalf of: 上海絲芭文化 | Monetized by copyright owner |
+| Dewi Theater - JKT48<br>Sound recording<br>7:30 - 8:51 | Audiam (Label) | Monetized by copyright owner |
+
+---
+
 [20170723 SNH48 Team X 梦想的旗帜 44 汪佳翎生日主题公演暨总选拉票公演](https://youtube.com/watch?v=6YEX1es9Ctc)
 
 | Content | Claimant | Policy |

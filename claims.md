@@ -15,8 +15,12 @@
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Audio content<br>1:47:24 - 1:47:55 | AKB48<br>Channel: AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Audio content<br>57:07 - 58:08 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 | 公主披風 - SNH48<br>Sound recording<br>2:32 - 5:37 | Rock Mobile Corporation<br>On behalf of: 上海絲芭文化 | Monetized by copyright owner |
 | Dewi Theater - JKT48<br>Sound recording<br>7:30 - 8:51 | Audiam (Label) | Monetized by copyright owner |
+| Audio content<br>1:02:08 - 1:02:51 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| Audio content<br>1:50:46 - 1:52:32 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
 
 ---
 

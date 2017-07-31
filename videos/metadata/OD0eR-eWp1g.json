@@ -6,9 +6,18 @@
     "duration": "PT2H32M13S",
     "hasCustomThumbnail": true,
     "licensedContent": false,
-    "projection": "rectangular"
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "KR",
+        "NZ",
+        "MX",
+        "AU",
+        "US"
+      ]
+    }
   },
-  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Nft0O0LJ5-QwQhLj-1MU9BId9ws\"",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/hlXtDUA8GZ3_klum054Rp3Ka1zc\"",
   "fileDetails": {
     "container": "mov",
     "fileName": "unknown",

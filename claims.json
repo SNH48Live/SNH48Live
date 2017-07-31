@@ -17,6 +17,16 @@
     "link": "https://youtube.com/watch?v=OD0eR-eWp1g",
     "claims": [
       {
+        "content": "Audio content<br>1:47:24 - 1:47:55",
+        "claimant": "AKB48<br>Channel: AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+      },
+      {
+        "content": "Audio content<br>57:07 - 58:08",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+      },
+      {
         "content": "公主披風 - SNH48<br>Sound recording<br>2:32 - 5:37",
         "claimant": "Rock Mobile Corporation<br>On behalf of: 上海絲芭文化",
         "policy": "Monetized by copyright owner"
@@ -25,6 +35,16 @@
         "content": "Dewi Theater - JKT48<br>Sound recording<br>7:30 - 8:51",
         "claimant": "Audiam (Label)",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>1:02:08 - 1:02:51",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+      },
+      {
+        "content": "Audio content<br>1:50:46 - 1:52:32",
+        "claimant": "AKB48",
+        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
       }
     ]
   },

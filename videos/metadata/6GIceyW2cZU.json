@@ -1,0 +1,86 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2M40S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/ovBP2kIa23IpbN6aWzr8pB5AzoA\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "124959",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "6690045",
+    "container": "mov",
+    "durationMs": "159027",
+    "fileName": "unknown",
+    "fileSize": "103851350",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "6565086",
+        "codec": "h264",
+        "frameRateFps": 30.0188127090301,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "6GIceyW2cZU",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "取自 20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会\n演唱会完整版：https://youtu.be/OD0eR-eWp1g\n单曲播单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9GwEOX0k2qyPDIwxFR04NjS\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "取自 20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会\n演唱会完整版：https://youtu.be/OD0eR-eWp1g\n单曲播单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9GwEOX0k2qyPDIwxFR04NjS\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48 Team SⅡ《第48区》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会"
+    },
+    "publishedAt": "2017-08-01T10:47:33.000Z",
+    "tags": [
+      "我心翱翔",
+      "总选",
+      "SNH48"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/6GIceyW2cZU/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/6GIceyW2cZU/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/6GIceyW2cZU/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/6GIceyW2cZU/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/6GIceyW2cZU/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 Team SⅡ《第48区》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会"
+  }
+}

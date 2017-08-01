@@ -3,6 +3,174 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[SNH48《公主披风》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=KfiG81vY6mw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 5:01 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 Team XⅡ《剧场女神》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=BqLeFsm6ol4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:01 - 2:45 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 Team X《梦想的旗帜》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=tvT6WExpPAU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 3:12 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 Team HⅡ《H Zone》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=DsoSknD_5cM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 3:49 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 Team NⅡ《勇敢的心》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=uSNLpQ8GPtE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 2:46 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 Team SⅡ《第48区》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=6GIceyW2cZU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 2:39 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[Color Girls《Colorful Days》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=PATidKJugLI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:01 - 3:00 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[7SENSES《Moonlight》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=29A-AjHy73g)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 3:49 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[曾艳芬、冯薪朵《天使的圈套》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=AhGX_Y8NBcY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 2:38 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[黄婷婷《黑夜女神》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=o890rCqwIJo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 3:08 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[莫寒、赵粤、林思意《梦》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=PMPfoJpUno4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 2:53 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[张语格、许佳琪、万丽娜、刘炅然、张丹三《Monster》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=pZWXKyParTQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 3:00 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[李艺彤《关不掉》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=jr0I5RJlAiA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 3:00 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[陆婷、邱欣怡、戴萌《对峙》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=Fo-NdgUYZQo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 2:24 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[鞠婧祎《每一天》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=GPDyNEer9tY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 2:33 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[鞠婧祎《等不到你》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=xJ8YCHXDES4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 3:33 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 Group《夏日柠檬船》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=pEs21BDw-jg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 4:26 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48《钻石呐喊》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=3uqucuDyCWs)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 2:33 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 Group《机尾云》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=Rw0Yk1ygCNQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 2:54 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 Group《彼此的未来》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=Ar9MBMfu_Fo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:01 - 4:40 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 Group《我心翱翔》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=Q7W0IdBbXFE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 8:36 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会 发表部分](https://youtube.com/watch?v=unuU-hx2lSc)
 
 | Content | Claimant | Policy |

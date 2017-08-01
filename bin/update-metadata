@@ -83,7 +83,7 @@ def fetch_video_metadata(youtube_client, video_id):
 
 
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.videos.html#update
-def update_title(youtube_client, video_id, pattern, repl):
+def update_title(youtube_client, video_id, pattern, repl, *, dry_run=False):
     metadata = fetch_video_metadata(youtube_client, video_id)
     snippet = metadata['snippet']
     if pattern:
@@ -98,15 +98,16 @@ def update_title(youtube_client, video_id, pattern, repl):
         # Replace title with repl, verbatim, without consulting the existing title
         new_title = repl
 
-    snippet['title'] = new_title
-    update_request = youtube_client.videos().update(
-        part='id,snippet',
-        body=dict(
-            id=video_id,
-            snippet=snippet,
-        ),
-    )
-    update_request.execute()
+    if not dry_run:
+        snippet['title'] = new_title
+        update_request = youtube_client.videos().update(
+            part='id,snippet',
+            body=dict(
+                id=video_id,
+                snippet=snippet,
+            ),
+        )
+        update_request.execute()
     logger.info(f'{video_id} title updated: {new_title}')
 
 
@@ -185,7 +186,7 @@ def insert_playlist(youtube_client, video_id, playlist_id, *, position=0):
 
 def update_title_handler(args):
     for video_id in args.video_ids.split(','):
-        update_title(args.youtube_client, video_id, args.pattern, args.repl)
+        update_title(args.youtube_client, video_id, args.pattern, args.repl, dry_run=args.test)
 
 
 def update_description_handler(args):
@@ -221,6 +222,7 @@ def main():
     is directly replaced with repl.'''
     parser_update_title = subparsers.add_parser('update-title', description=desc)
     add = parser_update_title.add_argument
+    add('-t', '--test', action='store_true', help='show expected renames but do not commit to them')
     add('video_ids', help='comma-delimited video IDs')
     add('pattern')
     add('repl')

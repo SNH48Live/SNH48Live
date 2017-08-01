@@ -239,9 +239,9 @@ def main():
     add = parser.add_argument
     add('file',
         help='video file to upload')
-    add('-t', '--title', default='Title not set',
-        help='video title')
-    add('-d', '--description', default='Description not set.',
+    add('-t', '--title', default=None,
+        help='video title (default is the filename)')
+    add('-d', '--description', default='',
         help='video description')
     add('--tags', default='SNH48',
         help='comma-delimited list of video tags; default is SNH48')
@@ -257,6 +257,9 @@ def main():
 
     if not os.path.isfile(args.file):
         exit(f'Error: {args.file} not found.')
+
+    if args.title is None:
+        args.title = os.path.basename(os.path.splitext(args.file)[0])
 
     youtube_client = get_authenticated_service(args)
     try:

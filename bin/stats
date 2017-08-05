@@ -21,7 +21,7 @@ PLAYLIST_ID = 'PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW'
 
 # Number of videos to include in the report
 RECENT_VIDEOS_COUNT = 5
-TOP_VIDEOS_COUNT = 5
+TOP_VIDEOS_COUNT = 10
 
 # API related constants
 YOUTUBE_SCOPES = [

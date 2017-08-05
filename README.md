@@ -27,6 +27,7 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 - [`record-performance`](bin/record-performance): record performance metadata into `performances.json`.
 - [`searchrank`](bin/searchrank): find this channel and its videos among the top 50 SNH48-related search results. Purely for bragging rights.
 - [`stats`](bin/stats): fetch and display channel analytics data.
+- [`stats-monitor`](bin/stats-monitor): run `stats` periodically, print and log results.
 - [`tweet`](bin/tweet): tweet to [Twitter](https://twitter.com/snh48live).
 - [`thumbnail`](bin/thumbnail): generate custom thumbnails.
 - [`update-metadata`](bin/update-metadata): update metadata of videos in various ways (check the subcommands).

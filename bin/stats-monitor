@@ -1,0 +1,35 @@
+#!/usr/bin/env zsh
+
+zmodload zsh/datetime
+
+INTERVAL=60
+
+here=$0:A:h
+root=$here:h
+python=$root/venv/bin/python
+stats=$here/stats
+logdir=/var/log/snh48live/stats
+
+iteration () {
+    logfile="$logdir/$(date +%Y%m%d).log"
+    content="$(print "datetime: $(date --iso-8601=s)"; echo; $python $stats --no-pager)"
+    clear
+    print -R $content
+    $python - =(print -R $content; echo) >> $logfile <<EOF
+# Strip ANSI escape sequences
+import re, sys
+# Borrowed from https://github.com/chalk/ansi-regex/blob/master/index.js.
+ANSI_RE = re.compile('[\u001B\u009B][[\]()#;?]*(?:(?:(?:[a-zA-Z\d]*(?:;[a-zA-Z\d]*)*)?\u0007)|(?:(?:\d{1,4}(?:;\d{0,4})*)?[\dA-PRZcf-ntqry=><~]))', re.A)
+with open(sys.argv[1]) as fp:
+    for line in fp:
+        print(ANSI_RE.sub('', line), end='')
+EOF
+}
+
+tput civis
+trap 'tput cnorm; exit 0' EXIT TERM INT
+
+while true; do
+    sleep $(( INTERVAL - EPOCHREALTIME % INTERVAL ))
+    iteration
+done

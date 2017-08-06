@@ -3,6 +3,30 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170805 SNH48 Team X 梦想的旗帜 45 祁静生日主题公演](https://youtube.com/watch?v=_jBUQG0Tpko)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 小幸運 - 田馥甄<br>Sound recording<br>1:22:38 - 1:24:52 | HIMservice<br>On behalf of: HIM International Music Inc. | Monetized by copyright owner |
+
+---
+
+[20170805 SNH48 Team SⅡ 第48区 07 袁丹妮生日主题公演](https://youtube.com/watch?v=fXWIZkmrWeg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| SEIFUKU REJISUTANSU<br>Music composition<br>1:31:47 - 1:32:23 | CASH | Monetized by copyright owner |
+
+---
+
+[20170804 SNH48 Team HⅡ 美丽世界 24](https://youtube.com/watch?v=KbTOpeofKJQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Ponytail To Shu Shu - AKB48<br>Sound recording<br>2:05:43 - 2:06:23 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+
+---
+
 [SNH48《公主披风》——20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会](https://youtube.com/watch?v=KfiG81vY6mw)
 
 | Content | Claimant | Policy |

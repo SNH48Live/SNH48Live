@@ -8,7 +8,9 @@ here=$0:A:h
 root=$here:h
 python=$root/venv/bin/python
 stats=$here/stats
-logdir=/var/log/snh48live/stats
+logdir=$root/logs/stats
+
+mkdir -p $logdir
 
 iteration () {
     logfile="$logdir/$(date +%Y%m%d).log"

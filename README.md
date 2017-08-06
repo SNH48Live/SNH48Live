@@ -19,6 +19,7 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 
 ## Helpers
 
+- [`download`](bin/download): the heart and soul of this channel. Downloads a VOD from live.snh48.com, then optionally uploads it to the channel.
 - [`extract-claims`](bin/extract-claims): extract video info and associated copyright claims from a YouTube copyright claims page, and automatically populate related datastores.
 - [`fetch-metadata`](bin/fetch-metadata): fetch metadata of all content videos.
 - [`parse-attendance-sheet`](bin/parse-attendance-sheet): convert `attendance.txt` into `attendance.json`.

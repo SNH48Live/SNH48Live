@@ -1,0 +1,230 @@
+#!/usr/bin/env python3
+
+import argparse
+import logging
+import os
+import pathlib
+import re
+import shlex
+import subprocess
+import textwrap
+import time
+import urllib.parse
+from typing import List, Tuple
+
+import yaml
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent
+VIDEOS_DIR = ROOT / 'videos'
+THUMBNAILS_DIR = ROOT / 'thumbnails/generated'
+MERGED_EXT = '.m4v'
+
+JOBS = 20
+
+os.putenv('PARALLEL_SHELL', '/bin/bash')
+
+logging.basicConfig(
+    format='[%(asctime)s] %(levelname)s: %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+)
+logger = logging.getLogger('v')
+logger.setLevel(logging.DEBUG)
+
+class Config(object): pass
+
+def load_config(config_file: pathlib.Path) -> Config:
+    with open(config_file) as fp:
+        conf_dict = yaml.load(fp)
+
+    conf = Config()
+    for attr in ('title', 'm3u8'):
+        if attr in conf_dict:
+            setattr(conf, attr, conf_dict[attr])
+        else:
+            logger.error(f'{attr} not found in {config_file}')
+    conf.vod = conf_dict.get('vod', 'http://live.snh48.com/')
+    conf.tags = conf_dict.get('tags', [])
+    if 'SNH48' not in conf.tags:
+        conf.tags.insert(0, 'SNH48')
+    conf.thumbnail = conf_dict.get('thumbnail')
+    if conf.thumbnail:
+        conf.thumbnail = str(THUMBNAILS_DIR / conf.thumbnail)
+
+    return conf
+
+def log_command(args: List[str]) -> None:
+    logger.debug(' '.join(map(shlex.quote, args)))
+
+def download_m3u8(m3u8_url: str, dest: pathlib.Path, *, retry_interval: int = 60) -> None:
+    os.makedirs(dest, exist_ok=True)
+    m3u8_file = dest / 'stream.m3u8'
+    urls_file = dest / 'urls.txt'
+
+    if not os.path.isfile(urls_file) or os.path.getsize(urls_file) == 0:
+        # Download m3u8 file
+        logger.info(f'Downloading {m3u8_url}')
+        cmd = ['curl', '-fsL', '-w', '%{http_code}', '-o', str(m3u8_file), m3u8_url]
+        while True:
+            try:
+                log_command(cmd)
+                subprocess.check_output(cmd)
+                break
+            except subprocess.CalledProcessError as e:
+                code = e.stdout.decode('utf-8').strip()
+                logger.warning(f'{m3u8_url}: HTTP {code}; retrying in {retry_interval}s')
+                time.sleep(retry_interval)
+
+        # Populate urls.txt
+        num_chunks = 0
+        with open(m3u8_file) as fin:
+            with open(urls_file, 'w') as fout:
+                for line in fin:
+                    if line.startswith('#'):
+                        continue
+                    num_chunks += 1
+                    print(urllib.parse.urljoin(m3u8_url, line.strip()), file=fout)
+    else:
+        logger.info('Found urls.txt')
+        with open(urls_file) as fp:
+            num_chunks = sum(1 for line in fp)
+
+    # Download chunks
+    logger.info(f'Downloading {num_chunks} chunks (SIGINT to interrupt)')
+    cmd = [
+        'parallel', '--bar', '-j', str(JOBS),
+        'cd {1}; [[ -f {#}.done ]] || { wget --continue -o {#}.log -O {#}.ts {2} && touch {#}.done; }',
+        ':::', str(dest),
+        '::::', str(urls_file),
+    ]
+    # Exponential backoff
+    interval = 1
+    max_interval = retry_interval
+    while True:
+        try:
+            log_command(cmd)
+            subprocess.check_call(cmd)
+            break
+        except KeyboardInterrupt:
+            logging.warning('Interrupted')
+            break
+        except subprocess.CalledProcessError as e:
+            logging.warning(f'exit status: {e.returncode}; retrying in {interval}s')
+            time.sleep(interval)
+            interval = min(interval * 2, max_interval)
+
+def merge_chunks(dest: pathlib.Path, basename: str) -> pathlib.Path:
+    urls_file = dest / 'urls.txt'
+    with open(urls_file) as fp:
+        num_chunks = sum(1 for line in fp)
+
+    # Verify chunks
+    logger.info('Verifying chunks')
+    cmd = [
+        'parallel', '--bar', '-j', str(JOBS),
+        'cd {1}; ffmpeg -y -i {#}.ts -c copy -f mp4 /dev/null >/dev/null 2>&1 || echo {#}',
+        ':::', str(dest),
+        '::::', str(urls_file),
+    ]
+    log_command(cmd)
+    broken_chunks = sorted(map(int, subprocess.check_output(cmd).decode('utf-8').split()))
+
+    concat_list_file = dest / 'concat_list.txt'
+    merged_file = dest / f'{basename}{MERGED_EXT}'
+
+    with open(concat_list_file, 'w') as fp:
+        for i in range(1, num_chunks + 1):
+            if i not in broken_chunks:
+                print(f'file {i}.ts', file=fp)
+
+    logger.info('Merging chunks')
+    cmd = ['ffmpeg', '-y', '-f', 'concat', '-safe', '1', '-i', str(concat_list_file),
+           '-c', 'copy', '-movflags', 'faststart', str(merged_file)]
+    log_command(cmd)
+    subprocess.run(cmd)
+    logger.info(f'Merged into {merged_file}')
+
+    if broken_chunks:
+        joined = ' '.join(str(chunk) for chunk in broken_chunks)
+        logger.error(f'Broken chunks: {joined}')
+
+    return merged_file
+
+def performers(vod: str) -> List[str]:
+    vod_pattern = re.compile(r'^https?://(live\.(?:snh|bej|gnz|shy)48\.com)/.*/(\d+)$')
+    m = vod_pattern.match(vod)
+    if not m:
+        return []
+
+    cmd = [
+        str(HERE / 'performers'),
+        '--platform', m.group(1),
+        m.group(2),
+    ]
+    log_command(cmd)
+    try:
+        output = subprocess.check_output(cmd).decode('utf-8').strip()
+        return output.split(',')
+    except subprocess.CalledProcessError:
+        logger.warn('`performers` failed')
+        return []
+
+def upload(file: pathlib.Path, conf: Config):
+    # Title transformations
+    full_title = re.sub(r'^(\d{8}) ',
+                        lambda m: f'{m.group(1)} SNH48 ',
+                        conf.title)
+    full_title = full_title.replace('生日', '生日主题公演')
+
+    description = textwrap.dedent(f'''\
+    {conf.vod}
+
+    本视频版权归上海丝芭文化传媒集团有限公司所有。
+    ''')
+
+    tags = conf.tags + performers(conf.vod)
+
+    cmd = [
+        str(HERE / 'upload'),
+        '--title', full_title,
+        '--description', description,
+        '--tags', ','.join(tags),
+    ]
+    if conf.thumbnail:
+        cmd += ['--thumbnail', conf.thumbnail]
+    cmd += [str(file)]
+
+    log_command(cmd)
+    subprocess.run(cmd)
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    add = parser.add_argument
+    add('config_file')
+    add('-r', '--redownload', action='store_true',
+        help='redownload and reassemble even if merged file already exists')
+    add('--no-upload', action='store_true')
+    args = parser.parse_args()
+
+    conf = load_config(args.config_file)
+    dest = VIDEOS_DIR / conf.title
+
+    filename = f'{conf.title}{MERGED_EXT}'
+    filepath = dest / filename
+    if not os.path.exists(filepath) or args.redownload:
+        download_m3u8(conf.m3u8, dest)
+        merge_chunks(dest, conf.title)
+    else:
+        logger.info(f'already downloaded: {filepath}')
+
+    # Link into videos/
+    try:
+        os.link(filepath, VIDEOS_DIR / filename)
+    except FileExistsError:
+        logger.warn(f'failed to link into {VIDEOS_DIR}: {filename} already exists')
+
+    if not args.no_upload:
+        upload(filepath, conf)
+
+if __name__ == '__main__':
+    main()

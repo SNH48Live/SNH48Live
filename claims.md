@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170806 SNH48 Team NⅡ 专属派对 49 陈佳莹生日主题公演](https://youtube.com/watch?v=DEtokUOi_F0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Pulchritude - Jolin Tsai<br>Sound recording<br>1:09:28 - 1:12:31 | WMG<br>On behalf of: Mars Entertainment Co., Ltd - 3rd Party Domestic | Monetized by copyright owner |
+
+---
+
 [20170805 SNH48 Team X 梦想的旗帜 45 祁静生日主题公演](https://youtube.com/watch?v=_jBUQG0Tpko)
 
 | Content | Claimant | Policy |

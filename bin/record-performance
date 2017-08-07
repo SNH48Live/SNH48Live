@@ -183,6 +183,7 @@ def main():
             ('special', special),
             ('video_id', video_id),
             ('performers', performers),
+            ('live_id', live_id),
             ('snh48club_video_id', snh48club_video_id),
         ])
         print(json.dumps(record, indent=2, ensure_ascii=None), end='')

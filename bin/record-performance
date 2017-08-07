@@ -20,7 +20,7 @@ from members import MEMBERS
 HERE = os.path.dirname(os.path.realpath(__file__))
 ROOT = os.path.dirname(HERE)
 VIDEO_METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
-DATASTORE = os.path.join(ROOT, 'performances.json')
+DATASTORE = os.path.join(ROOT, 'data/performances.json')
 OFFICIAL_PERFORMER_LIST_FETCHER = os.path.join(ROOT, 'bin', 'performers')
 ATTENDANCE_JSON = os.path.join(ROOT, 'data/attendance.json')
 

@@ -13,7 +13,7 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 - [`partially-blocked.txt`](partially-blocked.txt): short list of videos that are blocked in some countries (see `claims.md` for details). To get around region blocks, use a VPN service, e.g. [Private Internet Access](https://www.privateinternetaccess.com/).
 - [`claims.md`](claims.md): list of videos and their associated copyright claims.
 - [`claims.json`](claims.json): list of videos and their associated copyright claims, in JSON format.
-- [`performances.json`](performances.json): a streamable line-oriented JSON data store of metadata of performances, used for [snh48live.org/filter](https://snh48live.org/filter/).
+- [`performances.json`](data/performances.json): a streamable line-oriented JSON data store of metadata of performances, used for [snh48live.org/filter](https://snh48live.org/filter/).
 - [`attendance.txt`](data/attendance.txt): human-readable attendance sheet (compiled by myself, might contain mistakes).
 - [`attendance.json`](data/attendance.json): structured version of `attendance.txt` for machine consumption.
 

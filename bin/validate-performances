@@ -1,0 +1,83 @@
+#!/usr/bin/env python3
+
+# In response to https://github.com/SNH48Live/SNH48Live/commit/89769b5c4e6c7e02cc24f55d00b07e5afb9a365c.
+# Never make the same mistake again...
+
+import collections
+import json
+import logging
+import pathlib
+
+logging.basicConfig(format='[%(levelname)s] %(message)s')
+logger = logging.getLogger('validate-performances')
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent
+DATASTORE = ROOT / 'data/performances.json'
+
+EXPECTED_FIELDS = set([
+    'title',
+    'team',
+    'stage',
+    'special',
+    'video_id',
+    'performers',
+    'live_id',
+    'snh48club_video_id',
+])
+
+def log_entry_error(line_num, msg):
+    logger.error(f'line {line_num}: {msg}')
+
+def validate_keys(entries):
+    success = True
+    for line_num, entry in entries:
+        fields = set(entry.keys())
+        if fields == EXPECTED_FIELDS:
+            continue
+        msg = ''
+        if EXPECTED_FIELDS - fields:
+            missing = sorted(EXPECTED_FIELDS - fields)
+            msg += f'missing fields: {",".join(missing)}'
+        if fields - EXPECTED_FIELDS:
+            extraneous = sorted(fields - EXPECTED_FIELDS)
+            if msg:
+                msg += '; '
+            msg += f'extraneous fields: {",".extraneous(missing)}'
+        log_entry_error(line_num, msg)
+        success = False
+    return success
+
+def validate_no_dupes(entries):
+    success = True
+    # All these keys are unique and nullable
+    for key in 'video_id', 'live_id', 'snh48club_video_id':
+        values = [entry.get(key) for _, entry in entries if entry.get(key) is not None]
+        dupes = []
+        for value, count in collections.Counter(values).items():
+            if count > 1:
+                dupes.append(value)
+        if dupes:
+            logger.error(f'duplicate {key}s: {",".join(sorted(dupes))}')
+            success = False
+    return success
+
+def main():
+    entries = []
+    with open(DATASTORE) as fp:
+        for index, line in enumerate(fp):
+            line_num = index + 1
+            try:
+                entries.append((line_num, json.loads(line)))
+            except json.JSONDecodeError:
+                log_entry_error(line_num, 'malformed JSON')
+
+    success = all([
+        validate_keys(entries),
+        validate_no_dupes(entries),
+    ])
+
+    exit(0 if success else 1)
+
+if __name__ == '__main__':
+    main()

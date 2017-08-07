@@ -23,6 +23,7 @@ VIDEO_METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
 DATASTORE = os.path.join(ROOT, 'data/performances.json')
 OFFICIAL_PERFORMER_LIST_FETCHER = os.path.join(ROOT, 'bin', 'performers')
 ATTENDANCE_JSON = os.path.join(ROOT, 'data/attendance.json')
+VALIDATOR = os.path.join(HERE, 'validate-performances')
 
 STAGE_ASSOCIATIONS = {
     '': 'joint',
@@ -188,6 +189,9 @@ def main():
         ])
         print(json.dumps(record, indent=2, ensure_ascii=None), end='')
         prepend_to_data_store(record)
+
+        sys.stderr.write('\nValidating performances.json...\n')
+        subprocess.run([VALIDATOR])
     except BaseException as e:
         sys.stderr.write(f'\n[ERROR] {e}\n')
         sys.exit(1)

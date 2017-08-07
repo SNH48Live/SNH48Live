@@ -18,9 +18,9 @@ import bs4
 
 HERE = os.path.dirname(os.path.realpath(__file__))
 ROOT = os.path.dirname(HERE)
-PARTIALLY_BLOCKED_LIST = os.path.join(ROOT, 'partially-blocked.txt')
-CLAIMS_MD = os.path.join(ROOT, 'claims.md')
-CLAIMS_JSON = os.path.join(ROOT, 'claims.json')
+PARTIALLY_BLOCKED_LIST = os.path.join(ROOT, 'data/partially-blocked.txt')
+CLAIMS_MD = os.path.join(ROOT, 'data/claims.md')
+CLAIMS_JSON = os.path.join(ROOT, 'data/claims.json')
 
 Claim = collections.namedtuple('Claim', ['content', 'claimant', 'policy'])
 

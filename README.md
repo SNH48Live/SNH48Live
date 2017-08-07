@@ -6,8 +6,10 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 
 ## Docs
 
-- [`about.md`](about.md): general description of the channel.
-- [`video-source.md`](video-source.md): technical info on how videos on the channel are extracted, and qualities thereof.
+- [`about.md`](docs/about.md): general description of the channel.
+- [`video-source.md`](docs/video-source.md): technical info on how videos on the channel are extracted, and qualities thereof.
+
+## Data
 - [`videos.txt`](data/videos.txt): short list of all content videos (channel info videos are not included).
 - [`videos/metadata/*.json`](videos/metadata): metadata of content videos directly from YouTube API v3.
 - [`partially-blocked.txt`](data/partially-blocked.txt): short list of videos that are blocked in some countries (see `claims.md` for details). To get around region blocks, use a VPN service, e.g. [Private Internet Access](https://www.privateinternetaccess.com/).

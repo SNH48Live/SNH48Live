@@ -20,7 +20,7 @@ def run(command, description=None):
 
 def latest_video_ids(count=1):
     PATTERN = re.compile(r'^https://youtu.be/(?P<id>[a-zA-Z0-9_-]{11})\t')
-    with open(os.path.join(ROOT, 'videos.txt')) as fp:
+    with open(os.path.join(ROOT, 'data/videos.txt')) as fp:
         video_ids = []
         for line in fp:
             m = PATTERN.match(line)

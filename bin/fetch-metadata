@@ -132,7 +132,7 @@ def main():
     youtube_client = get_authenticated_service(args)
 
     if args.short:
-        with open(os.path.join(ROOT, 'videos.txt'), 'w') as fp:
+        with open(os.path.join(ROOT, 'data/videos.txt'), 'w') as fp:
             for vid, title in list_videos(youtube_client):
                 print(f'https://youtu.be/{vid}\t{title}', file=fp)
         sys.exit(0)

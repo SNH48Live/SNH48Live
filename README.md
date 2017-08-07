@@ -14,8 +14,8 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 - [`claims.md`](claims.md): list of videos and their associated copyright claims.
 - [`claims.json`](claims.json): list of videos and their associated copyright claims, in JSON format.
 - [`performances.json`](performances.json): a streamable line-oriented JSON data store of metadata of performances, used for [snh48live.org/filter](https://snh48live.org/filter/).
-- [`attendance.txt`](attendance.txt): human-readable attendance sheet (compiled by myself, might contain mistakes).
-- [`attendance.json`](attendance.json): structured version of `attendance.txt` for machine consumption.
+- [`attendance.txt`](data/attendance.txt): human-readable attendance sheet (compiled by myself, might contain mistakes).
+- [`attendance.json`](data/attendance.json): structured version of `attendance.txt` for machine consumption.
 
 ## Helpers
 

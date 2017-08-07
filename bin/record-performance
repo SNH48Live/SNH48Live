@@ -22,7 +22,7 @@ ROOT = os.path.dirname(HERE)
 VIDEO_METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
 DATASTORE = os.path.join(ROOT, 'performances.json')
 OFFICIAL_PERFORMER_LIST_FETCHER = os.path.join(ROOT, 'bin', 'performers')
-ATTENDANCE_JSON = os.path.join(ROOT, 'attendance.json')
+ATTENDANCE_JSON = os.path.join(ROOT, 'data/attendance.json')
 
 STAGE_ASSOCIATIONS = {
     '': 'joint',

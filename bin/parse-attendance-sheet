@@ -8,8 +8,8 @@ from members import MEMBERS
 
 HERE = os.path.dirname(os.path.realpath(__file__))
 ROOT = os.path.dirname(HERE)
-ATTENDANCE_SHEET = os.path.join(ROOT, 'attendance.txt')
-ATTENDANCE_JSON = os.path.join(ROOT, 'attendance.json')
+ATTENDANCE_SHEET = os.path.join(ROOT, 'data/attendance.txt')
+ATTENDANCE_JSON = os.path.join(ROOT, 'data/attendance.json')
 
 def parse():
     data = []

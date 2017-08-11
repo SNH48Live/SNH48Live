@@ -60,10 +60,12 @@ def extract_data(logs):
                 timestamp = arrow.get(datetime).timestamp
             except IndexError:
                 try:
-                    subs = SUBSCRIBERS.findall(line)[0]
+                    subs = int(SUBSCRIBERS.findall(line)[0])
                     if timestamp:
-                        timestamps.append(timestamp)
-                        subscriber_counts.append(int(subs))
+                        # Discard zeros (most likely API/monitor error)
+                        if subs:
+                            timestamps.append(timestamp)
+                            subscriber_counts.append(subs)
                         timestamp = None
                 except IndexError:
                     continue

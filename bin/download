@@ -189,6 +189,7 @@ def upload(file: pathlib.Path, conf: Config):
         '--title', full_title,
         '--description', description,
         '--tags', ','.join(tags),
+        '--privacy', 'public' if conf.public else 'unlisted',
     ]
     if conf.thumbnail:
         cmd += ['--thumbnail', conf.thumbnail]
@@ -203,10 +204,13 @@ def main() -> None:
     add('config_file')
     add('-r', '--redownload', action='store_true',
         help='redownload and reassemble even if merged file already exists')
+    add('--public', action='store_true',
+        help='set video privacy to public when uploading')
     add('--no-upload', action='store_true')
     args = parser.parse_args()
 
     conf = load_config(args.config_file)
+    conf.public = args.public
     dest = VIDEOS_DIR / conf.title
 
     filename = f'{conf.title}{MERGED_EXT}'

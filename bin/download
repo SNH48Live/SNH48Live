@@ -64,7 +64,7 @@ def download_m3u8(m3u8_url: str, dest: pathlib.Path, *, retry_interval: int = 60
     if not os.path.isfile(urls_file) or os.path.getsize(urls_file) == 0:
         # Download m3u8 file
         logger.info(f'Downloading {m3u8_url}')
-        cmd = ['curl', '-fsL', '-w', '%{http_code}', '-o', str(m3u8_file), m3u8_url]
+        cmd = ['curl', '-fsSL', '-w', '%{http_code}', '-o', str(m3u8_file), m3u8_url]
         while True:
             try:
                 log_command(cmd)

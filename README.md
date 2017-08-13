@@ -26,6 +26,7 @@ Helpers depend on Python 3.6+ and Zsh 5.0+.
 - [`download`](bin/download): the heart and soul of this channel. Downloads a VOD from live.snh48.com, then optionally uploads it to the channel.
 - [`extract-claims`](bin/extract-claims): extract video info and associated copyright claims from a YouTube copyright claims page, and automatically populate related datastores.
 - [`fetch-metadata`](bin/fetch-metadata): fetch metadata of all content videos.
+- [`new-config`](bin/new-config): generate download/upload configuration for a new performance.
 - [`parse-attendance-sheet`](bin/parse-attendance-sheet): convert `attendance.txt` into `attendance.json`.
 - [`performers`](bin/performers): retrieve performers lists from official streaming site.
 - [`post-to-tumblr`](bin/post-to-tumblr): cross-post to [Tumblr](https://snh48live.tumblr.com) — a healthy dose of SEO and discoverability shenanigans doesn't hurt, right?

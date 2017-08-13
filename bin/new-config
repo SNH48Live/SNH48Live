@@ -1,0 +1,176 @@
+#!/usr/bin/env python3
+
+import jinja2
+import logging
+import os
+import pathlib
+import re
+import shutil
+import subprocess
+import sys
+try:
+    import readline
+except ImportError:
+    pass
+
+logging.basicConfig(format='[%(levelname)s] %(message)s')
+logger = logging.getLogger(os.path.basename(__file__))
+logger.setLevel(logging.INFO)
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent
+CONFIG_DIR = ROOT / 'videos' / 'config'
+THUMBNAILER = HERE / 'thumbnail'
+
+STAGES = [
+    ('Team SⅡ', '第48区'),
+    ('Team NⅡ', '专属派对'),
+    ('Team HⅡ', '美丽世界'),
+    ('Team X', '梦想的旗帜'),
+    ('Team XⅡ', '代号XⅡ'),
+    (None, '我们向前冲'),
+]
+
+CONFIG_TEMPLATE = jinja2.Template('''\
+title: {{ title }}
+vod: {{ vod }}
+m3u8:
+tags:
+{% for tag in tags -%}
+  - {{ tag }}
+{% endfor -%}
+thumbnail: {{ thumbnail }}
+playlists:
+{% for playlist in playlists -%}
+  - {{ playlist }}
+{% endfor -%}
+''')
+
+def die(msg):
+    logger.error(msg)
+    sys.exit(1)
+
+def hr():
+    columns = shutil.get_terminal_size().columns
+    print('-' * columns, file=sys.stderr)
+
+def find_stage(stage):
+    for team, stage_ in STAGES:
+        if stage_ == stage:
+            return team
+    else:
+        die(f'stage {stage} not recognized')
+
+def parse_existing_configs():
+    # stage could be a one-off special performance, in which case the perfnum part is omitted.
+    pattern = re.compile(r'^(?P<date>\d{8})-(?P<vid>\d+)-(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
+    return [(file, pattern.match(file)) for file in os.listdir(CONFIG_DIR)]
+
+def find_latest_vid(configs):
+    file, m = configs[-1]
+    logger.info(f'latest vid from {file}')
+    return int(m.group('vid'))
+
+def find_latest_perfnum(configs, stage):
+    for file, m in reversed(configs):
+        if m.group('stage') == stage:
+            logger.info(f'latest perf # from {file}')
+            return int(m.group('perfnum'))
+    else:
+        return None
+
+def main():
+    configs = parse_existing_configs()
+
+    date = input('Date: ')
+    if not re.match(r'^\d{8}$', date):
+        die(f'invalid date {date}')
+
+    vid_default = find_latest_vid(configs) + 1
+    vid_input = input(f'live.snh48.com id [{vid_default}]: ')
+    if vid_input:
+        try:
+            vid = int(vid_input)
+        except ValueError:
+            die(f'invalid video ID {vid}')
+    else:
+        vid = vid_default
+
+    stage = input('Stage: ')
+
+    if not stage:
+        # Special performance
+
+        name = input('Name of special performance: ')
+        if not name:
+            die('name should not be empty')
+
+        # Derive
+        title = f'{date} {name}'
+        vod = f'http://live.snh48.com/Index/invedio/id/{vid}'
+        tags = ['SNH48']
+        thumbnail = ''
+        # TODO: verify names of playlists
+        playlists = ['全部', '全部公演', '特别公演']
+
+        file = CONFIG_DIR / f'{date}-{vid}-{name}.yml'
+    else:
+        # Regular performance
+
+        team = find_stage(stage)
+
+        perfnum_default = find_latest_perfnum(configs, stage)
+        if perfnum_default is not None:
+            perfnum_default += 1
+        perfnum_default_display = f' [{perfnum_default:02d}]' if perfnum_default else ''
+        perfnum_input = input(f'Performance #{perfnum_default_display}: ')
+        if perfnum_input:
+            try:
+                perfnum = int(perfnum_input)
+            except ValueError:
+                die(f'invalid performance # {perfnum_input}')
+        elif perfnum_default:
+            perfnum = perfnum_default
+        else:
+            die('performance # not given')
+
+        # Derive
+
+        if team is not None:
+            title = f'{date} {team} {stage} {vid}'
+        else:
+            # Multi-team, e.g. 我们向前冲
+            title = f'{date} {stage} {vid}'
+        vod = f'http://live.snh48.com/Index/invedio/id/{vid}'
+        tags = ['SNH48', stage]
+        thumbnail = f'{date}-{stage}-{perfnum:02d}.png'
+        # TODO: team and stage-specific playlists
+        playlists = ['全部', '全部公演']
+
+        file = CONFIG_DIR / f'{date}-{vid}-{stage}-{perfnum:02d}.yml'
+
+    # Render and write config file
+    hr()
+    print(file)
+    content = CONFIG_TEMPLATE.render(
+        title=title,
+        vod=vod,
+        tags=tags,
+        thumbnail=thumbnail,
+        playlists=playlists,
+    )
+    print(content, end='')
+    with open(file, 'w') as fp:
+        fp.write(content)
+
+    # Generate thumbnail
+    if stage:
+        logger.info('Generating thumbanil...')
+        logger.info(f'thumbnail {stage} {date} {perfnum:02d}')
+        cmd = [THUMBNAILER, stage, date, f'{perfnum:02d}']
+        subprocess.run(cmd)
+    else:
+        logger.info('Please remember to generate the thumbnail.')
+
+if __name__ == '__main__':
+    main()

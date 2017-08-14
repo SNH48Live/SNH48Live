@@ -3,6 +3,23 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170813 SNH48 Team X 梦想的旗帜 48 陈琳生日主题公演](https://youtube.com/watch?v=GQm5nPt_kMw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 2:06 | WebTVAsia (Music) | Monetized by copyright owner |
+| Deep Thought - Extreme Music - Atil Orvarsson<br>Sound recording<br>11:06 - 11:38 | AdRev for a 3rd Party<br>On behalf of: Extreme Music | Monetized by copyright owner |
+
+---
+
+[20170812 SNH48 Team HⅡ 美丽世界 25](https://youtube.com/watch?v=CGQQ5vnl2h8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| ポニーテールとシュシュ - SKE48<br>Sound recording<br>2:24:23 - 2:25:28 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
 [20170806 SNH48 Team NⅡ 专属派对 49 陈佳莹生日主题公演](https://youtube.com/watch?v=DEtokUOi_F0)
 
 | Content | Claimant | Policy |

@@ -50,6 +50,7 @@ def load_config(config_file: pathlib.Path) -> Config:
     conf.thumbnail = conf_dict.get('thumbnail')
     if conf.thumbnail:
         conf.thumbnail = str(THUMBNAILS_DIR / conf.thumbnail)
+    conf.playlists = conf_dict.get('playlists')
 
     return conf
 
@@ -193,6 +194,8 @@ def upload(file: pathlib.Path, conf: Config):
     ]
     if conf.thumbnail:
         cmd += ['--thumbnail', conf.thumbnail]
+    if conf.playlists:
+        cmd += ['--playlists', ','.join(conf.playlists)]
     cmd += [str(file)]
 
     log_command(cmd)

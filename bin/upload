@@ -181,6 +181,21 @@ def initialize_upload(youtube_client, args):
     if args.thumbnail:
         print('Setting thumbnail...')
         subprocess.run([os.path.join(HERE, 'set-thumbnail'), video_id, args.thumbnail])
+    if args.playlists:
+        print('Inserting into playlists...')
+        playlist_names = args.playlist.split(',')
+        playlists_json = os.path.join(ROOT, 'data/playlists.json')
+        with open(playlists_json) as fp:
+            playlists_map = json.load(fp)
+        playlist_ids = []
+        for name in playlist_names:
+            if name in playlists_map:
+                playlist_ids.append(playlists_map[name])
+            else:
+                print(f'Error: playlist named {name} not found in {playlists_json}', file=sys.stderr)
+        # update-metadata insert-playlist [-h] video_ids playlist_ids
+        subprocess.run(os.path.join(HERE, 'update-metadata'), 'insert-playlist',
+                       video_id, ','.join(playlist_ids))
 
 
 # This method implements an exponential backoff strategy to resume a
@@ -253,6 +268,8 @@ def main():
         help='language of the video\'s title, description, and default audio track; default is \'zh-CN\'')
     add('--thumbnail', default=None,
         help='path to the custom thumbnail for the video')
+    add('--playlists', default=None,
+        help='comma-delimited list of names of playlists to insert into')
     args = parser.parse_args()
 
     if not os.path.isfile(args.file):

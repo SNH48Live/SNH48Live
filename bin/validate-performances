@@ -43,7 +43,7 @@ def validate_keys(entries):
             extraneous = sorted(fields - EXPECTED_FIELDS)
             if msg:
                 msg += '; '
-            msg += f'extraneous fields: {",".extraneous(missing)}'
+            msg += f'extraneous fields: {",".join(extraneous)}'
         log_entry_error(line_num, msg)
         success = False
     return success

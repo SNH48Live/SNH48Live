@@ -40,8 +40,7 @@ def title2stage(title):
     for stage in STAGE_ASSOCIATIONS.keys():
         if stage and stage in title:
             return stage
-    else:
-        return ''
+    return ''
 
 def stage2team(stage):
     if stage in STAGE_ASSOCIATIONS:
@@ -63,11 +62,11 @@ def retrieve_youtube_video_title(video_id):
     return title
 
 def validate_live_id(live_id):
-    if not re.match(f'^\d+$', live_id):
+    if not re.match(r'^\d+$', live_id):
         raise ValueError(f"'{live_id}' is not a valid live.snh48.com video ID (should be numerical)")
 
 def validate_snh48club_video_id(snh48club_video_id):
-    if not re.match(f'^\d+$', snh48club_video_id):
+    if not re.match(r'^\d+$', snh48club_video_id):
         raise ValueError(f"'{snh48club_video_id}' is not a valid snh48club video ID (should be numerical)")
 
 def fetch_performers_from_official_site(live_id):
@@ -92,7 +91,7 @@ def fetch_performers_from_snh48club(snh48club_video_id):
     title = soup.h1.text
     member_list = soup.find(id='spanMember')
     performers = [a.text for a in member_list.find_all('a')]
-    performers.sort(key=lambda name: MEMBERS.index(name))
+    performers.sort(key=MEMBERS.index)
 
     print(f'[INFO] SNH48 Club title: {title}')
 
@@ -107,7 +106,7 @@ def fetch_performers_from_attendance_sheet(title):
         data = json.load(fp)
         if title in data:
             performers = data[title]['全部']
-            performers.sort(key=lambda name: MEMBERS.index(name))
+            performers.sort(key=MEMBERS.index)
             return ','.join(performers) + ','
         else:
             return None

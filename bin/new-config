@@ -58,8 +58,7 @@ def find_stage(stage):
     for team, stage_ in STAGES:
         if stage_ == stage:
             return team
-    else:
-        die(f'stage {stage} not recognized')
+    die(f'stage {stage} not recognized')
 
 def parse_existing_configs():
     # stage could be a one-off special performance, in which case the perfnum part is omitted.
@@ -76,8 +75,7 @@ def find_latest_perfnum(configs, stage):
         if m.group('stage') == stage:
             logger.info(f'latest perf # from {file}')
             return int(m.group('perfnum'))
-    else:
-        return None
+    return None
 
 def main():
     configs = parse_existing_configs()

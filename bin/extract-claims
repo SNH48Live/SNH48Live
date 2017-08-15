@@ -51,7 +51,7 @@ class VideoWithClaims(object):
         for claim in self.claims:
             row = '|'
             for cell in claim:
-                escaped_text = cell.replace('|', '\|')
+                escaped_text = cell.replace('|', r'\|')
                 row += f' {escaped_text} |'
             row += '\n'
             md += row

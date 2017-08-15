@@ -10,7 +10,7 @@ import subprocess
 import textwrap
 import time
 import urllib.parse
-from typing import List, Tuple
+from typing import List
 
 import yaml
 
@@ -167,7 +167,7 @@ def performers(vod: str) -> List[str]:
         output = subprocess.check_output(cmd).decode('utf-8').strip()
         return output.split(',')
     except subprocess.CalledProcessError:
-        logger.warn('`performers` failed')
+        logger.warning('`performers` failed')
         return []
 
 def upload(file: pathlib.Path, conf: Config):
@@ -228,7 +228,7 @@ def main() -> None:
     try:
         os.link(filepath, VIDEOS_DIR / filename)
     except FileExistsError:
-        logger.warn(f'failed to link into {VIDEOS_DIR}: {filename} already exists')
+        logger.warning(f'failed to link into {VIDEOS_DIR}: {filename} already exists')
 
     if not args.no_upload:
         upload(filepath, conf)

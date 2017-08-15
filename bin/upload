@@ -158,7 +158,7 @@ def resumable_upload(insert_request, bar=None):
         bar.activate()
     while response is None:
         try:
-            status, response = insert_request.next_chunk()
+            _, response = insert_request.next_chunk()
             if response is not None:
                 if 'id' in response:
                     video_id = response['id']

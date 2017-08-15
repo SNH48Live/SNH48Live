@@ -13,7 +13,6 @@ ATTENDANCE_JSON = os.path.join(ROOT, 'data/attendance.json')
 
 def parse():
     data = []
-    sortkey = lambda name: MEMBERS.index(name)
     with open(ATTENDANCE_SHEET) as fp:
         final = False
         while True:
@@ -25,10 +24,10 @@ def parse():
                     if not line:
                         break
                     part, performers = line.split('：')
-                    parts.append((part, sorted(performers.split('、'), key=sortkey)))
+                    parts.append((part, sorted(performers.split('、'), key=MEMBERS.index)))
             except StopIteration:
                 final = True
-            aggregated = sorted(set(sum((performers for _, performers in parts), [])), key=sortkey)
+            aggregated = sorted(set(sum((performers for _, performers in parts), [])), key=MEMBERS.index)
             parts.append(('全部', aggregated))
             data.append((title, collections.OrderedDict(parts)))
             if final:

@@ -35,7 +35,7 @@ def update_title(youtube_client, video_id, pattern, repl, *, dry_run=False):
         if m:
             new_title = m.expand(repl)
         else:
-            logger.warn(f'{video_id} title unchanged: {title}')
+            logger.warning(f'{video_id} title unchanged: {title}')
             return
     else:
         # Replace title with repl, verbatim, without consulting the existing title
@@ -78,9 +78,9 @@ def tag(youtube_client, video_id, tags, *, overwrite=False):
     if overwrite:
         snippet['tags'] = tags
     else:
-        for tag in tags:
-            if tag not in snippet['tags']:
-                snippet['tags'].append(tag)
+        for tag_ in tags:
+            if tag_ not in snippet['tags']:
+                snippet['tags'].append(tag_)
 
     update_request = youtube_client.videos().update(
         part='id,snippet',

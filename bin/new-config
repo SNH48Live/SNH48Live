@@ -34,7 +34,7 @@ STAGES = [
 CONFIG_TEMPLATE = jinja2.Template('''\
 title: {{ title }}
 vod: {{ vod }}
-m3u8:
+m3u8: {{ m3u8 }}
 tags:
 {% for tag in tags -%}
   - {{ tag }}
@@ -95,6 +95,11 @@ def main():
         vid = vid_default
 
     stage = input('Stage: ')
+
+    m3u8 = input('M3U8: ')
+    # A basic sanity check
+    if f'/{date}/' not in m3u8:
+        die(f'M3U8 URL does not contain the given date; probably wrong!')
 
     if not stage:
         # Special performance
@@ -157,6 +162,7 @@ def main():
     content = CONFIG_TEMPLATE.render(
         title=title,
         vod=vod,
+        m3u8=m3u8,
         tags=tags,
         thumbnail=thumbnail,
         playlists=playlists,
@@ -166,6 +172,7 @@ def main():
         fp.write(content)
 
     # Generate thumbnail
+    hr()
     if stage:
         logger.info('Generating thumbanil...')
         logger.info(f'thumbnail {stage} {date} {perfnum:02d}')

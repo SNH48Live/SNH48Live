@@ -2,6 +2,7 @@ arrow
 attrdict
 bs4
 google-api-python-client
+jinja2
 oauth2
 matplotlib
 numpy

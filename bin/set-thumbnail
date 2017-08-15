@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 
-import argparse
 import os
-
-import oauth2client.tools
 
 import auth
 
@@ -14,10 +11,7 @@ def set_thumbnail(youtube, video_id, thumbnail_file):
     ).execute()
 
 def main():
-    parser = argparse.ArgumentParser(
-        description=__doc__,
-        parents=[oauth2client.tools.argparser],
-    )
+    parser = auth.ArgumentParser()
     add = parser.add_argument
     add('video_id', help='id of the video')
     add('file', help='path to the thumbnail file')

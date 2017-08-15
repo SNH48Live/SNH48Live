@@ -2,7 +2,6 @@
 
 # Adapted from https://github.com/youtube/api-samples/blob/master/python/upload_video.py
 
-import argparse
 import http.client
 import io
 import json
@@ -18,7 +17,6 @@ import googleapiclient.discovery
 import googleapiclient.errors
 import googleapiclient.http
 import httplib2
-import oauth2client.tools
 
 import auth
 from utils import ProgressBar
@@ -198,10 +196,7 @@ def resumable_upload(insert_request, bar=None):
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description=__doc__,
-        parents=[oauth2client.tools.argparser],
-    )
+    parser = auth.ArgumentParser()
     add = parser.add_argument
     add('file',
         help='video file to upload')

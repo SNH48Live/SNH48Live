@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 
-import argparse
 import datetime
 import textwrap
 
 import arrow
 import attrdict
-import oauth2client.tools
 
 import auth
 
@@ -161,10 +159,7 @@ def generate_textual_report(data, color=True):
     return report
 
 def main():
-    parser = argparse.ArgumentParser(
-        description=__doc__,
-	parents=[oauth2client.tools.argparser],
-    )
+    parser = auth.ArgumentParser()
     add = parser.add_argument
     add('-nc', '--no-color', action='store_true',
         help='do not colorize output')

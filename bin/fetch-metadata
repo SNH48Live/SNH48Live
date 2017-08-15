@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 
-import argparse
 import json
 import os
 import sys
-
-import oauth2client.tools
 
 import auth
 
@@ -64,10 +61,7 @@ def persist_video_metadata(data):
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description=__doc__,
-        parents=[oauth2client.tools.argparser],
-    )
+    parser = auth.ArgumentParser()
     add = parser.add_argument
     add('-o', '--overwrite', action='store_true',
         help='overwrite already persisted data')

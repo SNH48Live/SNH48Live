@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import pathlib
 
 import googleapiclient.discovery
@@ -30,6 +31,13 @@ and putting it at
 For more information about the client_secrets.json file format, please visit:
 https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
 '''
+
+class ArgumentParser(argparse.ArgumentParser):
+    def __init__(self, **kwargs):
+        parents = list(kwargs.get('parents', []))
+        parents.append(oauth2client.tools.argparser)
+        kwargs['parents'] = parents
+        super().__init__(**kwargs)
 
 # youtube_scopes is a list of OAuth scopes with the
 # https://www.googleapis.com/auth/ prefix stripped.

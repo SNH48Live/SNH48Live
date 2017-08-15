@@ -108,7 +108,6 @@ def main():
         vod = f'http://live.snh48.com/Index/invedio/id/{vid}'
         tags = ['SNH48']
         thumbnail = ''
-        # TODO: verify names of playlists
         playlists = ['全部', '全部公演', '特别公演']
 
         file = CONFIG_DIR / f'{date}-{vid}-{name}.yml'
@@ -142,8 +141,11 @@ def main():
         vod = f'http://live.snh48.com/Index/invedio/id/{vid}'
         tags = ['SNH48', stage]
         thumbnail = f'{date}-{stage}-{perfnum:02d}.png'
-        # TODO: team and stage-specific playlists
         playlists = ['全部', '全部公演']
+        if team is not None:
+            playlists.extend([f'{team}', f'{team} — {stage}'])
+        else:
+            playlists.append(stage)
 
         file = CONFIG_DIR / f'{date}-{vid}-{stage}-{perfnum:02d}.yml'
 

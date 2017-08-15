@@ -110,7 +110,9 @@ def main():
         thumbnail = ''
         playlists = ['全部', '全部公演', '特别公演']
 
-        file = CONFIG_DIR / f'{date}-{vid}-{name}.yml'
+        file_default = f'{date}-{vid}-{name}.yml'
+        file_input = input(f'Config file [{file_default}]: ')
+        file = CONFIG_DIR / (file_input or file_default)
     else:
         # Regular performance
 

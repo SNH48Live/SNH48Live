@@ -5,23 +5,27 @@
 import argparse
 import http.client
 import io
+import json
 import mimetypes
 import os
+import pathlib
 import random
 import subprocess
 import sys
 import time
 
 import googleapiclient.discovery
+import googleapiclient.errors
 import googleapiclient.http
 import httplib2
-import oauth2client.client
-import oauth2client.file
 import oauth2client.tools
-from apiclient.errors import HttpError
 
+import auth
 from utils import ProgressBar
 
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent
 
 # Explicitly tell the underlying HTTP transport library not to retry, since
 # we are handling retry logic ourselves.
@@ -43,42 +47,9 @@ RETRIABLE_EXCEPTIONS = (
     http.client.ResponseNotReady,
 )
 
-# Always retry when an googleapiclient.errors.HttpError with one of
+# Always retry when a googleapiclient.errors.HttpError with one of
 # these status codes is raised.
 RETRIABLE_STATUS_CODES = [500, 502, 503, 504]
-
-# This OAuth 2.0 access scope allows an application to upload files to
-# the authenticated user's YouTube channel, but doesn't allow other
-# types of access.
-YOUTUBE_UPLOAD_SCOPE = 'https://www.googleapis.com/auth/youtube.upload'
-YOUTUBE_API_SERVICE_NAME = 'youtube'
-YOUTUBE_API_VERSION = 'v3'
-
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
-
-# Download clients_secrets.json from
-#   https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
-# YouTube Data API needs to be enabled for the project.
-CLIENT_SECRETS_FILE = os.path.join(ROOT, 'config', 'client_secrets.json')
-
-# Auto generated.
-OAUTH_CREDENTIALS_FILE = os.path.join(ROOT, 'config', 'uploader_credentials.json')
-
-# This variable defines a message to display if the CLIENT_SECRETS_FILE is
-# missing.
-MISSING_CLIENT_SECRETS_MESSAGE = f'''
-WARNING: Please configure OAuth 2.0 by downloading client_secrets.json from
-
-  https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
-
-and putting it at
-
-  {CLIENT_SECRETS_FILE}
-
-For more information about the client_secrets.json file format, please visit:
-https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
-'''
 
 VALID_PRIVACY_STATUSES = ('public', 'private', 'unlisted')
 
@@ -129,26 +100,6 @@ class MediaFileUploadWithProgressBar(googleapiclient.http.MediaIoBaseUpload):
         super().__init__(fp, mimetype, chunksize=chunksize, resumable=resumable)
 
 
-def get_authenticated_service(args):
-    flow = oauth2client.client.flow_from_clientsecrets(
-        CLIENT_SECRETS_FILE,
-        scope=YOUTUBE_UPLOAD_SCOPE,
-        message=MISSING_CLIENT_SECRETS_MESSAGE,
-    )
-
-    storage = oauth2client.file.Storage(OAUTH_CREDENTIALS_FILE)
-    credentials = storage.get()
-
-    if credentials is None or credentials.invalid:
-        credentials = oauth2client.tools.run_flow(flow, storage, args)
-
-    return googleapiclient.discovery.build(
-        YOUTUBE_API_SERVICE_NAME,
-        YOUTUBE_API_VERSION,
-        http=credentials.authorize(httplib2.Http()),
-    )
-
-
 # https://developers.google.com/youtube/v3/docs/videos/insert
 def initialize_upload(youtube_client, args):
     body=dict(
@@ -180,11 +131,11 @@ def initialize_upload(youtube_client, args):
     video_id = resumable_upload(insert_request, bar=media.bar)
     if args.thumbnail:
         print('Setting thumbnail...')
-        subprocess.run([os.path.join(HERE, 'set-thumbnail'), video_id, args.thumbnail])
+        subprocess.run([str(HERE / 'set-thumbnail'), video_id, args.thumbnail])
     if args.playlists:
         print('Inserting into playlists...')
         playlist_names = args.playlist.split(',')
-        playlists_json = os.path.join(ROOT, 'data/playlists.json')
+        playlists_json = ROOT / 'data' / 'playlists.json'
         with open(playlists_json) as fp:
             playlists_map = json.load(fp)
         playlist_ids = []
@@ -194,7 +145,7 @@ def initialize_upload(youtube_client, args):
             else:
                 print(f'Error: playlist named {name} not found in {playlists_json}', file=sys.stderr)
         # update-metadata insert-playlist [-h] video_ids playlist_ids
-        subprocess.run(os.path.join(HERE, 'update-metadata'), 'insert-playlist',
+        subprocess.run(str(HERE / 'update-metadata'), 'insert-playlist',
                        video_id, ','.join(playlist_ids))
 
 
@@ -221,7 +172,7 @@ def resumable_upload(insert_request, bar=None):
                     if bar:
                         bar.done()
                     exit('The upload failed with an unexpected response: %s' % response)
-        except HttpError as e:
+        except googleapiclient.errors.HttpError as e:
             if e.resp.status in RETRIABLE_STATUS_CODES:
                 error = 'A retriable HTTP error %d occurred:\n%s' % (e.resp.status,
                                                                      e.content)
@@ -278,10 +229,10 @@ def main():
     if args.title is None:
         args.title = os.path.basename(os.path.splitext(args.file)[0])
 
-    youtube_client = get_authenticated_service(args)
+    youtube_client = auth.get_youtube_client(args, 'youtube.upload')
     try:
         initialize_upload(youtube_client, args)
-    except HttpError as e:
+    except googleapiclient.errors.HttpError as e:
         print('An HTTP error %d occurred:\n%s' % (e.resp.status, e.content))
 
 

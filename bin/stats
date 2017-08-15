@@ -2,17 +2,13 @@
 
 import argparse
 import datetime
-import os
 import textwrap
-
-import httplib2
 
 import arrow
 import attrdict
-import googleapiclient.discovery
-import oauth2client.client
-import oauth2client.file
 import oauth2client.tools
+
+import auth
 
 CHANNEL_ID = 'UC10BBCJQasWk_08Fdz0XCsQ'
 # 全部（包括全部公演和其它）
@@ -22,69 +18,6 @@ PLAYLIST_ID = 'PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW'
 # Number of videos to include in the report
 RECENT_VIDEOS_COUNT = 5
 TOP_VIDEOS_COUNT = 10
-
-# API related constants
-YOUTUBE_SCOPES = [
-    'https://www.googleapis.com/auth/youtube.readonly',
-    'https://www.googleapis.com/auth/yt-analytics.readonly',
-]
-YOUTUBE_API_SERVICE_NAME = 'youtube'
-YOUTUBE_ANALYTICS_API_SERVICE_NAME = 'youtubeAnalytics'
-YOUTUBE_API_VERSION = 'v3'
-YOUTUBE_ANALYTICS_API_VERSION = 'v1'
-
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
-
-# Download clients_secrets.json from
-#   https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
-# YouTube Data API needs to be enabled for the project.
-CLIENT_SECRETS_FILE = os.path.join(ROOT, 'config', 'client_secrets.json')
-
-# Auto generated.
-OAUTH_CREDENTIALS_FILE = os.path.join(ROOT, 'config', 'stats_aggregator_credentials.json')
-
-# This variable defines a message to display if the CLIENT_SECRETS_FILE is
-# missing.
-MISSING_CLIENT_SECRETS_MESSAGE = f'''
-WARNING: Please configure OAuth 2.0 by downloading client_secrets.json from
-
-  https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
-
-and putting it at
-
-  {CLIENT_SECRETS_FILE}
-
-For more information about the client_secrets.json file format, please visit:
-https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
-'''
-
-def get_authenticated_service(args):
-    flow = oauth2client.client.flow_from_clientsecrets(
-        CLIENT_SECRETS_FILE,
-        scope=' '.join(YOUTUBE_SCOPES),
-        message=MISSING_CLIENT_SECRETS_MESSAGE,
-    )
-
-    storage = oauth2client.file.Storage(OAUTH_CREDENTIALS_FILE)
-    credentials = storage.get()
-
-    if credentials is None or credentials.invalid:
-        credentials = oauth2client.tools.run_flow(flow, storage, args)
-
-    http = credentials.authorize(httplib2.Http())
-    youtube = googleapiclient.discovery.build(
-        YOUTUBE_API_SERVICE_NAME,
-        YOUTUBE_API_VERSION,
-        http=http,
-    )
-    youtube_analytics = googleapiclient.discovery.build(
-        YOUTUBE_ANALYTICS_API_SERVICE_NAME,
-        YOUTUBE_ANALYTICS_API_VERSION,
-        http=http,
-    )
-
-    return youtube, youtube_analytics
 
 # Returns an AttrDict with the following attributes:
 # - viewCount
@@ -239,7 +172,8 @@ def main():
         help='do not use pager')
     args = parser.parse_args()
 
-    youtube, youtube_analytics = get_authenticated_service(args)
+    youtube = auth.get_youtube_client(args, 'youtube.readonly')
+    youtube_analytics = auth.get_youtube_analytics_client(args, 'yt-analytics.readonly')
     data = prepare_report_data(youtube, youtube_analytics)
     report = generate_textual_report(data, color=not args.no_color)
     if args.no_pager:

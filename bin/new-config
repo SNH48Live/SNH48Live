@@ -33,6 +33,7 @@ STAGES = [
 
 CONFIG_TEMPLATE = jinja2.Template('''\
 title: {{ title }}
+datetime: {{ datetime }}
 vod: {{ vod }}
 m3u8: {{ m3u8 }}
 tags:
@@ -83,6 +84,12 @@ def main():
     date = input('Date: ')
     if not re.match(r'^\d{8}$', date):
         die(f'invalid date {date}')
+
+    time = input('Time (HH:MM in CST): ')
+    if not re.match(r'^\d{2}:\d{2}$', time):
+        die(f'invalid time {time}')
+    # ISO 8601
+    datetime = f'{date[:4]}-{date[4:6]}-{date[6:]}T{time}:00+08:00'
 
     vid_default = find_latest_vid(configs) + 1
     vid_input = input(f'live.snh48.com id [{vid_default}]: ')
@@ -161,6 +168,7 @@ def main():
     print(file)
     content = CONFIG_TEMPLATE.render(
         title=title,
+        datetime=datetime,
         vod=vod,
         m3u8=m3u8,
         tags=tags,

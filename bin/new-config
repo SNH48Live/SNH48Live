@@ -148,10 +148,10 @@ def main():
         # Derive
 
         if team is not None:
-            title = f'{date} {team} {stage} {vid}'
+            title = f'{date} {team} {stage} {perfnum:02d}'
         else:
             # Multi-team, e.g. 我们向前冲
-            title = f'{date} {stage} {vid}'
+            title = f'{date} {stage} {perfnum:02d}'
         vod = f'http://live.snh48.com/Index/invedio/id/{vid}'
         tags = ['SNH48', stage]
         thumbnail = f'{date}-{stage}-{perfnum:02d}.png'

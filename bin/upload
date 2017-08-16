@@ -132,7 +132,7 @@ def initialize_upload(youtube_client, args):
         subprocess.run([str(HERE / 'set-thumbnail'), video_id, args.thumbnail])
     if args.playlists:
         print('Inserting into playlists...')
-        playlist_names = args.playlist.split(',')
+        playlist_names = args.playlists.split(',')
         playlists_json = ROOT / 'data' / 'playlists.json'
         with open(playlists_json) as fp:
             playlists_map = json.load(fp)
@@ -143,8 +143,8 @@ def initialize_upload(youtube_client, args):
             else:
                 print(f'Error: playlist named {name} not found in {playlists_json}', file=sys.stderr)
         # update-metadata insert-playlist [-h] video_ids playlist_ids
-        subprocess.run(str(HERE / 'update-metadata'), 'insert-playlist',
-                       video_id, ','.join(playlist_ids))
+        subprocess.run([str(HERE / 'update-metadata'), 'insert-playlist',
+                        video_id, ','.join(playlist_ids)])
 
 
 # This method implements an exponential backoff strategy to resume a

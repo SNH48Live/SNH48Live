@@ -2,6 +2,7 @@
 
 import collections
 import json
+import logging
 import os
 import pathlib
 import re
@@ -17,6 +18,10 @@ import bs4
 import requests
 
 from members import MEMBERS
+
+logging.basicConfig(format='[%(levelname)s] %(message)s')
+logger = logging.getLogger('record-performance')
+logger.setLevel(logging.INFO)
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -59,7 +64,7 @@ def retrieve_youtube_video_title(video_id):
         raise ValueError(f'{metadata_file} does not exist; please run `fetch-metadata {video_id}`')
     with open(metadata_file) as fp:
         title = json.load(fp)['snippet']['title']
-    print(f'[INFO] Title: {title}')
+    logger.info(f'Title: {title}')
     return title
 
 def validate_live_id(live_id):
@@ -97,7 +102,7 @@ def fetch_performers_from_snh48club(snh48club_video_id):
     performers = [a.text for a in member_list.find_all('a')]
     performers.sort(key=MEMBERS.index)
 
-    print(f'[INFO] SNH48 Club title: {title}')
+    logger.info(f'SNH48 Club title: {title}')
 
     # Note: We add a final comma so that we can easily query a performer
     # with the "has name followed by comma" criterion (assuming that no
@@ -167,14 +172,14 @@ def main():
         if performers_local and performers_official == performers_club == performers_local:
             # All good
             performers = performers_local
-            print(f'[INFO] Performers: {performers}')
+            logger.info(f'Performers: {performers}')
         else:
             if performers_official:
-                print(f'[INFO] Performers from live.snh48.com:  {performers_official}')
+                logger.info(f'Performers from live.snh48.com:  {performers_official}')
             if performers_club:
-                print(f'[INFO] Performers from snh48club.com:   {performers_club}')
+                logger.info(f'Performers from snh48club.com:   {performers_club}')
             if performers_local:
-                print(f'[INFO] Performers from attendance.json: {performers_local}')
+                logger.info(f'Performers from attendance.json: {performers_local}')
             performers = input(f'Performers [use attendance.json]: ')
             if not performers:
                 performers = performers_local
@@ -195,7 +200,7 @@ def main():
         sys.stderr.write('\nValidating performances.json...\n')
         subprocess.run([str(VALIDATOR)])
     except BaseException as e:
-        sys.stderr.write(f'\n[ERROR] {e}\n')
+        logger.error(e)
         sys.exit(1)
 
 if __name__ == '__main__':

@@ -6,6 +6,7 @@ import logging
 import os
 import pathlib
 import re
+import signal
 import subprocess
 import sys
 import tempfile
@@ -30,6 +31,7 @@ VIDEO_METADATA_DIR = ROOT / 'videos' / 'metadata'
 DATASTORE = ROOT / 'data' / 'performances.json'
 OFFICIAL_PERFORMER_LIST_FETCHER = HERE / 'performers'
 ATTENDANCE_JSON = ROOT / 'data' / 'attendance.json'
+PARSER = HERE / 'parse-attendance-sheet'
 VALIDATOR = HERE / 'validate-performances'
 
 STAGE_ASSOCIATIONS = {
@@ -151,6 +153,9 @@ def prepend_to_data_store(record):
 
 def main():
     try:
+        # Parse attendance sheet to make sure attendance.json is up-to-date.
+        subprocess.check_call([str(PARSER)])
+
         video_id = input('YouTube video ID: ')
         if video_id:
             validate_youtube_video_id(video_id)
@@ -186,20 +191,41 @@ def main():
 
         performers_local = fetch_performers_from_attendance_sheet(title)
 
-        if performers_local and performers_official == performers_club == performers_local:
-            # All good
-            performers = performers_local
-            logger.info(f'Performers: {performers}')
-        else:
-            if performers_official:
-                logger.info(f'Performers from live.snh48.com:  {performers_official}')
-            if performers_club:
-                logger.info(f'Performers from snh48club.com:   {performers_club}')
-            if performers_local:
-                logger.info(f'Performers from attendance.json: {performers_local}')
-            performers = input(f'Performers [use attendance.json]: ')
-            if not performers:
-                performers = performers_local
+        # Handle SIGTSTP by raising a TerminalStop exception from this point forward
+        class TerminalStop(Exception):
+            def __str__(self):
+                return 'TerminalStop'
+
+        def sigtstp_handler(signum, frame):
+            raise TerminalStop
+
+        signal.signal(signal.SIGTSTP, sigtstp_handler)
+
+        first_round = True
+        while True:
+            try:
+                if performers_local and performers_official == performers_club == performers_local:
+                    # All good
+                    performers = performers_local
+                    logger.info(f'Performers: {performers}')
+                else:
+                    if performers_official:
+                        logger.info(f'Performers from live.snh48.com:  {performers_official}')
+                    if performers_club:
+                        logger.info(f'Performers from snh48club.com:   {performers_club}')
+                    if performers_local:
+                        logger.info(f'Performers from attendance.json: {performers_local}')
+                    if first_round:
+                        logger.info('Send ^Z to reparse attendance sheet')
+                        first_round = False
+                    performers = input(f'Performers [use attendance.json]: ')
+                    if not performers:
+                        performers = performers_local
+                break
+            except TerminalStop:
+                logger.info('Reloading attendance sheet')
+                subprocess.run([str(PARSER)])
+                performers_local = fetch_performers_from_attendance_sheet(title)
 
         record = collections.OrderedDict([
             ('title', title),

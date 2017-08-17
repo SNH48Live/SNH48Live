@@ -25,6 +25,7 @@ logger.setLevel(logging.INFO)
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
+VIDEO_CONFIG_DIR = ROOT / 'videos' / 'config'
 VIDEO_METADATA_DIR = ROOT / 'videos' / 'metadata'
 DATASTORE = ROOT / 'data' / 'performances.json'
 OFFICIAL_PERFORMER_LIST_FETCHER = HERE / 'performers'
@@ -53,6 +54,18 @@ def stage2team(stage):
         return STAGE_ASSOCIATIONS[stage]
     else:
         raise ValueError(f"'{stage}' is not a recognized stage")
+
+def guess_live_id_from_configs(date, stage):
+    # pattern lifted from new-config.
+    # stage could be a one-off special performance, in which case the perfnum part is omitted.
+    pattern = re.compile(r'^(?P<date>\d{8})-(?P<vid>\d+)-(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
+    for file in sorted(VIDEO_CONFIG_DIR.glob(f'{date}-*.yml')):
+        m = pattern.match(file.name)
+        if m and ((stage == m.group('stage')) or  # regular performance
+                  (not stage and not m.group('perfnum'))):  # special performance
+            logger.info(f'live_id guessed from {file.name}')
+            return m.group('vid')
+    return None
 
 def validate_youtube_video_id(video_id):
     if not re.match(r'^[a-zA-Z0-9_-]{11}$', video_id):
@@ -150,7 +163,11 @@ def main():
         team_default = stage2team(stage)
         team = input(f'Team [{team_default}]: ') or team_default
         special = input(f'Special? [yN]: ').lower().startswith('y')
-        live_id = input('live.snh48.com video ID: ')
+        live_id_default = guess_live_id_from_configs(title[:8], stage)
+        if live_id_default:
+            live_id = input(f'live.snh48.com video ID [{live_id_default}]: ') or live_id_default
+        else:
+            live_id = input('live.snh48.com video ID: ')
         snh48club_video_id = input('SNH48 Club video ID: ')
 
         if live_id:

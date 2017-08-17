@@ -1,0 +1,83 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H42M5S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/bz6TXvo3cnwaVpcMwzDTvWTo6YM\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4392583072",
+    "fileType": "video"
+  },
+  "id": "PHIs7h4tBDQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/291\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/291\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170817 SNH48 Team SⅡ 第48区 09"
+    },
+    "publishedAt": "2017-08-17T15:19:10.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "陈观慧",
+      "陈思",
+      "成珏",
+      "戴萌",
+      "蒋芸",
+      "李宇琪",
+      "吕一",
+      "莫寒",
+      "邱欣怡",
+      "温晶婕",
+      "吴哲晗",
+      "徐子轩",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格",
+      "赵晔",
+      "徐伊人"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/PHIs7h4tBDQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/PHIs7h4tBDQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/PHIs7h4tBDQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/PHIs7h4tBDQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/PHIs7h4tBDQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170817 SNH48 Team SⅡ 第48区 09"
+  }
+}

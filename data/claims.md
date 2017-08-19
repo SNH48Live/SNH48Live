@@ -3,6 +3,20 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170818 SNH48 我们向前冲 09 赵韩倩生日主题公演](https://youtube.com/watch?v=0ZsBsvk8JQk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 追光者 (電視劇夏至未至插曲) - 岑寧兒<br>Sound recording<br>1:18:41 - 1:19:59 | [Merlin] FUGA Aggregation<br>On behalf of: 北京聽見時代娛樂傳媒有限公司 | Monetized by copyright owner |
+| 抱きしめられたら off vocal - 河西智美<br>Sound recording<br>50:31 - 55:37 | NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+| Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:49:52 - 1:50:53 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
+| ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:45:52 - 2:47:21 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:30:53 - 2:32:16 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Superlove - Tinashe<br>Sound recording<br>1:14:04 - 1:15:08 | SME<br>On behalf of: RCA Records Label | Blocked in some countries: Afghanistan, Bahrain, Egypt, Iran, Iraq, Jordan, Kuwait, Lebanon, Libya, Oman, Qatar, Saudi Arabia, Sudan, Syria, United Arab Emirates, West Bank, Western Sahara, Yemen |
+| 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:32:13 - 2:32:51 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
 [20170813 SNH48 Team X 梦想的旗帜 48 陈琳生日主题公演](https://youtube.com/watch?v=GQm5nPt_kMw)
 
 | Content | Claimant | Policy |

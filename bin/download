@@ -12,6 +12,7 @@ import time
 import urllib.parse
 from typing import List
 
+import arrow
 import yaml
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -43,6 +44,8 @@ def load_config(config_file: pathlib.Path) -> Config:
             setattr(conf, attr, conf_dict[attr])
         else:
             logger.error(f'{attr} not found in {config_file}')
+    # If datetime is not found in conf, use the current time.
+    conf.starting_time = arrow.get(conf_dict.get('datetime'))
     conf.vod = conf_dict.get('vod', 'http://live.snh48.com/')
     conf.tags = conf_dict.get('tags', [])
     if 'SNH48' not in conf.tags:
@@ -53,6 +56,16 @@ def load_config(config_file: pathlib.Path) -> Config:
     conf.playlists = conf_dict.get('playlists')
 
     return conf
+
+def sleep_until(datetime_):
+    timestamp = datetime_.timestamp
+    now = time.time()
+    if now >= timestamp:
+        return
+    else:
+        datetime_display = datetime_.to('local').strftime('%Y-%m-%d %H:%M %Z')
+        logger.info(f'Sleeping until {datetime_display}...')
+        time.sleep(timestamp - now)
 
 def log_command(args: List[str]) -> None:
     logger.debug(' '.join(map(shlex.quote, args)))
@@ -215,6 +228,8 @@ def main() -> None:
     conf = load_config(args.config_file)
     conf.public = args.public
     dest = VIDEOS_DIR / conf.title
+
+    sleep_until(conf.starting_time)
 
     filename = f'{conf.title}{MERGED_EXT}'
     filepath = dest / filename

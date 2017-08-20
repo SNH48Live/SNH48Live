@@ -66,18 +66,15 @@ def guess_video_id():
     # Iterate through the video list (which is in reverse chronological order)
     # to find the first (chronologically) new entry.
     first_new_vid = None
-    first_new_title = None
     with open(VIDEO_LIST) as fp:
         for line in fp:
             url, title = line.strip().split('\t')
             vid = url[-11:]
             if vid == most_recent_recorded_vid:
-                if first_new_vid:
-                    logger.info(f'video_id guessed from "{first_new_title}"')
                 return first_new_vid
             else:
+                logger.info(f'new entry: {vid}\t{title}')
                 first_new_vid = vid
-                first_new_title = title
     return first_new_vid
 
 def guess_live_id_from_configs(date, stage):

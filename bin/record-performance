@@ -28,6 +28,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 VIDEO_CONFIG_DIR = ROOT / 'videos' / 'config'
 VIDEO_METADATA_DIR = ROOT / 'videos' / 'metadata'
+VIDEO_LIST = ROOT / 'data' / 'videos.txt'
 DATASTORE = ROOT / 'data' / 'performances.json'
 OFFICIAL_PERFORMER_LIST_FETCHER = HERE / 'performers'
 ATTENDANCE_JSON = ROOT / 'data' / 'attendance.json'
@@ -56,6 +57,28 @@ def stage2team(stage):
         return STAGE_ASSOCIATIONS[stage]
     else:
         raise ValueError(f"'{stage}' is not a recognized stage")
+
+def guess_video_id():
+    # Read the most recent video_id already in DATASTORE.
+    with open(DATASTORE) as fp:
+        most_recent_recorded_vid = json.loads(fp.readline())['video_id']
+
+    # Iterate through the video list (which is in reverse chronological order)
+    # to find the first (chronologically) new entry.
+    first_new_vid = None
+    first_new_title = None
+    with open(VIDEO_LIST) as fp:
+        for line in fp:
+            url, title = line.strip().split('\t')
+            vid = url[-11:]
+            if vid == most_recent_recorded_vid:
+                if first_new_vid:
+                    logger.info(f'video_id guessed from "{first_new_title}"')
+                return first_new_vid
+            else:
+                first_new_vid = vid
+                first_new_title = title
+    return first_new_vid
 
 def guess_live_id_from_configs(date, stage):
     # pattern lifted from new-config.
@@ -156,7 +179,11 @@ def main():
         # Parse attendance sheet to make sure attendance.json is up-to-date.
         subprocess.check_call([str(PARSER)])
 
-        video_id = input('YouTube video ID: ')
+        video_id_default = guess_video_id()
+        if video_id_default:
+            video_id = input(f'YouTube video ID [{video_id_default}]: ') or video_id_default
+        else:
+            video_id = input('YouTube video ID: ')
         if video_id:
             validate_youtube_video_id(video_id)
             title = retrieve_youtube_video_title(video_id)

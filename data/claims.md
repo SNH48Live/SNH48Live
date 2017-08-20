@@ -3,6 +3,14 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170819 SNH48 Team HⅡ 美丽世界 27](https://youtube.com/watch?v=zmi7N8Aj_ns)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| PONIITEERUTO SHUSHU<br>Music composition<br>2:20:34 - 2:21:38 | KOMCA_CS<br>CASH<br>MACP<br>COMPASS_CS<br>WAMI_CS<br>SOCAN | Monetized by copyright owner |
+
+---
+
 [20170818 SNH48 我们向前冲 09 赵韩倩生日主题公演](https://youtube.com/watch?v=0ZsBsvk8JQk)
 
 | Content | Claimant | Policy |

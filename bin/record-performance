@@ -81,7 +81,7 @@ def guess_live_id_from_configs(date, stage):
     # pattern lifted from new-config.
     # stage could be a one-off special performance, in which case the perfnum part is omitted.
     pattern = re.compile(r'^(?P<date>\d{8})-(?P<vid>\d+)-(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
-    for file in sorted(VIDEO_CONFIG_DIR.glob(f'{date}-*.yml')):
+    for file in sorted(VIDEO_CONFIG_DIR.glob(f'**/{date}-*.yml')):
         m = pattern.match(file.name)
         if m and ((stage == m.group('stage')) or  # regular performance
                   (not stage and not m.group('perfnum'))):  # special performance

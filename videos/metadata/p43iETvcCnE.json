@@ -1,0 +1,72 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H42M3S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Fq7shYMYqpIiDlltgYwaz4uGyps\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1512791125",
+    "fileType": "video"
+  },
+  "id": "p43iETvcCnE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "转自48歌迷会：\nhttp://www.snh48club.com/video/21764.html\nhttps://www.bilibili.com/video/av13576434\n\n出场成员：陈观慧、陈思、李宇琪、莫寒、徐晨辰、袁雨桢。\n\n本视频版权归咪咕文化科技有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "转自48歌迷会：\nhttp://www.snh48club.com/video/21764.html\nhttps://www.bilibili.com/video/av13576434\n\n出场成员：陈观慧、陈思、李宇琪、莫寒、徐晨辰、袁雨桢。\n\n本视频版权归咪咕文化科技有限公司所有。",
+      "title": "20170819 城市源の力 SNH48 Team SⅡ经典赏析会 武汉站"
+    },
+    "publishedAt": "2017-08-20T07:31:22.000Z",
+    "tags": [
+      "SNH48",
+      "SNH48 Team SII",
+      "陈观慧",
+      "陈思",
+      "李宇琪",
+      "莫寒",
+      "孙芮",
+      "徐晨辰"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/p43iETvcCnE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/p43iETvcCnE/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/p43iETvcCnE/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/p43iETvcCnE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/p43iETvcCnE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170819 城市源の力 SNH48 Team SⅡ经典赏析会 武汉站"
+  }
+}

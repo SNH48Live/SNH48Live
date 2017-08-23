@@ -63,8 +63,9 @@ def find_stage(stage):
 
 def parse_existing_configs():
     # stage could be a one-off special performance, in which case the perfnum part is omitted.
-    pattern = re.compile(r'^(?P<date>\d{8})-(?P<vid>\d+)-(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
-    return [(file, pattern.match(file)) for file in os.listdir(CONFIG_DIR)]
+    pattern = re.compile(r'^.*/(?P<date>\d{8})-(?P<vid>\d+)-(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
+    files = sorted(CONFIG_DIR.glob('**/*.yml'), key=lambda file: file.name)
+    return [(file, pattern.match(str(file))) for file in files]
 
 def find_latest_vid(configs):
     file, m = configs[-1]

@@ -2,6 +2,7 @@
 
 here=$0:A:h
 root=$here:h
+bin=$root/bin
 venvbin=$root/venv/bin
 
 qa () {
@@ -12,13 +13,16 @@ qa () {
 
 [[ $1 == (-h|--help) ]] && {
     cat >&2 <<EOF
-Usage: $0:t [files]
+Usage: $0:t [file [file...]]
+
+<file> could be relevant to pwd or bin/.
 EOF
     exit
 }
 
 if (( $# > 0 )); then
     for file; do
+        [[ ! -n $file && -f $bin/$file ]] && file=$bin/$file
         qa $file
     done
 else

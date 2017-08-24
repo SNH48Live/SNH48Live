@@ -63,12 +63,23 @@ def find_stage(stage):
 
 def parse_existing_configs():
     # stage could be a one-off special performance, in which case the perfnum part is omitted.
-    pattern = re.compile(r'^.*/(?P<date>\d{8})-(?P<vid>\d+)-(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
+    # - date is of the form YYYYMMDD;
+    # - altplatform is a three-letter abbreviation, e.g. bej; it is None
+    #   for the primary platform (live.snh48.com).
+    # - vid is an int;
+    # - stage is a stage title, e.g. 第48区;
+    # - perfnum is an int indicating the performance number in a stage series.
+    pattern = re.compile(r'^.*/(?P<date>\d{8})-(?P<altplatform>[a-z]{3})?(?P<vid>\d+)-'
+                         r'(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
     files = sorted(CONFIG_DIR.glob('**/*.yml'), key=lambda file: file.name)
     return [(file, pattern.match(str(file))) for file in files]
 
+# Only works for live.snh48.com.
 def find_latest_vid(configs):
-    file, m = configs[-1]
+    for file, m in reversed(configs):
+        # Look for the last live.snh48.com performance
+        if not m.group('altplatform'):
+            break
     logger.info(f'latest vid from {file}')
     return int(m.group('vid'))
 
@@ -92,15 +103,30 @@ def main():
     # ISO 8601
     datetime = f'{date[:4]}-{date[4:6]}-{date[6:]}T{time}:00+08:00'
 
-    vid_default = find_latest_vid(configs) + 1
-    vid_input = input(f'live.snh48.com id [{vid_default}]: ')
-    if vid_input:
-        try:
-            vid = int(vid_input)
-        except ValueError:
-            die(f'invalid video ID {vid}')
+    group_abbrevs = ['snh', 'bej', 'gnz', 'shy', 'ckg']
+    platform = input('platform [live.snh48.com]: ')
+    if not platform:
+        platform = 'live.snh48.com'
+    elif platform in [f'live.{g}.com' for g in group_abbrevs]:
+        pass
+    elif platform in [f'{g}48' for g in group_abbrevs]:
+        platform = f'live.{platform}.com'
+    elif platform in group_abbrevs:
+        platform = f'live.{platform}48.com'
     else:
-        vid = vid_default
+        die(f'unrecognized platform {platform}')
+    platform_short = platform[5:8]
+    assert platform_short in group_abbrevs
+
+    if platform == 'live.snh48.com':
+        vid_default = find_latest_vid(configs) + 1
+        vid = input(f'{platform} id [{vid_default}]: ') or vid_default
+    else:
+        vid = input(f'{platform} id: ')
+    try:
+        vid = int(vid)
+    except (TypeError, ValueError):
+        die(f'invalid video ID {vid}')
 
     stage = input('Stage: ')
 
@@ -153,7 +179,7 @@ def main():
         else:
             # Multi-team, e.g. 我们向前冲
             title = f'{date} {stage} {perfnum:02d}'
-        vod = f'http://live.snh48.com/Index/invedio/id/{vid}'
+        vod = f'http://{platform}/Index/invedio/id/{vid}'
         tags = ['SNH48', stage]
         thumbnail = f'{date}-{stage}-{perfnum:02d}.png'
         playlists = ['全部', '全部公演']
@@ -162,7 +188,8 @@ def main():
         else:
             playlists.append(stage)
 
-        file = CONFIG_DIR / f'{date}-{vid}-{stage}-{perfnum:02d}.yml'
+        pvid = str(vid) if platform_short == 'snh' else f'{platform_short}{vid}'
+        file = CONFIG_DIR / f'{date}-{pvid}-{stage}-{perfnum:02d}.yml'
 
     # Render and write config file
     hr()

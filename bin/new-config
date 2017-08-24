@@ -51,6 +51,9 @@ def die(msg):
     logger.error(msg)
     sys.exit(1)
 
+def inputs(prompt=''):
+    return input(prompt).strip()
+
 def hr():
     columns = shutil.get_terminal_size().columns
     print('-' * columns, file=sys.stderr)
@@ -93,18 +96,18 @@ def find_latest_perfnum(configs, stage):
 def main():
     configs = parse_existing_configs()
 
-    date = input('Date: ')
+    date = inputs('Date: ')
     if not re.match(r'^\d{8}$', date):
         die(f'invalid date {date}')
 
-    time = input('Time (HH:MM in CST): ')
+    time = inputs('Time (HH:MM in CST): ')
     if not re.match(r'^\d{2}:\d{2}$', time):
         die(f'invalid time {time}')
     # ISO 8601
     datetime = f'{date[:4]}-{date[4:6]}-{date[6:]}T{time}:00+08:00'
 
     group_abbrevs = ['snh', 'bej', 'gnz', 'shy', 'ckg']
-    platform = input('platform [live.snh48.com]: ')
+    platform = inputs('platform [live.snh48.com]: ')
     if not platform:
         platform = 'live.snh48.com'
     elif platform in [f'live.{g}.com' for g in group_abbrevs]:
@@ -120,17 +123,17 @@ def main():
 
     if platform == 'live.snh48.com':
         vid_default = find_latest_vid(configs) + 1
-        vid = input(f'{platform} id [{vid_default}]: ') or vid_default
+        vid = inputs(f'{platform} id [{vid_default}]: ') or vid_default
     else:
-        vid = input(f'{platform} id: ')
+        vid = inputs(f'{platform} id: ')
     try:
         vid = int(vid)
     except (TypeError, ValueError):
         die(f'invalid video ID {vid}')
 
-    stage = input('Stage: ')
+    stage = inputs('Stage: ')
 
-    m3u8 = input('M3U8: ')
+    m3u8 = inputs('M3U8: ')
     # A basic sanity check
     if f'/{date}/' not in m3u8:
         die(f'M3U8 URL does not contain the given date; probably wrong!')
@@ -138,7 +141,7 @@ def main():
     if not stage:
         # Special performance
 
-        name = input('Name of special performance: ')
+        name = inputs('Name of special performance: ')
         if not name:
             die('name should not be empty')
 
@@ -150,7 +153,7 @@ def main():
         playlists = ['全部', '全部公演', '特别公演']
 
         file_default = f'{date}-{vid}-{name}.yml'
-        file_input = input(f'Config file [{file_default}]: ')
+        file_input = inputs(f'Config file [{file_default}]: ')
         file = CONFIG_DIR / (file_input or file_default)
     else:
         # Regular performance
@@ -161,7 +164,7 @@ def main():
         if perfnum_default is not None:
             perfnum_default += 1
         perfnum_default_display = f' [{perfnum_default:02d}]' if perfnum_default else ''
-        perfnum_input = input(f'Performance #{perfnum_default_display}: ')
+        perfnum_input = inputs(f'Performance #{perfnum_default_display}: ')
         if perfnum_input:
             try:
                 perfnum = int(perfnum_input)

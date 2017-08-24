@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+here=$0:A:h
+root=$here:h
+
+files=(
+    $root/attendance.json
+    $root/attendance.txt
+    $root/performances.json
+    $root/performances.json.old
+)
+
+git -C $root commit -vv -m "$(head -1 $root/performances.json | jq -r .title)" --  $files

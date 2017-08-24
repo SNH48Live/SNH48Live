@@ -1,0 +1,23 @@
+#!/usr/bin/env zsh
+
+# Retire a config file that has served its purpose.
+
+setopt nullglob
+
+here=$0:A:h
+root=$here:h
+config_dir=$root/videos/config
+past_config_dir=$config_dir/past/
+
+current_configs=( $config_dir/*.yml(on) )
+earliest=$current_configs[1]
+[[ -n $earliest ]] || { echo 'No current configs.' >&2; exit 1; }
+read -q "yn?Retire $earliest:t? [yN] "
+echo >&2
+[[ $yn == y ]] || exit 1
+if git -C $root ls-files --error-unmatch $earliest &>/dev/null; then
+    # Tracked by git
+    git -C $root mv -v $earliest $past_config_dir
+else
+    mv -v $earliest $past_config_dir
+fi

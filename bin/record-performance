@@ -154,7 +154,7 @@ def main():
         team_default = stage2team(stage)
         team = input(f'Team [{team_default}]: ') or team_default
         special = input(f'Special? [yN]: ').lower().startswith('y')
-        live_id_default = str(ref['live_id'])
+        live_id_default = str(ref['live_id']) if ref['live_id'] else None
         live_id = input(f'live.snh48.com video ID [{live_id_default}]: ') or live_id_default
         snh48club_video_id_default = ref['snh48club_video_id']
         snh48club_video_id = (input(f'SNH48 Club video ID [{snh48club_video_id_default}]: ')

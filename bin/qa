@@ -1,0 +1,29 @@
+#!/usr/bin/env zsh
+
+here=$0:A:h
+root=$here:h
+venvbin=$root/venv/bin
+
+qa () {
+    print "\e[34m$1:t\e[0m"
+    $venvbin/pyflakes $1
+    $venvbin/pylint --score=n $1 | grep -v '************* Module'
+}
+
+[[ $1 == (-h|--help) ]] && {
+    cat >&2 <<EOF
+Usage: $0:t [files]
+EOF
+    exit
+}
+
+if (( $# > 0 )); then
+    for file; do
+        qa $file
+    done
+else
+    for file in $here/*(.); do
+        [[ $file == *.py ]] || head -1 $file | grep -q python || continue
+        qa $file
+    done
+fi

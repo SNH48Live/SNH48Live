@@ -31,6 +31,7 @@ Helpers depend on Python 3.6+ and Zsh 5.0+.
 - [`parse-attendance-sheet`](bin/parse-attendance-sheet): convert `attendance.txt` into `attendance.json`.
 - [`performers`](bin/performers): retrieve performers lists from official streaming site.
 - [`post-to-tumblr`](bin/post-to-tumblr): cross-post to [Tumblr](https://snh48live.tumblr.com) — a healthy dose of SEO and discoverability shenanigans doesn't hurt, right?
+- [`qa`](bin/qa): basic quality assurance on Python source code.
 - [`record-performance`](bin/record-performance): record performance metadata into `performances.json`.
 - [`searchrank`](bin/searchrank): find this channel and its videos among the top 50 SNH48-related search results. Purely for bragging rights.
 - [`stats`](bin/stats): fetch and display channel analytics data.

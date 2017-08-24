@@ -82,9 +82,9 @@ def find_latest_vid(configs):
     for file, m in reversed(configs):
         # Look for the last live.snh48.com performance
         if not m.group('altplatform'):
-            break
-    logger.info(f'latest vid from {file}')
-    return int(m.group('vid'))
+            logger.info(f'latest vid from {file}')
+            return int(m.group('vid'))
+    return None
 
 def find_latest_perfnum(configs, stage):
     for file, m in reversed(configs):

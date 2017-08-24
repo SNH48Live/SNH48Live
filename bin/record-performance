@@ -221,6 +221,7 @@ def main():
                 return 'TerminalStop'
 
         def sigtstp_handler(signum, frame):
+            # pylint: disable=unused-argument
             raise TerminalStop
 
         signal.signal(signal.SIGTSTP, sigtstp_handler)

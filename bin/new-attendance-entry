@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+
+import logging
+import os
+import pathlib
+import sys
+
+import config
+import stages
+import utils
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent
+VIDEO_CONFIG_DIR = ROOT / 'config' / 'videos'
+ATTENDANCE_TXT = ROOT / 'data' / 'attendance.txt'
+
+logging.basicConfig(format='[%(levelname)s] %(message)s')
+logger = logging.getLogger('new-attendance-entry')
+logger.setLevel(logging.DEBUG)
+
+def get_first_current_config():
+    current_configs = sorted(VIDEO_CONFIG_DIR.glob('*.yml'))
+    if not current_configs:
+        logger.error('No current configs.')
+        sys.exit(1)
+    return current_configs[0]
+
+def edit(file):
+    editor = os.getenv('VISUAL', os.getenv('EDITOR', 'vi'))
+    os.execvp(editor, [editor, str(file)])
+
+def main():
+    conf = config.load_config(get_first_current_config())
+    title = utils.to_full_title(conf.title)
+    parts = []
+    stage = stages.title2stage(title)
+    if stage:
+        stage_info = stages.STAGES[stage]
+        if stage_info['preshow']:
+            parts.append(stage_info['preshow'])
+        parts.append('MC1')
+        parts.extend(stage_info['units'])
+        parts.append('生日环节' if '生日' in title else 'MC2')
+        parts.extend(['MC3', 'MC4'])
+        if '拉票' in title:
+            parts.append('拉票环节')
+
+    with open(ATTENDANCE_TXT, 'a') as fp:
+        print('', file=fp)
+        print(title, file=fp)
+        for part in parts:
+            print(f'{part}：', file=fp)
+    print(title)
+
+    edit(ATTENDANCE_TXT)
+
+if __name__ == '__main__':
+    main()

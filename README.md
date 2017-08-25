@@ -28,6 +28,7 @@ Helpers depend on Python 3.6+ and Zsh 5.0+.
 - [`fetch-metadata`](bin/fetch-metadata): fetch metadata of all content videos.
 - [`fetch-schedule`](bin/fetch-schedule): fetch and format schedule data from <https://snh48live.org/schedule/>; helper for `new-config`.
 - [`new-config`](bin/new-config): generate download/upload configuration for a new performance.
+- [`new-attendance-entry`](bin/new-attendance-entry): automatically populate as much of a new attendance sheet entry as possible.
 - [`parse-attendance-sheet`](bin/parse-attendance-sheet): convert `attendance.txt` into `attendance.json`.
 - [`performers`](bin/performers): retrieve performers lists from official streaming site.
 - [`post-to-tumblr`](bin/post-to-tumblr): cross-post to [Tumblr](https://snh48live.tumblr.com) — a healthy dose of SEO and discoverability shenanigans doesn't hurt, right?

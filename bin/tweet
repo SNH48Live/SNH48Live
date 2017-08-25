@@ -9,7 +9,7 @@ import sys
 HERE = os.path.dirname(os.path.realpath(__file__))
 ROOT = os.path.dirname(HERE)
 
-VIDEO_METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
+VIDEO_METADATA_DIR = os.path.join(ROOT, 'data', 'videos')
 
 def get_youtube_video_title(video_id):
     metadata_file = os.path.join(VIDEO_METADATA_DIR, f'{video_id}.json')

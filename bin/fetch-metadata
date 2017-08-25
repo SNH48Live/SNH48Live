@@ -13,7 +13,7 @@ PLAYLIST_ID = 'PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW'
 HERE = os.path.dirname(os.path.realpath(__file__))
 ROOT = os.path.dirname(HERE)
 
-METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
+METADATA_DIR = os.path.join(ROOT, 'data', 'videos')
 
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlistItems.html#list
 def list_videos(youtube_client):

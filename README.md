@@ -11,7 +11,7 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 
 ## Data
 - [`videos.txt`](data/videos.txt): short list of all content videos (channel info videos are not included).
-- [`videos/metadata/*.json`](videos/metadata): metadata of content videos directly from YouTube API v3.
+- [`data/videos/*.json`](data/videos): metadata of content videos directly from YouTube API v3.
 - [`partially-blocked.txt`](data/partially-blocked.txt): short list of videos that are blocked in some countries (see `claims.md` for details). To get around region blocks, use a VPN service, e.g. [Private Internet Access](https://www.privateinternetaccess.com/).
 - [`claims.md`](data/claims.md): list of videos and their associated copyright claims.
 - [`claims.json`](data/claims.json): list of videos and their associated copyright claims, in JSON format.

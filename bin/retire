@@ -6,7 +6,7 @@ setopt nullglob
 
 here=$0:A:h
 root=$here:h
-config_dir=$root/videos/config
+config_dir=$root/config/videos
 past_config_dir=$config_dir/past/
 
 current_configs=( $config_dir/*.yml(on) )

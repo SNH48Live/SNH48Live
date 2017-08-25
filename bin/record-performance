@@ -26,7 +26,7 @@ logger.setLevel(logging.INFO)
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
-VIDEO_CONFIG_DIR = ROOT / 'videos' / 'config'
+VIDEO_CONFIG_DIR = ROOT / 'config' / 'videos'
 VIDEO_METADATA_DIR = ROOT / 'data' / 'videos'
 VIDEO_LIST = ROOT / 'data' / 'videos.txt'
 DATASTORE = ROOT / 'data' / 'performances.json'

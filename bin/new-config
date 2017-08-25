@@ -19,7 +19,7 @@ logger.setLevel(logging.INFO)
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
-CONFIG_DIR = ROOT / 'videos' / 'config'
+CONFIG_DIR = ROOT / 'config' / 'videos'
 THUMBNAILER = HERE / 'thumbnail'
 
 STAGES = [

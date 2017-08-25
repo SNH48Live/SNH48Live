@@ -1,8 +1,14 @@
 import curses
-import os
+import logging
+import re
 import shutil
 import sys
 import time
+
+
+logging.basicConfig(format='[%(levelname)s] %(message)s')
+logger = logging.getLogger('utils')
+logger.setLevel(logging.DEBUG)
 
 
 # A very bare-bones progress bar implementation. No speed or ETA support.
@@ -55,3 +61,23 @@ class ProgressBar(object):
         # Restore cursor
         sys.stderr.buffer.write(curses.tigetstr('cnorm'))
         self._activated = False
+
+
+def sleep_until(datetime_):
+    timestamp = datetime_.timestamp
+    now = time.time()
+    if now >= timestamp:
+        return
+    else:
+        datetime_display = datetime_.to('local').strftime('%Y-%m-%d %H:%M %Z')
+        logger.info(f'Sleeping until {datetime_display}...')
+        time.sleep(timestamp - now)
+
+
+# Convert a local, shortened title to a full title used formally.
+def to_full_title(local_title):
+    full_title = re.sub(r'^(\d{8}) ',
+                        lambda m: f'{m.group(1)} SNH48 ',
+                        local_title)
+    full_title = full_title.replace('生日', '生日主题公演')
+    return full_title

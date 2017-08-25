@@ -18,6 +18,7 @@ except ImportError:
 import bs4
 import requests
 
+import stages
 from members import MEMBERS
 
 logging.basicConfig(format='[%(levelname)s] %(message)s')
@@ -34,29 +35,6 @@ OFFICIAL_PERFORMER_LIST_FETCHER = HERE / 'performers'
 ATTENDANCE_JSON = ROOT / 'data' / 'attendance.json'
 PARSER = HERE / 'parse-attendance-sheet'
 VALIDATOR = HERE / 'validate-performances'
-
-STAGE_ASSOCIATIONS = {
-    '': 'joint',
-    '心的旅程': 's2',
-    '专属派对': 'n2',
-    '梦想的旗帜': 'x',
-    '代号XⅡ': 'x2',
-    '美丽世界': 'h2',
-    '我们向前冲': 'joint',
-    '第48区': 's2',
-}
-
-def title2stage(title):
-    for stage in STAGE_ASSOCIATIONS.keys():
-        if stage and stage in title:
-            return stage
-    return ''
-
-def stage2team(stage):
-    if stage in STAGE_ASSOCIATIONS:
-        return STAGE_ASSOCIATIONS[stage]
-    else:
-        raise ValueError(f"'{stage}' is not a recognized stage")
 
 def guess_video_id():
     # Read the most recent video_id already in DATASTORE.
@@ -187,9 +165,9 @@ def main():
         else:
             video_id = None
             title = input('Title: ')
-        stage_default = title2stage(title)
+        stage_default = stages.title2stage(title)
         stage = input(f'Stage [{stage_default}]: ') or stage_default
-        team_default = stage2team(stage)
+        team_default = stages.stage2team(stage)
         team = input(f'Team [{team_default}]: ') or team_default
         special = input(f'Special? [yN]: ').lower().startswith('y')
         live_id_default = guess_live_id_from_configs(title[:8], stage)

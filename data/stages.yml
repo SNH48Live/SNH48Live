@@ -1,0 +1,204 @@
+心的旅程:
+  homepage: http://www.snh48.com/event/s143/
+  team: s2
+  debut: 2016-05-20
+  finale: 2017-06-10
+  preshow: 马上出发
+  opening:
+    - 心的旅程
+    - 时差密码
+    - 小宇宙
+    - 蒙娜丽莎没有自拍照
+  units:
+    - 好友创可贴
+    - 地平线
+    - 下一站是你
+    - 新世界
+    - 降落伞
+  ending:
+    - 狂欢亚马逊
+    - 罗马假日
+    - 纽约梦
+    - 月光下
+  encore:
+    - 潮流冠军
+    - 青春号角
+    - 我的舞台
+
+专属派对:
+  homepage: http://www.snh48.com/event/s150/
+  team: n2
+  debut: 2016-07-22
+  preshow: Show Time
+  opening:
+    - 潘多拉的音乐盒
+    - 专属派对
+    - Shake It! Shake It!
+    - 摇摆节拍
+  units:
+    - 我们不是天使
+    - 白日梦
+    - 木偶
+    - Don\'t Touch
+    - 黑天鹅
+  ending:
+    - Funky Night
+    - 圈叉圈叉
+    - 超级焦点
+    - 青春不败
+  encore:
+    - 不良示范
+    - 下一个黎明
+    - 星愿
+
+梦想的旗帜:
+  homepage: http://www.snh48.com/event/s165/
+  team: x
+  debut: 2016-10-28
+  preshow:
+  opening:
+    - 结伴同行
+    - 北极光
+    - 寻路者
+    - Shiny Boys Shiny Girls
+  units:
+    - 梦
+    - 水手服
+    - 无可替代
+    - Monster
+    - 人鱼
+  ending:
+    - 梦想的旗帜
+    - One Two Three!
+    - X基因
+    - 星座
+  encore:
+    - 闪亮加冕
+    - 梦想家
+    - 未来寄语
+
+代号XⅡ:
+  homepage: http://www.snh48.com/event/s171/
+  team: x2
+  debut: 2016-12-23
+  preshow:
+  # 超感进化版
+  opening:
+    - XⅡ Say Hi
+    - 遇见最初的美好
+    - 守护者2.0
+    - 热情复活
+  units:
+    - 她和她
+    - 完美超载
+    - Love Letter
+    - 初吻练习曲
+    - 自以为
+    - 人间规则
+  ending:
+    - Shower Girl
+    - 心跳频率
+    - 成人礼2.0
+  encore:
+    - 梦想代码
+    - Girl Smile 2.0
+    - 给未来的我们
+  # 原版
+  opening_old:
+    - XⅡ Say Hi
+    - 遇见最初的美好
+    - 守护者
+    - Time Machine
+  units_old:
+    - 她和她
+    - Love Letter
+    - 初吻练习曲
+    - 都不会
+    - 自以为
+  ending_old:
+    - Shower Girl
+    - AI进化
+    - 心跳频率
+    - 成人礼
+  encore_old:
+    - 梦想代码
+    - Girl Smile
+    - 给未来的我们
+
+美丽世界:
+  homepage: http://www.snh48.com/event/s184/
+  team: h2
+  debut: 2017-04-08
+  preshow:
+  opening:
+    - H Zone
+    - I Hate You
+    - 黑夜女神
+    - Highlight
+  units:
+    - 背水一战
+    - 天使的圈套
+    - 化学超女子
+    - 关不掉
+    - 完美犯罪
+    - 对峙
+  ending:
+    - Why
+    - 花与火
+    - 美丽世界
+  encore:
+    - 天天向上
+    - Running Girls
+    - 如果有你在
+
+我们向前冲:
+  homepage: http://www.snh48.com/event/s190/
+  team: joint
+  debut: 2017-04-28
+  preshow:
+  opening:
+    - 绿光
+    - 清纯哲学
+    - Do It
+    - 勇敢的心
+  units:
+    - 黑天使
+    - 如果你拥抱我
+    - 王子殿下
+    - 暴风雨之夜
+    - 雨中钢琴师
+  ending:
+    - 浪漫关系
+    - 初恋蝴蝶
+    - 哎哟爱哟
+    - 青春的花瓣
+  encore:
+    - 钻石呐喊
+    - 非你不可
+    - Fan Letter
+
+第48区:
+  homepage: http://www.snh48.com/event/s197/
+  team: s2
+  debut: 2017-06-30
+  preshow:
+  opening:
+    - 第48区
+    - 破茧
+    - Mute
+    - Drop It
+  units:
+    - Mad World
+    - Good Time
+    - 爱未央
+    - Go Away
+    - 灵魂使者
+    - 寒夜
+  ending:
+    - 幻
+    - 冒险乐园
+    - 废墟纪元
+  encore:
+    - 战歌
+    - 我的存在
+    - 无尽的世界

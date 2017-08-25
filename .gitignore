@@ -1,5 +1,1 @@
-/config
 /logs
-/videos/*
-!/videos/config
-!/videos/metadata

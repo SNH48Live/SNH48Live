@@ -6,7 +6,15 @@ import yaml
 from common import THUMBNAILS_DIR, logger
 
 
-class Config(object):
+# Attributes:
+# - title: str
+# - m3u8: str
+# - starting_time: arrow.arrow.Arrow
+# - vod: str
+# - tags: List[str]
+# - thumbnail (optional): str
+# - playlists (playlist names): List[str]
+class VodConfig(object):
     def __init__(self):
         # Set potential properties the stupid way (not using setattr) to
         # silence pylint errors/warnings.
@@ -20,19 +28,11 @@ class Config(object):
         self.public = None
 
 
-# Attributes:
-# - title: str
-# - m3u8: str
-# - starting_time: arrow.arrow.Arrow
-# - vod: str
-# - tags: List[str]
-# - thumbnail (optional): str
-# - playlists (playlist names): List[str]
-def load_config(config_file):
+def load_vod_config(config_file):
     with open(config_file) as fp:
         conf_dict = yaml.load(fp)
 
-    conf = Config()
+    conf = VodConfig()
     for attr in ('title', 'm3u8'):
         if attr in conf_dict:
             setattr(conf, attr, conf_dict[attr])

@@ -145,7 +145,7 @@ def performers(vod: str) -> List[str]:
         return []
 
 
-def upload(file: pathlib.Path, conf: config.Config):
+def upload(file: pathlib.Path, conf: config.VodConfig):
     full_title = utils.to_full_title(conf.title)
     description = textwrap.dedent(f'''\
     {conf.vod}
@@ -182,7 +182,7 @@ def main() -> None:
     add('--no-upload', action='store_true')
     args = parser.parse_args()
 
-    conf = config.load_config(args.config_file)
+    conf = config.load_vod_config(args.config_file)
     conf.public = args.public
     dest = VIDEOS_DIR / conf.title
 

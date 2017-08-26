@@ -26,7 +26,7 @@ def edit(file):
 
 
 def main():
-    conf = config.load_config(get_first_current_config())
+    conf = config.load_vod_config(get_first_current_config())
     title = utils.to_full_title(conf.title)
     parts = []
     stage = stages.title2stage(title)

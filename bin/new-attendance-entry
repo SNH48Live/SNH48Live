@@ -8,7 +8,9 @@ import stages
 import utils
 from common import DATA_DIR, VIDEO_CONFIGS_DIR, logger
 
+
 ATTENDANCE_TXT = DATA_DIR / 'attendance.txt'
+
 
 def get_first_current_config():
     current_configs = sorted(VIDEO_CONFIGS_DIR.glob('*.yml'))
@@ -17,9 +19,11 @@ def get_first_current_config():
         sys.exit(1)
     return current_configs[0]
 
+
 def edit(file):
     editor = os.getenv('VISUAL', os.getenv('EDITOR', 'vi'))
     os.execvp(editor, [editor, str(file)])
+
 
 def main():
     conf = config.load_config(get_first_current_config())
@@ -45,6 +49,7 @@ def main():
     print(title)
 
     edit(ATTENDANCE_TXT)
+
 
 if __name__ == '__main__':
     main()

@@ -16,6 +16,7 @@ import utils
 
 from common import BIN, VIDEOS_DIR, logger, change_logging_format
 
+
 MERGED_EXT = '.m4v'
 JOBS = 20
 
@@ -23,8 +24,10 @@ os.putenv('PARALLEL_SHELL', '/bin/bash')
 
 change_logging_format(fmt='[%(asctime)s] %(levelname)s: %(message)s')
 
+
 def log_command(args: List[str]) -> None:
     logger.debug(' '.join(map(shlex.quote, args)))
+
 
 def download_m3u8(m3u8_url: str, dest: pathlib.Path, *, retry_interval: int = 60) -> None:
     os.makedirs(dest, exist_ok=True)
@@ -63,7 +66,7 @@ def download_m3u8(m3u8_url: str, dest: pathlib.Path, *, retry_interval: int = 60
     logger.info(f'Downloading {num_chunks} chunks (SIGINT to interrupt)')
     cmd = [
         'parallel', '--bar', '-j', str(JOBS),
-        'cd {1}; [[ -f {#}.done ]] || { wget --continue -o {#}.log -O {#}.ts {2} && touch {#}.done; }',
+        'cd {1}; [[ -f {#}.done ]] || { wget --continue -o {#}.log -O {#}.ts {2} && touch {#}.done; }',  # noqa
         ':::', str(dest),
         '::::', str(urls_file),
     ]
@@ -82,6 +85,7 @@ def download_m3u8(m3u8_url: str, dest: pathlib.Path, *, retry_interval: int = 60
             logger.warning(f'exit status: {e.returncode}; retrying in {interval}s')
             time.sleep(interval)
             interval = min(interval * 2, max_interval)
+
 
 def merge_chunks(dest: pathlib.Path, basename: str) -> pathlib.Path:
     urls_file = dest / 'urls.txt'
@@ -120,6 +124,7 @@ def merge_chunks(dest: pathlib.Path, basename: str) -> pathlib.Path:
 
     return merged_file
 
+
 def performers(vod: str) -> List[str]:
     vod_pattern = re.compile(r'^https?://(live\.(?:snh|bej|gnz|shy)48\.com)/.*/(\d+)$')
     m = vod_pattern.match(vod)
@@ -138,6 +143,7 @@ def performers(vod: str) -> List[str]:
     except subprocess.CalledProcessError:
         logger.warning('`performers` failed')
         return []
+
 
 def upload(file: pathlib.Path, conf: config.Config):
     full_title = utils.to_full_title(conf.title)
@@ -163,6 +169,7 @@ def upload(file: pathlib.Path, conf: config.Config):
 
     log_command(cmd)
     subprocess.run(cmd)
+
 
 def main() -> None:
     parser = argparse.ArgumentParser()
@@ -197,6 +204,7 @@ def main() -> None:
 
     if not args.no_upload:
         upload(filepath, conf)
+
 
 if __name__ == '__main__':
     main()

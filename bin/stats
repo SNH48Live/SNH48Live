@@ -8,6 +8,7 @@ import attrdict
 
 import auth
 
+
 CHANNEL_ID = 'UC10BBCJQasWk_08Fdz0XCsQ'
 # 全部（包括全部公演和其它）
 # https://www.youtube.com/playlist?list=PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW
@@ -16,6 +17,7 @@ PLAYLIST_ID = 'PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW'
 # Number of videos to include in the report
 RECENT_VIDEOS_COUNT = 5
 TOP_VIDEOS_COUNT = 10
+
 
 # Returns an AttrDict with the following attributes:
 # - viewCount
@@ -32,6 +34,7 @@ def get_channel_stats(youtube):
     stats = channel.statistics
     stats.days = (arrow.now() - arrow.get(channel.snippet.publishedAt)).days + 1
     return stats
+
 
 # Returns a list of ids of the top videos by view count.
 # Not always up-to-date due to the way YouTube Analytics API works.
@@ -60,6 +63,7 @@ def get_top_videos(youtube_analytics, max_results=5):
     #   ]
     return list(next(zip(*response['rows'])))
 
+
 # Get a list of ids of recently published videos.
 # max_results is capped at 50.
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlistItems.html#list
@@ -70,6 +74,7 @@ def get_recent_videos(youtube, max_results=5):
         maxResults=min(max_results, 50),
     ).execute()
     return [item.contentDetails.videoId for item in attrdict.AttrDict(response)('items')]
+
 
 # Returns a list of AttrDict's with the following attributes:
 # - id
@@ -95,6 +100,7 @@ def get_video_stats(youtube, video_ids):
         videos.append(video)
     return videos
 
+
 def prepare_report_data(youtube, youtube_analytics):
     channel_stats = get_channel_stats(youtube)
     recent_vids = get_recent_videos(youtube, max_results=RECENT_VIDEOS_COUNT)
@@ -107,6 +113,7 @@ def prepare_report_data(youtube, youtube_analytics):
         'recent_videos': [video.copy() for video in recent_video_stats],
         'top_videos': [video.copy() for video in top_video_stats],
     }
+
 
 def generate_textual_report(data, color=True):
     red = '\x1b[31m'
@@ -158,6 +165,7 @@ def generate_textual_report(data, color=True):
 
     return report
 
+
 def main():
     parser = auth.ArgumentParser()
     add = parser.add_argument
@@ -176,6 +184,7 @@ def main():
     else:
         import pydoc
         pydoc.pager(report)
+
 
 if __name__ == '__main__':
     main()

@@ -64,7 +64,8 @@ def main():
     add('-o', '--overwrite', action='store_true',
         help='overwrite already persisted data')
     add('-s', '--short', action='store_true',
-        help='populate the video short list videos.txt instead; all other arguments are ignored in this mode')
+        help='''populate the video short list videos.txt instead; all other arguments
+        are ignored in this mode''')
     add('video_ids', nargs='*', metavar='VIDEO_ID',
         help='if no video id is given, fetch for all videos in the "全部公演" playlist')
     args = parser.parse_args()
@@ -77,7 +78,8 @@ def main():
                 print(f'https://youtu.be/{vid}\t{title}', file=fp)
         sys.exit(0)
 
-    video_ids = args.video_ids if args.video_ids else [vid for vid, title in list_videos(youtube_client)]
+    video_ids = (args.video_ids if args.video_ids else
+                 [vid for vid, title in list_videos(youtube_client)])
     if not args.overwrite:
         video_ids = [vid for vid in video_ids if not (VIDEO_METADATA_DIR / f'{vid}.json').exists()]
     if video_ids:

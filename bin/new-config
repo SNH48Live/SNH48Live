@@ -6,11 +6,12 @@ import shutil
 import subprocess
 import sys
 try:
-    import readline
+    import readline  # noqa; pylint: disable=unused-import
 except ImportError:
     pass
 
 from common import BIN, VIDEO_CONFIGS_DIR, logger
+
 
 THUMBNAILER = BIN / 'thumbnail'
 
@@ -39,22 +40,27 @@ playlists:
 {% endfor -%}
 ''')
 
+
 def die(msg):
     logger.error(msg)
     sys.exit(1)
 
+
 def inputs(prompt=''):
     return input(prompt).strip()
+
 
 def hr():
     columns = shutil.get_terminal_size().columns
     print('-' * columns, file=sys.stderr)
+
 
 def find_stage(stage):
     for team, stage_ in STAGES:
         if stage_ == stage:
             return team
     die(f'stage {stage} not recognized')
+
 
 def parse_existing_configs():
     # stage could be a one-off special performance, in which case the perfnum part is omitted.
@@ -69,6 +75,7 @@ def parse_existing_configs():
     files = sorted(VIDEO_CONFIGS_DIR.glob('**/*.yml'), key=lambda file: file.name)
     return [(file, pattern.match(str(file))) for file in files]
 
+
 # Only works for live.snh48.com.
 def find_latest_vid(configs):
     for file, m in reversed(configs):
@@ -78,12 +85,14 @@ def find_latest_vid(configs):
             return int(m.group('vid'))
     return None
 
+
 def find_latest_perfnum(configs, stage):
     for file, m in reversed(configs):
         if m.group('stage') == stage:
             logger.info(f'latest perf # from {file}')
             return int(m.group('perfnum'))
     return None
+
 
 def main():
     configs = parse_existing_configs()
@@ -211,6 +220,7 @@ def main():
         subprocess.run(cmd)
     else:
         logger.info('Please remember to generate the thumbnail.')
+
 
 if __name__ == '__main__':
     main()

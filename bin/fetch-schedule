@@ -5,7 +5,9 @@ import textwrap
 import arrow
 import requests
 
+
 API_URL = 'https://snh48live.org/schedule/json/'
+
 
 def process_entry(entry):
     print(textwrap.dedent(f'''\
@@ -15,11 +17,13 @@ def process_entry(entry):
       {entry['stream_path']}
     '''))
 
+
 def main():
     resp = requests.get(API_URL)
     assert resp.status_code == 200
     for entry in resp.json():
         process_entry(entry)
+
 
 if __name__ == '__main__':
     main()

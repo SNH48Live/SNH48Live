@@ -1,12 +1,12 @@
 arrow
 attrdict
 bs4
+flake8
 google-api-python-client
 jinja2
 oauth2
 matplotlib
 numpy
-pyflakes
 pylint
 pytumblr
 pyyaml

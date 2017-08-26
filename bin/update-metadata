@@ -157,7 +157,8 @@ def main():
     is directly replaced with repl.'''
     parser_update_title = subparsers.add_parser('update-title', description=desc)
     add = parser_update_title.add_argument
-    add('-t', '--test', action='store_true', help='show expected renames but do not commit to them')
+    add('-t', '--test', action='store_true',
+        help='show expected renames but do not commit to them')
     add('video_ids', help='comma-delimited video IDs')
     add('pattern')
     add('repl')

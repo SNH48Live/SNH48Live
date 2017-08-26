@@ -6,8 +6,10 @@ import re
 import bs4
 import requests
 
+
 ENTRY_LINK = re.compile(r'^/Index/invedio/id/(\d+)$')
 WHITESPACE = re.compile(r'\s+')
+
 
 # Returns False when page has no videos
 def crawl_page(page_num):
@@ -23,6 +25,7 @@ def crawl_page(page_num):
         theend = False
     return not theend
 
+
 def main():
     parser = argparse.ArgumentParser()
     add = parser.add_argument
@@ -35,6 +38,7 @@ def main():
         if not crawl_page(page_num):
             break
         page_num += 1
+
 
 if __name__ == '__main__':
     main()

@@ -8,7 +8,9 @@ import attrdict
 import auth
 from common import DATA_DIR
 
+
 DATASTORE = DATA_DIR / 'playlists.json'
+
 
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlists.html#list
 def list_playlists(youtube):
@@ -24,15 +26,18 @@ def list_playlists(youtube):
         list_request = youtube.playlists().list_next(list_request, list_response)
     return playlists
 
+
 def print_playlists(playlists):
     for playlist in playlists:
         print(f'{playlist.id}\t{playlist.snippet.title}')
+
 
 def populate_datastore(playlists):
     data = collections.OrderedDict((playlist.snippet.title, playlist.id) for playlist in playlists)
     with open(DATASTORE, 'w') as fp:
         # Printing dumps result instead of dump'ing directly to ensure final newline.
         print(json.dumps(data, ensure_ascii=False, indent=2), file=fp)
+
 
 def main():
     parser = auth.ArgumentParser()
@@ -42,6 +47,7 @@ def main():
     playlists = list_playlists(youtube)
     print_playlists(playlists)
     populate_datastore(playlists)
+
 
 if __name__ == '__main__':
     main()

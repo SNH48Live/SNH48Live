@@ -15,11 +15,13 @@ from matplotlib.ticker import MaxNLocator
 
 from common import ROOT
 
+
 LOGS_DIR = ROOT / 'logs' / 'stats'
 
 LOGFILE = re.compile(r'.*/?(\d{8})\.log(?:\.gz)?$')  # YYYYMMDD.log or YYYYMMDD.log.gz
 DATETIME = re.compile(r'^datetime: (.*)$', re.M)
 SUBSCRIBERS = re.compile(r'^subscribers: (\d+)$', re.M)
+
 
 # Aggregate daily logs created by stats-monitor
 def aggregate_logs(*, fromdate=None, todate=None):
@@ -37,6 +39,7 @@ def aggregate_logs(*, fromdate=None, todate=None):
         dates.append(date)
     return logs, min(dates or [0]), max(dates or [0])
 
+
 def plain_or_gzip_openhook(filepath, mode):
     if mode != 'r':
         raise NotImplementedError
@@ -44,6 +47,7 @@ def plain_or_gzip_openhook(filepath, mode):
         return gzip.open(filepath, 'rt')
     else:
         return open(filepath, 'r')
+
 
 def extract_data(logs):
     timestamps = []
@@ -72,6 +76,7 @@ def extract_data(logs):
             # subscriber_counts.extend(int(subs) for subs in SUBSCRIBERS.findall(line))
     return timestamps, subscriber_counts
 
+
 def plot(timestamps, subscriber_counts, mindate, maxdate):
     plt.title(f'Subscribers growth ({mindate}–{maxdate})')
     plt.xlabel('Time (days)')
@@ -89,6 +94,7 @@ def plot(timestamps, subscriber_counts, mindate, maxdate):
     plt.savefig(svgpath, bbox_inches='tight')
     print(svgpath)
 
+
 def main():
     parser = argparse.ArgumentParser()
     add = parser.add_argument
@@ -103,6 +109,7 @@ def main():
         sys.exit(1)
     timestamps, subscriber_counts = extract_data(logs)
     plot(timestamps, subscriber_counts, mindate, maxdate)
+
 
 if __name__ == '__main__':
     main()

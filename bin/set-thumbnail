@@ -4,11 +4,13 @@ import os
 
 import auth
 
+
 def set_thumbnail(youtube, video_id, thumbnail_file):
     youtube.thumbnails().set(
         videoId=video_id,
         media_body=thumbnail_file,
     ).execute()
+
 
 def main():
     parser = auth.ArgumentParser()
@@ -22,6 +24,7 @@ def main():
 
     youtube_client = auth.get_youtube_client(args, 'youtube.upload')
     set_thumbnail(youtube_client, args.video_id, args.file)
+
 
 if __name__ == '__main__':
     main()

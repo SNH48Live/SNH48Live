@@ -9,7 +9,7 @@ import subprocess
 import sys
 import tempfile
 try:
-    import readline
+    import readline  # noqa; pylint: disable=unused-import
 except ImportError:
     pass
 
@@ -20,12 +20,14 @@ import stages
 from common import BIN, DATA_DIR, VIDEO_CONFIGS_DIR, VIDEO_METADATA_DIR, logger
 from members import MEMBERS
 
+
 VIDEO_LIST = DATA_DIR / 'videos.txt'
 ATTENDANCE_JSON = DATA_DIR / 'attendance.json'
 DATASTORE = DATA_DIR / 'performances.json'
 PARSER = BIN / 'parse-attendance-sheet'
 OFFICIAL_PERFORMER_LIST_FETCHER = BIN / 'performers'
 VALIDATOR = BIN / 'validate-performances'
+
 
 def guess_video_id():
     # Read the most recent video_id already in DATASTORE.
@@ -46,10 +48,12 @@ def guess_video_id():
                 first_new_vid = vid
     return first_new_vid
 
+
 def guess_live_id_from_configs(date, stage):
     # pattern lifted from new-config.
     # stage could be a one-off special performance, in which case the perfnum part is omitted.
-    pattern = re.compile(r'^(?P<date>\d{8})-(?P<vid>\d+)-(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
+    pattern = re.compile(r'^(?P<date>\d{8})-(?P<vid>\d+)-'
+                         r'(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
     for file in sorted(VIDEO_CONFIGS_DIR.glob(f'**/{date}-*.yml')):
         m = pattern.match(file.name)
         if m and ((stage == m.group('stage')) or  # regular performance
@@ -63,9 +67,11 @@ def guess_live_id_from_configs(date, stage):
                 return vid
     return None
 
+
 def validate_youtube_video_id(video_id):
     if not re.match(r'^[a-zA-Z0-9_-]{11}$', video_id):
         raise ValueError(f"'{video_id}' is not a valid YouTube video ID")
+
 
 def retrieve_youtube_video_title(video_id):
     metadata_file = VIDEO_METADATA_DIR / f'{video_id}.json'
@@ -76,19 +82,25 @@ def retrieve_youtube_video_title(video_id):
     logger.info(f'Title: {title}')
     return title
 
+
 def validate_live_id(live_id):
     if not re.match(r'^\d+$', live_id):
-        raise ValueError(f"'{live_id}' is not a valid live.snh48.com video ID (should be numerical)")
+        raise ValueError(f"'{live_id}' is not a valid live.snh48.com video ID "
+                         '(should be numerical)')
+
 
 def validate_snh48club_video_id(snh48club_video_id):
     if not re.match(r'^\d+$', snh48club_video_id):
-        raise ValueError(f"'{snh48club_video_id}' is not a valid snh48club video ID (should be numerical)")
+        raise ValueError(f"'{snh48club_video_id}' is not a valid snh48club video ID "
+                         '(should be numerical)')
+
 
 def fetch_performers_from_official_site(live_id):
     return subprocess.check_output([
         str(OFFICIAL_PERFORMER_LIST_FETCHER),
         str(live_id),
     ]).strip().decode('utf-8') + ','
+
 
 # SNH48 Club's list of performers appears to be more accurate than the
 # that from live.snh48.com. For instance, compare
@@ -119,6 +131,7 @@ def fetch_performers_from_snh48club(snh48club_video_id):
     # it actually happens).
     return ','.join(performers) + ','
 
+
 def fetch_performers_from_attendance_sheet(title):
     with open(ATTENDANCE_JSON) as fp:
         data = json.load(fp)
@@ -128,6 +141,7 @@ def fetch_performers_from_attendance_sheet(title):
             return ','.join(performers) + ','
         else:
             return None
+
 
 # Prepend record a JSON line to the data store.
 def prepend_to_data_store(record):
@@ -144,6 +158,7 @@ def prepend_to_data_store(record):
     else:
         with open(DATASTORE, 'w') as fp:
             print(record_str, file=fp)
+
 
 def main():
     try:
@@ -244,6 +259,7 @@ def main():
     except BaseException as e:
         logger.error(e)
         sys.exit(1)
+
 
 if __name__ == '__main__':
     main()

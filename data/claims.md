@@ -3,6 +3,26 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170825 SNH48 我们向前冲 10 赵晔生日主题公演](https://youtube.com/watch?v=R1ClKvOcQlI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:27:13 - 2:28:06 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:45:27 - 2:46:25 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>53:28 - 57:46 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
+[20170825 SNH48 星梦Mini Live（徐晗）](https://youtube.com/watch?v=fhhMRNVadU4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| MY LOVE<br>Music composition<br>1:12:08 - 1:16:39 | APRA_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+| 鱼<br>Music composition<br>59:52 - 1:03:53 | CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+| SANTA BABY<br>Music composition<br>47:23 - 49:22 | BMG_Rights_Management<br>ACUM_CS<br>FILSCAP<br>APRA_CS<br>Exploration Group (Music Publishing)<br>COMPASS_CS<br>SACEM | Monetized by copyright owner |
+
+---
+
 [20170819 SNH48 Team HⅡ 美丽世界 27](https://youtube.com/watch?v=zmi7N8Aj_ns)
 
 | Content | Claimant | Policy |

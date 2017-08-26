@@ -2,18 +2,16 @@
 
 import collections
 import json
-import os
 
+from common import DATA_DIR
 from members import MEMBERS
 
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
-ATTENDANCE_SHEET = os.path.join(ROOT, 'data/attendance.txt')
-ATTENDANCE_JSON = os.path.join(ROOT, 'data/attendance.json')
+ATTENDANCE_TXT = DATA_DIR / 'attendance.txt'
+ATTENDANCE_JSON = DATA_DIR / 'attendance.json'
 
 def parse():
     data = []
-    with open(ATTENDANCE_SHEET) as fp:
+    with open(ATTENDANCE_TXT) as fp:
         final = False
         while True:
             title = next(fp).strip()

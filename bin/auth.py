@@ -1,5 +1,4 @@
 import argparse
-import pathlib
 
 import googleapiclient.discovery
 import httplib2
@@ -7,16 +6,14 @@ import oauth2client.client
 import oauth2client.file
 import oauth2client.tools
 
+from common import CONFIGS_DIR
+
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 YOUTUBE_ANALYTICS_API_SERVICE_NAME = 'youtubeAnalytics'
 YOUTUBE_ANALYTICS_API_VERSION = 'v1'
 
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
-CONF_DIR = ROOT / 'config'
-
-CLIENT_SECRETS_FILE = CONF_DIR / 'client_secrets.json'
+CLIENT_SECRETS_FILE = CONFIGS_DIR / 'client_secrets.json'
 MISSING_CLIENT_SECRETS_MESSAGE = f'''
 WARNING: Please configure OAuth 2.0 by downloading client_secrets.json from
 
@@ -58,7 +55,7 @@ def get_authenticated_http_client(args, youtube_scopes):
         scope=' '.join(f'https://www.googleapis.com/auth/{scope}' for scope in youtube_scopes),
         message=MISSING_CLIENT_SECRETS_MESSAGE,
     )
-    oauth_credentials_file = CONF_DIR / f'credentials-{",".join(youtube_scopes)}.json'
+    oauth_credentials_file = CONFIGS_DIR / f'credentials-{",".join(youtube_scopes)}.json'
     storage = oauth2client.file.Storage(oauth_credentials_file)
     credentials = storage.get()
     if credentials is None or credentials.invalid:

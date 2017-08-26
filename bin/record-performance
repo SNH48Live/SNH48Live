@@ -2,9 +2,7 @@
 
 import collections
 import json
-import logging
 import os
-import pathlib
 import re
 import signal
 import subprocess
@@ -19,22 +17,15 @@ import bs4
 import requests
 
 import stages
+from common import BIN, DATA_DIR, VIDEO_CONFIGS_DIR, VIDEO_METADATA_DIR, logger
 from members import MEMBERS
 
-logging.basicConfig(format='[%(levelname)s] %(message)s')
-logger = logging.getLogger('record-performance')
-logger.setLevel(logging.INFO)
-
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
-VIDEO_CONFIG_DIR = ROOT / 'config' / 'videos'
-VIDEO_METADATA_DIR = ROOT / 'data' / 'videos'
-VIDEO_LIST = ROOT / 'data' / 'videos.txt'
-DATASTORE = ROOT / 'data' / 'performances.json'
-OFFICIAL_PERFORMER_LIST_FETCHER = HERE / 'performers'
-ATTENDANCE_JSON = ROOT / 'data' / 'attendance.json'
-PARSER = HERE / 'parse-attendance-sheet'
-VALIDATOR = HERE / 'validate-performances'
+VIDEO_LIST = DATA_DIR / 'videos.txt'
+ATTENDANCE_JSON = DATA_DIR / 'attendance.json'
+DATASTORE = DATA_DIR / 'performances.json'
+PARSER = BIN / 'parse-attendance-sheet'
+OFFICIAL_PERFORMER_LIST_FETCHER = BIN / 'performers'
+VALIDATOR = BIN / 'validate-performances'
 
 def guess_video_id():
     # Read the most recent video_id already in DATASTORE.
@@ -59,12 +50,17 @@ def guess_live_id_from_configs(date, stage):
     # pattern lifted from new-config.
     # stage could be a one-off special performance, in which case the perfnum part is omitted.
     pattern = re.compile(r'^(?P<date>\d{8})-(?P<vid>\d+)-(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
-    for file in sorted(VIDEO_CONFIG_DIR.glob(f'**/{date}-*.yml')):
+    for file in sorted(VIDEO_CONFIGS_DIR.glob(f'**/{date}-*.yml')):
         m = pattern.match(file.name)
         if m and ((stage == m.group('stage')) or  # regular performance
                   (not stage and not m.group('perfnum'))):  # special performance
             logger.info(f'live_id guessed from {file.name}')
-            return m.group('vid')
+            vid = m.group('vid')
+            if vid == '0':
+                # vid 0 stands for no such vid
+                return None
+            else:
+                return vid
     return None
 
 def validate_youtube_video_id(video_id):

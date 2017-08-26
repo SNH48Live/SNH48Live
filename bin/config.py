@@ -1,17 +1,9 @@
-import logging
-import pathlib
 import sys
 
 import arrow
 import yaml
 
-
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
-THUMBNAILS_DIR = ROOT / 'thumbnails/generated'
-
-logging.basicConfig(format='[%(levelname)s] %(message)s')
-logger = logging.getLogger('config')
+from common import THUMBNAILS_DIR, logger
 
 
 class Config(object):
@@ -55,7 +47,7 @@ def load_config(config_file):
         conf.tags.insert(0, 'SNH48')
     conf.thumbnail = conf_dict.get('thumbnail')
     if conf.thumbnail:
-        conf.thumbnail = str(THUMBNAILS_DIR / conf.thumbnail)
+        conf.thumbnail = str(THUMBNAILS_DIR / 'generated' / conf.thumbnail)
     conf.playlists = conf_dict.get('playlists')
 
     return conf

@@ -7,7 +7,6 @@ import io
 import json
 import mimetypes
 import os
-import pathlib
 import random
 import subprocess
 import sys
@@ -19,11 +18,9 @@ import googleapiclient.http
 import httplib2
 
 import auth
+from common import BIN, DATA_DIR
 from utils import ProgressBar
 
-
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
 
 # Explicitly tell the underlying HTTP transport library not to retry, since
 # we are handling retry logic ourselves.
@@ -129,11 +126,11 @@ def initialize_upload(youtube_client, args):
     video_id = resumable_upload(insert_request, bar=media.bar)
     if args.thumbnail:
         print('Setting thumbnail...')
-        subprocess.run([str(HERE / 'set-thumbnail'), video_id, args.thumbnail])
+        subprocess.run([str(BIN / 'set-thumbnail'), video_id, args.thumbnail])
     if args.playlists:
         print('Inserting into playlists...')
         playlist_names = args.playlists.split(',')
-        playlists_json = ROOT / 'data' / 'playlists.json'
+        playlists_json = DATA_DIR / 'playlists.json'
         with open(playlists_json) as fp:
             playlists_map = json.load(fp)
         playlist_ids = []
@@ -143,7 +140,7 @@ def initialize_upload(youtube_client, args):
             else:
                 print(f'Error: playlist named {name} not found in {playlists_json}', file=sys.stderr)
         # update-metadata insert-playlist [-h] video_ids playlist_ids
-        subprocess.run([str(HERE / 'update-metadata'), 'insert-playlist',
+        subprocess.run([str(BIN / 'update-metadata'), 'insert-playlist',
                         video_id, ','.join(playlist_ids)])
 
 

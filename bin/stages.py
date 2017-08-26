@@ -1,13 +1,9 @@
-import pathlib
-
 import yaml
 
+from common import DATA_DIR
 
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
-STAGES_YML = ROOT / 'data' / 'stages.yml'
 
-with open(STAGES_YML) as fp:
+with open(DATA_DIR / 'stages.yml') as fp:
     STAGES = yaml.load(fp)
 
 

@@ -1,25 +1,17 @@
 #!/usr/bin/env python3
 
-import logging
 import os
-import pathlib
 import sys
 
 import config
 import stages
 import utils
+from common import DATA_DIR, VIDEO_CONFIGS_DIR, logger
 
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
-VIDEO_CONFIG_DIR = ROOT / 'config' / 'videos'
-ATTENDANCE_TXT = ROOT / 'data' / 'attendance.txt'
-
-logging.basicConfig(format='[%(levelname)s] %(message)s')
-logger = logging.getLogger('new-attendance-entry')
-logger.setLevel(logging.DEBUG)
+ATTENDANCE_TXT = DATA_DIR / 'attendance.txt'
 
 def get_first_current_config():
-    current_configs = sorted(VIDEO_CONFIG_DIR.glob('*.yml'))
+    current_configs = sorted(VIDEO_CONFIGS_DIR.glob('*.yml'))
     if not current_configs:
         logger.error('No current configs.')
         sys.exit(1)

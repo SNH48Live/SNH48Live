@@ -1,14 +1,10 @@
 import curses
-import logging
 import re
 import shutil
 import sys
 import time
 
-
-logging.basicConfig(format='[%(levelname)s] %(message)s')
-logger = logging.getLogger('utils')
-logger.setLevel(logging.DEBUG)
+from common import logger
 
 
 # A very bare-bones progress bar implementation. No speed or ETA support.

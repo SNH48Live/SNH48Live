@@ -16,11 +16,11 @@ import urllib.parse
 
 import bs4
 
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
-PARTIALLY_BLOCKED_LIST = os.path.join(ROOT, 'data/partially-blocked.txt')
-CLAIMS_MD = os.path.join(ROOT, 'data/claims.md')
-CLAIMS_JSON = os.path.join(ROOT, 'data/claims.json')
+from common import DATA_DIR
+
+PARTIALLY_BLOCKED_LIST = DATA_DIR / 'partially-blocked.txt'
+CLAIMS_MD = DATA_DIR / 'claims.md'
+CLAIMS_JSON = DATA_DIR / 'claims.json'
 
 Claim = collections.namedtuple('Claim', ['content', 'claimant', 'policy'])
 
@@ -68,10 +68,10 @@ class VideoWithClaims(object):
         ])
 
 def init():
-    if not os.path.exists(PARTIALLY_BLOCKED_LIST):
+    if not PARTIALLY_BLOCKED_LIST.exists():
         with open(PARTIALLY_BLOCKED_LIST, 'w') as fp:
             pass
-    if not os.path.exists(CLAIMS_MD):
+    if not CLAIMS_MD.exists():
         with open(CLAIMS_MD, 'w') as fp:
             fp.write(textwrap.dedent('''\
             # Videos with copyright claims
@@ -79,7 +79,7 @@ def init():
             <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
             <!-- AUTO INSERTION POINT -->
             '''))
-    if not os.path.exists(CLAIMS_JSON):
+    if not CLAIMS_JSON.exists():
         with open(CLAIMS_JSON, 'w') as fp:
             fp.write('[]')
 
@@ -116,7 +116,9 @@ def insert_partially_blocked_list(video):
     os.unlink(bak)
 
 def insert_markdown(video):
-    with fileinput.FileInput([CLAIMS_MD], inplace=True) as fp:
+    # TODO: str() should not be necessary here.
+    # https://bugs.python.org/issue31281
+    with fileinput.FileInput([str(CLAIMS_MD)], inplace=True) as fp:
         for line in fp:
             print(line, end='')
             if line.strip() == '<!-- AUTO INSERTION POINT -->':

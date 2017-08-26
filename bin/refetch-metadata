@@ -4,23 +4,23 @@
 
 import argparse
 import re
-import os
 import subprocess
 import sys
 import time
 
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
+from common import BIN, DATA_DIR
+
+VIDEO_LIST = DATA_DIR / 'videos.txt'
 
 def run(command, description=None):
     if description:
         print(f'\x1b[32m{description}\x1b[m', file=sys.stderr)
-    command[0] = os.path.join(HERE, command[0])
+    command[0] = BIN / command[0]
     subprocess.run(command)
 
 def latest_video_ids(count=1):
     PATTERN = re.compile(r'^https://youtu.be/(?P<id>[a-zA-Z0-9_-]{11})\t')
-    with open(os.path.join(ROOT, 'data/videos.txt')) as fp:
+    with open(VIDEO_LIST) as fp:
         video_ids = []
         for line in fp:
             m = PATTERN.match(line)

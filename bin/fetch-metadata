@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
 
 import json
-import os
 import sys
 
 import auth
+
+from common import DATA_DIR, VIDEO_METADATA_DIR
+
 
 # 全部（包括全部公演和其它）
 # https://www.youtube.com/playlist?list=PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW
 PLAYLIST_ID = 'PL0-h3TcYaV9HqlqusJYi3F_FyU-H3jxJW'
 
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
-
-METADATA_DIR = os.path.join(ROOT, 'data', 'videos')
 
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlistItems.html#list
 def list_videos(youtube_client):
@@ -54,7 +52,7 @@ def fetch_video_metadata(youtube_client, video_ids):
 # data is a map mapping video ids to metadata objects
 def persist_video_metadata(data):
     for video_id, metadata_obj in data.items():
-        path = os.path.join(METADATA_DIR, f'{video_id}.json')
+        path = VIDEO_METADATA_DIR / f'{video_id}.json'
         print(path)
         with open(path, 'w') as fp:
             json.dump(metadata_obj, fp, ensure_ascii=False, indent=2, sort_keys=True)
@@ -74,22 +72,20 @@ def main():
     youtube_client = auth.get_youtube_client(args, 'youtube.readonly')
 
     if args.short:
-        with open(os.path.join(ROOT, 'data/videos.txt'), 'w') as fp:
+        with open(DATA_DIR / 'videos.txt', 'w') as fp:
             for vid, title in list_videos(youtube_client):
                 print(f'https://youtu.be/{vid}\t{title}', file=fp)
         sys.exit(0)
 
     video_ids = args.video_ids if args.video_ids else [vid for vid, title in list_videos(youtube_client)]
     if not args.overwrite:
-        video_ids = [vid for vid in video_ids
-                     if not os.path.exists(os.path.join(METADATA_DIR, f'{vid}.json'))]
+        video_ids = [vid for vid in video_ids if not (VIDEO_METADATA_DIR / f'{vid}.json').exists()]
     if video_ids:
         print(f'Fetching metadata for {",".join(video_ids)}')
     else:
         print('Nothing to fetch.')
 
     metadata_objs = fetch_video_metadata(youtube_client, video_ids)
-    os.makedirs(METADATA_DIR, exist_ok=True)
     persist_video_metadata(dict(zip(video_ids, metadata_objs)))
 
 

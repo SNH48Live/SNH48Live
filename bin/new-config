@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 
 import jinja2
-import logging
-import os
-import pathlib
 import re
 import shutil
 import subprocess
@@ -13,14 +10,9 @@ try:
 except ImportError:
     pass
 
-logging.basicConfig(format='[%(levelname)s] %(message)s')
-logger = logging.getLogger(os.path.basename(__file__))
-logger.setLevel(logging.INFO)
+from common import BIN, VIDEO_CONFIGS_DIR, logger
 
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
-CONFIG_DIR = ROOT / 'config' / 'videos'
-THUMBNAILER = HERE / 'thumbnail'
+THUMBNAILER = BIN / 'thumbnail'
 
 STAGES = [
     ('Team SⅡ', '第48区'),
@@ -74,7 +66,7 @@ def parse_existing_configs():
     # - perfnum is an int indicating the performance number in a stage series.
     pattern = re.compile(r'^.*/(?P<date>\d{8})-(?P<altplatform>[a-z]{3})?(?P<vid>\d+)-'
                          r'(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
-    files = sorted(CONFIG_DIR.glob('**/*.yml'), key=lambda file: file.name)
+    files = sorted(VIDEO_CONFIGS_DIR.glob('**/*.yml'), key=lambda file: file.name)
     return [(file, pattern.match(str(file))) for file in files]
 
 # Only works for live.snh48.com.
@@ -154,7 +146,7 @@ def main():
 
         file_default = f'{date}-{vid}-{name}.yml'
         file_input = inputs(f'Config file [{file_default}]: ')
-        file = CONFIG_DIR / (file_input or file_default)
+        file = VIDEO_CONFIGS_DIR / (file_input or file_default)
     else:
         # Regular performance
 
@@ -192,7 +184,7 @@ def main():
             playlists.append(stage)
 
         pvid = str(vid) if platform_short == 'snh' else f'{platform_short}{vid}'
-        file = CONFIG_DIR / f'{date}-{pvid}-{stage}-{perfnum:02d}.yml'
+        file = VIDEO_CONFIGS_DIR / f'{date}-{pvid}-{stage}-{perfnum:02d}.yml'
 
     # Render and write config file
     hr()

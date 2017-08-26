@@ -5,15 +5,10 @@
 
 import collections
 import json
-import logging
-import pathlib
 
-logging.basicConfig(format='[%(levelname)s] %(message)s')
-logger = logging.getLogger('validate-performances')
+from common import DATA_DIR, logger
 
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
-DATASTORE = ROOT / 'data/performances.json'
+DATASTORE = DATA_DIR / 'performances.json'
 
 EXPECTED_FIELDS = set([
     'title',

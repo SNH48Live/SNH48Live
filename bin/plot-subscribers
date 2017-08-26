@@ -4,7 +4,6 @@ import argparse
 import fileinput
 import gzip
 import os
-import pathlib
 import re
 import sys
 import tempfile
@@ -14,9 +13,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
-LOGS_DIR = ROOT / 'logs/stats'
+from common import ROOT
+
+LOGS_DIR = ROOT / 'logs' / 'stats'
 
 LOGFILE = re.compile(r'.*/?(\d{8})\.log(?:\.gz)?$')  # YYYYMMDD.log or YYYYMMDD.log.gz
 DATETIME = re.compile(r'^datetime: (.*)$', re.M)

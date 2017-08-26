@@ -2,15 +2,13 @@
 
 import collections
 import json
-import pathlib
 
 import attrdict
 
 import auth
+from common import DATA_DIR
 
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
-DATASTORE = ROOT / 'data' / 'playlists.json'
+DATASTORE = DATA_DIR / 'playlists.json'
 
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlists.html#list
 def list_playlists(youtube):

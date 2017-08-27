@@ -1,4 +1,5 @@
-# SNH48 Live
+<div align="center"><img src="https://raw.githubusercontent.com/SNH48Live/SNH48Live/master/identity/logo.png" width="150px" height="150px" alt="SNH48 Live"></div>
+<h1 align="center">SNH48 Live</h1>
 
 This repository hosts technical documentation and helpers for the [SNH48 Live](https://www.youtube.com/SNH48Live) YouTube channel.
 

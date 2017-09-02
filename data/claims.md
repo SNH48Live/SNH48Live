@@ -3,6 +3,61 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170901 SNH48 我们向前冲 11](https://youtube.com/watch?v=KAwYqecRNpM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>1:46:54 - 1:47:52 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:05:37 - 2:06:58 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audiovisual content<br>3:05 - 3:54 | WebTVAsia (Music) | Monetized by copyright owner |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>51:46 - 56:49 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
+[20170901 SNH48 星梦Mini Live（严佼君）](https://youtube.com/watch?v=C7OPGCoxZ60)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 距离<br>Music composition<br>5:36 - 7:09 | CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+
+---
+
+[20170831 SNH48 Team XⅡ 代号XⅡ 41](https://youtube.com/watch?v=WC2Smv1zM8E)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:16:30 - 2:25:54 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170830 SNH48 Team X 梦想的旗帜 50](https://youtube.com/watch?v=xGqaRNGmOUE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 1:26 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>8:51 - 51:15 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170827 SNH48 “佳期如梦”七夕情人节特别公演](https://youtube.com/watch?v=M6aFWdm2Hx8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 08 愛しさのアクセル A6<br>Sound recording<br>44:18 - 45:35 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| 腕を組んで - AKB48<br>Sound recording<br>2:13:43 - 2:15:49 | AKB48 | Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States |
+| A Night with Blooming Flowers and a Full Moon - Miriam Yeung<br>Sound recording<br>3:17:04 - 3:19:21 | WMG<br>On behalf of: Gold Typhoon Hong Kong | Monetized by copyright owner |
+| Audiovisual content<br>0:16 - 2:57 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170826 SNH48 Team XⅡ 代号XⅡ 40 吕梦莹生日主题公演](https://youtube.com/watch?v=YkmPY9jF9MI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:12:37 - 1:15:01 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
 [20170825 SNH48 我们向前冲 10 赵晔生日主题公演](https://youtube.com/watch?v=R1ClKvOcQlI)
 
 | Content | Claimant | Policy |

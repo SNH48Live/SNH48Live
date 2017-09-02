@@ -1,0 +1,67 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H4M34S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/dZXl-yS92PUPSdLkjqR1kR9QctU\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1521191456",
+    "fileType": "video"
+  },
+  "id": "C7OPGCoxZ60",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "转自live.snh48.com直播。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "转自live.snh48.com直播。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170901 SNH48 星梦Mini Live（严佼君）"
+    },
+    "publishedAt": "2017-09-01T10:55:16.000Z",
+    "tags": [
+      "SNH48",
+      "严佼君",
+      "Mini Live"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/C7OPGCoxZ60/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/C7OPGCoxZ60/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/C7OPGCoxZ60/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/C7OPGCoxZ60/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/C7OPGCoxZ60/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170901 SNH48 星梦Mini Live（严佼君）"
+  }
+}

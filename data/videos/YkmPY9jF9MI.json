@@ -1,0 +1,81 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H41M5S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/3iS1FSDciSCO-xSDvkh_6D-CNWw\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4365483992",
+    "fileType": "video"
+  },
+  "id": "YkmPY9jF9MI",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/299\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/299\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170826 SNH48 Team XⅡ 代号XⅡ 40 吕梦莹生日主题公演"
+    },
+    "publishedAt": "2017-08-26T15:02:17.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "吕一",
+      "潘燕琦",
+      "赵晔",
+      "江真仪",
+      "刘菊子",
+      "许逸",
+      "张雨鑫",
+      "王露皎",
+      "祁静",
+      "姚祎纯",
+      "李佳恩",
+      "林歆源",
+      "陶波尔",
+      "徐诗琪",
+      "曾晓雯"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/YkmPY9jF9MI/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/YkmPY9jF9MI/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/YkmPY9jF9MI/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/YkmPY9jF9MI/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/YkmPY9jF9MI/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170826 SNH48 Team XⅡ 代号XⅡ 40 吕梦莹生日主题公演"
+  }
+}

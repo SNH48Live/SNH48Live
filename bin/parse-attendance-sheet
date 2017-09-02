@@ -2,8 +2,9 @@
 
 import collections
 import json
+import sys
 
-from common import DATA_DIR
+from common import DATA_DIR, logger
 from members import MEMBERS
 
 
@@ -23,8 +24,12 @@ def parse():
                     line = next(fp).strip()
                     if not line:
                         break
-                    part, performers = line.split('：')
-                    parts.append((part, sorted(performers.split('、'), key=MEMBERS.index)))
+                    try:
+                        part, performers = line.split('：')
+                        parts.append((part, sorted(performers.split('、'), key=MEMBERS.index)))
+                    except ValueError:
+                        logger.error(f'malfromed line: {line}')
+                        sys.exit(1)
             except StopIteration:
                 final = True
             aggregated = sorted(set(sum((performers for _, performers in parts), [])),

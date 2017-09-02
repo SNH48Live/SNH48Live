@@ -1,0 +1,90 @@
+#!/usr/bin/env python3
+
+import argparse
+import fileinput
+import os
+import pathlib
+import readline  # noqa; pylint: disable=unused-import
+import shutil
+import subprocess
+import sys
+
+import attrdict
+
+import config
+from common import ROOT, VIDEO_CONFIGS_DIR, logger
+
+
+def shift(file, attrs, target_live_id):
+    if int(attrs.live_id) == target_live_id:
+        return
+
+    backup = file.with_suffix('.yml.bak')
+    shutil.copy(file, backup)
+
+    target_attrs = attrdict.AttrDict(attrs.copy())
+    target_attrs.live_id = target_live_id
+    target_file = file.parent / config.reconstruct_filename(target_attrs)
+    shutil.move(file, target_file)
+
+    target_vod = f'http://live.snh48.com/Index/invedio/id/{target_live_id}'
+
+    # TODO: str() should not be necessary here.
+    # https://bugs.python.org/issue31281
+    with fileinput.input(files=(str(target_file)), inplace=True) as fp:
+        for line in fp:
+            if line.startswith('vod:'):
+                print(f'vod: {target_vod}')
+            else:
+                print(line, end='')
+
+    subprocess.run(['colordiff', '--unified=0', '--label=old', '--label=new',
+                    backup, target_file])
+    subprocess.run(['git', '-C', ROOT, 'add',
+                    file, target_file])
+    os.unlink(backup)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    add = parser.add_argument
+    add('-o', '--offset', type=int, default=1)
+    add('from_file', nargs='?', type=pathlib.Path)
+    args = parser.parse_args()
+
+    offset = args.offset
+    if not offset:
+        logger.info('Nothing to do.')
+        sys.exit(0)
+
+    from_file = args.from_file
+    if from_file is not None:
+        from_file = from_file.resolve()
+        if from_file.parent != VIDEO_CONFIGS_DIR:
+            logger.error(f'{from_file} is not a direct child of {VIDEO_CONFIGS_DIR}.')
+            sys.exit(1)
+
+    do_shift = from_file is None
+    for file, attrs in config.list_configs():
+        if not do_shift:
+            if file == from_file:
+                do_shift = True
+            else:
+                continue
+
+        if attrs.live_id == '0':
+            print(f'* {file.name} unchanged')
+            continue
+        target_live_id = int(attrs.live_id) + offset
+        msg = f'* {file.name} -> {target_live_id} [Y/n/q]: '
+        answer = input(msg).lower()
+        if answer.startswith('n'):
+            continue
+        elif answer.startswith('q'):
+            sys.exit(0)
+        else:
+            shift(file, attrs, target_live_id)
+
+
+if __name__ == '__main__':
+    main()

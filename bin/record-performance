@@ -16,8 +16,9 @@ except ImportError:
 import bs4
 import requests
 
+import config
 import stages
-from common import BIN, DATA_DIR, VIDEO_CONFIGS_DIR, VIDEO_METADATA_DIR, logger
+from common import BIN, DATA_DIR, VIDEO_METADATA_DIR, logger
 from members import MEMBERS
 
 
@@ -50,21 +51,14 @@ def guess_video_id():
 
 
 def guess_live_id_from_configs(date, stage):
-    # pattern lifted from new-config.
-    # stage could be a one-off special performance, in which case the perfnum part is omitted.
-    pattern = re.compile(r'^(?P<date>\d{8})-(?P<vid>\d+)-'
-                         r'(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
-    for file in sorted(VIDEO_CONFIGS_DIR.glob(f'**/{date}-*.yml')):
-        m = pattern.match(file.name)
-        if m and ((stage == m.group('stage')) or  # regular performance
-                  (not stage and not m.group('perfnum'))):  # special performance
+    for file, attrs in config.list_configs(glob_pattern=f'**/{date}-*.yml'):
+        if ((stage == attrs.stage                     # regular performance
+             or (not stage and not attrs.perfnum))):  # special performance
             logger.info(f'live_id guessed from {file.name}')
-            vid = m.group('vid')
-            if vid == '0':
-                # vid 0 stands for no such vid
+            if attrs.live_id == '0':
                 return None
             else:
-                return vid
+                return attrs.live_id
     return None
 
 

@@ -11,8 +11,8 @@ from common import THUMBNAILS_DIR, VIDEO_CONFIGS_DIR, logger
 CONFIG_FILE_PATTERN = re.compile(
     r'^(?P<date>\d{8})'
     r'-(?P<live_id>\d+)-'  # 0 for absence of live.snh48.com entry
-    r'(?P<stage>.*)'  # for one-off special performances, this is just
-                      # the title or abbreviated title
+    r'(?P<stage>.*?)'  # for one-off special performances, this is just
+                       # the title or abbreviated title
     r'(-(?P<perfnum>\d{2}))?'  # only for performances within a regular stage
     r'\.yml$'
 )
@@ -69,7 +69,7 @@ def load_vod_config(config_file):
 # is the path to the config file, and the latter is an AttrDict with the
 # following attributes, all str's: date, live_id, stage, and perfnum
 # (optional).
-def list_configs(include_past=False, glob_pattern=None):
+def list_configs(*, include_past=False, glob_pattern=None):
     if glob_pattern is None:
         glob_pattern = '**/*.yml' if include_past else '*.yml'
 

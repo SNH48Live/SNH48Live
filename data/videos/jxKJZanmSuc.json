@@ -1,0 +1,78 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H34M",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/zv2-uLs2_D62K7FP5HQuILWnID8\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4171699029",
+    "fileType": "video"
+  },
+  "id": "jxKJZanmSuc",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/306\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/306\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170903 SNH48 Team HⅡ 美丽世界 30 沈梦瑶生日主题公演"
+    },
+    "publishedAt": "2017-09-03T10:07:36.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "郝婉晴",
+      "李清扬",
+      "林楠",
+      "刘佩鑫",
+      "沈梦瑶",
+      "孙珍妮",
+      "王柏硕",
+      "王露皎",
+      "吴燕文",
+      "谢妮",
+      "徐伊人",
+      "袁一琦"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/jxKJZanmSuc/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/jxKJZanmSuc/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/jxKJZanmSuc/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/jxKJZanmSuc/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/jxKJZanmSuc/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170903 SNH48 Team HⅡ 美丽世界 30 沈梦瑶生日主题公演"
+  }
+}

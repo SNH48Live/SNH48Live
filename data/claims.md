@@ -3,6 +3,39 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170903 SNH48 Team SⅡ 第48区 10](https://youtube.com/watch?v=SP-MFOI-nys)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:24 - 1:17 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170903 SNH48 Team HⅡ 美丽世界 30 沈梦瑶生日主题公演](https://youtube.com/watch?v=jxKJZanmSuc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| I want you - Ren Suxi<br>Sound recording<br>1:13:47 - 1:16:08 | nikitaventures music<br>On behalf of: nikita ventures music | Monetized by copyright owner |
+| Audiovisual content<br>2:52 - 3:40 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170902 SNH48 Team XⅡ 代号XⅡ 42 刘增艳生日主题公演](https://youtube.com/watch?v=4pJ9f4_pPPk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| DO YOU EVER SHINE?<br>Music composition<br>1:14:41 - 1:15:13 | KOMCA_CS<br>APRA_CS<br>CASH<br>MACP<br>ICE_CS<br>SOCAN<br>Sony ATV Publishing<br>ASCAP | Monetized by copyright owner |
+
+---
+
+[20170902 SNH48 Team HⅡ 美丽世界 29](https://youtube.com/watch?v=kILwDBJhqkE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:15 - 4:01 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170901 SNH48 我们向前冲 11](https://youtube.com/watch?v=KAwYqecRNpM)
 
 | Content | Claimant | Policy |

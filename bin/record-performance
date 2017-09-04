@@ -52,8 +52,8 @@ def guess_video_id():
 
 def guess_live_id_from_configs(date, stage):
     for file, attrs in config.list_configs(glob_pattern=f'**/{date}-*.yml'):
-        if ((stage == attrs.stage                     # regular performance
-             or (not stage and not attrs.perfnum))):  # special performance
+        if ((stage == attrs.stage or               # regular performance
+             (not stage and not attrs.perfnum))):  # special performance
             logger.info(f'live_id guessed from {file.name}')
             if attrs.live_id == '0':
                 return None

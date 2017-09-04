@@ -6,7 +6,7 @@ import sys
 import config
 import stages
 import utils
-from common import DATA_DIR, VIDEO_CONFIGS_DIR, logger
+from common import DATA_DIR, logger
 
 
 ATTENDANCE_TXT = DATA_DIR / 'attendance.txt'

@@ -9,7 +9,6 @@ import mimetypes
 import os
 import random
 import subprocess
-import sys
 import time
 
 import googleapiclient.discovery
@@ -207,7 +206,8 @@ def main():
     add('-p', '--privacy', choices=VALID_PRIVACY_STATUSES, default='unlisted',
         help='video privacy status; default is unlisted')
     add('-l', '--language', default='zh-CN',
-        help='language of the video\'s title, description, and default audio track; default is \'zh-CN\'')
+        help="""language of the video's title, description, and default audio track;
+        default is 'zh-CN'""")
     add('--thumbnail', default=None,
         help='path to the custom thumbnail for the video')
     add('--playlists', default=None,

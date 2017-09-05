@@ -1,0 +1,84 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT6M7S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/S9H0vkq0ojX7Sa_aJ3ZnXk9L_5M\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131400",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "2813174",
+    "container": "mov",
+    "durationMs": "366280",
+    "fileName": "unknown",
+    "fileSize": "219851204",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.791044776119403,
+        "bitrateBps": "2681774",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1072,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "lmbJ0k08fSQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "转自SNH48星梦剧院4周年庆典官方活动页：http://www.snh48.com/event/s204/\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "转自SNH48星梦剧院4周年庆典官方活动页：http://www.snh48.com/event/s204/\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48星梦剧院四周年庆：个人舞蹈集锦"
+    },
+    "publishedAt": "2017-09-05T01:30:38.000Z",
+    "tags": [
+      "SNH48"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/lmbJ0k08fSQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/lmbJ0k08fSQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/lmbJ0k08fSQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/lmbJ0k08fSQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/lmbJ0k08fSQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48星梦剧院四周年庆：个人舞蹈集锦"
+  }
+}

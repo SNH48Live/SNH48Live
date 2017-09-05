@@ -3,6 +3,38 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[SNH48星梦剧院四周年庆：周年庆公演精彩集锦](https://youtube.com/watch?v=EITaxjqtOLc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 6:15 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48星梦剧院四周年庆：精彩MC集锦](https://youtube.com/watch?v=i0NSM359RkI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 6:31 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48星梦剧院四周年庆：个人舞蹈集锦](https://youtube.com/watch?v=lmbJ0k08fSQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:02 - 6:04 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48星梦剧院四周年庆：经典歌曲solo集锦](https://youtube.com/watch?v=wOmtOU_Fh-o)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 7:06 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170903 SNH48 Team SⅡ 第48区 10](https://youtube.com/watch?v=SP-MFOI-nys)
 
 | Content | Claimant | Policy |

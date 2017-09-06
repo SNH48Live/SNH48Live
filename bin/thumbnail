@@ -15,7 +15,7 @@ while [[ $1 == -* ]]; do
     case $1 in
         -h|--help)
             cat >&2 <<EOF
-Usage: $0:t [options] <baseimage> <date> [<identifier>]
+Usage: $0:t [options] <baseimage> [<date>] [<identifier>]
 
 Generate custom thumbnail.
 
@@ -85,11 +85,11 @@ else
         fi
     fi
 fi
-[[ $date =~ ^[0-9]{8}$ ]] || die "${(q-)date} is not a valid date."
+[[ -z $date || $date =~ ^[0-9]{8}$ ]] || die "${(q-)date} is not a valid date."
 
 output_basename=${input:t:r}
 # Prepend date if the basename isn't already prefixed with the date
-[[ $output_basename == $date-* ]] || output_basename=$date-$output_basename
+[[ -z $date || $output_basename == $date-* ]] || output_basename=$date-$output_basename
 [[ -n $identifier ]] && output_basename+=-$identifier
 output_basename+=.png
 output=$generated_dir/$output_basename
@@ -122,8 +122,10 @@ logo_opts=(
     \)
     -composite
 )
-date_label_opts=(
-    \(
+date_label_opts=()
+if [[ -n $date ]]; then
+    date_label_opts=(
+        \(
         -font $default_font
         -pointsize $date_label_pointsize
         -background white
@@ -131,9 +133,10 @@ date_label_opts=(
         -bordercolor white
         -border $date_label_border
         label:$date
-    \)
-    -composite
-)
+        \)
+        -composite
+    )
+fi
 identifier_label_opts=()
 if [[ -n $identifier ]]; then
     (( chinese_label )) && identifier_label_font=$chinese_font || identifier_label_font=$default_font

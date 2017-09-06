@@ -10,6 +10,7 @@ try:
 except ImportError:
     pass
 
+import config
 from common import BIN, VIDEO_CONFIGS_DIR, logger
 
 
@@ -62,41 +63,24 @@ def find_stage(stage):
     die(f'stage {stage} not recognized')
 
 
-def parse_existing_configs():
-    # stage could be a one-off special performance, in which case the perfnum part is omitted.
-    # - date is of the form YYYYMMDD;
-    # - altplatform is a three-letter abbreviation, e.g. bej; it is None
-    #   for the primary platform (live.snh48.com).
-    # - vid is an int;
-    # - stage is a stage title, e.g. 第48区;
-    # - perfnum is an int indicating the performance number in a stage series.
-    pattern = re.compile(r'^.*/(?P<date>\d{8})-(?P<altplatform>[a-z]{3})?(?P<vid>\d+)-'
-                         r'(?P<stage>\w+)(-(?P<perfnum>\d{2}))?\.yml$')
-    files = sorted(VIDEO_CONFIGS_DIR.glob('**/*.yml'), key=lambda file: file.name)
-    return [(file, pattern.match(str(file))) for file in files]
-
-
-# Only works for live.snh48.com.
-def find_latest_vid(configs):
-    for file, m in reversed(configs):
-        # Look for the last live.snh48.com performance
-        if not m.group('altplatform'):
-            logger.info(f'latest vid from {file}')
-            return int(m.group('vid'))
+def find_latest_live_id():
+    for file, attrs in reversed(config.list_configs(include_past=True)):
+        live_id = int(attrs.live_id)
+        if live_id:
+            logger.info(f'latest live_id from {file}')
+            return live_id
     return None
 
 
-def find_latest_perfnum(configs, stage):
-    for file, m in reversed(configs):
-        if m.group('stage') == stage:
+def find_latest_perfnum(stage):
+    for file, attrs in reversed(config.list_configs(include_past=True)):
+        if attrs.stage == stage and attrs.perfnum:
             logger.info(f'latest perf # from {file}')
-            return int(m.group('perfnum'))
+            return int(attrs.perfnum)
     return None
 
 
 def main():
-    configs = parse_existing_configs()
-
     date = inputs('Date: ')
     if not re.match(r'^\d{8}$', date):
         die(f'invalid date {date}')
@@ -123,7 +107,7 @@ def main():
     assert platform_short in group_abbrevs
 
     if platform == 'live.snh48.com':
-        vid_default = find_latest_vid(configs) + 1
+        vid_default = find_latest_live_id() + 1
         vid = inputs(f'{platform} id [{vid_default}]: ') or vid_default
     else:
         vid = inputs(f'{platform} id: ')
@@ -161,7 +145,7 @@ def main():
 
         team = find_stage(stage)
 
-        perfnum_default = find_latest_perfnum(configs, stage)
+        perfnum_default = find_latest_perfnum(stage)
         if perfnum_default is not None:
             perfnum_default += 1
         perfnum_default_display = f' [{perfnum_default:02d}]' if perfnum_default else ''

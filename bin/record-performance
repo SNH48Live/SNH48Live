@@ -90,6 +90,7 @@ def validate_snh48club_video_id(snh48club_video_id):
 
 
 def fetch_performers_from_official_site(live_id):
+    logger.debug('Fetching performer list from live.snh48.com')
     return subprocess.check_output([
         str(OFFICIAL_PERFORMER_LIST_FETCHER),
         str(live_id),
@@ -107,6 +108,7 @@ def fetch_performers_from_official_site(live_id):
 #
 # We use this source for crosscheck.
 def fetch_performers_from_snh48club(snh48club_video_id):
+    logger.debug('Fetching performer list from snh48club.com')
     url = f'http://www.snh48club.com/video/{snh48club_video_id}.html'
     resp = requests.get(url)
     assert resp.status_code == 200, f'GET {url}: HTTP {resp.status_code}'

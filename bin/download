@@ -187,32 +187,38 @@ def main() -> None:
 
     conf = config.load_vod_config(args.config_file)
     conf.public = args.public
-    dest = VIDEOS_DIR / conf.title
 
     utils.sleep_until(conf.starting_time)
 
     filename = f'{conf.title}{MERGED_EXT}'
-    filepath = dest / filename
-    if not filepath.is_file() or args.redownload:
-        download_m3u8(conf.m3u8, dest)
-        merge_chunks(dest, conf.title)
-    else:
-        logger.info(f'Already downloaded: {filepath}')
+    intermediate_dir = VIDEOS_DIR / conf.title
+    intermediate_file = intermediate_dir / filename
+    final_file = VIDEOS_DIR / filename
 
-    # Link into videos/ and optionally remove intermediate files
-    try:
-        os.link(filepath, VIDEOS_DIR / filename)
-    except FileExistsError:
-        logger.warning(f'Failed to link into {VIDEOS_DIR}: {filename} already exists')
-        if not args.keep:
-            logger.warning(f'Not removing "{dest}"')
+    if final_file.is_file() and not args.redownload:
+        logger.info(f'Already downloaded: {final_file}')
     else:
-        if not args.keep:
-            shutil.rmtree(dest)
-            logger.info(f'Removed "{dest}"')
+        if intermediate_file.is_file() and not args.redownload:
+            logger.info(f'Already downloaded: {intermediate_file}')
+        else:
+            download_m3u8(conf.m3u8, intermediate_dir)
+            merge_chunks(intermediate_dir, conf.title)
+
+        # Link into videos/ and optionally remove intermediate dir
+        try:
+            os.link(intermediate_file, final_file)
+        except FileExistsError:
+            logger.warning(f'Failed to link into {VIDEOS_DIR}: {final_file} already exists')
+            if not args.keep:
+                logger.warning(f'Not removing "{intermediate_dir}"')
+        else:
+            if not args.keep:
+                shutil.rmtree(intermediate_dir)
+                logger.info(f'Removed "{intermediate_dir}"')
 
     if not args.no_upload:
-        upload(filepath, conf)
+        file = intermediate_file if intermediate_file.exists() else final_file
+        upload(file, conf)
 
 
 if __name__ == '__main__':

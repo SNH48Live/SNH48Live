@@ -5,7 +5,7 @@ import arrow
 import attrdict
 import yaml
 
-from common import THUMBNAILS_DIR, VIDEO_CONFIGS_DIR, logger
+from common import CONFIGS_DIR, THUMBNAILS_DIR, VIDEO_CONFIGS_DIR, logger
 
 
 CONFIG_FILE_PATTERN = re.compile(
@@ -18,6 +18,32 @@ CONFIG_FILE_PATTERN = re.compile(
 )
 
 
+# Attributes
+# - notifications: bool
+# - mailto (optional): str
+class MainConfig(object):
+    def __init__(self):
+        self.notifications = False
+        self.mailto = None
+
+
+# Load config/main.yml
+def load_main_config():
+    config_file = CONFIGS_DIR / 'main.yml'
+    if not config_file.exists():
+        return
+    with open(config_file) as fp:
+        conf_dict = yaml.load(fp)
+
+    conf = MainConfig()
+    conf.notifications = conf_dict.get('notifications', False)
+    conf.mailto = conf_dict.get('mailto')
+    return conf
+
+
+main = load_main_config()
+
+
 # Attributes:
 # - title: str
 # - m3u8: str
@@ -28,8 +54,6 @@ CONFIG_FILE_PATTERN = re.compile(
 # - playlists (playlist names): List[str]
 class VodConfig(object):
     def __init__(self):
-        # Set potential properties the stupid way (not using setattr) to
-        # silence pylint errors/warnings.
         self.title = None
         self.m3u8 = None
         self.starting_time = None
@@ -69,7 +93,7 @@ def load_vod_config(config_file):
 # is the path to the config file, and the latter is an AttrDict with the
 # following attributes, all str's: date, live_id, stage, and perfnum
 # (optional).
-def list_configs(*, include_past=False, glob_pattern=None):
+def list_vod_configs(*, include_past=False, glob_pattern=None):
     if glob_pattern is None:
         glob_pattern = '**/*.yml' if include_past else '*.yml'
 

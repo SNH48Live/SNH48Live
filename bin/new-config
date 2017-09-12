@@ -65,7 +65,7 @@ def find_stage(stage):
 
 
 def find_latest_live_id():
-    for file, attrs in reversed(config.list_configs(include_past=True)):
+    for file, attrs in reversed(config.list_vod_configs(include_past=True)):
         live_id = int(attrs.live_id)
         if live_id:
             logger.info(f'latest live_id from {file}')
@@ -74,7 +74,7 @@ def find_latest_live_id():
 
 
 def find_latest_perfnum(stage):
-    for file, attrs in reversed(config.list_configs(include_past=True)):
+    for file, attrs in reversed(config.list_vod_configs(include_past=True)):
         if attrs.stage == stage and attrs.perfnum:
             logger.info(f'latest perf # from {file}')
             return int(attrs.perfnum)

@@ -17,6 +17,8 @@ import googleapiclient.http
 import httplib2
 
 import auth
+import config
+import mail
 from common import BIN, DATA_DIR, logger
 from utils import ProgressBar
 
@@ -141,6 +143,11 @@ def initialize_upload(youtube_client, args):
         # update-metadata insert-playlist [-h] video_ids playlist_ids
         subprocess.run([str(BIN / 'update-metadata'), 'insert-playlist',
                         video_id, ','.join(playlist_ids)])
+
+    if config.main.notifications:
+        mail.send_mail(f'Uploaded {args.title}', f'https://youtu.be/{video_id}',
+                       config.main.mailto)
+        logger.info(f'Sent notification to {config.main.mailto}')
 
 
 # This method implements an exponential backoff strategy to resume a

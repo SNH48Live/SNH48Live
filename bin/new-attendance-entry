@@ -15,7 +15,7 @@ def main():
     with open(ATTENDANCE_TXT) as fp:
         existing_content = fp.read()
 
-    for file, _ in config.list_configs():
+    for file, _ in config.list_vod_configs():
         conf = config.load_vod_config(file)
         title = utils.to_full_title(conf.title)
         if title in existing_content:

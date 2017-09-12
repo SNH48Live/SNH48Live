@@ -9,11 +9,6 @@ import oauth2client.tools
 from common import CONFIGS_DIR
 
 
-YOUTUBE_API_SERVICE_NAME = 'youtube'
-YOUTUBE_API_VERSION = 'v3'
-YOUTUBE_ANALYTICS_API_SERVICE_NAME = 'youtubeAnalytics'
-YOUTUBE_ANALYTICS_API_VERSION = 'v1'
-
 CLIENT_SECRETS_FILE = CONFIGS_DIR / 'client_secrets.json'
 MISSING_CLIENT_SECRETS_MESSAGE = f'''
 WARNING: Please configure OAuth 2.0 by downloading client_secrets.json from
@@ -37,28 +32,35 @@ class ArgumentParser(argparse.ArgumentParser):
         super().__init__(**kwargs)
 
 
-# youtube_scopes is a list of OAuth scopes with the
+# oauth_scopes is a list of OAuth scopes with the
 # https://www.googleapis.com/auth/ prefix stripped.
 #
 # In case only a single scope is needed, a single string is allowed in
 # place of youtube_scopes, which is automatically understood as a
 # singleton list.
 #
-# Typical scopes:
+# Typical scopes for YouTube:
 # - youtube
 # - youtube.readonly
 # - youtube.upload
 # - yt-analytics.readonly
-def get_authenticated_http_client(args, youtube_scopes):
-    if isinstance(youtube_scopes, str):
+#
+# args is allowed to be None (it should really be a kwarg, but we're
+# keeping it positional status to avoid refactoring, for now).
+#
+# TODO: refactor to make args optional accross the auth API.
+def get_authenticated_http_client(args, oauth_scopes):
+    if args is None:
+        args = ArgumentParser().parse_args([])
+    if isinstance(oauth_scopes, str):
         # Singleton
-        youtube_scopes = [youtube_scopes]
+        oauth_scopes = [oauth_scopes]
     flow = oauth2client.client.flow_from_clientsecrets(
         CLIENT_SECRETS_FILE,
-        scope=' '.join(f'https://www.googleapis.com/auth/{scope}' for scope in youtube_scopes),
+        scope=' '.join(f'https://www.googleapis.com/auth/{scope}' for scope in oauth_scopes),
         message=MISSING_CLIENT_SECRETS_MESSAGE,
     )
-    oauth_credentials_file = CONFIGS_DIR / f'credentials-{",".join(youtube_scopes)}.json'
+    oauth_credentials_file = CONFIGS_DIR / f'credentials-{",".join(oauth_scopes)}.json'
     storage = oauth2client.file.Storage(oauth_credentials_file)
     credentials = storage.get()
     if credentials is None or credentials.invalid:
@@ -66,25 +68,26 @@ def get_authenticated_http_client(args, youtube_scopes):
     return credentials.authorize(httplib2.Http())
 
 
+def get_google_api_client(service, version, args, scopes):
+    http = get_authenticated_http_client(args, scopes)
+    return googleapiclient.discovery.build(service, version, http=http)
+
+
 # Typical scopes:
 # - youtube
 # - youtube.readonly
 # - youtube.upload
 def get_youtube_client(args, scopes):
-    http = get_authenticated_http_client(args, scopes)
-    return googleapiclient.discovery.build(
-        YOUTUBE_API_SERVICE_NAME,
-        YOUTUBE_API_VERSION,
-        http=http,
-    )
+    return get_google_api_client('youtube', 'v3', args, scopes)
 
 
 # Typical scopes:
 # - yt-analytics.readonly
 def get_youtube_analytics_client(args, scopes):
-    http = get_authenticated_http_client(args, scopes)
-    return googleapiclient.discovery.build(
-        YOUTUBE_ANALYTICS_API_SERVICE_NAME,
-        YOUTUBE_ANALYTICS_API_VERSION,
-        http=http,
-    )
+    return get_google_api_client('youtubeAnalytics', 'v1', args, scopes)
+
+
+# Typical scopes (https://developers.google.com/gmail/api/auth/scopes):
+# - gmail.send
+def get_gmail_client(args, scopes):
+    return get_google_api_client('gmail', 'v1', args, scopes)

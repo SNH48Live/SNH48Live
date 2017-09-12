@@ -69,7 +69,7 @@ def main():
             sys.exit(1)
 
     do_shift = from_file is None
-    for file, attrs in config.list_configs():
+    for file, attrs in config.list_vod_configs():
         if not do_shift:
             if file == from_file:
                 do_shift = True

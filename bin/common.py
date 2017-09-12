@@ -1,6 +1,8 @@
 import logging
 import pathlib
 
+import appdirs
+
 
 # Hierarchy:
 #
@@ -21,6 +23,7 @@ DATA_DIR = ROOT / 'data'
 VIDEO_METADATA_DIR = DATA_DIR / 'videos'
 THUMBNAILS_DIR = ROOT / 'thumbnails'
 VIDEOS_DIR = ROOT / 'videos'
+CACHE_DIR = pathlib.Path(appdirs.user_cache_dir('SNH48Live', 'SNH48Live'))
 
 _default_fmt = '[%(levelname)s] %(message)s'
 _default_datefmt = '%Y-%m-%d %H:%M:%S'

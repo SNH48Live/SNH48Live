@@ -1,3 +1,4 @@
+appdirs
 arrow
 attrdict
 bs4

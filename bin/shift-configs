@@ -49,7 +49,7 @@ def main():
     parser = argparse.ArgumentParser()
     add = parser.add_argument
     add('-o', '--offset', type=int, default=1)
-    add('from_file', nargs='?', type=pathlib.Path)
+    add('from_file', nargs='?')
     args = parser.parse_args()
 
     offset = args.offset
@@ -59,6 +59,10 @@ def main():
 
     from_file = args.from_file
     if from_file is not None:
+        if (VIDEO_CONFIGS_DIR / from_file).is_file():
+            from_file = VIDEO_CONFIGS_DIR / from_file
+        else:
+            from_file = pathlib.Path(from_file)
         from_file = from_file.resolve()
         if from_file.parent != VIDEO_CONFIGS_DIR:
             logger.error(f'{from_file} is not a direct child of {VIDEO_CONFIGS_DIR}.')

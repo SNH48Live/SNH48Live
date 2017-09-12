@@ -3,6 +3,62 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170910 SNH48 Team NⅡ 专属派对 51 剧场四周年特别公演](https://youtube.com/watch?v=DU1CoxQj-wA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:27 - 5:18 | WebTVAsia (Music) | Monetized by copyright owner |
+| 竹内先輩 - AKB48<br>Sound recording<br>2:41:27 - 2:45:39 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| 炎上路線 - AKB48<br>Sound recording<br>2:16:04 - 2:19:30 | AKB48 | Monetized by copyright owner |
+| 僕の太陽 - AKB48<br>Sound recording<br>2:52:38 - 2:54:30 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2007 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| Audiovisual content<br>4:12 - 5:14 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170909 SNH48 Team SⅡ 第48区 11 剧场四周年特别公演](https://youtube.com/watch?v=zvgqY5fMJFI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Superman - Zi Gang Ni<br>Sound recording<br>1:03:36 - 1:04:26 | SME<br>On behalf of: Epic | Monetized by copyright owner |
+| River - AKB48<br>Sound recording<br>2:22:00 - 2:23:13 | AKB48<br>On behalf of: Gold Typhoon Taiwan | Monetized by copyright owner |
+| 07-嗚啦巴哈 - 終極一家原聲帶<br>Sound recording<br>1:04:48 - 1:05:33 | HIMservice<br>On behalf of: HIM International Music | Monetized by copyright owner |
+| 自由飛翔 - 鳳凰傳奇<br>Sound recording<br>1:10:29 - 1:13:03 | Rock Mobile Corporation<br>On behalf of: 佛山市順德區孔雀廊娛樂唱片有限公司 | Monetized by copyright owner |
+| となりのバナナ - AKB48<br>Sound recording<br>1:13:32 - 1:14:50 | AKB48 | Monetized by copyright owner |
+| Audiovisual content<br>3:06 - 4:15 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170908 SNH48 Team HⅡ 美丽世界 31 剧场四周年特别公演](https://youtube.com/watch?v=3F4gDEPvJUQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 転がる石になれ(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>4:51 - 5:49 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| ふしだらな夏(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>1:42:28 - 1:44:16 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| 君が星になるまで (チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>2:14:38 - 2:16:18 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| Lay down - AKB48<br>Sound recording<br>13:30 - 15:58 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| Audiovisual content<br>1:45 - 2:36 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170907 SNH48 Team X 梦想的旗帜 51 剧场四周年特别公演](https://youtube.com/watch?v=EcBYYiIyoyU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 向日葵 - 倉持明日香<br>Sound recording<br>2:01:25 - 2:03:13 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
+| Audiovisual content<br>0:00 - 1:11:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| 虫のバラード - SKE48（Team E）<br>Sound recording<br>2:08:52 - 2:10:35 | AKB48<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
+[20170906 SNH48 Team XⅡ 代号XⅡ 43 剧场四周年特别公演](https://youtube.com/watch?v=TNclmUByS5E)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>2:06:51 - 2:10:00 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audiovisual content<br>51:41 - 2:12:23 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [SNH48星梦剧院四周年庆：周年庆公演精彩集锦](https://youtube.com/watch?v=EITaxjqtOLc)
 
 | Content | Claimant | Policy |

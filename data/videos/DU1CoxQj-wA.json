@@ -1,0 +1,93 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H58M15S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "MX",
+        "AU",
+        "US",
+        "NZ",
+        "KR",
+        "JP"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/UN_P-461XYwR5pk1aD1i-_AnbEg\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4825951465",
+    "fileType": "video"
+  },
+  "id": "DU1CoxQj-wA",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/314\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/314\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170910 SNH48 Team NⅡ 专属派对 51 剧场四周年特别公演"
+    },
+    "publishedAt": "2017-09-10T16:06:37.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "陈佳莹",
+      "陈问言",
+      "冯薪朵",
+      "何晓玉",
+      "黄婷婷",
+      "黄彤扬",
+      "江真仪",
+      "金莹玥",
+      "李艺彤",
+      "刘菊子",
+      "万丽娜",
+      "许逸",
+      "易嘉爱",
+      "曾艳芬",
+      "张雨鑫",
+      "赵粤",
+      "周怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/DU1CoxQj-wA/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/DU1CoxQj-wA/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/DU1CoxQj-wA/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/DU1CoxQj-wA/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/DU1CoxQj-wA/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170910 SNH48 Team NⅡ 专属派对 51 剧场四周年特别公演"
+  }
+}

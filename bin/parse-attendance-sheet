@@ -26,7 +26,14 @@ def parse():
                         break
                     try:
                         part, performers = line.split('：')
-                        parts.append((part, sorted(performers.split('、'), key=MEMBERS.index)))
+                        performers = sorted(performers.split('、'), key=MEMBERS.index)
+                        counter = collections.Counter(performers)
+                        duplicates = [member for member, count in counter.items() if count > 1]
+                        if duplicates:
+                            logger.error(f'duplicates {",".join(duplicates)} found in line: '
+                                         f'{line}')
+                            sys.exit(1)
+                        parts.append((part, performers))
                     except ValueError:
                         logger.error(f'malfromed line: {line}')
                         sys.exit(1)

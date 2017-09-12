@@ -11,6 +11,7 @@ except ImportError:
     pass
 
 import config
+import utils
 from common import BIN, VIDEO_CONFIGS_DIR, logger
 
 
@@ -204,6 +205,8 @@ def main():
         subprocess.run(cmd)
     else:
         logger.info('Please remember to generate the thumbnail.')
+
+    utils.edit(file)
 
 
 if __name__ == '__main__':

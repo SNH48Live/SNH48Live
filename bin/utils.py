@@ -1,4 +1,5 @@
 import curses
+import os
 import re
 import shutil
 import sys
@@ -77,3 +78,8 @@ def to_full_title(local_title):
                         local_title)
     full_title = full_title.replace('生日', '生日主题公演')
     return full_title
+
+
+def edit(file):
+    editor = os.getenv('VISUAL', os.getenv('EDITOR', 'vi'))
+    os.execvp(editor, [editor, str(file)])

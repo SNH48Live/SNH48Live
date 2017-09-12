@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import os
 import sys
 
 import config
@@ -10,11 +9,6 @@ from common import DATA_DIR, logger
 
 
 ATTENDANCE_TXT = DATA_DIR / 'attendance.txt'
-
-
-def edit(file):
-    editor = os.getenv('VISUAL', os.getenv('EDITOR', 'vi'))
-    os.execvp(editor, [editor, str(file)])
 
 
 def main():
@@ -52,7 +46,7 @@ def main():
             print(f'{part}：', file=fp)
     print(title)
 
-    edit(ATTENDANCE_TXT)
+    utils.edit(ATTENDANCE_TXT)
 
 
 if __name__ == '__main__':

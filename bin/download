@@ -5,6 +5,7 @@ import os
 import pathlib
 import re
 import shlex
+import shutil
 import subprocess
 import textwrap
 import time
@@ -30,7 +31,7 @@ def log_command(args: List[str]) -> None:
 
 
 def download_m3u8(m3u8_url: str, dest: pathlib.Path, *, retry_interval: int = 60) -> None:
-    os.makedirs(dest, exist_ok=True)
+    dest.mkdir(parents=True, exist_ok=True)
     m3u8_file = dest / 'stream.m3u8'
     urls_file = dest / 'urls.txt'
 
@@ -180,6 +181,8 @@ def main() -> None:
     add('--public', action='store_true',
         help='set video privacy to public when uploading')
     add('--no-upload', action='store_true')
+    add('--keep', action='store_true',
+        help='keep downloaded intermediate files')
     args = parser.parse_args()
 
     conf = config.load_vod_config(args.config_file)
@@ -194,13 +197,19 @@ def main() -> None:
         download_m3u8(conf.m3u8, dest)
         merge_chunks(dest, conf.title)
     else:
-        logger.info(f'already downloaded: {filepath}')
+        logger.info(f'Already downloaded: {filepath}')
 
-    # Link into videos/
+    # Link into videos/ and optionally remove intermediate files
     try:
         os.link(filepath, VIDEOS_DIR / filename)
     except FileExistsError:
-        logger.warning(f'failed to link into {VIDEOS_DIR}: {filename} already exists')
+        logger.warning(f'Failed to link into {VIDEOS_DIR}: {filename} already exists')
+        if not args.keep:
+            logger.warning(f'Not removing "{dest}"')
+    else:
+        if not args.keep:
+            shutil.rmtree(dest)
+            logger.info(f'Removed "{dest}"')
 
     if not args.no_upload:
         upload(filepath, conf)

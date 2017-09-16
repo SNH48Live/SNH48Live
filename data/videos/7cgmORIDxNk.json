@@ -1,0 +1,79 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H34M58S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/69k1gSlUe7UXXLa2Y-jCV2u6yvg\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4197888176",
+    "fileType": "video"
+  },
+  "id": "7cgmORIDxNk",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/319\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/319\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170916 SNH48 Team NⅡ 专属派对 52 千秋乐"
+    },
+    "publishedAt": "2017-09-16T09:45:29.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "陈佳莹",
+      "陈问言",
+      "何晓玉",
+      "黄婷婷",
+      "江真仪",
+      "金莹玥",
+      "刘菊子",
+      "万丽娜",
+      "许逸",
+      "易嘉爱",
+      "曾艳芬",
+      "张雨鑫",
+      "潘瑛琪"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/7cgmORIDxNk/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/7cgmORIDxNk/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/7cgmORIDxNk/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/7cgmORIDxNk/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/7cgmORIDxNk/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170916 SNH48 Team NⅡ 专属派对 52 千秋乐"
+  }
+}

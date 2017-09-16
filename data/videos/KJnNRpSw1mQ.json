@@ -1,0 +1,80 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H28M51S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/umyhcj6PmaL1RIR8XAGz4eDUOgw\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4031544047",
+    "fileType": "video"
+  },
+  "id": "KJnNRpSw1mQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/316\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/316\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170914 SNH48 Team X 梦想的旗帜 52"
+    },
+    "publishedAt": "2017-09-14T15:00:10.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "林忆宁",
+      "宋昕冉",
+      "孙歆文",
+      "孙亚萍",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "张丹三",
+      "张嘉予",
+      "李佳恩"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/KJnNRpSw1mQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/KJnNRpSw1mQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/KJnNRpSw1mQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/KJnNRpSw1mQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/KJnNRpSw1mQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170914 SNH48 Team X 梦想的旗帜 52"
+  }
+}

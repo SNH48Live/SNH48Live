@@ -3,6 +3,63 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170916 SNH48 Team NⅡ 专属派对 52 千秋乐](https://youtube.com/watch?v=7cgmORIDxNk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>7:19 - 8:35 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170915 SNH48 Team XⅡ 代号XⅡ 44](https://youtube.com/watch?v=8DLG4StgCdI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>10:59 - 13:23 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>10:49 - 11:41 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>2:35:07 - 2:35:46 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170915 SNH48 星梦Mini Live（徐晨辰）](https://youtube.com/watch?v=YHzorH8KsQA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 記得<br>Music composition<br>40:34 - 44:57 | APRA_CS<br>CASH<br>MACP<br>ICE_CS<br>COMPASS_CS<br>SOCAN<br>SGAE_CS<br>ASCAP<br>TEOSTO_CS<br>Warner Chappell | Monetized by copyright owner |
+| 發如雪    Hair Like Snow<br>Music composition<br>7:19 - 8:33 | AdShare (Publishing)<br>JVR | Monetized by copyright owner |
+| 热带雨林<br>Music composition<br>47:31 - 48:55 | MACP | Monetized by copyright owner |
+| YAN SE<br>Music composition<br>17:46 - 20:00 | EMI Music Publishing | Monetized by copyright owner |
+| BEAUTIFUL LOVE<br>Music composition<br>12:37 - 15:32 | APRA_CS<br>CASH<br>SIAE_CS<br>MACP<br>COMPASS_CS<br>SOCAN<br>ASCAP<br>EMI Music Publishing<br>Warner Chappell | Monetized by copyright owner |
+
+---
+
+[20170914 SNH48 Team X 梦想的旗帜 52](https://youtube.com/watch?v=KJnNRpSw1mQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:02:12 - 2:09:44 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:07:29 - 1:17:33 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>21:36 - 47:56 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170913 SNH48 Team HⅡ 美丽世界 32](https://youtube.com/watch?v=95mCu_N-t6Q)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:06 - 1:52:09 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170908 SNH48 星梦Mini Live（陈思）](https://youtube.com/watch?v=MGnzQWmBgtY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 馬德里不思議<br>Music composition<br>18:26 - 19:58 | APRA_CS<br>SGAE_CS<br>CASH<br>MACP<br>COMPASS_CS<br>SOCAN<br>Sony ATV Publishing<br>TONO_CS | Monetized by copyright owner |
+| BOSATSU<br>Music composition<br>43:10 - 46:20 | COMPASS_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+
+---
+
 [20170910 SNH48 Team NⅡ 专属派对 51 剧场四周年特别公演](https://youtube.com/watch?v=DU1CoxQj-wA)
 
 | Content | Claimant | Policy |

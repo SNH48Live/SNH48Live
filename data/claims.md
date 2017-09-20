@@ -3,6 +3,25 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170917 SNH48 Team XⅡ 代号XⅡ 45](https://youtube.com/watch?v=M1T95d6W_E0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:45 - 4:52 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>18:41 - 19:20 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170917 SNH48 Team SⅡ 第48区 12 孙芮生日主题公演](https://youtube.com/watch?v=BjuWSP0S04Y)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:50 - 4:29 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:27 - 4:17 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:27 - 4:33 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170916 SNH48 Team NⅡ 专属派对 52 千秋乐](https://youtube.com/watch?v=7cgmORIDxNk)
 
 | Content | Claimant | Policy |

@@ -1,0 +1,66 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H46M40S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/y0Pt0-n_LnyKyL_hAjQ3lABxg0Q\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4986108343",
+    "fileType": "video"
+  },
+  "id": "BjuWSP0S04Y",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "https://youtu.be/H3mLG6BigMY\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "https://youtu.be/H3mLG6BigMY\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170917 SNH48 Team SⅡ 第48区 12 孙芮生日主题公演"
+    },
+    "publishedAt": "2017-09-17T14:57:33.000Z",
+    "tags": [
+      "SNH48",
+      "第48区"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/BjuWSP0S04Y/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/BjuWSP0S04Y/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/BjuWSP0S04Y/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/BjuWSP0S04Y/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/BjuWSP0S04Y/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170917 SNH48 Team SⅡ 第48区 12 孙芮生日主题公演"
+  }
+}

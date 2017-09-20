@@ -3,7 +3,7 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
-[20170917 SNH48 Team XⅡ 代号XⅡ 45](https://youtube.com/watch?v=M1T95d6W_E0)
+[20170917 SNH48 Team XⅡ 代号XⅡ 44](https://youtube.com/watch?v=M1T95d6W_E0)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -12,7 +12,7 @@
 
 ---
 
-[20170917 SNH48 Team SⅡ 第48区 12 孙芮生日主题公演](https://youtube.com/watch?v=BjuWSP0S04Y)
+[20170917 SNH48 Team SⅡ 第48区 11 孙芮生日主题公演](https://youtube.com/watch?v=BjuWSP0S04Y)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -22,7 +22,7 @@
 
 ---
 
-[20170916 SNH48 Team NⅡ 专属派对 52 千秋乐](https://youtube.com/watch?v=7cgmORIDxNk)
+[20170916 SNH48 Team NⅡ 专属派对 51 千秋乐](https://youtube.com/watch?v=7cgmORIDxNk)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -30,7 +30,7 @@
 
 ---
 
-[20170915 SNH48 Team XⅡ 代号XⅡ 44](https://youtube.com/watch?v=8DLG4StgCdI)
+[20170915 SNH48 Team XⅡ 代号XⅡ 43](https://youtube.com/watch?v=8DLG4StgCdI)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -52,7 +52,7 @@
 
 ---
 
-[20170914 SNH48 Team X 梦想的旗帜 52](https://youtube.com/watch?v=KJnNRpSw1mQ)
+[20170914 SNH48 Team X 梦想的旗帜 51](https://youtube.com/watch?v=KJnNRpSw1mQ)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -62,7 +62,7 @@
 
 ---
 
-[20170913 SNH48 Team HⅡ 美丽世界 32](https://youtube.com/watch?v=95mCu_N-t6Q)
+[20170913 SNH48 Team HⅡ 美丽世界 31](https://youtube.com/watch?v=95mCu_N-t6Q)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -79,7 +79,7 @@
 
 ---
 
-[20170910 SNH48 Team NⅡ 专属派对 51 剧场四周年特别公演](https://youtube.com/watch?v=DU1CoxQj-wA)
+[20170910 SNH48 Team NⅡ 剧场四周年特别公演](https://youtube.com/watch?v=DU1CoxQj-wA)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -91,7 +91,7 @@
 
 ---
 
-[20170909 SNH48 Team SⅡ 第48区 11 剧场四周年特别公演](https://youtube.com/watch?v=zvgqY5fMJFI)
+[20170909 SNH48 Team SⅡ 剧场四周年特别公演](https://youtube.com/watch?v=zvgqY5fMJFI)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -104,7 +104,7 @@
 
 ---
 
-[20170908 SNH48 Team HⅡ 美丽世界 31 剧场四周年特别公演](https://youtube.com/watch?v=3F4gDEPvJUQ)
+[20170908 SNH48 Team HⅡ 剧场四周年特别公演](https://youtube.com/watch?v=3F4gDEPvJUQ)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -116,7 +116,7 @@
 
 ---
 
-[20170907 SNH48 Team X 梦想的旗帜 51 剧场四周年特别公演](https://youtube.com/watch?v=EcBYYiIyoyU)
+[20170907 SNH48 Team X 剧场四周年特别公演](https://youtube.com/watch?v=EcBYYiIyoyU)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -126,7 +126,7 @@
 
 ---
 
-[20170906 SNH48 Team XⅡ 代号XⅡ 43 剧场四周年特别公演](https://youtube.com/watch?v=TNclmUByS5E)
+[20170906 SNH48 Team XⅡ 剧场四周年特别公演](https://youtube.com/watch?v=TNclmUByS5E)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |

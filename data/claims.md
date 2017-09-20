@@ -3,6 +3,26 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170920 SNH48 Team XⅡ 代号XⅡ 45](https://youtube.com/watch?v=iUqLsyD2oj0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:41 - 4:16 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:10 - 2:41 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 GROUP第四届偶像年度人气总决选Live版 音源](https://youtube.com/watch?v=LXW_B5ca5pQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| ヘビーローテーション - SKE48<br>Sound recording<br>1:14:06 - 1:15:18 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 初日 - SKE48(Team E)<br>Sound recording<br>23:57 - 24:34 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Dewi Theater - JKT48<br>Sound recording<br>50:19 - 51:42 | Audiam (Label) | Monetized by copyright owner |
+| 公主披風 - SNH48<br>Sound recording<br>36:56 - 40:00 | Rock Mobile Corporation<br>On behalf of: 上海絲芭文化 | Monetized by copyright owner |
+
+---
+
 [20170917 SNH48 Team XⅡ 代号XⅡ 44](https://youtube.com/watch?v=M1T95d6W_E0)
 
 | Content | Claimant | Policy |

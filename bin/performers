@@ -12,7 +12,8 @@ from members import MEMBERS
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('id', type=int)
+    parser.add_argument('id', type=int, nargs='?',
+                        help='If not given, try to fetch performers for the current livestream')
     parser.add_argument('-p', '--platform',
                         choices=('live.snh48.com', 'live.bej48.com',
                                  'live.gnz48.com', 'live.shy48.com'),
@@ -21,16 +22,22 @@ def main():
                         help='bypass cache')
     args = parser.parse_args()
 
-    cache_file = CACHE_DIR / 'performers' / f'{args.platform}-{args.id}.txt'
-    cache_file.parent.mkdir(parents=True, exist_ok=True)
-    if not args.force and cache_file.exists():
+    if args.id:
+        cache_file = CACHE_DIR / 'performers' / f'{args.platform}-{args.id}.txt'
+        cache_file.parent.mkdir(parents=True, exist_ok=True)
+    else:
+        cache_file = None
+    if not args.force and cache_file and cache_file.exists():
         with open(cache_file) as fp:
             serialized = fp.read().strip()
         if serialized:
             print(serialized)
             sys.exit(0)
 
-    url = f'http://{args.platform}/Index/invedio/id/{args.id}'
+    if args.id:
+        url = f'http://{args.platform}/Index/invedio/id/{args.id}'
+    else:
+        url = f'http://{args.platform}/Index/inlive'
     resp = requests.get(url)
     assert resp.status_code == 200, f'GET {url}: HTTP {resp.status_code}'
     soup = bs4.BeautifulSoup(resp.text, 'html.parser')
@@ -41,8 +48,9 @@ def main():
 
     if serialized:
         print(serialized)
-        with open(cache_file, 'w') as fp:
-            print(serialized, file=fp)
+        if cache_file:
+            with open(cache_file, 'w') as fp:
+                print(serialized, file=fp)
     else:
         logger.error('No performers found.')
 

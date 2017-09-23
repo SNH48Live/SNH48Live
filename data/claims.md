@@ -3,6 +3,55 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170923 SNH48 Team SⅡ 第48区 12 吴哲晗生日主题公演](https://youtube.com/watch?v=aV1c2DXULjE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:55 - 3:16 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:12 - 2:57 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170923 SNH48 Team XⅡ 代号XⅡ 46](https://youtube.com/watch?v=em64NhkeO80)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>6:18 - 8:32 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>23:23 - 24:04 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>7:32 - 9:38 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170922 SNH48 Team X 梦想的旗帜 53](https://youtube.com/watch?v=ZtBJxqvWx5c)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:48 - 5:34 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:29:19 - 1:29:56 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:18 - 4:39 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170922 SNH48 星梦Mini Live（易嘉爱）](https://youtube.com/watch?v=a63adhoBGvU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| I Miss Him, Too - Sun Yan-Zi<br>Sound recording<br>42:04 - 44:42 | WMG<br>On behalf of: WM Taiwan | Monetized by copyright owner |
+
+---
+
+[20170921 SNH48 我们向前冲 12](https://youtube.com/watch?v=7-EJ-ylNta8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:06 - 4:35 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audio content<br>1:27:01 - 1:28:05 | AKS Co., Ltd | Monetized by copyright owner |
+| 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>1:54:41 - 1:56:12 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:12:08 - 2:13:31 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audiovisual content<br>3:37 - 5:26 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170920 SNH48 Team XⅡ 代号XⅡ 45](https://youtube.com/watch?v=iUqLsyD2oj0)
 
 | Content | Claimant | Policy |

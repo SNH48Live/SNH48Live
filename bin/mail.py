@@ -1,4 +1,3 @@
-import argparse
 import base64
 import email.mime.text
 
@@ -23,7 +22,7 @@ def send_mail(subject, body, to):
     msg['subject'] = subject
     encoded_msg = base64.urlsafe_b64encode(msg.as_bytes()).decode('utf-8')
     # https://developers.google.com/resources/api-libraries/documentation/gmail/v1/python/latest/gmail_v1.users.messages.html#send
-    gmail_client.users().messages().send(
+    gmail_client.users().messages().send(  # pylint: disable=no-member
         userId='me',
         body={'raw': encoded_msg},
     ).execute()

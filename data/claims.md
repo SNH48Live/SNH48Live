@@ -3,6 +3,25 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170924 SNH48 Team X 梦想的旗帜 54](https://youtube.com/watch?v=CFN9TzPPJPc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:17 - 4:03 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:24 - 4:46 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170924 SNH48 Team HⅡ 美丽世界 32 许杨玉琢生日主题公演](https://youtube.com/watch?v=stq7AQxuseM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:04 - 3:56 | WebTVAsia (Music) | Monetized by copyright owner |
+| Swagger Jagger - Cher Lloyd<br>Sound recording<br>1:23:05 - 1:24:17 | SME<br>On behalf of: Syco Music UK | Monetized by copyright owner |
+| Audiovisual content<br>2:05 - 4:12 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170923 SNH48 Team SⅡ 第48区 12 吴哲晗生日主题公演](https://youtube.com/watch?v=aV1c2DXULjE)
 
 | Content | Claimant | Policy |

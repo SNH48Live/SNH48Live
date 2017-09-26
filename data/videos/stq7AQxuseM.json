@@ -1,0 +1,79 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H53M9S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/c-JIbAPFy6HmGHbRYzEPBxFurZc\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "5195274041",
+    "fileType": "video"
+  },
+  "id": "stq7AQxuseM",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/330\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/330\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170924 SNH48 Team HⅡ 美丽世界 32 许杨玉琢生日主题公演"
+    },
+    "publishedAt": "2017-09-24T17:13:59.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "郭倩芸",
+      "郝婉晴",
+      "李清扬",
+      "林楠",
+      "刘佩鑫",
+      "孙珍妮",
+      "王露皎",
+      "吴燕文",
+      "徐晗",
+      "徐伊人",
+      "许杨玉琢",
+      "杨惠婷",
+      "袁一琦"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/stq7AQxuseM/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/stq7AQxuseM/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/stq7AQxuseM/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/stq7AQxuseM/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/stq7AQxuseM/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170924 SNH48 Team HⅡ 美丽世界 32 许杨玉琢生日主题公演"
+  }
+}

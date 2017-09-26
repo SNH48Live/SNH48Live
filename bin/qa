@@ -8,7 +8,7 @@ venvbin=$root/venv/bin
 qa () {
     print "\e[34m$1:t\e[0m"
     $venvbin/flake8 $1
-    $venvbin/pylint --score=n $1 | grep -v '************* Module'
+    $venvbin/pylint $1 | grep -v '************* Module'
 }
 
 [[ $1 == (-h|--help) ]] && {

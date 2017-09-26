@@ -1,2 +1,5 @@
 [MESSAGES CONTROL]
 disable=R,C,broad-except
+
+[REPORTS]
+score=no

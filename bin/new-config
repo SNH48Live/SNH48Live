@@ -19,7 +19,7 @@ THUMBNAILER = BIN / 'thumbnail'
 
 STAGES = [
     ('Team SⅡ', '第48区'),
-    ('Team NⅡ', '专属派对'),
+    ('Team NⅡ', '以爱之名'),
     ('Team HⅡ', '美丽世界'),
     ('Team X', '梦想的旗帜'),
     ('Team XⅡ', '代号XⅡ'),

@@ -3,6 +3,45 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20170930 SNH48 Team HⅡ 美丽世界 33](https://youtube.com/watch?v=bLITqkkFI_E)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:18 - 4:49 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:14:04 - 2:18:09 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:41 - 4:54 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:10 - 4:36 | WebTVAsia (Music) | Monetized by copyright owner |
+| 重力シンパシー - SKE48（Team E）<br>Sound recording<br>2:33:53 - 2:35:27 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
+[20170929 SNH48 Team SⅡ 第48区 13 陈观慧生日主题公演](https://youtube.com/watch?v=e1ygr_hjvkg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:32 - 4:46 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:24 - 4:48 | WebTVAsia (Music) | Monetized by copyright owner |
+| Bang Bang - Jessie J<br>Sound recording<br>1:35:45 - 1:36:28 | UMG<br>On behalf of: USM | Monetized by copyright owner |
+| Audiovisual content<br>2:01 - 4:33 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170928 SNH48 Team XⅡ 代号XⅡ 47](https://youtube.com/watch?v=EjVQLRcZW-k)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>53:48 - 2:53:20 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48 Team NⅡ《以爱之名》公演宣传片](https://youtube.com/watch?v=PhyViyubeWM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 2:59 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170924 SNH48 Team X 梦想的旗帜 54](https://youtube.com/watch?v=CFN9TzPPJPc)
 
 | Content | Claimant | Policy |

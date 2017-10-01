@@ -18,6 +18,10 @@ def main():
                         choices=('live.snh48.com', 'live.bej48.com',
                                  'live.gnz48.com', 'live.shy48.com'),
                         default='live.snh48.com')
+    parser.add_argument('-s', '--space', action='store_true',
+                        help='use space as separator instead of comma')
+    parser.add_argument('-S', '--separator',
+                        help='separator to use between names (default is comma)')
     parser.add_argument('-f', '--force', action='store_true',
                         help='bypass cache')
     args = parser.parse_args()
@@ -44,7 +48,13 @@ def main():
     member_list = soup.find('ul', class_='memberlist')
     members = [p.text for p in member_list.find_all('p', class_='listname')]
     members.sort(key=MEMBERS.index)
-    serialized = ','.join(members)
+
+    separator = ','
+    if args.space:
+        separator = ' '
+    if args.separator is not None:
+        separator = args.separator
+    serialized = separator.join(members)
 
     if serialized:
         print(serialized)

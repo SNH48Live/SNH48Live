@@ -34,6 +34,7 @@ class VideoWithClaims(object):
         self.link = link
         self.video_id = re.search(r'\?v=(?P<id>[A-Za-z0-9_-]{11})', link).group('id')
         self.claims = []
+        self.viewing_restrictions = []
 
     @property
     def youtu_be(self):
@@ -58,6 +59,10 @@ class VideoWithClaims(object):
                 row += f' {escaped_text} |'
             row += '\n'
             md += row
+        if self.viewing_restrictions:
+            md += '\nViewing restrictions:\n'
+            for restriction in self.viewing_restrictions:
+                md += f'- {restriction}\n'
         md += '\n---\n'
         return md
 
@@ -68,6 +73,7 @@ class VideoWithClaims(object):
             ('title', self.title),
             ('link', self.link),
             ('claims', [claim._asdict() for claim in self.claims]),
+            ('viewing_restrictions', self.viewing_restrictions),
         ])
 
 
@@ -89,6 +95,11 @@ def init():
 
 
 def extract(html):
+    # Handle Google's generic 5XX page, and YouTube's generic 500 page.
+    if ('The server encountered a temporary error and could not complete your request.' in html or
+        'A team of highly trained monkeys has been dispatched to deal with this situation.' in html):  # noqa
+        raise RuntimeError('Encountered error page.')
+
     soup = bs4.BeautifulSoup(html, 'html.parser')
     title = soup.find(id='creator-editor-title-link').text.strip()
     link = urllib.parse.urljoin('https://youtube.com',
@@ -103,6 +114,10 @@ def extract(html):
         for td in row.find_all('td')[:3]:
             columns.append('<br>'.join(transform_cell(li.text) for li in td.find_all('li')))
         video.claims.append(Claim(*columns))
+    for viewing_restriction_tag in soup.select('.copynotice-viewing-restriction-content li'):
+        restriction = viewing_restriction_tag.get_text(': ', strip=True)
+        if restriction != 'None':
+            video.viewing_restrictions.append(restriction)
     return video
 
 

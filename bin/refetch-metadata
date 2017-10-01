@@ -54,6 +54,9 @@ def update_claims(video_id):
         if 'Loading: No' in current_tab_info:
             break
 
+    if 'Server Error' in current_tab_info:
+        raise RuntimeError('Encountered error page.')
+
     if video_id not in current_tab_info:
         print(f'No claims found for {video_id}', file=sys.stderr)
     else:

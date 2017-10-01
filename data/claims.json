@@ -29,7 +29,8 @@
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "e1ygr_hjvkg",
@@ -56,6 +57,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes."
     ]
   },
   {
@@ -68,7 +72,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "PhyViyubeWM",
@@ -80,7 +85,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "CFN9TzPPJPc",
@@ -97,7 +103,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "stq7AQxuseM",
@@ -119,7 +126,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "aV1c2DXULjE",
@@ -136,7 +144,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "em64NhkeO80",
@@ -158,7 +167,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "ZtBJxqvWx5c",
@@ -180,7 +190,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "a63adhoBGvU",
@@ -192,7 +203,8 @@
         "claimant": "WMG<br>On behalf of: WM Taiwan",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "7-EJ-ylNta8",
@@ -224,7 +236,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "iUqLsyD2oj0",
@@ -241,7 +254,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "LXW_B5ca5pQ",
@@ -268,7 +282,8 @@
         "claimant": "Rock Mobile Corporation<br>On behalf of: 上海絲芭文化",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "M1T95d6W_E0",
@@ -285,7 +300,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "BjuWSP0S04Y",
@@ -307,7 +323,41 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "2LASriOYozY",
+    "title": "20170916 SNH48 Team X 梦想的旗帜 52 杨韫玉生日主题公演",
+    "link": "https://youtube.com/watch?v=2LASriOYozY",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>1:07:14 - 1:09:06",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>0:06 - 2:48",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>2:56:39 - 2:58:28",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>1:48 - 2:46",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>1:41 - 4:13",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "7cgmORIDxNk",
@@ -319,7 +369,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "8DLG4StgCdI",
@@ -341,7 +392,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "YHzorH8KsQA",
@@ -349,7 +401,7 @@
     "link": "https://youtube.com/watch?v=YHzorH8KsQA",
     "claims": [
       {
-        "content": "記得<br>Music composition<br>40:34 - 44:57",
+        "content": "记得<br>Music composition<br>40:34 - 44:57",
         "claimant": "APRA_CS<br>CASH<br>MACP<br>ICE_CS<br>COMPASS_CS<br>SOCAN<br>SGAE_CS<br>ASCAP<br>TEOSTO_CS<br>Warner Chappell",
         "policy": "Monetized by copyright owner"
       },
@@ -373,7 +425,8 @@
         "claimant": "APRA_CS<br>CASH<br>SIAE_CS<br>MACP<br>COMPASS_CS<br>SOCAN<br>ASCAP<br>EMI Music Publishing<br>Warner Chappell",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "KJnNRpSw1mQ",
@@ -395,7 +448,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "95mCu_N-t6Q",
@@ -407,24 +461,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
-  },
-  {
-    "video_id": "MGnzQWmBgtY",
-    "title": "20170908 SNH48 星梦Mini Live（陈思）",
-    "link": "https://youtube.com/watch?v=MGnzQWmBgtY",
-    "claims": [
-      {
-        "content": "馬德里不思議<br>Music composition<br>18:26 - 19:58",
-        "claimant": "APRA_CS<br>SGAE_CS<br>CASH<br>MACP<br>COMPASS_CS<br>SOCAN<br>Sony ATV Publishing<br>TONO_CS",
-        "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "BOSATSU<br>Music composition<br>43:10 - 46:20",
-        "claimant": "COMPASS_CS<br>CASH<br>MACP<br>SOCAN",
-        "policy": "Monetized by copyright owner"
-      }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "DU1CoxQj-wA",
@@ -456,6 +494,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
     ]
   },
   {
@@ -493,7 +534,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "3F4gDEPvJUQ",
@@ -525,7 +567,28 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
     ]
+  },
+  {
+    "video_id": "MGnzQWmBgtY",
+    "title": "20170908 SNH48 星梦Mini Live（陈思）",
+    "link": "https://youtube.com/watch?v=MGnzQWmBgtY",
+    "claims": [
+      {
+        "content": "马德里不思议<br>Music composition<br>18:26 - 19:58",
+        "claimant": "APRA_CS<br>SGAE_CS<br>CASH<br>MACP<br>COMPASS_CS<br>SOCAN<br>Sony ATV Publishing<br>TONO_CS",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "BOSATSU<br>Music composition<br>43:10 - 46:20",
+        "claimant": "COMPASS_CS<br>CASH<br>MACP<br>SOCAN",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "EcBYYiIyoyU",
@@ -547,7 +610,8 @@
         "claimant": "AKB48<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "TNclmUByS5E",
@@ -564,7 +628,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "EITaxjqtOLc",
@@ -576,6 +641,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -588,6 +656,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -600,6 +671,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -612,6 +686,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -624,7 +701,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "jxKJZanmSuc",
@@ -637,11 +715,12 @@
         "policy": "Monetized by copyright owner"
       },
       {
-        "content": "Audiovisual content<br>2:52 - 3:40",
+        "content": "Visual content<br>2:52 - 3:40",
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "4pJ9f4_pPPk",
@@ -649,11 +728,12 @@
     "link": "https://youtube.com/watch?v=4pJ9f4_pPPk",
     "claims": [
       {
-        "content": "DO YOU EVER SHINE?<br>Music composition<br>1:14:41 - 1:15:13",
+        "content": "DO YOU EVER SHINE<br>Music composition<br>1:14:41 - 1:15:13",
         "claimant": "KOMCA_CS<br>APRA_CS<br>CASH<br>MACP<br>ICE_CS<br>SOCAN<br>Sony ATV Publishing<br>ASCAP",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "kILwDBJhqkE",
@@ -664,8 +744,14 @@
         "content": "Audiovisual content<br>3:15 - 4:01",
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>2:11:44 - 2:12:44",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "KAwYqecRNpM",
@@ -688,11 +774,27 @@
         "policy": "Monetized by copyright owner"
       },
       {
+        "content": "Audio content<br>5:10 - 7:02",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "抱きしめられたら - SKE48(Team E)<br>Sound recording<br>51:46 - 56:49",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>1:22:05 - 1:23:02",
+        "claimant": "AKS Co., Ltd",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>2:12:02 - 2:13:18",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "C7OPGCoxZ60",
@@ -704,7 +806,8 @@
         "claimant": "CASH<br>MACP<br>SOCAN",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "WC2Smv1zM8E",
@@ -716,7 +819,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "xGqaRNGmOUE",
@@ -733,7 +837,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "M6aFWdm2Hx8",
@@ -743,12 +848,12 @@
       {
         "content": "08 愛しさのアクセル A6<br>Sound recording<br>44:18 - 45:35",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "腕を組んで - AKB48<br>Sound recording<br>2:13:43 - 2:15:49",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "A Night with Blooming Flowers and a Full Moon - Miriam Yeung<br>Sound recording<br>3:17:04 - 3:19:21",
@@ -760,7 +865,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "YkmPY9jF9MI",
@@ -772,7 +878,8 @@
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "R1ClKvOcQlI",
@@ -780,8 +887,18 @@
     "link": "https://youtube.com/watch?v=R1ClKvOcQlI",
     "claims": [
       {
+        "content": "Audio content<br>3:59 - 6:02",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:27:13 - 2:28:06",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>2:50:39 - 2:51:40",
+        "claimant": "AKB48",
         "policy": "Monetized by copyright owner"
       },
       {
@@ -794,7 +911,8 @@
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "fhhMRNVadU4",
@@ -813,10 +931,11 @@
       },
       {
         "content": "SANTA BABY<br>Music composition<br>47:23 - 49:22",
-        "claimant": "BMG_Rights_Management<br>ACUM_CS<br>FILSCAP<br>APRA_CS<br>Exploration Group (Music Publishing)<br>COMPASS_CS<br>SACEM",
+        "claimant": "BMG_Rights_Management<br>ACUM_CS<br>FILSCAP<br>APRA_CS<br>Exploration Group (Music Publishing)<br>COMPASS_CS",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "zmi7N8Aj_ns",
@@ -828,7 +947,8 @@
         "claimant": "KOMCA_CS<br>CASH<br>MACP<br>COMPASS_CS<br>WAMI_CS<br>SOCAN",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "0ZsBsvk8JQk",
@@ -851,6 +971,16 @@
         "policy": "Monetized by copyright owner"
       },
       {
+        "content": "Audio content<br>0:55 - 3:53",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>0:02 - 0:32",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:45:52 - 2:47:21",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
@@ -869,8 +999,34 @@
         "content": "桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:32:13 - 2:32:51",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>5:09 - 5:57",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 18 countries: Your video can't be played in these countries: Afghanistan, Bahrain, Egypt, Iran, Iraq, Jordan, Kuwait, Lebanon, Libya, Oman, Qatar, Saudi Arabia, Sudan, Syria, United Arab Emirates, West Bank, Western Sahara, Yemen"
     ]
+  },
+  {
+    "video_id": "PHIs7h4tBDQ",
+    "title": "20170817 SNH48 Team SⅡ 第48区 09",
+    "link": "https://youtube.com/watch?v=PHIs7h4tBDQ",
+    "claims": [
+      {
+        "content": "Visual content<br>2:32 - 3:23",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>2:32 - 3:25",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "GQm5nPt_kMw",
@@ -887,7 +1043,8 @@
         "claimant": "AdRev for a 3rd Party<br>On behalf of: Extreme Music",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "CGQQ5vnl2h8",
@@ -899,7 +1056,21 @@
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "GmifCKRmPqk",
+    "title": "20170809 SNH48 Team NⅡ 专属派对 50",
+    "link": "https://youtube.com/watch?v=GmifCKRmPqk",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>8:00 - 8:52",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "DEtokUOi_F0",
@@ -907,11 +1078,17 @@
     "link": "https://youtube.com/watch?v=DEtokUOi_F0",
     "claims": [
       {
+        "content": "Audiovisual content<br>6:28 - 7:20",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "Pulchritude - Jolin Tsai<br>Sound recording<br>1:09:28 - 1:12:31",
         "claimant": "WMG<br>On behalf of: Mars Entertainment Co., Ltd - 3rd Party Domestic",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "_jBUQG0Tpko",
@@ -923,7 +1100,8 @@
         "claimant": "HIMservice<br>On behalf of: HIM International Music Inc.",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "fXWIZkmrWeg",
@@ -935,7 +1113,8 @@
         "claimant": "CASH",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "KbTOpeofKJQ",
@@ -943,11 +1122,17 @@
     "link": "https://youtube.com/watch?v=KbTOpeofKJQ",
     "claims": [
       {
+        "content": "Visual content<br>1:45:21 - 1:45:56",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "Ponytail To Shu Shu - AKB48<br>Sound recording<br>2:05:43 - 2:06:23",
         "claimant": "WMG<br>On behalf of: King Record Company Limited",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "KfiG81vY6mw",
@@ -959,6 +1144,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -971,6 +1159,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -983,6 +1174,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -995,6 +1189,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1007,6 +1204,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1019,6 +1219,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1031,6 +1234,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1043,6 +1249,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1055,6 +1264,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1067,6 +1279,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1079,6 +1294,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1091,6 +1309,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1103,6 +1324,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1115,6 +1339,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1127,6 +1354,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1139,6 +1369,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1151,6 +1384,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1163,6 +1399,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1175,6 +1414,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1187,6 +1429,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1199,6 +1444,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
     ]
   },
   {
@@ -1207,11 +1455,12 @@
     "link": "https://youtube.com/watch?v=unuU-hx2lSc",
     "claims": [
       {
-        "content": "Over The Edge-Extreme Music - James S. Levine<br>Sound recording<br>0:06 - 0:41",
-        "claimant": "AdRev for a 3rd Party",
+        "content": "Audiovisual content<br>0:02 - 2:39:29",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "OD0eR-eWp1g",
@@ -1219,36 +1468,12 @@
     "link": "https://youtube.com/watch?v=OD0eR-eWp1g",
     "claims": [
       {
-        "content": "Audio content<br>1:47:24 - 1:47:55",
-        "claimant": "AKB48<br>Channel: AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
-      },
-      {
-        "content": "Audio content<br>57:07 - 58:08",
-        "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
-      },
-      {
-        "content": "公主披風 - SNH48<br>Sound recording<br>2:32 - 5:37",
-        "claimant": "Rock Mobile Corporation<br>On behalf of: 上海絲芭文化",
+        "content": "Audiovisual content<br>1:11:39 - 2:31:49",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "Dewi Theater - JKT48<br>Sound recording<br>7:30 - 8:51",
-        "claimant": "Audiam (Label)",
-        "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "Audio content<br>1:02:08 - 1:02:51",
-        "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
-      },
-      {
-        "content": "Audio content<br>1:50:46 - 1:52:32",
-        "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "6YEX1es9Ctc",
@@ -1256,7 +1481,7 @@
     "link": "https://youtube.com/watch?v=6YEX1es9Ctc",
     "claims": [
       {
-        "content": "Visual content<br>0:00 - 2:11",
+        "content": "Audiovisual content<br>7:57 - 8:49",
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       },
@@ -1264,8 +1489,29 @@
         "content": "Audiovisual content<br>2:44:59 - 2:46:26",
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Visual content<br>1:20:48 - 1:21:46",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>4:13 - 5:28",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Visual content<br>0:00 - 2:11",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>0:01 - 0:36",
+        "claimant": "AKS Co., Ltd",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "Z8PyNvbF2j0",
@@ -1275,6 +1521,16 @@
       {
         "content": "Hanayo Odore - Akina Nakamori<br>Sound recording<br>2:56:01 - 2:56:49",
         "claimant": "UMG<br>On behalf of: Universal Music",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>0:28 - 2:27",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>3:11:55 - 3:12:48",
+        "claimant": "AKB48",
         "policy": "Monetized by copyright owner"
       },
       {
@@ -1302,6 +1558,9 @@
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes."
     ]
   },
   {
@@ -1310,26 +1569,17 @@
     "link": "https://youtube.com/watch?v=lMFDvCBpL6M",
     "claims": [
       {
-        "content": "Audiovisual content<br>2:08 - 6:29",
-        "claimant": "WebTVAsia (Music)",
-        "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "Audiovisual content<br>0:00 - 2:06",
-        "claimant": "WebTVAsia (Music)",
-        "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "Cat and Mouse - By2<br>Sound recording<br>1:46:27 - 1:47:28",
-        "claimant": "The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司",
-        "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "I - Jolin Tsai<br>Sound recording<br>3:21:09 - 3:22:41",
+        "content": "I - Jolin Tsai<br>Sound recording<br>3:11:27 - 3:12:59",
         "claimant": "WMG<br>On behalf of: Mars Entertainment Co., Ltd - 3rd Party Domestic",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Cat and Mouse - By2<br>Sound recording<br>1:36:47 - 1:37:48",
+        "claimant": "The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "A0vB9EP3lPQ",
@@ -1337,18 +1587,13 @@
     "link": "https://youtube.com/watch?v=A0vB9EP3lPQ",
     "claims": [
       {
-        "content": "她說 - 林俊傑<br>Sound recording<br>2:56:00 - 2:57:54",
-        "claimant": "Taihe Music Group (Hong Kong) Limited<br>On behalf of: 新海",
-        "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "Audiovisual content<br>0:00 - 0:32",
+        "content": "Audiovisual content<br>0:02 - 0:33",
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       },
       {
-        "content": "曹操 - 林俊傑<br>Sound recording<br>1:37:16 - 1:38:44",
-        "claimant": "Taihe Music Group (Hong Kong) Limited<br>On behalf of: 新海",
+        "content": "Audiovisual content<br>1:38:22 - 1:38:52",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       },
       {
@@ -1357,11 +1602,53 @@
         "policy": "Monetized by copyright owner"
       },
       {
+        "content": "她說 - 林俊傑<br>Sound recording<br>2:56:00 - 2:57:54",
+        "claimant": "Taihe Music Group (Hong Kong) Limited<br>On behalf of: 新海",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "My Heart Will Go On (Dialogue Mix) - Céline Dion<br>Sound recording<br>1:34:01 - 1:35:27",
         "claimant": "SME<br>On behalf of: Sony Classical",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "曹操 - 林俊傑<br>Sound recording<br>1:37:16 - 1:38:44",
+        "claimant": "Taihe Music Group (Hong Kong) Limited<br>On behalf of: 新海",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>1:43 - 2:21",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "mvVbvBpI8bc",
+    "title": "20170721 SNH48 Team NⅡ 专属派对 48",
+    "link": "https://youtube.com/watch?v=mvVbvBpI8bc",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>1:46:15 - 1:47:28",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "NUB98pG7fkI",
+    "title": "20170720 SNH48 Team XⅡ 代号XⅡ 36 陈韫凌总选拉票公演",
+    "link": "https://youtube.com/watch?v=NUB98pG7fkI",
+    "claims": [
+      {
+        "content": "Visual content<br>0:29 - 1:15",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "TMB4kQHYUvY",
@@ -1371,6 +1658,11 @@
       {
         "content": "太陽 - 陳綺貞<br>Sound recording<br>1:57:13 - 2:00:00",
         "claimant": "teamear<br>AdShare MG for a Third Party<br>On behalf of: Teamear Music",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "虫のバラード - SKE48（Team E）<br>Sound recording<br>2:04:10 - 2:04:45",
+        "claimant": "AKB48<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       },
       {
@@ -1384,11 +1676,12 @@
         "policy": "Monetized by copyright owner"
       },
       {
-        "content": "虫のバラード - SKE48（Team E）<br>Sound recording<br>2:04:10 - 2:04:45",
-        "claimant": "AKB48<br>On behalf of: avex trax",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "content": "Audiovisual content<br>1:48:51 - 1:49:47",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "b2BpROz000s",
@@ -1400,7 +1693,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "g0DB6nADShQ",
@@ -1416,8 +1710,14 @@
         "content": "Audiovisual content<br>0:01 - 1:33",
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>1:32:47 - 1:33:34",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "nshhVl0Nroo",
@@ -1434,7 +1734,8 @@
         "claimant": "FILSCAP<br>APRA_CS<br>COMPASS_CS<br>SOCAN",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "p-Grv5TNP2M",
@@ -1442,11 +1743,22 @@
     "link": "https://youtube.com/watch?v=p-Grv5TNP2M",
     "claims": [
       {
+        "content": "Visual content<br>1:15:14 - 1:17:08",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>3:38 - 4:36",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "Audiovisual content<br>3:06:38 - 3:07:11",
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "_nAKUlVLYh8",
@@ -1456,14 +1768,15 @@
       {
         "content": "となりのバナナ - AKB48<br>Sound recording<br>2:33:14 - 2:35:05",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "わがままな流れ星 - SKE48（Team E）<br>Sound recording<br>2:30:08 - 2:30:58",
         "claimant": "AKB48<br>On behalf of: avex trax",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "yb-O3iKoTVs",
@@ -1496,6 +1809,11 @@
         "policy": "Monetized by copyright owner"
       },
       {
+        "content": "Audio content<br>5:06 - 7:03",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:26:45 - 2:27:33",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
@@ -1505,7 +1823,8 @@
         "claimant": "imusician_digital<br>On behalf of: JKT48",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "5nPUIY3rA2k",
@@ -1517,6 +1836,9 @@
         "claimant": "Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2012 Sony Music Records Inc.",
         "policy": "Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
     ]
   },
   {
@@ -1534,7 +1856,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "tHfV-2E7yFc",
@@ -1546,7 +1869,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "utCyipW3miM",
@@ -1571,7 +1895,7 @@
       {
         "content": "虫のバラード - SKE48（Team E）<br>Sound recording<br>2:00:46 - 2:01:39",
         "claimant": "AKB48<br>On behalf of: avex trax",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "Visual content<br>2:23:48 - 2:25:52",
@@ -1605,7 +1929,7 @@
       },
       {
         "content": "我喜歡上你時的内心活動 - 陳綺貞<br>Sound recording<br>1:39:50 - 1:42:49",
-        "claimant": "teamear<br>On behalf of: Teamear Music",
+        "claimant": "teamear<br>AdShare MG for a Third Party<br>On behalf of: Teamear Music",
         "policy": "Monetized by copyright owner"
       },
       {
@@ -1636,7 +1960,7 @@
       {
         "content": "Audio content<br>8:14 - 9:32",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "Audiovisual content<br>3:22:04 - 3:23:08",
@@ -1669,7 +1993,7 @@
         "policy": "Monetized by copyright owner"
       },
       {
-        "content": "邓紫棋《桃花诺》(电视剧《上古情歌》片尾曲) - G.E.M.<br>Sound recording<br>3:23:13 - 3:26:45",
+        "content": "桃花诺 - G.E.M.<br>Sound recording<br>3:23:13 - 3:26:45",
         "claimant": "hummingbirdmusichk<br>On behalf of: Hummingbird Music Ltd.",
         "policy": "Monetized by copyright owner"
       },
@@ -1689,8 +2013,8 @@
         "policy": "Monetized by copyright owner"
       },
       {
-        "content": "Feel Right - Mark Ronson feat. Mystikal<br>Sound recording<br>1:48:15 - 1:49:47",
-        "claimant": "SME<br>On behalf of: WaterTower Music",
+        "content": "Uptown Funk - MARK RONSON BRUNO MARS<br>Sound recording<br>1:48:15 - 1:49:47",
+        "claimant": "SME<br>On behalf of: Sony Music",
         "policy": "Monetized by copyright owner"
       },
       {
@@ -1738,6 +2062,9 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
     ]
   },
   {
@@ -1760,11 +2087,12 @@
         "claimant": "Emperor Entertainment Group<br>On behalf of: EEG Music",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "soFG1EQ33Q0",
-    "title": "20170708 SNH48 Team NⅡ 专属派对 47 冯薪朵生日暨总选拉票公演",
+    "title": "20170708 SNH48 Team NⅡ 专属派对 46 冯薪朵生日暨总选拉票公演",
     "link": "https://youtube.com/watch?v=soFG1EQ33Q0",
     "claims": [
       {
@@ -1785,9 +2113,10 @@
       {
         "content": "街角のパーティー - SKE48（Team E）<br>Sound recording<br>2:22:34 - 2:23:14",
         "claimant": "AKB48<br>On behalf of: avex trax",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "u0jCtCx7it4",
@@ -1798,14 +2127,25 @@
         "content": "年輪（電視劇《花千骨》插曲） - 張碧晨<br>Sound recording<br>2:28:04 - 2:30:00",
         "claimant": "The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>1:16:22 - 1:16:52",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "eQkIeXsjHGM",
     "title": "20170706 SNH48 Team X 梦想的旗帜 39 陈琳、祁静总选拉票公演",
     "link": "https://youtube.com/watch?v=eQkIeXsjHGM",
     "claims": [
+      {
+        "content": "Audiovisual content<br>1:11:29 - 1:12:08",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
       {
         "content": "Halo - Beyoncé<br>Sound recording<br>2:30:05 - 2:30:39",
         "claimant": "SME<br>On behalf of: RCA Records",
@@ -1820,8 +2160,63 @@
         "content": "小幸運 - 田馥甄<br>Sound recording<br>2:13:06 - 2:15:32",
         "claimant": "HIMservice<br>On behalf of: HIM International Music Inc.",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>3:36 - 4:28",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "riiOtA31uS8",
+    "title": "20170705 SNH48 Team XⅡ 代号XⅡ 34 严佼君总选拉票公演",
+    "link": "https://youtube.com/watch?v=riiOtA31uS8",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>4:21 - 5:20",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Visual content<br>1:04 - 1:46",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "Pr_BVduidAQ",
+    "title": "20170702 SNH48 Team SⅡ 第48区 03 暨李宇琪总选拉票公演",
+    "link": "https://youtube.com/watch?v=Pr_BVduidAQ",
+    "claims": [
+      {
+        "content": "Visual content<br>2:28:30 - 2:29:00",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "nZdkTOfAERo",
+    "title": "20170702 SNH48 Team X 梦想的旗帜 38 张丹三生日主题公演暨总选拉票公演",
+    "link": "https://youtube.com/watch?v=nZdkTOfAERo",
+    "claims": [
+      {
+        "content": "Jet Set - Position Music - Blue Stahli<br>Sound recording<br>1:22 - 2:03",
+        "claimant": "PositionMusic (Sound Recordings)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Realize - Gill Chang<br>Sound recording<br>2:45:12 - 2:46:43",
+        "claimant": "Audiam (Label)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "q25sTDMFAdU",
@@ -1833,7 +2228,8 @@
         "claimant": "[Merlin] AWAL Digital Limited<br>On behalf of: Tsar B",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "cYCxX4FlOaU",
@@ -1848,9 +2244,23 @@
       {
         "content": "残念少女 - AKB48<br>Sound recording<br>1:32:43 - 1:34:07",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "Q_bvusD4jgg",
+    "title": "20170630 SNH48 Team SⅡ 第48区 01",
+    "link": "https://youtube.com/watch?v=Q_bvusD4jgg",
+    "claims": [
+      {
+        "content": "Visual content<br>2:27:14 - 2:27:54",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "qPYs_SgCZy4",
@@ -1862,7 +2272,8 @@
         "claimant": "Taihe Music Group (Hong Kong) Limited<br>On behalf of: 新海",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "d-CEiSD1IuU",
@@ -1880,25 +2291,8 @@
         "policy": "Monetized by copyright owner"
       },
       {
-        "content": "愛拼才會贏(AI PIN CAI HUI YING) - YE QI TIAN(YE QI TIAN)<br>Sound recording<br>1:32:50 - 1:33:38",
-        "claimant": "Yoho Taiwan - 數位點子<br>On behalf of: JIMA Music",
-        "policy": "Monetized by copyright owner"
-      }
-    ]
-  },
-  {
-    "video_id": "d-CEiSD1IuU",
-    "title": "20170628 SNH48 Team HⅡ 美丽世界 19 暨吴燕文、沈梦瑶总选拉票公演",
-    "link": "https://youtube.com/watch?v=d-CEiSD1IuU",
-    "claims": [
-      {
-        "content": "抱きしめられたら - SKE48(Team E)<br>Sound recording<br>2:10:59 - 2:12:57",
-        "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
-        "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "倍儿爽 (官方正式版) - 大张伟<br>Sound recording<br>1:47:47 - 1:48:30",
-        "claimant": "Believe Music<br>On behalf of: 恒大音乐",
+        "content": "Audiovisual content<br>1:31:36 - 1:32:28",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       },
       {
@@ -1906,7 +2300,8 @@
         "claimant": "Yoho Taiwan - 數位點子<br>On behalf of: JIMA Music",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "KjQC-i-idxA",
@@ -1916,19 +2311,25 @@
       {
         "content": "Audio content<br>2:52:18 - 2:54:15",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "Empire Of Angels - Thomas Bergersen<br>Sound recording<br>3:19 - 4:13",
-        "claimant": "AdRev for a 3rd Party<br>Epic Elite (Music Publishing)<br>On behalf of: Extreme Music",
+        "claimant": "Epic Elite<br>On behalf of: Extreme Music",
         "policy": "Monetized by copyright owner"
       },
       {
         "content": "Audiovisual content<br>1:32:15 - 1:35:17",
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>9:00 - 9:34",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "DHJ797A8RFA",
@@ -1945,7 +2346,8 @@
         "claimant": "Golden Dynamic<br>On behalf of: Music Download Limited",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "yQRE2-wpDvE",
@@ -1972,7 +2374,8 @@
         "claimant": "Believe Music<br>Kontor Records<br>Rebeat Digital GmbH<br>On behalf of: +Mas Label / Tiger Records",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "MqkfzBqahHk",
@@ -1981,14 +2384,17 @@
     "claims": [
       {
         "content": "キャンディー off vocal - 河西智美<br>Sound recording<br>2:48:02 - 2:49:41",
-        "claimant": "crownrecord<br>On behalf of: 日本クラウン株式会社",
+        "claimant": "NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社",
         "policy": "Tracked by copyright owner"
       },
       {
         "content": "Mamma Mia! - KARA<br>Sound recording<br>2:43:16 - 2:44:05",
-        "claimant": "UMG<br>On behalf of: Universal Sigma",
+        "claimant": "Collab Asia Music<br>UMG<br>On behalf of: Universal Sigma",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes."
     ]
   },
   {
@@ -2006,7 +2412,8 @@
         "claimant": "SME<br>On behalf of: RCA Records Label",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "ia8qJwMds8g",
@@ -2014,7 +2421,7 @@
     "link": "https://youtube.com/watch?v=ia8qJwMds8g",
     "claims": [
       {
-        "content": "Visual content<br>0:13 - 1:10",
+        "content": "Audiovisual content<br>14:50 - 15:38",
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       },
@@ -2022,8 +2429,14 @@
         "content": "孤獨的總和 - 吳汶芳<br>Sound recording<br>2:30:27 - 2:31:09",
         "claimant": "linfair_records<br>On behalf of: Linfairrecords",
         "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>0:13 - 1:10",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "7KcufSycVWk",
@@ -2035,7 +2448,8 @@
         "claimant": "The Orchard Music<br>On behalf of: 北京海蝶音樂有限公司",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "tHCJZ0qEyVU",
@@ -2052,7 +2466,28 @@
         "claimant": "Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc.",
         "policy": "Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
     ]
+  },
+  {
+    "video_id": "FRpeOQrYrqs",
+    "title": "20170617 SNH48 Team XⅡ 代号XⅡ 31 宋雨珊生日主题公演暨总选拉票公演",
+    "link": "https://youtube.com/watch?v=FRpeOQrYrqs",
+    "claims": [
+      {
+        "content": "Visual content<br>0:48 - 1:46",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Visual content<br>1:17:14 - 1:18:09",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "LNvDLXy1REU",
@@ -2069,7 +2504,26 @@
         "claimant": "The Orchard Music<br>On behalf of: 北京太合音樂文化發展有限公司",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "Zb1FcD-GvKY",
+    "title": "20170616 SNH48 Team XⅡ 代号XⅡ 30 超感进化版首演",
+    "link": "https://youtube.com/watch?v=Zb1FcD-GvKY",
+    "claims": [
+      {
+        "content": "Visual content<br>2:24:53 - 2:25:51",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>3:53 - 4:51",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "2GlQ1gREU6w",
@@ -2082,9 +2536,14 @@
         "policy": "Monetized by copyright owner"
       },
       {
+        "content": "Audio content<br>3:51 - 5:50",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "虫のバラード - SKE48（Team E）<br>Sound recording<br>2:21:54 - 2:22:24",
         "claimant": "AKB48<br>On behalf of: avex trax",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:27:43 - 1:28:25",
@@ -2107,11 +2566,17 @@
         "policy": "Monetized by copyright owner"
       },
       {
+        "content": "Audio content<br>2:47:39 - 2:48:35",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "刚好遇见你 - 李玉刚<br>Sound recording<br>2:39:50 - 2:40:44",
         "claimant": "Believe Music<br>On behalf of: 百纳",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "ieD8V-Q8nmo",
@@ -2119,11 +2584,12 @@
     "link": "https://youtube.com/watch?v=ieD8V-Q8nmo",
     "claims": [
       {
-        "content": "A Glimpse Of The Dark<br>Sound recording<br>0:06 - 1:31",
-        "claimant": "APM Music<br>On behalf of: Juice Music",
+        "content": "Audiovisual content<br>0:00 - 3:46",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "i4REecM4yC0",
@@ -2131,11 +2597,12 @@
     "link": "https://youtube.com/watch?v=i4REecM4yC0",
     "claims": [
       {
-        "content": "Audiovisual content<br>0:01 - 1:32",
+        "content": "Audiovisual content<br>0:02 - 1:33",
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "T3mwQtZcIMA",
@@ -2147,7 +2614,8 @@
         "claimant": "WMG<br>On behalf of: Warner Bros. Label",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "WZqEKLdSDSA",
@@ -2159,6 +2627,9 @@
         "claimant": "AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: Walt Disney Records",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes."
     ]
   },
   {
@@ -2167,8 +2638,8 @@
     "link": "https://youtube.com/watch?v=JSNjnTbLH3A",
     "claims": [
       {
-        "content": "Remember - A Mei<br>Sound recording<br>2:53:07 - 2:57:45",
-        "claimant": "WMG<br>On behalf of: WM Hong Kong",
+        "content": "Remember - Chang Hui Mei<br>Sound recording<br>2:53:07 - 2:57:45",
+        "claimant": "WMG<br>On behalf of: WM Taiwan",
         "policy": "Monetized by copyright owner"
       },
       {
@@ -2176,6 +2647,9 @@
         "claimant": "Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2016 SME Records",
         "policy": "Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
     ]
   },
   {
@@ -2184,33 +2658,12 @@
     "link": "https://youtube.com/watch?v=rXKktsPiNp8",
     "claims": [
       {
-        "content": "Sad Walking - Oh Joon Sung<br>Sound recording<br>9:22 - 10:00",
-        "claimant": "WMG<br>On behalf of: Forest",
-        "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "Adventure Time - Philter<br>Sound recording<br>11:30 - 12:57",
-        "claimant": "[Merlin] Phonofile<br>On behalf of: Nordic Records",
+        "content": "Audiovisual content<br>1:44 - 10:11",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
-  },
-  {
-    "video_id": "rXKktsPiNp8",
-    "title": "20170609 SNH48 7SENSES《Lucky Seven Baby》EP07",
-    "link": "https://youtube.com/watch?v=rXKktsPiNp8",
-    "claims": [
-      {
-        "content": "Sad Walking - Oh Joon Sung<br>Sound recording<br>9:22 - 10:00",
-        "claimant": "WMG<br>On behalf of: Forest",
-        "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "Adventure Time - Philter<br>Sound recording<br>11:30 - 12:57",
-        "claimant": "[Merlin] Phonofile<br>On behalf of: Nordic Records",
-        "policy": "Monetized by copyright owner"
-      }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "Qv2wge6IWxk",
@@ -2222,7 +2675,8 @@
         "claimant": "Taihe Music Group (Hong Kong) Limited<br>On behalf of: OBS",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "uu9EEikDlOU",
@@ -2232,14 +2686,15 @@
       {
         "content": "Audio content<br>2:26:19 - 2:27:44",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "Audio content<br>2:23:52 - 2:24:36",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "cZJqeeikHz8",
@@ -2261,6 +2716,9 @@
         "claimant": "APM Music<br>On behalf of: KPM - Main Series",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes."
     ]
   },
   {
@@ -2270,7 +2728,7 @@
     "claims": [
       {
         "content": "キャンディー - 河西智美<br>Sound recording<br>2:13:00 - 2:17:25",
-        "claimant": "crownrecord<br>On behalf of: 日本クラウン株式会社",
+        "claimant": "NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社",
         "policy": "Tracked by copyright owner"
       },
       {
@@ -2283,7 +2741,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "ISpDW7lqWg0",
@@ -2291,11 +2750,12 @@
     "link": "https://youtube.com/watch?v=ISpDW7lqWg0",
     "claims": [
       {
-        "content": "An Jing (Instrumental)<br>Music composition<br>2:30:38 - 2:31:47",
-        "claimant": "AdShare (Publishing)<br>JVR",
+        "content": "Audiovisual content<br>1:16:10 - 1:16:46",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "yQGf3FzZ9Os",
@@ -2303,13 +2763,13 @@
     "link": "https://youtube.com/watch?v=yQGf3FzZ9Os",
     "claims": [
       {
-        "content": "Receives - Keith Kenniff<br>Sound recording<br>12:19 - 13:07",
-        "claimant": "[Merlin] Morr Music<br>On behalf of: Unseen",
+        "content": "Audiovisual content<br>0:02 - 1:11:05",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       },
       {
-        "content": "Feelin' Fine - Gary Leslie Scargill<br>Sound recording<br>54:09 - 54:39",
-        "claimant": "APM Music<br>On behalf of: Ded Good",
+        "content": "Audio content<br>1:07:38 - 1:08:23",
+        "claimant": "AKB48",
         "policy": "Monetized by copyright owner"
       },
       {
@@ -2327,6 +2787,9 @@
         "claimant": "AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: WALT DISNEY RECORDS",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes."
     ]
   },
   {
@@ -2346,7 +2809,7 @@
       },
       {
         "content": "キャンディー off vocal - 河西智美<br>Sound recording<br>34:39 - 39:01",
-        "claimant": "crownrecord<br>On behalf of: 日本クラウン株式会社",
+        "claimant": "NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社",
         "policy": "Tracked by copyright owner"
       },
       {
@@ -2354,7 +2817,8 @@
         "claimant": "PositionMusic (Sound Recordings)<br>On behalf of: Position Music/Choicetracks, Inc.",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "ipKqlnQ0AB0",
@@ -2371,18 +2835,14 @@
         "claimant": "WMG<br>On behalf of: Forest",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "jeH8wPDKWcY",
     "title": "20170530 SNH48 我们向前冲 05",
     "link": "https://youtube.com/watch?v=jeH8wPDKWcY",
     "claims": [
-      {
-        "content": "Eien Pressure - AKB48<br>Sound recording<br>2:31:17 - 2:31:59",
-        "claimant": "WMG<br>On behalf of: Gold Typhoon Taiwan",
-        "policy": "Monetized by copyright owner"
-      },
       {
         "content": "ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:25:56 - 2:27:14",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
@@ -2396,7 +2856,7 @@
       {
         "content": "Audio content<br>5:01 - 6:56",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:02:47 - 1:03:22",
@@ -2406,14 +2866,15 @@
       {
         "content": "Audio content<br>8:33 - 9:03",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:10:21 - 2:11:53",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "NsfotMpYAI4",
@@ -2425,7 +2886,8 @@
         "claimant": "AdRev for a 3rd Party",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "YOAzqx_YLbA",
@@ -2437,7 +2899,8 @@
         "claimant": "WMG<br>On behalf of: King Record Company Limited",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "1ONmMKzOL10",
@@ -2456,20 +2919,34 @@
       },
       {
         "content": "Chinese Twilight - Klaus Schønning<br>Sound recording<br>1:35:33 - 1:37:11",
-        "claimant": "The Orchard Music<br>[Merlin] Phonofile<br>On behalf of: MusicVenture",
+        "claimant": "[Merlin] Phonofile<br>On behalf of: MusicVenture",
         "policy": "Monetized by copyright owner"
       },
       {
         "content": "ずっとずっと - AKB48<br>Sound recording<br>2:40:28 - 2:41:51",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "taohuachipao - BY2<br>Sound recording<br>1:23:42 - 1:25:38",
         "claimant": "Taihe Music Group (Hong Kong) Limited<br>On behalf of: OBS",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "z0ApJXypGes",
+    "title": "20170526 SNH48 Team XⅡ 代号XⅡ 26",
+    "link": "https://youtube.com/watch?v=z0ApJXypGes",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>1:51:35 - 1:52:29",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "16HGEZvoJao",
@@ -2481,7 +2958,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "AByemGbi2hE",
@@ -2490,10 +2968,11 @@
     "claims": [
       {
         "content": "PONIITEERUTO SHUSHU<br>Music composition<br>2:35:22 - 2:36:21",
-        "claimant": "COMPASS_CS<br>WAMI_CS<br>CASH<br>MACP",
+        "claimant": "KOMCA_CS<br>CASH<br>MACP<br>COMPASS_CS<br>WAMI_CS<br>SOCAN",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "G6M_hiOCV-4",
@@ -2510,7 +2989,8 @@
         "claimant": "Interpark Corp<br>On behalf of: MBK Entertainment",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "wNjfGanAGDc",
@@ -2522,6 +3002,9 @@
         "claimant": "Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc.",
         "policy": "Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
     ]
   },
   {
@@ -2534,7 +3017,26 @@
         "claimant": "WMG<br>On behalf of: King Record Company Limited",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "YXLiW6L5ySg",
+    "title": "20170518 SNH48 Team X 梦想的旗帜 31",
+    "link": "https://youtube.com/watch?v=YXLiW6L5ySg",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>4:26 - 5:16",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>1:36:11 - 1:36:46",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "1Rg9ZbymyjU",
@@ -2547,9 +3049,14 @@
         "policy": "Monetized by copyright owner"
       },
       {
+        "content": "Audio content<br>4:53 - 6:50",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "Audio content<br>1:47:11 - 1:48:19",
         "claimant": "AKS Co., Ltd",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:48:22 - 2:49:12",
@@ -2557,11 +3064,17 @@
         "policy": "Monetized by copyright owner"
       },
       {
+        "content": "Audio content<br>2:56:01 - 2:56:53",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:31:08 - 2:33:03",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "cDyL73l5r2U",
@@ -2578,7 +3091,8 @@
         "claimant": "linfair_records<br>On behalf of: 上海譚旋音樂工作室",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "JMIKoxZvK4k",
@@ -2586,17 +3100,23 @@
     "link": "https://youtube.com/watch?v=JMIKoxZvK4k",
     "claims": [
       {
-        "content": "我的秘密<br>Music composition<br>1:16:55 - 1:18:27",
-        "claimant": "KOMCA_CS<br>PEDL<br>Warner Chappell<br>CASH",
+        "content": "SECRET LOVE<br>Music composition<br>1:16:55 - 1:18:27",
+        "claimant": "KOMCA_CS<br>APRA_CS<br>CASH<br>MACP<br>COMPASS_CS<br>Warner Chappell<br>PEDL",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "LaiQBV8NJdU",
     "title": "20170512 SNH48 我们向前冲 03",
     "link": "https://youtube.com/watch?v=LaiQBV8NJdU",
     "claims": [
+      {
+        "content": "Audio content<br>6:22 - 8:03",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
       {
         "content": "桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:11:11 - 2:12:23",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
@@ -2605,7 +3125,7 @@
       {
         "content": "Audio content<br>1:29:51 - 1:30:54",
         "claimant": "AKS Co., Ltd",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:05:22 - 1:05:57",
@@ -2617,7 +3137,8 @@
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "5a9zUG_6Jgw",
@@ -2629,7 +3150,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "mnVTHyYUk8Q",
@@ -2639,9 +3161,10 @@
       {
         "content": "Audio content<br>2:11:22 - 2:12:03",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "Hwv_auy2WE0",
@@ -2651,9 +3174,23 @@
       {
         "content": "Audio content<br>2:32:27 - 2:34:23",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "Q9De_MZSoAQ",
+    "title": "20170506 SNH48 Team X 梦想的旗帜 28 北京巡演",
+    "link": "https://youtube.com/watch?v=Q9De_MZSoAQ",
+    "claims": [
+      {
+        "content": "Visual content<br>2:51 - 3:24",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "x0ytwF3c4ew",
@@ -2662,10 +3199,29 @@
     "claims": [
       {
         "content": "キャンディー off vocal - 河西智美<br>Sound recording<br>1:09:29 - 1:10:00",
-        "claimant": "crownrecord<br>On behalf of: 日本クラウン株式会社",
+        "claimant": "NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社",
         "policy": "Tracked by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "RXjzSR_9xU0",
+    "title": "20170505 SNH48 Team HⅡ 美丽世界 07",
+    "link": "https://youtube.com/watch?v=RXjzSR_9xU0",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>14:24 - 15:02",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>14:11 - 14:56",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "DmZyUessufY",
@@ -2673,16 +3229,12 @@
     "link": "https://youtube.com/watch?v=DmZyUessufY",
     "claims": [
       {
-        "content": "달빛에 비친 안개 - Various Artists<br>Sound recording<br>12:49 - 13:19",
-        "claimant": "Recording Industry Association of Korea<br>On behalf of: RIAK",
-        "policy": "Monetized by copyright owner"
-      },
-      {
-        "content": "기억속으로 - Various Artists<br>Sound recording<br>7:06 - 8:56",
-        "claimant": "CJ E&M Music<br>On behalf of: CJ E&M",
+        "content": "Audiovisual content<br>0:02 - 15:32",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "RAaqbg03ZlM",
@@ -2694,6 +3246,9 @@
         "claimant": "UMG<br>On behalf of: RBMG/Def Jam",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes."
     ]
   },
   {
@@ -2714,12 +3269,12 @@
       {
         "content": "Audio content<br>6:32 - 8:34",
         "claimant": "AKB48<br>Channel: AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "AKB参上！ - AKB48<br>Sound recording<br>2:34:20 - 2:35:48",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "入陣曲 - 五月天<br>Sound recording<br>1:03:30 - 1:06:53",
@@ -2744,13 +3299,17 @@
       {
         "content": "愛しきナターシャ - 指原莉乃<br>Sound recording<br>1:25:43 - 1:26:18",
         "claimant": "AKB48<br>AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
-        "policy": "Blocked in some countries: South Korea"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "Xi Wang (Album Version) - Kelly Chen<br>Sound recording<br>1:27:50 - 1:29:33",
         "claimant": "UMG<br>On behalf of: Go East",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States",
+      "Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes."
     ]
   },
   {
@@ -2761,14 +3320,15 @@
       {
         "content": "Audio content<br>2:19:53 - 2:21:03",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "Audio content<br>2:17:52 - 2:18:48",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "skxUEDOBIvU",
@@ -2776,11 +3336,17 @@
     "link": "https://youtube.com/watch?v=skxUEDOBIvU",
     "claims": [
       {
-        "content": "青藏高原<br>Music composition<br>2:02:42 - 2:03:41",
-        "claimant": "AdShare (Publishing)<br>CASH",
+        "content": "Audiovisual content<br>12:25 - 13:02",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>2:07:24 - 2:08:08",
+        "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "M7kCjzCJEOQ",
@@ -2790,12 +3356,12 @@
       {
         "content": "Audio content<br>2:12:17 - 2:13:43",
         "claimant": "AKS Co., Ltd",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "Audio content<br>5:22 - 7:18",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:08:50 - 1:09:59",
@@ -2805,9 +3371,10 @@
       {
         "content": "Audio content<br>1:34:19 - 1:35:29",
         "claimant": "AKS Co., Ltd",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "FuV08NpZTu0",
@@ -2817,7 +3384,7 @@
       {
         "content": "Audio content<br>6:51 - 7:27",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:05:51 - 1:09:57",
@@ -2832,7 +3399,7 @@
       {
         "content": "Audio content<br>4:43 - 6:44",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:37:27 - 1:38:31",
@@ -2844,7 +3411,8 @@
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "LAW434JzKiA",
@@ -2856,7 +3424,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "qTbAAo90gn0",
@@ -2913,7 +3482,26 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "44ESjRS6FyQ",
+    "title": "20170423 SNH48 Team X 梦想的旗帜 25",
+    "link": "https://youtube.com/watch?v=44ESjRS6FyQ",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>4:42 - 5:33",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>13:42 - 14:16",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "44jXZrwFIqo",
@@ -2930,7 +3518,23 @@
         "claimant": "HIMservice<br>On behalf of: HIM International Music Inc.",
         "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes."
     ]
+  },
+  {
+    "video_id": "h_9YNDvHxiM",
+    "title": "20170419 SNH48 Team XⅡ 代号XⅡ 19",
+    "link": "https://youtube.com/watch?v=h_9YNDvHxiM",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>2:09:37 - 2:10:10",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "jd74BATSAOo",
@@ -2942,7 +3546,8 @@
         "claimant": "The Orchard Music<br>AsiaMuseEntertainme<br>On behalf of: AsiaMuse",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "kpZTXuM6E6g",
@@ -2951,10 +3556,11 @@
     "claims": [
       {
         "content": "July - Kris Wu<br>Sound recording<br>1:29:52 - 1:30:58",
-        "claimant": "Taihe Music Group (Hong Kong) Limited",
+        "claimant": "北京凡世文化传媒有限公司（BEIJING FAN SHI CULTURE AND MEDIA CO.,LTD）<br>Taihe Music Group (Hong Kong) Limited",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "DXGYrz1Ifyk",
@@ -2964,11 +3570,11 @@
       {
         "content": "Audio content<br>5:20 - 6:35",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
-        "content": "不夠成熟 - By2<br>Sound recording<br>42:35 - 43:26",
-        "claimant": "The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司",
+        "content": "不夠成熟 - By2<br>Sound recording<br>42:34 - 43:34",
+        "claimant": "The Orchard Music<br>On behalf of: 北京海蝶音樂有限公司",
         "policy": "Monetized by copyright owner"
       },
       {
@@ -2979,12 +3585,12 @@
       {
         "content": "Audio content<br>9:18 - 9:59",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "わがままな流れ星 - SKE48（Team E）<br>Sound recording<br>2:15:32 - 2:17:06",
         "claimant": "AKB48<br>On behalf of: avex trax",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "ｴﾝﾄﾞﾛｰﾙ - SKE48(Team E)<br>Sound recording<br>2:22:14 - 2:24:04",
@@ -2997,15 +3603,24 @@
         "policy": "Monetized by copyright owner"
       },
       {
+        "content": "Audio content<br>33:48 - 35:29",
+        "claimant": "AKS Co., Ltd",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "River - Bishop Briggs<br>Sound recording<br>2:08:34 - 2:09:59",
         "claimant": "UMG<br>On behalf of: Teleport Records / Island Records",
         "policy": "Monetized by copyright owner"
       },
       {
-        "content": "Audio content<br>33:48 - 35:29",
-        "claimant": "AKS Co., Ltd",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "content": "I want you - Ren Suxi<br>Sound recording<br>28:42 - 29:54",
+        "claimant": "nikitaventures music<br>On behalf of: nikita ventures music",
+        "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States",
+      "Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes."
     ]
   },
   {
@@ -3023,7 +3638,8 @@
         "claimant": "APM Music<br>On behalf of: Juice Music",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "QS5jw3lo_74",
@@ -3031,11 +3647,17 @@
     "link": "https://youtube.com/watch?v=QS5jw3lo_74",
     "claims": [
       {
+        "content": "Audiovisual content<br>39:58 - 40:47",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
         "content": "凉凉 - 楊宗緯+張碧晨<br>Sound recording<br>1:29:07 - 1:29:59",
         "claimant": "linfair_records<br>On behalf of: 上海譚旋音樂工作室",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "ogJhDhkXlEQ",
@@ -3045,19 +3667,46 @@
       {
         "content": "泣きながら微笑んで(Not yet ver.) - Not yet<br>Sound recording<br>1:11:44 - 1:12:16",
         "claimant": "columbia<br>On behalf of: COLUMBIA",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "Audio content<br>2:22:42 - 2:23:35",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "桜の花びらたち - SKE48(teamS)<br>Sound recording<br>4:28 - 6:15",
         "claimant": "AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "RRxUrLQxBYI",
+    "title": "20170402 SNH48 Team XⅡ 代号XⅡ 15",
+    "link": "https://youtube.com/watch?v=RRxUrLQxBYI",
+    "claims": [
+      {
+        "content": "Visual content<br>2:14:14 - 2:14:44",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "x1B8n1Lshng",
+    "title": "20170330 SNH48 Team X 梦想的旗帜 22 沈阳巡演",
+    "link": "https://youtube.com/watch?v=x1B8n1Lshng",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>6:51 - 7:23",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "vjBVEF9dahE",
@@ -3067,9 +3716,28 @@
       {
         "content": "Audio content<br>2:46:01 - 2:47:34",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "G2jzoExqah8",
+    "title": "20170323 SNH48 Team X 梦想的旗帜 20",
+    "link": "https://youtube.com/watch?v=G2jzoExqah8",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>3:10 - 3:42",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>2:00:23 - 2:00:57",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "HDIFOb8Zijo",
@@ -3081,7 +3749,8 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "Gg0DAhaSEd0",
@@ -3093,13 +3762,19 @@
         "claimant": "WebTVAsia (Music)",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "LltTPj2bGKc",
     "title": "20170311 SNH48 白色情人节特别公演 晚场",
     "link": "https://youtube.com/watch?v=LltTPj2bGKc",
     "claims": [
+      {
+        "content": "一笑傾城 (演員版) - 張赫, 白宇, 張彬彬, 崔航  &  鄭業成<br>Sound recording<br>1:31:23 - 1:34:08",
+        "claimant": "Rock Mobile Corporation<br>On behalf of: 北京聽見時代娛樂傳媒有限公司",
+        "policy": "Monetized by copyright owner"
+      },
       {
         "content": "暖暖 - 梁靜茹<br>Sound recording<br>46:52 - 47:37",
         "claimant": "Bin Music<br>On behalf of: Bin Music",
@@ -3108,12 +3783,7 @@
       {
         "content": "Audio content<br>4:05 - 6:08",
         "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
-      },
-      {
-        "content": "Audio content<br>1:03:01 - 1:03:59",
-        "claimant": "AKS Co., Ltd",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "policy": "Monetized by copyright owner"
       },
       {
         "content": "凉凉 - 楊宗緯+張碧晨<br>Sound recording<br>56:11 - 59:55",
@@ -3121,11 +3791,12 @@
         "policy": "Monetized by copyright owner"
       },
       {
-        "content": "Kokoro no Placard - AKB48<br>Sound recording<br>2:03:49 - 2:05:17",
-        "claimant": "WMG<br>On behalf of: King Record Company Limited",
+        "content": "Audio content<br>1:03:01 - 1:03:59",
+        "claimant": "AKS Co., Ltd",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "qfjLpEGKcyw",
@@ -3133,9 +3804,9 @@
     "link": "https://youtube.com/watch?v=qfjLpEGKcyw",
     "claims": [
       {
-        "content": "Kokoro no Placard - AKB48<br>Sound recording<br>2:13:34 - 2:15:44",
-        "claimant": "WMG<br>On behalf of: King Record Company Limited",
-        "policy": "Monetized by copyright owner"
+        "content": "Lay down - AKB48<br>Sound recording<br>44:44 - 46:41",
+        "claimant": "Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc.",
+        "policy": "Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
       },
       {
         "content": "てもでもの涙 instrumental - フレンチ・キス<br>Sound recording<br>48:10 - 50:00",
@@ -3143,15 +3814,28 @@
         "policy": "Monetized by copyright owner"
       },
       {
-        "content": "Audio content<br>6:19 - 8:02",
-        "claimant": "AKB48",
-        "policy": "Blocked in some countries: Australia, Mexico, New Zealand, South Korea, United States"
+        "content": "致姍姍來遲的你 - 阿肆<br>Sound recording<br>1:28:14 - 1:30:00",
+        "claimant": "The Orchard Music<br>On behalf of: 北京摩登天空文化發展有限公司",
+        "policy": "Monetized by copyright owner"
       },
       {
-        "content": "Lay down - AKB48<br>Sound recording<br>44:44 - 46:41",
-        "claimant": "Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc.",
-        "policy": "Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
+        "content": "Audio content<br>2:13:34 - 2:14:34",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Kokoro no Placard - AKB48<br>Sound recording<br>2:13:34 - 2:15:44",
+        "claimant": "WMG<br>On behalf of: King Record Company Limited",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audio content<br>6:19 - 8:02",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
     ]
   },
   {
@@ -3184,7 +3868,8 @@
         "claimant": "Loen Entertainment<br>On behalf of: DUBLEKICK COMPANY, LOEN ENTERTAINMENT",
         "policy": "Monetized by copyright owner"
       }
-    ]
+    ],
+    "viewing_restrictions": []
   },
   {
     "video_id": "aC-fevSjh_U",
@@ -3196,6 +3881,9 @@
         "claimant": "Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc.",
         "policy": "Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
       }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
     ]
   }
 ]

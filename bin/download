@@ -162,6 +162,7 @@ def upload(file: pathlib.Path, conf: config.VodConfig):
         '--description', description,
         '--tags', ','.join(tags),
         '--privacy', 'public' if conf.public else 'unlisted',
+        '--wait',
     ]
     if conf.thumbnail:
         cmd += ['--thumbnail', conf.thumbnail]
@@ -170,7 +171,7 @@ def upload(file: pathlib.Path, conf: config.VodConfig):
     cmd += [str(file)]
 
     log_command(cmd)
-    subprocess.run(cmd)
+    subprocess.check_call(cmd)
 
 
 def main() -> None:

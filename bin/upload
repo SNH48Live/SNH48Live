@@ -133,6 +133,12 @@ def initialize_upload(youtube_client, args):
     )
 
     video_id = resumable_upload(insert_request, bar=media.bar)
+
+    if config.main.notifications:
+        mail.send_mail(f'Uploaded {args.title}', f'https://youtu.be/{video_id}',
+                       config.main.mailto)
+        logger.info(f'Sent notification to {config.main.mailto}')
+
     if args.thumbnail:
         logger.info('Setting thumbnail...')
         subprocess.run([BIN / 'set-thumbnail', video_id, args.thumbnail])
@@ -144,10 +150,16 @@ def initialize_upload(youtube_client, args):
             upload_status = status_dict['uploadStatus']
             if upload_status == 'processed':
                 logger.info(f'{video_id} has been processed')
+
+                if config.main.notifications:
+                    mail.send_mail(f'Processed {args.title}', f'https://youtu.be/{video_id}',
+                                   config.main.mailto)
+                    logger.info(f'Sent notification to {config.main.mailto}')
+
                 break
             elif upload_status == 'uploaded':
                 logger.info(f'{video_id} is being processed')
-                time.sleep(60)
+                time.sleep(15)
                 continue
             else:
                 if upload_status == 'deleted':
@@ -176,11 +188,6 @@ def initialize_upload(youtube_client, args):
         # update-metadata insert-playlist [-h] video_ids playlist_ids
         subprocess.check_call([BIN / 'update-metadata', 'insert-playlist',
                                video_id, ','.join(playlist_ids)])
-
-    if config.main.notifications:
-        mail.send_mail(f'Uploaded {args.title}', f'https://youtu.be/{video_id}',
-                       config.main.mailto)
-        logger.info(f'Sent notification to {config.main.mailto}')
 
 
 # This method implements an exponential backoff strategy to resume a

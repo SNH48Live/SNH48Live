@@ -3,6 +3,89 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171006 SNH48 星梦Mini Live（袁航）](https://youtube.com/watch?v=LXYH6Y3vNvc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Marry You<br>Music composition<br>10:10 - 13:26 | SPA_CS<br>BMG_Rights_Management<br>AdRev Publishing<br>CASH<br>ACUM_CS<br>MESAM / MSG CS<br>APRA_CS<br>SOCAN<br>ARESA<br>MACP<br>COMPASS_CS<br>Warner Chappell<br>SGAE_CS<br>PEDL<br>AKM<br>VCPMC_CS | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171005 SNH48 Team HⅡ 美丽世界 34](https://youtube.com/watch?v=HSmd-5GbIws)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Visual content<br>10:19 - 11:29 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:37 - 5:46 | WebTVAsia (Music) | Monetized by copyright owner |
+| 転がる石になれ(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>2:32:35 - 2:33:34 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| Audiovisual content<br>4:37 - 5:53 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171004 SNH48 “最美之人”中秋节特别公演](https://youtube.com/watch?v=0b_Ng2wLlOQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Dan Yuen Ren Chang Jiu (Album Version) - Faye Wong<br>Sound recording<br>2:01:13 - 2:03:10 | UMG<br>On behalf of: Cinepoly | Monetized by copyright owner |
+| Audiovisual content<br>3:13 - 4:31 | WebTVAsia (Music) | Monetized by copyright owner |
+| WTF (Where They From) [feat. Pharrell Williams] - Missy Elliott<br>Sound recording<br>2:03:46 - 2:04:58 | WMG<br>On behalf of: Atlantic Records | Monetized by copyright owner |
+
+Viewing restrictions:
+- Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
+
+---
+
+[20171004 SNH48 星梦Mini Live中秋古风专场（陈思、徐晗、严佼君）](https://youtube.com/watch?v=xSh83tNCuHQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| SHI ER LOU<br>Music composition<br>1:12:33 - 1:16:12 | APRA_CS<br>CASH<br>MACP<br>SOCAN<br>SGAE_CS<br>Warner Chappell | Monetized by copyright owner |
+| OCEAN DRIVE<br>Music composition<br>26:41 - 28:00 | APRA_CS<br>CASH<br>MACP<br>COMPASS_CS<br>SOCAN<br>SACEM<br>EMI Music Publishing | Monetized by copyright owner |
+| Something Great<br>Music composition<br>1:20:14 - 1:21:26 | Downtown Music Publishing<br>APRA_CS<br>CASH<br>ACUM_CS<br>MESAM / MSG CS<br>SOCAN<br>ICE_CS<br>COMPASS_CS<br>Spirit Music Publishing<br>MACP<br>SACEM<br>Kobalt Music Publishing<br>AMRA<br>AKM<br>UMPI | Monetized by copyright owner |
+| เยว่เลี่ยงไต่เปี่ยวหว่อตีซิน<br>Music composition<br>12:37 - 15:18 | Topline Digital Company Limited Thailand | Monetized by copyright owner |
+| 白月光<br>Music composition<br>36:06 - 37:34 | WAMI_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+| 太阳<br>Music composition<br>1:37:53 - 1:42:08 | APRA_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+| CRIES IN A DISTANCE<br>Music composition<br>17:07 - 19:11 | COMPASS_CS<br>CASH<br>MACP | Monetized by copyright owner |
+| 可惜我是水瓶座<br>Music composition<br>41:20 - 42:50 | CASH<br>MACP | Monetized by copyright owner |
+
+---
+
+[20171003 SNH48 星梦Mini Live（张丹三）](https://youtube.com/watch?v=b-A3tT8WYJo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 想自由<br>Music composition<br>18:19 - 22:40 | COMPASS_CS<br>CASH<br>MACP | Monetized by copyright owner |
+| NU MING XING<br>Music composition<br>10:46 - 13:45 | SGAE_CS | Monetized by copyright owner |
+| 藍旗袍<br>Music composition<br>26:47 - 28:04 | COMPASS_CS<br>CASH | Monetized by copyright owner |
+
+---
+
+[20171003 SNH48 Team SⅡ 第48区 14](https://youtube.com/watch?v=Zxx_Ou2husg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>15:06 - 17:37 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20171002 SNH48 Team X 梦想的旗帜 55 杨冰怡生日主题公演](https://youtube.com/watch?v=rnN3S55Fxrw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>6:17 - 7:06 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:32:53 - 3:33:40 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>5:46 - 7:38 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>4:21 - 6:45 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170930 SNH48 Team HⅡ 美丽世界 33](https://youtube.com/watch?v=bLITqkkFI_E)
 
 | Content | Claimant | Policy |

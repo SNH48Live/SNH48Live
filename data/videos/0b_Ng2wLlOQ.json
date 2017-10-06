@@ -1,0 +1,109 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H42M52S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/ovBULcwsWMhnYcXeSekWBtfIM2g\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "5049867537",
+    "fileType": "video"
+  },
+  "id": "0b_Ng2wLlOQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/343\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/343\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171004 SNH48 “最美之人”中秋节特别公演"
+    },
+    "publishedAt": "2017-10-04T14:50:14.000Z",
+    "tags": [
+      "SNH48",
+      "陈观慧",
+      "陈思",
+      "成珏",
+      "戴萌",
+      "蒋芸",
+      "孔肖吟",
+      "李宇琪",
+      "吕一",
+      "莫寒",
+      "潘燕琦",
+      "钱蓓婷",
+      "孙芮",
+      "温晶婕",
+      "吴哲晗",
+      "徐晨辰",
+      "徐子轩",
+      "许佳琪",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格",
+      "赵晔",
+      "金莹玥",
+      "郭倩芸",
+      "姜涵",
+      "王奕",
+      "熊沁娴",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "林忆宁",
+      "祁静",
+      "宋昕冉",
+      "孙歆文",
+      "孙亚萍",
+      "汪束",
+      "王晓佳",
+      "杨冰怡",
+      "杨韫玉",
+      "姚祎纯",
+      "张嘉予",
+      "林歆源",
+      "陶波尔",
+      "许嘉怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/0b_Ng2wLlOQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/0b_Ng2wLlOQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/0b_Ng2wLlOQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/0b_Ng2wLlOQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/0b_Ng2wLlOQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171004 SNH48 “最美之人”中秋节特别公演"
+  }
+}

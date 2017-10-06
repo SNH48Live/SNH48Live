@@ -122,7 +122,7 @@ def extract(html):
 
 
 def gethtml():
-    return subprocess.check_output(['chrome-cli', 'source'])
+    return subprocess.check_output(['chrome-cli', 'source']).decode('utf-8')
 
 
 def insert_partially_blocked_list(video):

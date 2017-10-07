@@ -141,7 +141,7 @@ def initialize_upload(youtube_client, args):
 
     if args.thumbnail:
         logger.info('Setting thumbnail...')
-        subprocess.run([BIN / 'set-thumbnail', video_id, args.thumbnail])
+        subprocess.run([BIN / 'set-thumbnail', '--', video_id, args.thumbnail])
 
     if args.wait:
         while True:
@@ -171,7 +171,7 @@ def initialize_upload(youtube_client, args):
                 sys.exit(1)
 
         if args.privacy == 'public':
-            subprocess.check_call([BIN / 'update-metadata', 'publish', video_id])
+            subprocess.check_call([BIN / 'update-metadata', 'publish', '--', video_id])
 
     if args.playlists:
         logger.info('Inserting into playlists...')
@@ -186,7 +186,7 @@ def initialize_upload(youtube_client, args):
             else:
                 logger.error(f'playlist named {name} not found in {playlists_json}')
         # update-metadata insert-playlist [-h] video_ids playlist_ids
-        subprocess.check_call([BIN / 'update-metadata', 'insert-playlist',
+        subprocess.check_call([BIN / 'update-metadata', 'insert-playlist', '--',
                                video_id, ','.join(playlist_ids)])
 
 

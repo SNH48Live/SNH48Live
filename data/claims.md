@@ -3,6 +3,45 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171008 SNH48 Team NⅡ 以爱之名 02](https://youtube.com/watch?v=rUTcNWa6UVk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:32 - 4:49 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171007 SNH48 Team NⅡ 以爱之名 01](https://youtube.com/watch?v=-AwgftOOzg4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:50 - 3:10 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>1:43:28 - 1:44:35 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:02 - 2:58 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171006 SNH48 Team XⅡ 代号XⅡ 48 姜杉生日主题公演](https://youtube.com/watch?v=LYr_8K2yXto)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>7:14 - 9:59 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:36 - 3:54 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>7:31 - 9:36 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>7:23 - 9:38 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>6:33 - 8:24 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
 [20171006 SNH48 星梦Mini Live（袁航）](https://youtube.com/watch?v=LXYH6Y3vNvc)
 
 | Content | Claimant | Policy |

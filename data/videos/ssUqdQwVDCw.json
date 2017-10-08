@@ -1,0 +1,83 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3M22S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/whd0mY4Dv0uJuZ3p2TozC6qAxf8\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "125197",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "5161511",
+    "container": "mov",
+    "durationMs": "201019",
+    "fileName": "unknown",
+    "fileSize": "129706208",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "5036314",
+        "codec": "h264",
+        "frameRateFps": 30.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "ssUqdQwVDCw",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "公演：《以爱之名》\n表演：SNH48 Team NⅡ\n时间：2017-10-07（首演）\n音源：https://youtu.be/32c9AqdJUlE\n首演全场：https://youtu.be/-AwgftOOzg4\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "公演：《以爱之名》\n表演：SNH48 Team NⅡ\n时间：2017-10-07（首演）\n音源：https://youtu.be/32c9AqdJUlE\n首演全场：https://youtu.be/-AwgftOOzg4\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48 Team NⅡ 以爱之名《黑名单》（现场版）"
+    },
+    "publishedAt": "2017-10-07T12:46:57.000Z",
+    "tags": [
+      "SNH48",
+      "以爱之名",
+      "SNH48 Team NⅡ",
+      "SNH48 Team NII",
+      "NII"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/ssUqdQwVDCw/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/ssUqdQwVDCw/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/ssUqdQwVDCw/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/ssUqdQwVDCw/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 Team NⅡ 以爱之名《黑名单》（现场版）"
+  }
+}

@@ -49,6 +49,7 @@ TEAM_AFFILIATIONS = collections.OrderedDict([
     ('刘瀛', 'n2'),
     ('陆婷', 'n2'),
     ('罗兰', 'n2'),
+    ('马凡', 'n2'),
     ('孟玥', 'n2'),
     ('钱艺', 'n2'),
     ('唐安琪', 'n2'),

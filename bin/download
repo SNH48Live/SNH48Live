@@ -16,7 +16,10 @@ import config
 import mail
 import utils
 
-from common import BIN, VIDEOS_DIR, logger, change_logging_format
+from common import BIN, VIDEOS_DIR, logger, change_logging_format, mail_on_exception
+
+
+mail_on_exception()
 
 
 MERGED_EXT = '.m4v'

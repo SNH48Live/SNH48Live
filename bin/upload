@@ -20,8 +20,11 @@ import auth
 import config
 import mail
 import playlists
-from common import BIN, logger
+from common import BIN, logger, mail_on_exception
 from utils import ProgressBar
+
+
+mail_on_exception()
 
 
 # Explicitly tell the underlying HTTP transport library not to retry, since

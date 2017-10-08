@@ -34,7 +34,7 @@ def latest_video_ids(count=1):
 
 
 def update_metadata(video_id):
-    run(['fetch-metadata', '--overwrite', video_id],
+    run(['fetch-metadata', '--overwrite', '--', video_id],
         description=f'Fetching metadata for {video_id}')
 
 

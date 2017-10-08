@@ -4,7 +4,6 @@
 
 import http.client
 import io
-import json
 import mimetypes
 import os
 import random
@@ -20,7 +19,8 @@ import httplib2
 import auth
 import config
 import mail
-from common import BIN, DATA_DIR, logger
+import playlists
+from common import BIN, logger
 from utils import ProgressBar
 
 
@@ -176,15 +176,11 @@ def initialize_upload(youtube_client, args):
     if args.playlists:
         logger.info('Inserting into playlists...')
         playlist_names = args.playlists.split(',')
-        playlists_json = DATA_DIR / 'playlists.json'
-        with open(playlists_json) as fp:
-            playlists_map = json.load(fp)
         playlist_ids = []
         for name in playlist_names:
-            if name in playlists_map:
-                playlist_ids.append(playlists_map[name])
-            else:
-                logger.error(f'playlist named {name} not found in {playlists_json}')
+            playlist_id = playlists.name2id(name)
+            if playlist_id:
+                playlist_ids.append(playlist_id)
         # update-metadata insert-playlist [-h] video_ids playlist_ids
         subprocess.check_call([BIN / 'update-metadata', 'insert-playlist', '--',
                                video_id, ','.join(playlist_ids)])

@@ -1,0 +1,80 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H42M53S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/qhzJB1ucvYkdS_iwXIsBqtV2k9E\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "2413162896",
+    "fileType": "video"
+  },
+  "id": "CeoCY1nmUc4",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/354\n转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av15363166\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/354\n转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av15363166\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171013 SNH48 Team XⅡ 代号XⅡ 49"
+    },
+    "publishedAt": "2017-10-13T21:31:18.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "费沁源",
+      "洪珮雲",
+      "李佳恩",
+      "林歆源",
+      "刘增艳",
+      "吕梦莹",
+      "潘瑛琪",
+      "陶波尔",
+      "徐诗琪",
+      "严佼君",
+      "於佳怡",
+      "曾晓雯",
+      "张文静",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/CeoCY1nmUc4/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/CeoCY1nmUc4/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/CeoCY1nmUc4/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/CeoCY1nmUc4/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/CeoCY1nmUc4/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171013 SNH48 Team XⅡ 代号XⅡ 49"
+  }
+}

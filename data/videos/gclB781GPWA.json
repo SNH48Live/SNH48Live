@@ -1,0 +1,84 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT5M12S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/ypUhcKbxUAQFYg-tMkxIkl0j2Eo\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127999",
+        "channelCount": 2,
+        "codec": "mp3"
+      }
+    ],
+    "bitrateBps": "315353",
+    "container": "mov",
+    "durationMs": "311400",
+    "fileName": "unknown",
+    "fileSize": "11474849",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.0,
+        "bitrateBps": "187354",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 1080,
+        "widthPixels": 1080
+      }
+    ]
+  },
+  "id": "gclB781GPWA",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "歌名：那不勒斯的黎明\n发行时间：2017-10-11\n咪咕音乐：http://music.migu.cn/#/album/1106956916/\n\n本音频版权归上海丝芭文化传媒集团有限公司所有。请支持正版音乐。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "歌名：那不勒斯的黎明\n发行时间：2017-10-11\n咪咕音乐：http://music.migu.cn/#/album/1106956916/\n\n本音频版权归上海丝芭文化传媒集团有限公司所有。请支持正版音乐。",
+      "title": "SNH48《那不勒斯的黎明》"
+    },
+    "publishedAt": "2017-10-11T03:40:01.000Z",
+    "tags": [
+      "SNH48"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/gclB781GPWA/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/gclB781GPWA/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/gclB781GPWA/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/gclB781GPWA/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/gclB781GPWA/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48《那不勒斯的黎明》"
+  }
+}

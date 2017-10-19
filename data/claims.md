@@ -3,11 +3,307 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171018 SNH48 Team X 梦想的旗帜 58](https://youtube.com/watch?v=9spqgJY_BVY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:00 - 5:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:23 - 5:55 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:39:45 - 2:40:46 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:01 - 4:09 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:55 - 4:13 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:32:20 - 2:37:11 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>1:07:40 - 1:09:30 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[SNH48“我心翱翔”微记录：张怡](https://youtube.com/watch?v=_y1tyN0ZZaE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 芽吹き - Key Sound Label<br>Sound recording<br>0:58 - 1:33 | visualarts | Monetized by copyright owner |
+| 花蕾 - Key Sound Label<br>Sound recording<br>6:59 - 8:04 | visualarts | Monetized by copyright owner |
+
+---
+
+[20171015 SNH48 Team HⅡ 美丽世界 35](https://youtube.com/watch?v=kSgvw0kNXNM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:17 - 57:37 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:36 - 4:11 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171015 SNH48 Team SⅡ 第48区 16 陈思生日主题公演](https://youtube.com/watch?v=9t8ub9cep9U)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 小幸運 - 田馥甄<br>Sound recording<br>1:44:44 - 1:46:46 | HIMservice<br>On behalf of: HIM International Music Inc. | Monetized by copyright owner |
+| Audiovisual content<br>1:54 - 4:51 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>13:09 - 15:27 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171014 SNH48 Team X 梦想的旗帜 57](https://youtube.com/watch?v=k-a0cjXc2lo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:37 - 6:00 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:44 - 5:08 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:03 - 5:13 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:06 - 4:36 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20171014 SNH48 我们向前冲 13 许逸生日主题公演](https://youtube.com/watch?v=yZwiXQyiPlQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:50 - 3:21 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:23 - 2:51 | WebTVAsia (Music) | Monetized by copyright owner |
+| Ripples of Love - Cinta<br>Sound recording<br>1:24:03 - 1:26:00 | Audiam (Label) | Monetized by copyright owner |
+
+---
+
+[20171013 SNH48 Team XⅡ 代号XⅡ 49](https://youtube.com/watch?v=CeoCY1nmUc4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:30 - 4:01 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:50 - 4:24 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:09 - 4:30 | WebTVAsia (Music) | Monetized by copyright owner |
+| Face The Future - AKB48<br>Sound recording<br>2:36:44 - 2:38:34 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+| Audiovisual content<br>2:00 - 4:04 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20171013 SNH48 星梦Mini Live（刘增艳）](https://youtube.com/watch?v=_7BpfGjm14w)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 夜風の仕業 - フレンチ・キス<br>Sound recording<br>27:50 - 29:04 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
+
+---
+
+[SNH48“我心翱翔”微记录：莫寒](https://youtube.com/watch?v=swvNeWfsP0g)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 暖かな希望 - 加藤達也<br>Sound recording<br>2:30 - 3:30 | Lantis Company, Limited<br>On behalf of: Lantis | Monetized by copyright owner |
+| 散花 - Key Sound Label<br>Sound recording<br>4:03 - 4:41 | visualarts | Monetized by copyright owner |
+| XRD7844 Hope Always No Vox_CD043_21 - X-Ray Dog<br>Sound recording<br>0:30 - 1:09 | AdRev for a 3rd Party<br>On behalf of: X-Ray Dog Music (BMG Production Music) | Monetized by copyright owner |
+
+---
+
+[20171012 SNH48 Team X 梦想的旗帜 56](https://youtube.com/watch?v=p_VNPlriktI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:39 - 5:50 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:32 - 4:56 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:15:14 - 1:15:52 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>1:47 - 6:04 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20171011 SNH48 Team SⅡ 第48区 15](https://youtube.com/watch?v=a_7_oC_QJ9c)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 3:57 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:01 - 2:50 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:45 - 2:35 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20171008 SNH48 Team NⅡ 以爱之名 02](https://youtube.com/watch?v=rUTcNWa6UVk)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audiovisual content<br>2:32 - 4:49 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>48:57 - 1:23:18 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《Remember You》（现场版）](https://youtube.com/watch?v=w2DssT_regU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 4:06 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《为了那些逝去的爱情》（现场版）](https://youtube.com/watch?v=HQC3ymSNXFs)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 4:11 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《光之轨迹》（现场版）](https://youtube.com/watch?v=v88tHUMNlbA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 1:49 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《Unforgettable》（现场版）](https://youtube.com/watch?v=76p3k_tV0uk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:01 - 4:17 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《妄想症的解药》（现场版）](https://youtube.com/watch?v=l_fm6eoCnAg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:03 - 4:04 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《黑名单》（现场版）](https://youtube.com/watch?v=ssUqdQwVDCw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 3:20 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《Feeling You》（现场版）](https://youtube.com/watch?v=XWBRfPzZXh8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:02 - 3:49 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《梦中的婚礼》（现场版）](https://youtube.com/watch?v=zhmGAAcujXM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:03 - 2:40 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《春夏秋冬》（现场版）](https://youtube.com/watch?v=RBqVl9SrZAo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 4:23 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《未接来电》（现场版）](https://youtube.com/watch?v=3K35RfkWr4Y)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:03 - 5:05 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《Fire Touch》（现场版）](https://youtube.com/watch?v=yfYU7_Erc9A)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:04 - 3:25 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《猎梦》（现场版）](https://youtube.com/watch?v=YJAD6eGwGmg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:02 - 4:13 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《标准男友Excel》（现场版）](https://youtube.com/watch?v=V918hl7Nf8M)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:01 - 3:33 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《未完成少女》（现场版）](https://youtube.com/watch?v=zbVECY23YWY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:07 - 5:05 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《丘比特的失误》（现场版）](https://youtube.com/watch?v=XdvPMgTe4bs)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:04 - 2:51 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[SNH48 Team NⅡ 以爱之名《以爱之名》（现场版）](https://youtube.com/watch?v=239BbP1sXCw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:01 - 4:11 | WebTVAsia (Music) | Monetized by copyright owner |
 
 Viewing restrictions:
 - Embedding disabled: Your video can't be embedded on other sites.
@@ -18,9 +314,8 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audiovisual content<br>0:50 - 3:10 | WebTVAsia (Music) | Monetized by copyright owner |
-| Visual content<br>1:43:28 - 1:44:35 | WebTVAsia (Music) | Monetized by copyright owner |
-| Audiovisual content<br>2:02 - 2:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:37 - 4:26 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:09 - 59:27 | WebTVAsia (Music) | Monetized by copyright owner |
 
 Viewing restrictions:
 - Embedding disabled: Your video can't be embedded on other sites.
@@ -85,12 +380,12 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| SHI ER LOU<br>Music composition<br>1:12:33 - 1:16:12 | APRA_CS<br>CASH<br>MACP<br>SOCAN<br>SGAE_CS<br>Warner Chappell | Monetized by copyright owner |
-| OCEAN DRIVE<br>Music composition<br>26:41 - 28:00 | APRA_CS<br>CASH<br>MACP<br>COMPASS_CS<br>SOCAN<br>SACEM<br>EMI Music Publishing | Monetized by copyright owner |
+| 12 樓<br>Music composition<br>1:12:33 - 1:16:12 | APRA_CS<br>CASH<br>MACP<br>SOCAN<br>SGAE_CS<br>Warner Chappell | Monetized by copyright owner |
+| 歐若拉<br>Music composition<br>26:41 - 28:00 | APRA_CS<br>CASH<br>MACP<br>COMPASS_CS<br>SOCAN<br>SACEM<br>EMI Music Publishing | Monetized by copyright owner |
 | Something Great<br>Music composition<br>1:20:14 - 1:21:26 | Downtown Music Publishing<br>APRA_CS<br>CASH<br>ACUM_CS<br>MESAM / MSG CS<br>SOCAN<br>ICE_CS<br>COMPASS_CS<br>Spirit Music Publishing<br>MACP<br>SACEM<br>Kobalt Music Publishing<br>AMRA<br>AKM<br>UMPI | Monetized by copyright owner |
 | เยว่เลี่ยงไต่เปี่ยวหว่อตีซิน<br>Music composition<br>12:37 - 15:18 | Topline Digital Company Limited Thailand | Monetized by copyright owner |
 | 白月光<br>Music composition<br>36:06 - 37:34 | WAMI_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
-| 太阳<br>Music composition<br>1:37:53 - 1:42:08 | APRA_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+| 太陽<br>Music composition<br>1:37:53 - 1:42:08 | APRA_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
 | CRIES IN A DISTANCE<br>Music composition<br>17:07 - 19:11 | COMPASS_CS<br>CASH<br>MACP | Monetized by copyright owner |
 | 可惜我是水瓶座<br>Music composition<br>41:20 - 42:50 | CASH<br>MACP | Monetized by copyright owner |
 
@@ -122,6 +417,19 @@ Viewing restrictions:
 | Audiovisual content<br>3:32:53 - 3:33:40 | WebTVAsia (Music) | Monetized by copyright owner |
 | Audiovisual content<br>5:46 - 7:38 | WebTVAsia (Music) | Monetized by copyright owner |
 | Visual content<br>4:21 - 6:45 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20171001 SNH48 “歌唱祖国”国庆节特别公演](https://youtube.com/watch?v=t1Tj7Hvxiz8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 最初的夢想 (OT：A Ride On The Gentle) - 范瑋琪<br>Sound recording<br>1:20:53 - 1:25:44 | linfair_records<br>On behalf of: Linfair Records Limited | Monetized by copyright owner |
+| Audiovisual content<br>2:47 - 4:24 | WebTVAsia (Music) | Monetized by copyright owner |
+| 向日葵 - 倉持明日香<br>Sound recording<br>33:24 - 34:16 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
+| River - AKB48<br>Sound recording<br>13:26 - 14:41 | AKB48<br>On behalf of: Gold Typhoon Taiwan | Monetized by copyright owner |
+| わがままな流れ星 - SKE48（Team E）<br>Sound recording<br>55:14 - 56:12 | AKB48<br>On behalf of: avex trax | Monetized by copyright owner |
+| Maeshika mukaenee - AKB48<br>Sound recording<br>1:54:33 - 1:56:21 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
 
 ---
 
@@ -228,10 +536,13 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | Audiovisual content<br>3:06 - 4:35 | WebTVAsia (Music) | Monetized by copyright owner |
-| Audio content<br>1:27:01 - 1:28:05 | AKS Co., Ltd | Monetized by copyright owner |
+| Audio content<br>1:27:01 - 1:28:05 | AKS Co., Ltd | Blocked in some countries: China |
 | 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>1:54:41 - 1:56:12 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:12:08 - 2:13:31 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | Audiovisual content<br>3:37 - 5:26 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -271,6 +582,7 @@ Viewing restrictions:
 | Audiovisual content<br>1:50 - 4:29 | WebTVAsia (Music) | Monetized by copyright owner |
 | Audiovisual content<br>3:27 - 4:17 | WebTVAsia (Music) | Monetized by copyright owner |
 | Audiovisual content<br>3:27 - 4:33 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>1:08 - 1:45 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -308,7 +620,7 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| 记得<br>Music composition<br>40:34 - 44:57 | APRA_CS<br>CASH<br>MACP<br>ICE_CS<br>COMPASS_CS<br>SOCAN<br>SGAE_CS<br>ASCAP<br>TEOSTO_CS<br>Warner Chappell | Monetized by copyright owner |
+| 記得<br>Music composition<br>40:34 - 44:57 | APRA_CS<br>CASH<br>MACP<br>ICE_CS<br>COMPASS_CS<br>SOCAN<br>SGAE_CS<br>ASCAP<br>TEOSTO_CS<br>Warner Chappell | Monetized by copyright owner |
 | 發如雪    Hair Like Snow<br>Music composition<br>7:19 - 8:33 | AdShare (Publishing)<br>JVR | Monetized by copyright owner |
 | 热带雨林<br>Music composition<br>47:31 - 48:55 | MACP | Monetized by copyright owner |
 | YAN SE<br>Music composition<br>17:46 - 20:00 | EMI Music Publishing | Monetized by copyright owner |
@@ -381,8 +693,8 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| 马德里不思议<br>Music composition<br>18:26 - 19:58 | APRA_CS<br>SGAE_CS<br>CASH<br>MACP<br>COMPASS_CS<br>SOCAN<br>Sony ATV Publishing<br>TONO_CS | Monetized by copyright owner |
-| BOSATSU<br>Music composition<br>43:10 - 46:20 | COMPASS_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+| 馬德里不思議<br>Music composition<br>18:26 - 19:58 | APRA_CS<br>SGAE_CS<br>CASH<br>MACP<br>COMPASS_CS<br>SOCAN<br>Sony ATV Publishing<br>TONO_CS | Monetized by copyright owner |
+| BOSATSU<br>Music composition<br>43:10 - 46:20 | ICE_CS<br>COMPASS_CS<br>SOCAN | Monetized by copyright owner |
 
 ---
 
@@ -479,7 +791,10 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | Audiovisual content<br>3:15 - 4:01 | WebTVAsia (Music) | Monetized by copyright owner |
-| Audio content<br>2:11:44 - 2:12:44 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:11:44 - 2:12:44 | AKB48 | Blocked in some countries: China |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -490,10 +805,13 @@ Viewing restrictions:
 | 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>1:46:54 - 1:47:52 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:05:37 - 2:06:58 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | Audiovisual content<br>3:05 - 3:54 | WebTVAsia (Music) | Monetized by copyright owner |
-| Audio content<br>5:10 - 7:02 | AKB48 | Monetized by copyright owner |
+| Audio content<br>5:10 - 7:02 | AKB48 | Blocked in some countries: China |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>51:46 - 56:49 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Audio content<br>1:22:05 - 1:23:02 | AKS Co., Ltd | Monetized by copyright owner |
-| Audio content<br>2:12:02 - 2:13:18 | AKB48 | Monetized by copyright owner |
+| Audio content<br>1:22:05 - 1:23:02 | AKS Co., Ltd | Blocked in some countries: China |
+| Audio content<br>2:12:02 - 2:13:18 | AKB48 | Blocked in some countries: China |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -501,7 +819,7 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| 距离<br>Music composition<br>5:36 - 7:09 | CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+| 距離<br>Music composition<br>5:36 - 7:09 | CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
 
 ---
 
@@ -545,11 +863,14 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>3:59 - 6:02 | AKB48 | Monetized by copyright owner |
+| Audio content<br>3:59 - 6:02 | AKB48 | Blocked in some countries: China |
 | 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:27:13 - 2:28:06 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Audio content<br>2:50:39 - 2:51:40 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:50:39 - 2:51:40 | AKB48 | Blocked in some countries: China |
 | ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:45:27 - 2:46:25 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>53:28 - 57:46 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -558,7 +879,7 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | MY LOVE<br>Music composition<br>1:12:08 - 1:16:39 | APRA_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
-| 鱼<br>Music composition<br>59:52 - 1:03:53 | CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+| 魚<br>Music composition<br>59:52 - 1:03:53 | CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
 | SANTA BABY<br>Music composition<br>47:23 - 49:22 | BMG_Rights_Management<br>ACUM_CS<br>FILSCAP<br>APRA_CS<br>Exploration Group (Music Publishing)<br>COMPASS_CS | Monetized by copyright owner |
 
 ---
@@ -578,16 +899,16 @@ Viewing restrictions:
 | 追光者 (電視劇夏至未至插曲) - 岑寧兒<br>Sound recording<br>1:18:41 - 1:19:59 | [Merlin] FUGA Aggregation<br>On behalf of: 北京聽見時代娛樂傳媒有限公司 | Monetized by copyright owner |
 | 抱きしめられたら off vocal - 河西智美<br>Sound recording<br>50:31 - 55:37 | NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
 | Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:49:52 - 1:50:53 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
-| Audio content<br>0:55 - 3:53 | AKB48 | Monetized by copyright owner |
+| Audio content<br>0:55 - 3:53 | AKB48 | Blocked in some countries: China |
 | Audiovisual content<br>0:02 - 0:32 | WebTVAsia (Music) | Monetized by copyright owner |
 | ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:45:52 - 2:47:21 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:30:53 - 2:32:16 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | Superlove - Tinashe<br>Sound recording<br>1:14:04 - 1:15:08 | SME<br>On behalf of: RCA Records Label | Blocked in some countries: Afghanistan, Bahrain, Egypt, Iran, Iraq, Jordan, Kuwait, Lebanon, Libya, Oman, Qatar, Saudi Arabia, Sudan, Syria, United Arab Emirates, West Bank, Western Sahara, Yemen |
 | 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:32:13 - 2:32:51 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Audio content<br>5:09 - 5:57 | AKB48 | Monetized by copyright owner |
+| Audio content<br>5:09 - 5:57 | AKB48 | Blocked in some countries: China |
 
 Viewing restrictions:
-- Video blocked in 18 countries: Your video can't be played in these countries: Afghanistan, Bahrain, Egypt, Iran, Iraq, Jordan, Kuwait, Lebanon, Libya, Oman, Qatar, Saudi Arabia, Sudan, Syria, United Arab Emirates, West Bank, Western Sahara, Yemen
+- Video blocked in 19 countries: Your video can't be played in these countries: Afghanistan, Bahrain, China, Egypt, Iran, Iraq, Jordan, Kuwait, Lebanon, Libya, Oman, Qatar, Saudi Arabia, Sudan, Syria, United Arab Emirates, West Bank, Western Sahara, Yemen
 
 ---
 
@@ -595,8 +916,8 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Visual content<br>2:32 - 3:23 | WebTVAsia (Music) | Monetized by copyright owner |
-| Audiovisual content<br>2:32 - 3:25 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:32 - 3:23 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:32 - 3:23 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -614,6 +935,18 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | ポニーテールとシュシュ - SKE48<br>Sound recording<br>2:24:23 - 2:25:28 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audiovisual content<br>11:21 - 11:53 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>2:04:02 - 2:05:01 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>11:24 - 11:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>2:06:29 - 2:07:20 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170811 SNH48 Team SⅡ 第48区 08](https://youtube.com/watch?v=JxJQjgGT7t4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Visual content<br>3:22 - 4:07 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -622,6 +955,17 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | Audiovisual content<br>8:00 - 8:52 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170806 SNH48 Team X 梦想的旗帜 46 林忆宁生日主题公演](https://youtube.com/watch?v=6OrBnm5le4Y)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>4:15 - 5:07 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:14:10 - 1:14:43 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>17:46 - 18:20 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:14 - 5:07 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -915,7 +1259,10 @@ Viewing restrictions:
 | Visual content<br>1:20:48 - 1:21:46 | WebTVAsia (Music) | Monetized by copyright owner |
 | Audiovisual content<br>4:13 - 5:28 | WebTVAsia (Music) | Monetized by copyright owner |
 | Visual content<br>0:00 - 2:11 | WebTVAsia (Music) | Monetized by copyright owner |
-| Audio content<br>0:01 - 0:36 | AKS Co., Ltd | Monetized by copyright owner |
+| Audio content<br>0:01 - 0:36 | AKS Co., Ltd | Blocked in some countries: China |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -924,8 +1271,8 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | Hanayo Odore - Akina Nakamori<br>Sound recording<br>2:56:01 - 2:56:49 | UMG<br>On behalf of: Universal Music | Monetized by copyright owner |
-| Audio content<br>0:28 - 2:27 | AKB48 | Monetized by copyright owner |
-| Audio content<br>3:11:55 - 3:12:48 | AKB48 | Monetized by copyright owner |
+| Audio content<br>0:28 - 2:27 | AKB48 | Blocked in some countries: China |
+| Audio content<br>3:11:55 - 3:12:48 | AKB48 | Blocked in some countries: China |
 | Cai Hong De Wei Xiao - EE(VARIOUS ARTISTS)<br>Sound recording<br>1:26:13 - 1:28:56 | Star Media Distribution Sdn Bhd<br>On behalf of: STARMEDIA (ELEMENTE ENTERTAINMENT) | Monetized by copyright owner |
 | Cinta Pertama Butterfly - JKT48<br>Sound recording<br>2:03:33 - 2:04:43 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:01:44 - 1:04:30 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
@@ -933,6 +1280,7 @@ Viewing restrictions:
 | 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:43:15 - 2:45:04 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 
 Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 - Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
 
 ---
@@ -951,12 +1299,14 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | Audiovisual content<br>0:02 - 0:33 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:11:16 - 1:12:33 | WebTVAsia (Music) | Monetized by copyright owner |
 | Audiovisual content<br>1:38:22 - 1:38:52 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:10 - 2:19 | WebTVAsia (Music) | Monetized by copyright owner |
 | Audiovisual content<br>2:41:12 - 2:41:53 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:02 - 0:33 | WebTVAsia (Music) | Monetized by copyright owner |
 | 她說 - 林俊傑<br>Sound recording<br>2:56:00 - 2:57:54 | Taihe Music Group (Hong Kong) Limited<br>On behalf of: 新海 | Monetized by copyright owner |
 | My Heart Will Go On (Dialogue Mix) - Céline Dion<br>Sound recording<br>1:34:01 - 1:35:27 | SME<br>On behalf of: Sony Classical | Monetized by copyright owner |
 | 曹操 - 林俊傑<br>Sound recording<br>1:37:16 - 1:38:44 | Taihe Music Group (Hong Kong) Limited<br>On behalf of: 新海 | Monetized by copyright owner |
-| Audiovisual content<br>1:43 - 2:21 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -1043,9 +1393,8 @@ Viewing restrictions:
 | Audiovisual content<br>2:31:59 - 2:33:27 | WebTVAsia (Music) | Monetized by copyright owner |
 | 有点甜 (feat. By2) - 汪苏泷<br>Sound recording<br>2:39:52 - 2:42:36 | Believe Music<br>On behalf of: 大象音乐 | Monetized by copyright owner |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:05:36 - 1:06:11 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Audio content<br>5:06 - 7:03 | AKB48 | Monetized by copyright owner |
 | 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:26:45 - 2:27:33 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:50:28 - 1:51:38 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
+| Audiovisual content<br>1:09:58 - 1:10:40 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -1053,7 +1402,11 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Audiovisual content<br>12:45 - 13:39 | WebTVAsia (Music) | Monetized by copyright owner |
 | 空色デイズ -北京語ver.- - 中川　翔子<br>Sound recording<br>2:08:13 - 2:09:39 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2012 Sony Music Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| Audiovisual content<br>55:48 - 56:24 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:04 - 1:03 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>1:20:21 - 1:20:57 | WebTVAsia (Music) | Monetized by copyright owner |
 
 Viewing restrictions:
 - Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
@@ -1064,6 +1417,9 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Audiovisual content<br>0:06 - 0:37 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:26 - 1:10 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:18 - 0:50 | WebTVAsia (Music) | Monetized by copyright owner |
 | Audiovisual content<br>2:20:56 - 2:21:29 | WebTVAsia (Music) | Monetized by copyright owner |
 | Audiovisual content<br>2:35:52 - 2:38:01 | WebTVAsia (Music) | Monetized by copyright owner |
 
@@ -1097,7 +1453,7 @@ Viewing restrictions:
 | Audiovisual content<br>2:30:07 - 2:31:31 | WebTVAsia (Music) | Monetized by copyright owner |
 | Visual content<br>3:12:52 - 3:13:57 | WebTVAsia (Music) | Monetized by copyright owner |
 | Visual content<br>1:56:20 - 1:58:39 | WebTVAsia (Music) | Monetized by copyright owner |
-| Audio content<br>8:14 - 9:32 | AKB48 | Monetized by copyright owner |
+| Audio content<br>8:14 - 9:32 | AKB48 | Blocked in some countries: China |
 | Audiovisual content<br>3:22:04 - 3:23:08 | WebTVAsia (Music) | Monetized by copyright owner |
 | taohuachipao - BY2<br>Sound recording<br>2:18:45 - 2:20:00 | Taihe Music Group (Hong Kong) Limited<br>On behalf of: OBS | Monetized by copyright owner |
 | キャンディー - 河西智美<br>Sound recording<br>3:31:44 - 3:34:19 | NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
@@ -1120,7 +1476,7 @@ Viewing restrictions:
 | Audiovisual content<br>2:39:52 - 2:40:45 | WebTVAsia (Music) | Monetized by copyright owner |
 
 Viewing restrictions:
-- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Video blocked in 7 countries: Your video can't be played in these countries: Australia, China, Japan, Mexico, New Zealand, South Korea, United States
 
 ---
 
@@ -1151,6 +1507,7 @@ Viewing restrictions:
 | --- | --- | --- |
 | 年輪（電視劇《花千骨》插曲） - 張碧晨<br>Sound recording<br>2:28:04 - 2:30:00 | The Orchard Music<br>Taihe Music Group (Hong Kong) Limited<br>On behalf of: 北京海蝶音樂有限公司 | Monetized by copyright owner |
 | Audiovisual content<br>1:16:22 - 1:16:52 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:39 - 5:12 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -1179,7 +1536,10 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Audiovisual content<br>0:36 - 1:24 | WebTVAsia (Music) | Monetized by copyright owner |
 | Visual content<br>2:28:30 - 2:29:00 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>0:58 - 1:34 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:16:33 - 1:17:07 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -1196,6 +1556,7 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Audiovisual content<br>1:19:46 - 1:20:27 | WebTVAsia (Music) | Monetized by copyright owner |
 | Escalate - Tsar B<br>Sound recording<br>2:43:38 - 2:44:57 | [Merlin] AWAL Digital Limited<br>On behalf of: Tsar B | Monetized by copyright owner |
 
 ---
@@ -1206,6 +1567,14 @@ Viewing restrictions:
 | --- | --- | --- |
 | Audiovisual content<br>0:00 - 1:48 | WebTVAsia (Music) | Monetized by copyright owner |
 | 残念少女 - AKB48<br>Sound recording<br>1:32:43 - 1:34:07 | AKB48 | Monetized by copyright owner |
+
+---
+
+[SNH48 Team SⅡ 第48区《第48区》（现场版）](https://youtube.com/watch?v=1zRirwC63CE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:15 - 0:47 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -1240,10 +1609,13 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>2:52:18 - 2:54:15 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:52:18 - 2:54:15 | AKB48 | Blocked in some countries: China |
 | Empire Of Angels - Thomas Bergersen<br>Sound recording<br>3:19 - 4:13 | Epic Elite<br>On behalf of: Extreme Music | Monetized by copyright owner |
 | Audiovisual content<br>1:32:15 - 1:35:17 | WebTVAsia (Music) | Monetized by copyright owner |
 | Audiovisual content<br>9:00 - 9:34 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1306,6 +1678,15 @@ Viewing restrictions:
 
 ---
 
+[20170618 SNH48 Team X 梦想的旗帜 35 暨四选速报](https://youtube.com/watch?v=CJuHPpp_y5s)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:11:26 - 2:12:08 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:14 - 4:06 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170618 SNH48 Team HⅡ 美丽世界 16 林楠生日主题公演暨总选拉票公演](https://youtube.com/watch?v=tHCJZ0qEyVU)
 
 | Content | Claimant | Policy |
@@ -1350,14 +1731,17 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | 夜風の仕業 instrumental - フレンチ・キス<br>Sound recording<br>2:14:14 - 2:15:34 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
-| Audio content<br>3:51 - 5:50 | AKB48 | Monetized by copyright owner |
+| Audio content<br>3:51 - 5:50 | AKB48 | Blocked in some countries: China |
 | 虫のバラード - SKE48（Team E）<br>Sound recording<br>2:21:54 - 2:22:24 | AKB48<br>On behalf of: avex trax | Monetized by copyright owner |
 | Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:27:43 - 1:28:25 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
 | 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:04:09 - 2:05:54 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>56:45 - 1:00:00 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | 隱形的翅膀 - 張韶涵<br>Sound recording<br>2:15:39 - 2:19:15 | linfair_records<br>On behalf of: Linfair Records Limited | Monetized by copyright owner |
-| Audio content<br>2:47:39 - 2:48:35 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:47:39 - 2:48:35 | AKB48 | Blocked in some countries: China |
 | 刚好遇见你 - 李玉刚<br>Sound recording<br>2:39:50 - 2:40:44 | Believe Music<br>On behalf of: 百纳 | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1381,7 +1765,17 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Audiovisual content<br>6:14 - 7:06 | WebTVAsia (Music) | Monetized by copyright owner |
 | Get Ugly - Jason Derulo<br>Sound recording<br>1:31:46 - 1:32:46 | WMG<br>On behalf of: Warner Bros. Label | Monetized by copyright owner |
+| Audiovisual content<br>6:12 - 6:46 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20170611 SNH48 Team NⅡ 专属派对 41 易嘉爱生日主题公演暨总选拉票公演](https://youtube.com/watch?v=sm_nBbryYE8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:20:05 - 1:20:36 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -1401,6 +1795,7 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | Remember - Chang Hui Mei<br>Sound recording<br>2:53:07 - 2:57:45 | WMG<br>On behalf of: WM Taiwan | Monetized by copyright owner |
+| Audiovisual content<br>56:57 - 57:27 | WebTVAsia (Music) | Monetized by copyright owner |
 | 極楽浄土 - GARNiDELiA<br>Sound recording<br>2:28:03 - 2:28:53 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2016 SME Records | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
 
 Viewing restrictions:
@@ -1428,8 +1823,11 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>2:26:19 - 2:27:44 | AKB48 | Monetized by copyright owner |
-| Audio content<br>2:23:52 - 2:24:36 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:26:19 - 2:27:44 | AKB48 | Blocked in some countries: China |
+| Audio content<br>2:23:52 - 2:24:36 | AKB48 | Blocked in some countries: China |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1437,7 +1835,7 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Receives - Keith Kenniff<br>Sound recording<br>12:36 - 13:24 | [Merlin] Morr Music<br>On behalf of: Unseen | Monetized by copyright owner |
+| Audiovisual content<br>0:02 - 1:11:23 | WebTVAsia (Music) | Monetized by copyright owner |
 | ﾌﾗﾐﾝｺﾞの飛来 - ｻﾞ･ｼﾈﾏﾃｨｯｸ･ｵｰｹｽﾄﾗ<br>Sound recording<br>2:05 - 3:04 | AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: WALT DISNEY RECORDS | Monetized by copyright owner |
 | Ascensions (A) - Stephen Julian Baker<br>Sound recording<br>26:33 - 27:17 | APM Music<br>On behalf of: KPM - Main Series | Monetized by copyright owner |
 
@@ -1469,12 +1867,13 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | Audiovisual content<br>0:02 - 1:11:05 | WebTVAsia (Music) | Monetized by copyright owner |
-| Audio content<br>1:07:38 - 1:08:23 | AKB48 | Monetized by copyright owner |
+| Audio content<br>1:07:38 - 1:08:23 | AKB48 | Blocked in some countries: China |
 | Ascensions (a) - Baker, Steve<br>Sound recording<br>26:16 - 27:25 | APM Music<br>On behalf of: APM/KPM | Monetized by copyright owner |
 | ﾌﾗﾐﾝｺﾞの飛来 - ｻﾞ･ｼﾈﾏﾃｨｯｸ･ｵｰｹｽﾄﾗ<br>Sound recording<br>2:04 - 2:46 | AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: WALT DISNEY RECORDS | Monetized by copyright owner |
 | 炭酸ﾅﾄﾘｳﾑ湖ﾅﾄﾛﾝ - ｻﾞ･ｼﾈﾏﾃｨｯｸ･ｵｰｹｽﾄﾗ<br>Sound recording<br>4:41 - 5:35 | AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: WALT DISNEY RECORDS | Monetized by copyright owner |
 
 Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 - Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
 
 ---
@@ -1484,8 +1883,8 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | Audiovisual content<br>53:42 - 55:16 | WebTVAsia (Music) | Monetized by copyright owner |
-| Jet Set - Blue Stahli<br>Sound recording<br>0:33 - 1:19 | PositionMusic (Sound Recordings)<br>On behalf of: FiXT/Position Music | Monetized by copyright owner |
 | キャンディー off vocal - 河西智美<br>Sound recording<br>34:39 - 39:01 | NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+| Audiovisual content<br>0:05 - 3:06 | WebTVAsia (Music) | Monetized by copyright owner |
 | The New York Nightfall - Position Music - Joachim Rygg<br>Sound recording<br>39:20 - 40:00 | PositionMusic (Sound Recordings)<br>On behalf of: Position Music/Choicetracks, Inc. | Monetized by copyright owner |
 
 ---
@@ -1494,8 +1893,7 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| The strongest type of abnormal(또라이계의 최강자) - Lee roo ri(이루리)<br>Sound recording<br>5:41 - 6:17 | Loen Entertainment<br>On behalf of: SEBUNGURI ENTERTAINMENT, STARENTRY ENTERTAINMENT | Monetized by copyright owner |
-| Sad Walking - Oh Joon Sung<br>Sound recording<br>15:06 - 15:36 | WMG<br>On behalf of: Forest | Monetized by copyright owner |
+| Audiovisual content<br>0:02 - 15:01 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -1505,10 +1903,13 @@ Viewing restrictions:
 | --- | --- | --- |
 | ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:25:56 - 2:27:14 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:29:05 - 1:30:00 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
-| Audio content<br>5:01 - 6:56 | AKB48 | Monetized by copyright owner |
+| Audio content<br>5:01 - 6:56 | AKB48 | Blocked in some countries: China |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:02:47 - 1:03:22 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Audio content<br>8:33 - 9:03 | AKB48 | Monetized by copyright owner |
+| Audio content<br>8:33 - 9:03 | AKB48 | Blocked in some countries: China |
 | 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:10:21 - 2:11:53 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1524,7 +1925,9 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Audiovisual content<br>9:15 - 9:45 | WebTVAsia (Music) | Monetized by copyright owner |
 | Ponytail To Shu Shu - AKB48<br>Sound recording<br>2:27:17 - 2:28:06 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+| Visual content<br>2:10:57 - 2:11:42 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -1592,6 +1995,14 @@ Viewing restrictions:
 
 ---
 
+[20170519 SNH48 7SENSES《Lucky Seven Baby》EP04](https://youtube.com/watch?v=dln_bS10b0g)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:02 - 19:51 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20170518 SNH48 Team X 梦想的旗帜 31](https://youtube.com/watch?v=YXLiW6L5ySg)
 
 | Content | Claimant | Policy |
@@ -1606,11 +2017,14 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:15:54 - 1:18:46 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Audio content<br>4:53 - 6:50 | AKB48 | Monetized by copyright owner |
-| Audio content<br>1:47:11 - 1:48:19 | AKS Co., Ltd | Monetized by copyright owner |
+| Audio content<br>4:53 - 6:50 | AKB48 | Blocked in some countries: China |
+| Audio content<br>1:47:11 - 1:48:19 | AKS Co., Ltd | Blocked in some countries: China |
 | ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:48:22 - 2:49:12 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Audio content<br>2:56:01 - 2:56:53 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:56:01 - 2:56:53 | AKB48 | Blocked in some countries: China |
 | 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>2:31:08 - 2:33:03 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1635,11 +2049,14 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>6:22 - 8:03 | AKB48 | Monetized by copyright owner |
+| Audio content<br>6:22 - 8:03 | AKB48 | Blocked in some countries: China |
 | 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:11:11 - 2:12:23 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Audio content<br>1:29:51 - 1:30:54 | AKS Co., Ltd | Monetized by copyright owner |
+| Audio content<br>1:29:51 - 1:30:54 | AKS Co., Ltd | Blocked in some countries: China |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:05:22 - 1:05:57 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:28:40 - 2:29:38 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1655,7 +2072,10 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>2:11:22 - 2:12:03 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:11:22 - 2:12:03 | AKB48 | Blocked in some countries: China |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1663,7 +2083,18 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>2:32:27 - 2:34:23 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:32:27 - 2:34:23 | AKB48 | Blocked in some countries: China |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
+
+---
+
+[20170507 SNH48 Team SⅡ 心的旅程 56 钱蓓婷生日主题公演](https://youtube.com/watch?v=oxNRnZ-8n_I)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:35:37 - 1:36:11 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -1717,7 +2148,7 @@ Viewing restrictions:
 | --- | --- | --- |
 | Bar Bar Bar - 左左右右<br>Sound recording<br>1:30:24 - 1:31:44 | forward_music<br>On behalf of: FORWARD MUSIC CO.,LTD | Monetized by copyright owner |
 | K２ndメドレー(ﾁｰﾑK Ver.) - AKB48<br>Sound recording<br>2:30:38 - 2:31:18 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2007 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
-| Audio content<br>6:32 - 8:34 | AKB48<br>Channel: AKB48 | Monetized by copyright owner |
+| Audio content<br>6:32 - 8:34 | AKB48<br>Channel: AKB48 | Blocked in some countries: China |
 | AKB参上！ - AKB48<br>Sound recording<br>2:34:20 - 2:35:48 | AKB48 | Monetized by copyright owner |
 | 入陣曲 - 五月天<br>Sound recording<br>1:03:30 - 1:06:53 | Bin Music<br>On behalf of: Bin Music | Monetized by copyright owner |
 | Guan Zhou Hao - Dong Shan Shao Ye<br>Sound recording<br>1:00:48 - 1:01:41 | UMG<br>On behalf of: Universal Music | Monetized by copyright owner |
@@ -1727,7 +2158,7 @@ Viewing restrictions:
 | Xi Wang (Album Version) - Kelly Chen<br>Sound recording<br>1:27:50 - 1:29:33 | UMG<br>On behalf of: Go East | Monetized by copyright owner |
 
 Viewing restrictions:
-- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Video blocked in 7 countries: Your video can't be played in these countries: Australia, China, Japan, Mexico, New Zealand, South Korea, United States
 - Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
 
 ---
@@ -1736,8 +2167,11 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>2:19:53 - 2:21:03 | AKB48 | Monetized by copyright owner |
-| Audio content<br>2:17:52 - 2:18:48 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:19:53 - 2:21:03 | AKB48 | Blocked in some countries: China |
+| Audio content<br>2:17:52 - 2:18:48 | AKB48 | Blocked in some countries: China |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1754,10 +2188,13 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>2:12:17 - 2:13:43 | AKS Co., Ltd | Monetized by copyright owner |
-| Audio content<br>5:22 - 7:18 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:12:17 - 2:13:43 | AKS Co., Ltd | Blocked in some countries: China |
+| Audio content<br>5:22 - 7:18 | AKB48 | Blocked in some countries: China |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:08:50 - 1:09:59 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Audio content<br>1:34:19 - 1:35:29 | AKS Co., Ltd | Monetized by copyright owner |
+| Audio content<br>1:34:19 - 1:35:29 | AKS Co., Ltd | Blocked in some countries: China |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1765,12 +2202,15 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>6:51 - 7:27 | AKB48 | Monetized by copyright owner |
+| Audio content<br>6:51 - 7:27 | AKB48 | Blocked in some countries: China |
 | 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>1:05:51 - 1:09:57 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | ﾌｧﾝﾚﾀｰ - SKE48(Team E)<br>Sound recording<br>2:21:32 - 2:23:52 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
-| Audio content<br>4:43 - 6:44 | AKB48 | Monetized by copyright owner |
+| Audio content<br>4:43 - 6:44 | AKB48 | Blocked in some countries: China |
 | Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:37:27 - 1:38:31 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
 | 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:05:00 - 2:05:48 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1832,6 +2272,8 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Audiovisual content<br>1:26:55 - 1:27:27 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:28:16 - 1:28:48 | WebTVAsia (Music) | Monetized by copyright owner |
 | 被馴服的象 - 蔡健雅<br>Sound recording<br>1:27:33 - 1:28:33 | The Orchard Music<br>AsiaMuseEntertainme<br>On behalf of: AsiaMuse | Monetized by copyright owner |
 
 ---
@@ -1848,10 +2290,10 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>5:20 - 6:35 | AKB48 | Monetized by copyright owner |
+| Audio content<br>5:20 - 6:35 | AKB48 | Blocked in some countries: China |
 | 不夠成熟 - By2<br>Sound recording<br>42:34 - 43:34 | The Orchard Music<br>On behalf of: 北京海蝶音樂有限公司 | Monetized by copyright owner |
 | Lay down - AKB48<br>Sound recording<br>2:11:54 - 2:13:35 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
-| Audio content<br>9:18 - 9:59 | AKB48 | Monetized by copyright owner |
+| Audio content<br>9:18 - 9:59 | AKB48 | Blocked in some countries: China |
 | わがままな流れ星 - SKE48（Team E）<br>Sound recording<br>2:15:32 - 2:17:06 | AKB48<br>On behalf of: avex trax | Monetized by copyright owner |
 | ｴﾝﾄﾞﾛｰﾙ - SKE48(Team E)<br>Sound recording<br>2:22:14 - 2:24:04 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
 | Audiovisual content<br>1:50:52 - 1:51:39 | ELTA Technology | Monetized by copyright owner |
@@ -1860,7 +2302,7 @@ Viewing restrictions:
 | I want you - Ren Suxi<br>Sound recording<br>28:42 - 29:54 | nikitaventures music<br>On behalf of: nikita ventures music | Monetized by copyright owner |
 
 Viewing restrictions:
-- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Video blocked in 7 countries: Your video can't be played in these countries: Australia, China, Japan, Mexico, New Zealand, South Korea, United States
 - Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
 
 ---
@@ -1888,8 +2330,11 @@ Viewing restrictions:
 | Content | Claimant | Policy |
 | --- | --- | --- |
 | 泣きながら微笑んで(Not yet ver.) - Not yet<br>Sound recording<br>1:11:44 - 1:12:16 | columbia<br>On behalf of: COLUMBIA | Monetized by copyright owner |
-| Audio content<br>2:22:42 - 2:23:35 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:22:42 - 2:23:35 | AKB48 | Blocked in some countries: China |
 | 桜の花びらたち - SKE48(teamS)<br>Sound recording<br>4:28 - 6:15 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1913,7 +2358,11 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
-| Audio content<br>2:46:01 - 2:47:34 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:46:01 - 2:47:34 | AKB48 | Blocked in some countries: China |
+| Audiovisual content<br>6:12 - 7:03 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1930,7 +2379,9 @@ Viewing restrictions:
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
+| Visual content<br>2:04:39 - 2:05:09 | WebTVAsia (Music) | Monetized by copyright owner |
 | Audiovisual content<br>0:01 - 0:43 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>6:11 - 7:02 | WebTVAsia (Music) | Monetized by copyright owner |
 
 ---
 
@@ -1948,9 +2399,12 @@ Viewing restrictions:
 | --- | --- | --- |
 | 一笑傾城 (演員版) - 張赫, 白宇, 張彬彬, 崔航  &  鄭業成<br>Sound recording<br>1:31:23 - 1:34:08 | Rock Mobile Corporation<br>On behalf of: 北京聽見時代娛樂傳媒有限公司 | Monetized by copyright owner |
 | 暖暖 - 梁靜茹<br>Sound recording<br>46:52 - 47:37 | Bin Music<br>On behalf of: Bin Music | Monetized by copyright owner |
-| Audio content<br>4:05 - 6:08 | AKB48 | Monetized by copyright owner |
+| Audio content<br>4:05 - 6:08 | AKB48 | Blocked in some countries: China |
 | 凉凉 - 楊宗緯+張碧晨<br>Sound recording<br>56:11 - 59:55 | linfair_records<br>On behalf of: 上海譚旋音樂工作室 | Monetized by copyright owner |
 | Audio content<br>1:03:01 - 1:03:59 | AKS Co., Ltd | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 1 country: Your video can't be played in these countries: China
 
 ---
 
@@ -1961,12 +2415,12 @@ Viewing restrictions:
 | Lay down - AKB48<br>Sound recording<br>44:44 - 46:41 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
 | てもでもの涙 instrumental - フレンチ・キス<br>Sound recording<br>48:10 - 50:00 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
 | 致姍姍來遲的你 - 阿肆<br>Sound recording<br>1:28:14 - 1:30:00 | The Orchard Music<br>On behalf of: 北京摩登天空文化發展有限公司 | Monetized by copyright owner |
-| Audio content<br>2:13:34 - 2:14:34 | AKB48 | Monetized by copyright owner |
+| Audio content<br>2:13:34 - 2:14:34 | AKB48 | Blocked in some countries: China |
 | Kokoro no Placard - AKB48<br>Sound recording<br>2:13:34 - 2:15:44 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
-| Audio content<br>6:19 - 8:02 | AKB48 | Monetized by copyright owner |
+| Audio content<br>6:19 - 8:02 | AKB48 | Blocked in some countries: China |
 
 Viewing restrictions:
-- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Video blocked in 7 countries: Your video can't be played in these countries: Australia, China, Japan, Mexico, New Zealand, South Korea, United States
 
 ---
 
@@ -1990,5 +2444,761 @@ Viewing restrictions:
 
 Viewing restrictions:
 - Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+
+---
+
+[20170226 SNH48 Team SⅡ 心的旅程 43 莫寒生日主题公演](https://youtube.com/watch?v=OZLFAgCMsYA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Yes No Maybe - 수지 Suzy<br>Sound recording<br>2:33:57 - 2:35:39 | JYP Entertainment<br>On behalf of: JYP Entertainment | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20170225 SNH48 Team NⅡ 专属派对 26 李艺彤生日主题公演](https://youtube.com/watch?v=cVyX0au4BWg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| サイレントマジョリティー off vocal ver. - 欅坂46<br>Sound recording<br>2:22:07 - 2:22:51 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2016 Sony Music Records | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+Viewing restrictions:
+- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20170225 SNH48 Team XⅡ 代号XⅡ 09 洪珮雲生日主题公演](https://youtube.com/watch?v=J7oe3jgR6xw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Let Me Love You - Ariana Grande<br>Sound recording<br>2:11:47 - 2:13:11 | UMG<br>On behalf of: Universal Records | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+- Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
+
+---
+
+[20170223 SNH48 Team X 梦想的旗帜 16](https://youtube.com/watch?v=P_u8wWpmTSU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:51 - 4:09 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20170219 SNH48 Team SⅡ 心的旅程 42 袁雨桢生日主题公演](https://youtube.com/watch?v=3w2eI0i0u8k)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 도깨비 Hobgoblin - 씨엘씨 CLC<br>Sound recording<br>2:25:34 - 2:29:01 | CJ E&M Music<br>On behalf of: CJ E&M MUSIC | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20170218 SNH48 Team SⅡ 心的旅程 41 邱欣怡生日主题公演](https://youtube.com/watch?v=IzI0s8y-c3c)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| You’re Pitiful - FIESTAR<br>Sound recording<br>2:28:31 - 2:30:00 | Loen Entertainment | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20170217 SNH48 Team X 梦想的旗帜 15](https://youtube.com/watch?v=LoDtDq7_ztI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:22 - 3:34 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20170211 SNH48 Team NⅡ 专属派对 24 陆婷生日暨元宵特别公演](https://youtube.com/watch?v=QP9lRz7e4Kk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 24 hours - Sunmi<br>Sound recording<br>2:19:53 - 2:22:55 | JYP Entertainment<br>On behalf of: JYP Entertainment | Monetized by copyright owner |
+| Audiovisual content<br>2:33:36 - 2:35:48 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20170211 SNH48 Team XⅡ 代号XⅡ 06 张文静生日主题公演](https://youtube.com/watch?v=5631tT8JkOI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 残念少女 - AKB48<br>Sound recording<br>2:09:55 - 2:11:45 | AKB48 | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20170210 SNH48 Team X 梦想的旗帜 14](https://youtube.com/watch?v=WW5ZBCMVi_s)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:14:42 - 2:15:24 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20170209 SNH48 Team X 梦想的旗帜 13](https://youtube.com/watch?v=d2uR39wMoeg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:31 - 3:47 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161231 SNH48 Team XⅡ 代号XⅡ 04 跨年联合公演](https://youtube.com/watch?v=ohWiVMfRRVw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 夜風の仕業 instrumental - フレンチ・キス<br>Sound recording<br>2:14:39 - 2:15:41 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
+| 抱きしめられたら - SKE48(Team E)<br>Sound recording<br>2:07:36 - 2:10:00 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 制服レジスタンス(板野ソロVer.) - 板野友美<br>Sound recording<br>43:34 - 44:38 | KING RECORD CO., LTD.<br>On behalf of: King Record Co.,Ltd | Monetized by copyright owner |
+| Dewi Theater - JKT48<br>Sound recording<br>1:30:01 - 1:31:03 | Audiam (Label) | Monetized by copyright owner |
+| 我要我們在一起 - 范曉萱<br>Sound recording<br>45:54 - 47:35 | linfair_records<br>On behalf of: Linfair Records Limited | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161228 SNH48 Team X 梦想的旗帜 12](https://youtube.com/watch?v=HQhuEvPRnBg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:26 - 3:48 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161225 SNH48 Team XⅡ 代号XⅡ 03 陈韫凌生日主题公演](https://youtube.com/watch?v=fs09OlryRak)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| キャンディー off vocal - 河西智美<br>Sound recording<br>2:24:36 - 2:26:18 | NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161222 SNH48 Team X 梦想的旗帜 11](https://youtube.com/watch?v=Bl4GQQwYewI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:38 - 4:27 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161218 SNH48 Team NⅡ 专属派对 21 何晓玉生日主题公演](https://youtube.com/watch?v=plkln_-ZonU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| てもでもの涙 instrumental - フレンチ・キス<br>Sound recording<br>2:20:34 - 2:21:41 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161217 SNH48 Team X 梦想的旗帜 10 圣诞特别公演](https://youtube.com/watch?v=50nKj4zSn1s)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:32 - 4:21 | WebTVAsia (Music) | Monetized by copyright owner |
+| Blue rose(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>1:10:16 - 1:11:13 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+Viewing restrictions:
+- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161211 SNH48 Team X 梦想的旗帜 09](https://youtube.com/watch?v=oysTqKkaPoE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:38 - 3:55 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161210 SNH48 Team X 梦想的旗帜 08](https://youtube.com/watch?v=oYOEoLLZP4o)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:31 - 4:14 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161203 SNH48 Team SⅡ 心的旅程 35 沈之琳生日主题公演](https://youtube.com/watch?v=ngv8QxjLoXs)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 最懂你的人<br>Music composition<br>2:06:18 - 2:10:00 | COMPASS_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161201 SNH48 Team X 梦想的旗帜 07](https://youtube.com/watch?v=ZfkhOrwogZY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:19 - 4:02 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>11:28 - 12:00 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:18 - 3:48 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161127 SNH48 Team X 梦想的旗帜 06 孙歆文生日主题公演](https://youtube.com/watch?v=DLdHnkamNAE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>11:34 - 12:09 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:25 - 3:46 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161125 SNH48 Team SⅡ 心的旅程 34](https://youtube.com/watch?v=-_DrUJspauM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Kokoro no Placard - AKB48<br>Sound recording<br>2:33:24 - 2:35:14 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161116 SNH48 Team X 梦想的旗帜 05](https://youtube.com/watch?v=i-UE-yney8A)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>11:30 - 12:00 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:29 - 3:36 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:44 - 3:27 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161113 SNH48 Team NⅡ 专属派对 16 罗兰生日主题公演](https://youtube.com/watch?v=d6Br2PdZJMw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Okey Dokey - 송민호, 지코<br>Sound recording<br>2:27:18 - 2:27:49 | CJ E&M Music<br>On behalf of: CJ E&M | Monetized by copyright owner |
+| ﾍﾟﾝﾊﾟｲﾅｯﾎﾟｰｱｯﾎﾟｰﾍﾟﾝ(PPAP) - ﾋﾟｺ太郎<br>Sound recording<br>2:28:56 - 2:29:37 | AVEX GROUP HOLDINGS.INC<br>Ultra Music<br>On behalf of: avex trax | Monetized by copyright owner |
+| PPAP (Pen-Pineapple-Apple-Pen) - Long Version - PIKOTARO<br>Sound recording<br>2:29:18 - 2:29:50 | AVEX GROUP HOLDINGS.INC<br>Ultra Music<br>On behalf of: Ultra Records | Monetized by copyright owner |
+| Audiovisual content<br>5:46 - 6:46 | WebTVAsia (Music) | Monetized by copyright owner |
+| Right Now (Dyro Radio Edit) - Rihanna<br>Sound recording<br>2:27:48 - 2:28:50 | UMG<br>On behalf of: Def Jam Records | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+- Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
+
+---
+
+[20161112 SNH48 Team SⅡ 心的旅程 30](https://youtube.com/watch?v=JHhrS2cYe7U)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>30:39 - 32:17 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161110 SNH48 Team X 梦想的旗帜 04](https://youtube.com/watch?v=VU8LD2FO6Rg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:28 - 4:13 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161102 SNH48 Team NⅡ 专属派对 15](https://youtube.com/watch?v=d7uMoOYkVvc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Dewi Theater - JKT48<br>Sound recording<br>2:43:47 - 2:44:17 | Audiam (Label) | Monetized by copyright owner |
+| Audiovisual content<br>8:12 - 9:09 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161030 SNH48 Team X 梦想的旗帜 03](https://youtube.com/watch?v=iUCeqGg8mSg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:17 - 4:00 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161029 SNH48 Team X 梦想的旗帜 02 冯晓菲生日主题公演](https://youtube.com/watch?v=-kdzHrxKM-8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:24 - 3:38 | WebTVAsia (Music) | Monetized by copyright owner |
+| Lets go Girls Generaion short ver - Girls Generation<br>Sound recording<br>2:22:52 - 2:23:33 | SM Entertainment<br>On behalf of: SM Entertainment | Monetized by copyright owner |
+| 다시 만난 세계 (Into The New World) - Girls' Generation<br>Sound recording<br>2:23:06 - 2:23:46 | SM Entertainment<br>On behalf of: S.M.Entertainment | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161028 SNH48 Team X 梦想的旗帜 01](https://youtube.com/watch?v=ORjPgWfSYqE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:20 - 3:37 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161027 SNH48 Team NⅡ 专属派对 14](https://youtube.com/watch?v=ElmEDWEzg-g)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>8:41 - 9:32 | WebTVAsia (Music) | Monetized by copyright owner |
+| BINGO! オリジナル・カラオケ - AKB48<br>Sound recording<br>2:57:18 - 2:57:56 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+Viewing restrictions:
+- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161026 SNH48 Team NⅡ 专属派对 13](https://youtube.com/watch?v=pJtEsKqmCrY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>10:31 - 11:22 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161022 SNH48 Team NⅡ 专属派对 12 万丽娜生日主题公演](https://youtube.com/watch?v=dNMkvy3px3s)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:35 - 2:36 | WebTVAsia (Music) | Monetized by copyright owner |
+| メグメグ☆ファイアーエンドレスナイト - samfree feat.実谷なな<br>Sound recording<br>2:14:55 - 2:15:51 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audiovisual content<br>2:16:48 - 2:17:22 | WebTVAsia (Music) | Monetized by copyright owner |
+| Needed Me - Rihanna<br>Sound recording<br>2:16:01 - 2:17:21 | UMG<br>On behalf of: Roc Nation / Rihanna | Monetized by copyright owner |
+| 街角のパーティー - SKE48（Team E）<br>Sound recording<br>3:01:46 - 3:04:33 | AKB48<br>On behalf of: avex trax | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+- Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
+
+---
+
+[20161022 SNH48 Team SⅡ 心的旅程 29](https://youtube.com/watch?v=HIIzpUqtkj8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:59 - 3:18 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161021 SNH48 Team NⅡ 专属派对 11](https://youtube.com/watch?v=WYg0Hzo-I8U)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:47 - 2:46 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161016 SNH48 Team NⅡ 专属派对 10](https://youtube.com/watch?v=FwZnM65KyHM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:21 - 2:25 | WebTVAsia (Music) | Monetized by copyright owner |
+| BINGO! オリジナル・カラオケ - AKB48<br>Sound recording<br>2:21:45 - 2:22:32 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+Viewing restrictions:
+- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161015 SNH48 Team NⅡ 专属派对 09 黄婷婷生日主题公演](https://youtube.com/watch?v=VdcRCS4vQTY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 威廉古堡 - 周杰倫<br>Sound recording<br>2:25:14 - 2:25:53 | JVR<br>On behalf of: JVR Music International | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161005 SNH48 Team SⅡ 心的旅程 27 陈观慧生日主题公演](https://youtube.com/watch?v=VZLWB3t3GnI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:05 - 3:41 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20161004 SNH48 Team SⅡ 心的旅程 26 陈思生日主题公演](https://youtube.com/watch?v=wpW5h4roW2U)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:06 - 3:48 | WebTVAsia (Music) | Monetized by copyright owner |
+| Boombayah (붐바야) - BLACKPINK (블랙핑크)<br>Sound recording<br>2:16:10 - 2:20:00 | YG Entertainment Inc.<br>On behalf of: YG Entertainment Inc. | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160925 SNH48 Team SⅡ 心的旅程 25 赵晔生日主题公演](https://youtube.com/watch?v=hj8AxgohIQI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:04 - 3:54 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160924 SNH48 Team SⅡ 心的旅程 24 许佳琪生日主题公演](https://youtube.com/watch?v=q6ZK53r5hkU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| If You Seek Amy - Ameritz Top Tributes<br>Sound recording<br>2:20:33 - 2:22:36 | INgrooves<br>On behalf of: Ameritz Music Ltd | Monetized by copyright owner |
+| Audiovisual content<br>2:03 - 2:54 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160922 SNH48 Team NⅡ 专属派对 08](https://youtube.com/watch?v=HCNIpHUFCqQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:35 - 2:41 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160917 SNH48 Team SⅡ 心的旅程 23 吴哲晗生日主题公演](https://youtube.com/watch?v=SBoW_ctNLwE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 有点甜 (feat. By2) - 汪苏泷<br>Sound recording<br>2:16:16 - 2:18:56 | Believe Music<br>On behalf of: 大象音乐 | Monetized by copyright owner |
+| Audiovisual content<br>6:28 - 8:14 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:17:47 - 2:18:22 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160916 SNH48 Team NⅡ 专属派对 07](https://youtube.com/watch?v=sNt8nDH7bFg)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:37 - 2:39 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160821 SNH48 Team SⅡ 心的旅程 20](https://youtube.com/watch?v=ZRQAv1eRotI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:58 - 3:39 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160814 SNH48 Team SⅡ 心的旅程 18 袁丹妮生日主题公演](https://youtube.com/watch?v=Efqxyxeraj0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:57 - 3:05 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160813 SNH48 Team NⅡ 专属派对 04](https://youtube.com/watch?v=9a1_vRxOvZs)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| BINGO! オリジナル・カラオケ - AKB48<br>Sound recording<br>2:12:08 - 2:12:59 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+Viewing restrictions:
+- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160807 SNH48 Team SⅡ 心的旅程 17 孙芮生日主题公演](https://youtube.com/watch?v=u7woa57DMK4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:05 - 3:44 | WebTVAsia (Music) | Monetized by copyright owner |
+| 초코칩쿠키 (FEAT.기리보이) - 구하라<br>Sound recording<br>1:59:51 - 2:00:38 | Collab Asia Music<br>On behalf of: DSP Media | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160806 SNH48 Team NⅡ 专属派对 03 陈佳莹生日主题公演](https://youtube.com/watch?v=ru7fbKmQQok)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Trouble Maker - Trouble Maker<br>Sound recording<br>2:06:38 - 2:08:08 | Cube Entertainment<br>On behalf of: CUBE ENTERTAINMENT INC. | Monetized by copyright owner |
+| Audiovisual content<br>1:30 - 2:39 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:07:15 - 2:07:50 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160723 SNH48 Team NⅡ 专属派对 02](https://youtube.com/watch?v=ihHpJQmMdkc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:30 - 2:30 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160722 SNH48 Team NⅡ 专属派对 01](https://youtube.com/watch?v=IurRzqDAzis)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:32 - 2:30 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160714 SNH48 Team SⅡ 心的旅程 16 张语格总选拉票公演](https://youtube.com/watch?v=I1ghDKAEgjU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 예뻐지게 - 씨엘씨<br>Sound recording<br>2:28:39 - 2:29:20 | CJ E&M Music<br>On behalf of: CJ E&M | Monetized by copyright owner |
+| Visual content<br>2:19:55 - 2:21:09 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160708 SNH48 Team SⅡ 心的旅程 14](https://youtube.com/watch?v=g7r7zefN7sc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:40 - 4:05 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160701 SNH48 Team SⅡ 心的旅程 12 申月姣总选拉票公演](https://youtube.com/watch?v=zsF3JcNXD4M)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:23 - 3:11 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160626 SNH48 Team SⅡ 心的旅程 11 徐晨辰生日暨总选拉票公演](https://youtube.com/watch?v=p1YvHB7mSOs)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:54 - 3:03 | WebTVAsia (Music) | Monetized by copyright owner |
+| 浪花一朵朵 - 任賢齊/光良/陳慶祥(阿牛)<br>Sound recording<br>2:16:45 - 2:17:15 | Rock Records 滾石國際音樂股份有限公司<br>On behalf of: Rock Records | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160624 SNH48 Team SⅡ 心的旅程 10 陈观慧总选拉票公演](https://youtube.com/watch?v=kTIbSqc0YBw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:02 - 3:03 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160618 SNH48 Team SⅡ 心的旅程 08](https://youtube.com/watch?v=EVdsaDAtFN8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:06 - 3:54 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160610 SNH48 Team SⅡ 心的旅程 07 成珏总选拉票公演](https://youtube.com/watch?v=c7XYd2oUYWw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:35 - 3:56 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160605 SNH48 Team SⅡ 心的旅程 06 赵晔总选拉票公演](https://youtube.com/watch?v=bw5VUOnSDFA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:32 - 3:48 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160603 SNH48 Team SⅡ 心的旅程 05 袁雨桢总选拉票公演](https://youtube.com/watch?v=J8glZin2-cA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:31 - 3:28 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160526 SNH48 Team SⅡ 心的旅程 04](https://youtube.com/watch?v=Z7Y1LjBIwS8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:20 - 3:24 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160522 SNH48 Team SⅡ 心的旅程 03](https://youtube.com/watch?v=oQmHq-CvlwQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:42 - 3:47 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160521 SNH48 Team SⅡ 心的旅程 02](https://youtube.com/watch?v=C0dxHlVA3uY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:34 - 4:10 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20160520 SNH48 Team SⅡ 心的旅程 01](https://youtube.com/watch?v=N3mFmqBjM5Q)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:29 - 19:50 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
 
 ---

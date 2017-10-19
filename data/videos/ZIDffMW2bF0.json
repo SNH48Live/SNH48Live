@@ -1,0 +1,77 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT4H11M18S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/qyNCbpZliYe-1FHDQD44TYTzf0E\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "6116109097",
+    "fileType": "video"
+  },
+  "id": "ZIDffMW2bF0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/350\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/350\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171010 SNH48 48狼人杀 01"
+    },
+    "publishedAt": "2017-10-10T17:23:51.000Z",
+    "tags": [
+      "SNH48",
+      "李宇琪",
+      "钱蓓婷",
+      "孙芮",
+      "徐子轩",
+      "冯薪朵",
+      "张雨鑫",
+      "郝婉晴",
+      "徐晗",
+      "徐伊人",
+      "汪束",
+      "杨冰怡",
+      "刘增艳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/ZIDffMW2bF0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/ZIDffMW2bF0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/ZIDffMW2bF0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/ZIDffMW2bF0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/ZIDffMW2bF0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171010 SNH48 48狼人杀 01"
+  }
+}

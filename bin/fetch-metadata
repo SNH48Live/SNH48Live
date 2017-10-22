@@ -36,15 +36,15 @@ def list_videos(youtube_client):
 def fetch_video_metadata(youtube_client, video_ids):
     metadata_items = []
 
-    list_request = youtube_client.videos().list(
-        part='contentDetails,fileDetails,snippet',
-        id=','.join(video_ids),
-        maxResults=50,
-    )
-    while list_request:
+    per_page = 50
+    for i in range(0, len(video_ids), per_page):
+        list_request = youtube_client.videos().list(
+            part='contentDetails,fileDetails,snippet',
+            id=','.join(video_ids[i : i + per_page]),
+            maxResults=per_page,
+        )
         list_response = list_request.execute()
         metadata_items.extend(list_response['items'])
-        list_request = youtube_client.videos().list_next(list_request, list_response)
 
     return metadata_items
 

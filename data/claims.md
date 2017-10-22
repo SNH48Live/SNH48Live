@@ -3,6 +3,108 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171022 SNH48 Team XⅡ 代号XⅡ 50 潘瑛琪生日主题公演](https://youtube.com/watch?v=MnzGOKJEeb0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:15 - 8:21 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>6:43 - 8:14 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:42 - 8:33 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>6:11 - 8:21 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171022 SNH48 Team HⅡ 美丽世界 37 张昕生日主题公演](https://youtube.com/watch?v=BkOeKSTaESA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 追光者 (電視劇夏至未至插曲) - 岑寧兒<br>Sound recording<br>1:27:06 - 1:28:02 | [Merlin] FUGA Aggregation<br>On behalf of: 北京聽見時代娛樂傳媒有限公司 | Monetized by copyright owner |
+| SHEEP (羊) - 레이 (LAY)<br>Sound recording<br>1:33:22 - 1:34:47 | SM Entertainment<br>On behalf of: S.M.Entertainment | Monetized by copyright owner |
+| Look What You Made Me Do - Taylor Swift<br>Sound recording<br>1:31:23 - 1:32:42 | UMG<br>On behalf of: Universal Music | Monetized by copyright owner |
+| Audiovisual content<br>1:47 - 4:26 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+- Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
+
+---
+
+[20171021 SNH48 Team NⅡ 以爱之名 04](https://youtube.com/watch?v=FzE40KZE6a0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>4:05 - 6:22 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>5:19 - 7:36 | WebTVAsia (Music) | Monetized by copyright owner |
+| Song Doi - F5<br>Sound recording<br>2:17:29 - 2:17:59 | AdShare MG for a Third Party<br>On behalf of: AudioSparx | Monetized by copyright owner |
+| Audiovisual content<br>5:19 - 8:00 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171021 SNH48 Team HⅡ 美丽世界 36 吴燕文生日主题公演](https://youtube.com/watch?v=Rl1hLAXwi1w)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Visual content<br>3:36 - 6:41 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:57 - 6:40 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:59 - 6:25 | WebTVAsia (Music) | Monetized by copyright owner |
+| HUMBLE. - Kendrick Lamar<br>Sound recording<br>1:28:23 - 1:29:04 | UMG<br>On behalf of: Top Dawg Entertainment/Aftermath Records/ Interscope Records | Monetized by copyright owner |
+| River - Bishop Briggs<br>Sound recording<br>1:26:54 - 1:27:31 | UMG<br>On behalf of: Teleport Records / Island Records | Monetized by copyright owner |
+| Audiovisual content<br>5:06 - 6:38 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>5:05 - 6:22 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+- Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
+
+---
+
+[20171020 SNH48 Team NⅡ 以爱之名 03](https://youtube.com/watch?v=8EgEdWuDRWs)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>8:31 - 11:39 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>9:46 - 11:49 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>2:29:51 - 2:31:03 | Shanghai Orient Media Co.Ltd - 看东方（上海）传媒有限公司<br>Channel: 中国东方卫视官方频道China DragonTV Official | Monetized by copyright owner |
+| Audiovisual content<br>2:08:53 - 2:10:00 | HunanTV-芒果TV<br>Channel: 湖南卫视芒果TV官方频道 China HunanTV Official Channel | Monetized by copyright owner |
+| Audiovisual content<br>3:00:35 - 3:10:00 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171020 SNH48 星梦Mini Live（孙歆文）](https://youtube.com/watch?v=xpe3H1uu7-U)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| LYDIA<br>Music composition<br>26:30 - 29:43 | APRA_CS<br>CASH<br>SOCAN<br>MACP<br>ICE_CS<br>Warner Chappell<br>ASCAP<br>SESAC_CS | Monetized by copyright owner |
+| HEY YOU<br>Music composition<br>2:50 - 4:25 | KOMCA_CS<br>APRA_CS<br>CASH<br>MACP<br>COMPASS_CS<br>Position Music (Publishing)<br>Sony ATV Publishing<br>SACEM<br>ABKCO Music, Inc. | Monetized by copyright owner |
+| 只想愛你<br>Music composition<br>34:34 - 37:00 | APRA_CS<br>CASH<br>MACP<br>WAMI_CS<br>SOCAN<br>Sony ATV Publishing | Monetized by copyright owner |
+| Yu Guan Tou<br>Music composition<br>6:34 - 8:41 | APRA_CS<br>Sony ATV Publishing<br>CASH<br>MACP<br>ICE_CS<br>SGAE_CS<br>ASCAP | Monetized by copyright owner |
+| PLEASE MR POSTMAN<br>Music composition<br>22:24 - 25:53 | APRA_CS<br>COMPASS_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171019 SNH48 Team SⅡ 第48区 17](https://youtube.com/watch?v=mC9IdEWSlEk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:55 - 1:00:17 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
 [20171018 SNH48 Team X 梦想的旗帜 58](https://youtube.com/watch?v=9spqgJY_BVY)
 
 | Content | Claimant | Policy |

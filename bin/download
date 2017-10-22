@@ -31,18 +31,18 @@ change_logging_format(fmt='[%(asctime)s] %(levelname)s: %(message)s')
 
 
 def log_command(args: List[str]) -> None:
-    logger.debug(' '.join(map(shlex.quote, args)))
+    logger.debug(' '.join(shlex.quote(str(arg)) for arg in args))
 
 
 def download_m3u8(m3u8_url: str, dest: pathlib.Path, *, retry_interval: int = 60) -> None:
     dest.mkdir(parents=True, exist_ok=True)
-    m3u8_file = dest / 'stream.m3u8'
+    m3u8_file = dest / 'remote.m3u8'
     urls_file = dest / 'urls.txt'
 
-    if not urls_file.is_file() or urls_file.stat().st_size == 0:
+    if not m3u8_file.is_file() or m3u8_file.stat().st_size == 0:
         # Download m3u8 file
         logger.info(f'Downloading {m3u8_url}')
-        cmd = ['curl', '-fsSL', '-w', '%{http_code}', '-o', str(m3u8_file), m3u8_url]
+        cmd = ['curl', '-fsSL', '-w', '%{http_code}', '-o', m3u8_file, m3u8_url]
         while True:
             try:
                 log_command(cmd)
@@ -53,27 +53,26 @@ def download_m3u8(m3u8_url: str, dest: pathlib.Path, *, retry_interval: int = 60
                 logger.warning(f'{m3u8_url}: HTTP {code}; retrying in {retry_interval}s')
                 time.sleep(retry_interval)
 
-        # Populate urls.txt
-        num_chunks = 0
-        with open(m3u8_file) as fin:
-            with open(urls_file, 'w') as fout:
-                for line in fin:
-                    if line.startswith('#'):
-                        continue
-                    num_chunks += 1
-                    print(urllib.parse.urljoin(m3u8_url, line.strip()), file=fout)
     else:
-        logger.info('Found urls.txt')
-        with open(urls_file) as fp:
-            num_chunks = sum(1 for line in fp)
+        logger.info('Found remote.m3u8')
+
+    # Populate urls.txt
+    num_chunks = 0
+    with open(m3u8_file) as fin:
+        with open(urls_file, 'w') as fout:
+            for line in fin:
+                if line.startswith('#'):
+                    continue
+                num_chunks += 1
+                print(urllib.parse.urljoin(m3u8_url, line.strip()), file=fout)
 
     # Download chunks
     logger.info(f'Downloading {num_chunks} chunks (SIGINT to interrupt)')
     cmd = [
         'parallel', '--bar', '-j', str(JOBS),
         'cd {1}; [[ -f {#}.done ]] || { wget --continue -o {#}.log -O {#}.ts {2} && touch {#}.done; }',  # noqa
-        ':::', str(dest),
-        '::::', str(urls_file),
+        ':::', dest,
+        '::::', urls_file,
     ]
     # Exponential backoff
     interval = 1
@@ -93,39 +92,53 @@ def download_m3u8(m3u8_url: str, dest: pathlib.Path, *, retry_interval: int = 60
 
 
 def merge_chunks(dest: pathlib.Path, basename: str) -> pathlib.Path:
-    urls_file = dest / 'urls.txt'
-    with open(urls_file) as fp:
-        num_chunks = sum(1 for line in fp)
+    # Generate local m3u8 file
+    remote_m3u8_file = dest / 'remote.m3u8'
+    local_m3u8_file = dest / 'local.m3u8'
+    num_chunks = 0
+    logger.info('Generating local.m3u8')
+    with open(remote_m3u8_file) as fin:
+        with open(local_m3u8_file, 'w') as fout:
+            for line in fin:
+                if line.startswith('#'):
+                    fout.write(line)
+                else:
+                    num_chunks += 1
+                    print(f'{num_chunks}.ts', file=fout)
 
     # Verify chunks
+    urls_file = dest / 'urls.txt'
     logger.info('Verifying chunks')
     cmd = [
         'parallel', '--bar', '-j', str(JOBS),
         'cd {1}; ffmpeg -y -i {#}.ts -c copy -f mp4 /dev/null >/dev/null 2>&1 || echo {#}',
-        ':::', str(dest),
-        '::::', str(urls_file),
+        ':::', dest,
+        '::::', urls_file,
     ]
     log_command(cmd)
     broken_chunks = sorted(map(int, subprocess.check_output(cmd).decode('utf-8').split()))
 
-    concat_list_file = dest / 'concat_list.txt'
-    merged_file = dest / f'{basename}{MERGED_EXT}'
-
-    with open(concat_list_file, 'w') as fp:
-        for i in range(1, num_chunks + 1):
-            if i not in broken_chunks:
-                print(f'file {i}.ts', file=fp)
-
-    logger.info('Merging chunks')
-    cmd = ['ffmpeg', '-y', '-f', 'concat', '-safe', '1', '-i', str(concat_list_file),
-           '-c', 'copy', '-movflags', 'faststart', str(merged_file)]
-    log_command(cmd)
-    subprocess.run(cmd)
-    logger.info(f'Merged into {merged_file}')
-
+    # Report broken chunks and quit
     if broken_chunks:
+        num_broken_chunks = len(broken_chunks)
         joined = ' '.join(str(chunk) for chunk in broken_chunks)
-        logger.error(f'Broken chunks: {joined}')
+        errmsg = f'{num_broken_chunks} broken chunks: {joined}'
+        logger.critical(errmsg)
+        raise RuntimeError(errmsg)
+
+    # Merge chunks
+    merged_file = dest / f'{basename}{MERGED_EXT}'
+    logger.info('Merging chunks')
+    cmd = ['ffmpeg', '-y', '-f', 'hls', '-i', local_m3u8_file,
+           '-c', 'copy', '-movflags', 'faststart', merged_file]
+    log_command(cmd)
+    try:
+        subprocess.check_call(cmd)
+    except subprocess.CalledProcessError:
+        errmsg = 'Failed to merge chunks'
+        logger.critical(errmsg)
+        raise RuntimeError(errmsg)
+    logger.info(f'Merged into {merged_file}')
 
     return merged_file
 
@@ -137,7 +150,7 @@ def performers(vod: str) -> List[str]:
         return []
 
     cmd = [
-        str(BIN / 'performers'),
+        BIN / 'performers',
         '--platform', m.group(1),
         m.group(2),
     ]
@@ -160,7 +173,7 @@ def upload(file: pathlib.Path, conf: config.VodConfig):
     tags = conf.tags + performers(conf.vod)
 
     cmd = [
-        str(BIN / 'upload'),
+        BIN / 'upload',
         '--title', full_title,
         '--description', description,
         '--tags', ','.join(tags),
@@ -171,7 +184,7 @@ def upload(file: pathlib.Path, conf: config.VodConfig):
         cmd += ['--thumbnail', conf.thumbnail]
     if conf.playlists:
         cmd += ['--playlists', ','.join(conf.playlists)]
-    cmd += [str(file)]
+    cmd += [file]
 
     log_command(cmd)
     subprocess.check_call(cmd)

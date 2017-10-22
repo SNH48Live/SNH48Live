@@ -103,8 +103,29 @@ def publish(youtube_client, video_id):
     logger.info(f'{video_id} published')
 
 
+# https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlists.html#list
+def playlist_length(youtube_client, playlist_id):
+    list_request = youtube_client.playlists().list(
+        part='contentDetails',
+        id=playlist_id,
+    )
+    list_response = list_request.execute()
+    items = list_response['items']
+    if not items:
+        raise ValueError('video_id does not exist')
+    else:
+        return items[0]['contentDetails']['itemCount']
+
+
+# A negative position is counted from the end of the playlist; e.g., -1
+# is means the video is to be inserted at the bottom.
+#
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlistItems.html#insert
 def insert_playlist(youtube_client, video_id, playlist_id, *, position=0):
+    if position < 0:
+        length = playlist_length(youtube_client, playlist_id)
+        position += length + 1
+
     insert_request = youtube_client.playlistItems().insert(
         part='snippet',
         body=dict(
@@ -145,7 +166,8 @@ def publish_handler(args):
 def insert_playlist_handler(args):
     for video_id in args.video_ids.split(','):
         for playlist_id in args.playlist_ids.split(','):
-            insert_playlist(args.youtube_client, video_id, playlist_id)
+            insert_playlist(args.youtube_client, video_id, playlist_id,
+                            position=-1 if args.bottom else 0)
 
 
 def main():
@@ -184,6 +206,8 @@ def main():
 
     parser_insert_playlist = subparsers.add_parser('insert-playlist')
     add = parser_insert_playlist.add_argument
+    add('-b', '--bottom', action='store_true',
+        help='insert to the bottom of the playlist(s) instead of top')
     add('video_ids', help='comma-delimited video IDs')
     add('playlist_ids', help='comma-delimited playlist IDs')
     parser_insert_playlist.set_defaults(handler=insert_playlist_handler)

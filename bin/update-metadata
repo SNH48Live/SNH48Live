@@ -26,8 +26,12 @@ def update_title(youtube_client, video_id, pattern, repl, *, dry_run=False):
     snippet = metadata['snippet']
     if pattern:
         title = snippet['title']
-        m = re.search(pattern, title)
+        m = re.match(pattern, title)
         if m:
+            # Make sure the entire title is matched in order to prevent accidental loss of info.
+            if not m.group(0) == title:
+                logger.warning(f'{video_id} title only partially matches {pattern}: {title}')
+                return
             new_title = m.expand(repl)
         else:
             logger.warning(f'{video_id} title unchanged: {title}')

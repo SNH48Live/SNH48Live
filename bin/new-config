@@ -96,7 +96,7 @@ def main():
     platform = inputs('platform [live.snh48.com]: ')
     if not platform:
         platform = 'live.snh48.com'
-    elif platform in [f'live.{g}.com' for g in group_abbrevs]:
+    elif platform in [f'live.{g}48.com' for g in group_abbrevs]:
         pass
     elif platform in [f'{g}48' for g in group_abbrevs]:
         platform = f'live.{platform}.com'

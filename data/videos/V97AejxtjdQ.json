@@ -1,0 +1,93 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT13M48S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/2OJcE2fVyDPIdqz9pUvreOzjad0\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127799",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "749042",
+    "container": "mov",
+    "durationMs": "827840",
+    "fileName": "unknown",
+    "fileSize": "136689516",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.777777777777778,
+        "bitrateBps": "621243",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 480,
+        "widthPixels": 852
+      }
+    ]
+  },
+  "id": "V97AejxtjdQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "https://weibo.com/tv/v/FrZ6u2Lqa\n\n王晓佳、孙歆文《夜蝶》\n张丹三《Love Letter》\n汪束、张嘉予、洪珮雲《巧克力之吻》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "https://weibo.com/tv/v/FrZ6u2Lqa\n\n王晓佳、孙歆文《夜蝶》\n张丹三《Love Letter》\n汪束、张嘉予、洪珮雲《巧克力之吻》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171018 SNH48 Team X 金曲大赏特别赏析环节"
+    },
+    "publishedAt": "2017-10-25T08:50:00.000Z",
+    "tags": [
+      "SNH48",
+      "王晓佳",
+      "孙歆文",
+      "夜蝶",
+      "张丹三",
+      "Love Letter",
+      "汪束",
+      "张嘉予",
+      "洪珮雲",
+      "巧克力之吻"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/V97AejxtjdQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/V97AejxtjdQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/V97AejxtjdQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/V97AejxtjdQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/V97AejxtjdQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171018 SNH48 Team X 金曲大赏特别赏析环节"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H4M31S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/5tzKnjHyyLBctrZQyxYfE_11vNU\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "5586971086",
+    "fileType": "video"
+  },
+  "id": "b8DKW7_nqlk",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/372\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/372\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171025 SNH48 Team SⅡ 第48区 18"
+    },
+    "publishedAt": "2017-10-25T16:28:13.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "陈观慧",
+      "陈思",
+      "蒋芸",
+      "孔肖吟",
+      "李宇琪",
+      "吕一",
+      "莫寒",
+      "钱蓓婷",
+      "孙芮",
+      "温晶婕",
+      "吴哲晗",
+      "徐晨辰",
+      "徐子轩",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格",
+      "赵晔",
+      "冯晓菲"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/b8DKW7_nqlk/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/b8DKW7_nqlk/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/b8DKW7_nqlk/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/b8DKW7_nqlk/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/b8DKW7_nqlk/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171025 SNH48 Team SⅡ 第48区 18"
+  }
+}

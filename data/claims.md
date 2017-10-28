@@ -3,6 +3,37 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171026 SNH48 Team NⅡ 以爱之名 05](https://youtube.com/watch?v=6LNc8BnKX3g)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>9:56 - 11:41 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171025 SNH48 Team SⅡ 第48区 18](https://youtube.com/watch?v=b8DKW7_nqlk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:09 - 5:56 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:51 - 5:57 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:33 - 5:57 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:41 - 5:57 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:41 - 6:25 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20171018 SNH48 Team X 金曲大赏特别赏析环节](https://youtube.com/watch?v=V97AejxtjdQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 口移しのﾁｮｺﾚｰﾄ - 柏木由紀<br>Sound recording<br>12:13 - 13:25 | AVEX GROUP HOLDINGS.INC<br>On behalf of: YukiRing | Monetized by copyright owner |
+
+---
+
 [20171022 SNH48 Team XⅡ 代号XⅡ 50 潘瑛琪生日主题公演](https://youtube.com/watch?v=MnzGOKJEeb0)
 
 | Content | Claimant | Policy |

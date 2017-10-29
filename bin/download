@@ -22,7 +22,7 @@ from common import BIN, VIDEOS_DIR, logger, change_logging_format, mail_on_excep
 mail_on_exception()
 
 
-MERGED_EXT = '.m4v'
+MERGED_EXT = '.mp4'
 JOBS = 20
 
 os.putenv('PARALLEL_SHELL', '/bin/bash')

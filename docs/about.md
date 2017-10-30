@@ -37,3 +37,5 @@ Twitter: @snh48live
 ---
 
 附本人属性：S喵，首推莫寒、二推许杨玉琢，二推以外不表。高冷嘉兴路厨，不看分团←_←（嘉兴路也只看S、H和部分X，很少看N和X2。）不隶属任何组织，拒绝被别人代表、为别人背锅。
+
+<img src="https://user-images.githubusercontent.com/4149852/32170847-a5f42e9e-bd4c-11e7-9cd4-5d19acccdf0d.png" width="153" height="105">

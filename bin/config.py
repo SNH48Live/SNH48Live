@@ -29,15 +29,16 @@ class MainConfig(object):
 
 # Load config/main.yml
 def load_main_config():
+    conf = MainConfig()
+
     config_file = CONFIGS_DIR / 'main.yml'
     if not config_file.exists():
-        return
+        return conf
     with open(config_file) as fp:
         conf_dict = yaml.load(fp)
     if not conf_dict:
-        return
+        return conf
 
-    conf = MainConfig()
     conf.notifications = conf_dict.get('notifications', False)
     conf.mailto = conf_dict.get('mailto')
     return conf

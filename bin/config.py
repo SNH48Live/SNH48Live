@@ -34,6 +34,8 @@ def load_main_config():
         return
     with open(config_file) as fp:
         conf_dict = yaml.load(fp)
+    if not conf_dict:
+        return
 
     conf = MainConfig()
     conf.notifications = conf_dict.get('notifications', False)

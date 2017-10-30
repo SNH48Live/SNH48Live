@@ -9,6 +9,7 @@ Check [snh48live.org](https://snh48live.org) for more resources.
 
 - [`about.md`](docs/about.md): general description of the channel.
 - [`video-source.md`](docs/video-source.md): technical info on how videos on the channel are extracted, and qualities thereof.
+- [`config.md`](docs/config.md): tool configurations documention.
 
 ## Data
 - [`videos.txt`](data/videos.txt): short list of all content videos (channel info videos are not included).

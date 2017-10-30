@@ -3,6 +3,57 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171029 SNH48 Team HⅡ 美丽世界 38 H队出道三周年特别公演](https://youtube.com/watch?v=ThRVZGCDbnE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| K２ndメドレー(ﾁｰﾑK Ver.) - AKB48<br>Sound recording<br>1:37:42 - 1:39:01 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2007 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| 重力シンパシー - SKE48（Team E）<br>Sound recording<br>2:27:17 - 2:28:19 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 約束よ(チームB Ver.) - AKB48<br>Sound recording<br>1:30:47 - 1:31:59 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| 青春ガールズ(チームB Ver.) - AKB48<br>Sound recording<br>4:29 - 6:14 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| Blue rose(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>1:05:40 - 1:07:14 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| 君が星になるまで (チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>15:56 - 17:11 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| 制服レジスタンス(板野ソロVer.) - 板野友美<br>Sound recording<br>57:44 - 59:07 | KING RECORD CO., LTD.<br>On behalf of: King Record Co.,Ltd | Monetized by copyright owner |
+| ビーチサンダル(チームK Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>11:43 - 13:53 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2012 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| 08 愛しさのアクセル A6<br>Sound recording<br>1:13:07 - 1:14:22 | AKB48 | Monetized by copyright owner |
+| Audiovisual content<br>1:51 - 4:32 | WebTVAsia (Music) | Monetized by copyright owner |
+| Don't disturb！(チームB Ver.) - AKB48<br>Sound recording<br>1:20:49 - 1:22:13 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+
+Viewing restrictions:
+- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+
+---
+
+[20171029 SNH48 剧场女神 五期生联合公演暨万圣节前夜特别公演](https://youtube.com/watch?v=qDqI-vJAu9k)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| キャンディー - 河西智美<br>Sound recording<br>1:57:06 - 1:57:53 | NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+| 夜風の仕業 - フレンチ・キス<br>Sound recording<br>2:07:12 - 2:08:47 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
+| Dewi Theater - JKT48<br>Sound recording<br>27:39 - 29:02 | Audiam (Label) | Monetized by copyright owner |
+| Audiovisual content<br>2:53:21 - 2:56:06 | WebTVAsia (Music) | Monetized by copyright owner |
+| ロマンスかくれんぼ - AKB48<br>Sound recording<br>9:04 - 9:36 | AKB48 | Monetized by copyright owner |
+| キャンディー off vocal - 河西智美<br>Sound recording<br>1:59:59 - 2:01:18 | NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171028 SNH48 Team X 梦想的旗帜 59](https://youtube.com/watch?v=7c469p1wEGM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>5:05 - 7:41 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:44 - 7:16 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:47 - 7:31 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:52 - 6:17 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
 [20171026 SNH48 Team NⅡ 以爱之名 05](https://youtube.com/watch?v=6LNc8BnKX3g)
 
 | Content | Claimant | Policy |

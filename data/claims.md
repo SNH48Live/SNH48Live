@@ -1665,7 +1665,7 @@ Viewing restrictions:
 
 ---
 
-[20170702 SNH48 Team SⅡ 第48区 03 暨李宇琪总选拉票公演](https://youtube.com/watch?v=Pr_BVduidAQ)
+[20170702 SNH48 Team SⅡ 第48区 03 李宇琪总选拉票公演](https://youtube.com/watch?v=Pr_BVduidAQ)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1719,7 +1719,7 @@ Viewing restrictions:
 
 ---
 
-[20170629 SNH48 Team NⅡ 专属派对 45 暨金莹玥总选拉票公演](https://youtube.com/watch?v=qPYs_SgCZy4)
+[20170629 SNH48 Team NⅡ 专属派对 45 金莹玥总选拉票公演](https://youtube.com/watch?v=qPYs_SgCZy4)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1727,7 +1727,7 @@ Viewing restrictions:
 
 ---
 
-[20170628 SNH48 Team HⅡ 美丽世界 19 暨吴燕文、沈梦瑶总选拉票公演](https://youtube.com/watch?v=d-CEiSD1IuU)
+[20170628 SNH48 Team HⅡ 美丽世界 19 吴燕文、沈梦瑶总选拉票公演](https://youtube.com/watch?v=d-CEiSD1IuU)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1784,7 +1784,7 @@ Viewing restrictions:
 
 ---
 
-[20170623 SNH48 Team HⅡ 美丽世界 18 暨许杨玉琢、张昕总选拉票公演](https://youtube.com/watch?v=2LQl9Z3RAHc)
+[20170623 SNH48 Team HⅡ 美丽世界 18 许杨玉琢、张昕总选拉票公演](https://youtube.com/watch?v=2LQl9Z3RAHc)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1793,7 +1793,7 @@ Viewing restrictions:
 
 ---
 
-[20170622 SNH48 Team HⅡ 美丽世界 17 暨刘佩鑫、袁一琦总选拉票公演](https://youtube.com/watch?v=ia8qJwMds8g)
+[20170622 SNH48 Team HⅡ 美丽世界 17 刘佩鑫、袁一琦总选拉票公演](https://youtube.com/watch?v=ia8qJwMds8g)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1803,7 +1803,7 @@ Viewing restrictions:
 
 ---
 
-[20170621 SNH48 Team NⅡ 专属派对 43 暨张雨鑫、张雅梦总选拉票公演](https://youtube.com/watch?v=7KcufSycVWk)
+[20170621 SNH48 Team NⅡ 专属派对 43 张雨鑫、张雅梦总选拉票公演](https://youtube.com/watch?v=7KcufSycVWk)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1811,7 +1811,7 @@ Viewing restrictions:
 
 ---
 
-[20170618 SNH48 Team X 梦想的旗帜 35 暨四选速报](https://youtube.com/watch?v=CJuHPpp_y5s)
+[20170618 SNH48 Team X 梦想的旗帜 35 四选速报](https://youtube.com/watch?v=CJuHPpp_y5s)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1841,7 +1841,7 @@ Viewing restrictions:
 
 ---
 
-[20170617 SNH48 Team NⅡ 专属派对 42 暨陆婷、刘瀛总选拉票公演](https://youtube.com/watch?v=LNvDLXy1REU)
+[20170617 SNH48 Team NⅡ 专属派对 42 陆婷、刘瀛总选拉票公演](https://youtube.com/watch?v=LNvDLXy1REU)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1859,7 +1859,7 @@ Viewing restrictions:
 
 ---
 
-[20170615 SNH48 我们向前冲 06 暨江真仪、许逸总选拉票公演](https://youtube.com/watch?v=2GlQ1gREU6w)
+[20170615 SNH48 我们向前冲 06 江真仪、许逸总选拉票公演](https://youtube.com/watch?v=2GlQ1gREU6w)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1886,7 +1886,7 @@ Viewing restrictions:
 
 ---
 
-[20170614 SNH48 Team HⅡ 美丽世界 15 暨徐伊人、徐晗总选拉票公演](https://youtube.com/watch?v=i4REecM4yC0)
+[20170614 SNH48 Team HⅡ 美丽世界 15 徐伊人、徐晗总选拉票公演](https://youtube.com/watch?v=i4REecM4yC0)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1923,7 +1923,7 @@ Viewing restrictions:
 
 ---
 
-[20170609 SNH48 Team XⅡ 代号XⅡ 29 暨陶波尔、张文静总选拉票公演](https://youtube.com/watch?v=JSNjnTbLH3A)
+[20170609 SNH48 Team XⅡ 代号XⅡ 29 陶波尔、张文静总选拉票公演](https://youtube.com/watch?v=JSNjnTbLH3A)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1944,7 +1944,7 @@ Viewing restrictions:
 
 ---
 
-[20170608 SNH48 Team HⅡ 美丽世界 14 暨郭倩芸、谢妮总选拉票公演](https://youtube.com/watch?v=Qv2wge6IWxk)
+[20170608 SNH48 Team HⅡ 美丽世界 14 郭倩芸、谢妮总选拉票公演](https://youtube.com/watch?v=Qv2wge6IWxk)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1952,7 +1952,7 @@ Viewing restrictions:
 
 ---
 
-[20170607 SNH48 Team XⅡ 代号XⅡ 28 暨洪珮雲、潘瑛琪总选拉票公演](https://youtube.com/watch?v=uu9EEikDlOU)
+[20170607 SNH48 Team XⅡ 代号XⅡ 28 洪珮雲、潘瑛琪总选拉票公演](https://youtube.com/watch?v=uu9EEikDlOU)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1977,7 +1977,7 @@ Viewing restrictions:
 
 ---
 
-[20170604 SNH48 Team XⅡ 代号XⅡ 27 暨费沁源、吕梦莹总选拉票公演](https://youtube.com/watch?v=7sAMbsbbuNY)
+[20170604 SNH48 Team XⅡ 代号XⅡ 27 费沁源、吕梦莹总选拉票公演](https://youtube.com/watch?v=7sAMbsbbuNY)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |
@@ -1987,7 +1987,7 @@ Viewing restrictions:
 
 ---
 
-[20170603 SNH48 Team HⅡ 美丽世界 13 暨刘炅然、文文总选拉票公演](https://youtube.com/watch?v=ISpDW7lqWg0)
+[20170603 SNH48 Team HⅡ 美丽世界 13 刘炅然、文文总选拉票公演](https://youtube.com/watch?v=ISpDW7lqWg0)
 
 | Content | Claimant | Policy |
 | --- | --- | --- |

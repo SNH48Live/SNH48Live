@@ -64,7 +64,8 @@ def mail_on_exception():
         sys.stderr.write(emsg)
         sys.exit(1)
 
-    mail.init_gmail_client()
+    if config.main.notifications:
+        mail.init_gmail_client()
     sys.excepthook = excepthook
 
 

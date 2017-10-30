@@ -117,7 +117,15 @@ def fetch_performers_from_snh48club(snh48club_video_id):
     title = soup.h1.text
     member_list = soup.find(id='spanMember')
     performers = [a.text for a in member_list.find_all('a')]
-    performers.sort(key=MEMBERS.index)
+
+    def sortkey(name):
+        try:
+            return MEMBERS.index(name)
+        except ValueError:
+            logger.warning(f'Unknown member: {name}')
+            return len(MEMBERS)
+
+    performers.sort(key=sortkey)
 
     logger.info(f'SNH48 Club title: {title}')
 

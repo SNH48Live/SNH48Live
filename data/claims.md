@@ -3,6 +3,24 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171031 SNH48 万圣节特别公演](https://youtube.com/watch?v=TJ1yUaYAJnw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Halloween II Theme - John Carpenter, Alan Howarth<br>Sound recording<br>4:30 - 5:08 | The Orchard Music<br>On behalf of: Halloween Music | Monetized by copyright owner |
+| キャンディー - 河西智美<br>Sound recording<br>37:26 - 39:06 | NIPPON CROWN CO. LTD.<br>On behalf of: 日本クラウン株式会社 | Tracked by copyright owner |
+| Thriller - Michael Jackson<br>Sound recording<br>1:41:57 - 1:43:41 | SME<br>On behalf of: Epic | Monetized by copyright owner |
+| Audiovisual content<br>5:32 - 6:34 | WebTVAsia (Music) | Monetized by copyright owner |
+| 命の使い道 - SKE48(Team E)<br>Sound recording<br>1:38:38 - 1:39:30 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| 雨の動物園(チームB Ver.) - AKB48<br>Sound recording<br>1:01:36 - 1:03:21 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| Halloween Night - AKB48<br>Sound recording<br>13:27 - 15:23 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+| 拳の正義 - AKB48<br>Sound recording<br>1:14:21 - 1:16:15 | AKB48 | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+
+---
+
 [20171029 SNH48 Team HⅡ 美丽世界 38 H队出道三周年特别公演](https://youtube.com/watch?v=ThRVZGCDbnE)
 
 | Content | Claimant | Policy |

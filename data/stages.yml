@@ -209,11 +209,12 @@
   team: n2
   debut: 2017-10-07
   preshow:
+  # 2.0进化论
   opening:
     - 以爱之名
+    - 青春的诗
     - 丘比特的失误
     - 未完成少女
-    - 标准男友Excel
   units:
     - 猎梦
     - Fire Touch
@@ -224,8 +225,29 @@
   ending:
     - 妄想症的解药
     - 黑名单
-    - Unforgettable
+    - 最初的爱，最后的爱
   encore:
+    - 光之轨迹
+    - 为了那些逝去的爱情
+    - Remember You
+  # 原版
+  opening_old:
+    - 以爱之名
+    - 丘比特的失误
+    - 未完成少女
+    - 标准男友Excel
+  units_old:
+    - 猎梦
+    - Fire Touch
+    - 未接来电
+    - 春夏秋冬
+    - 梦中的婚礼
+    - Feeling You
+  ending_old:
+    - 妄想症的解药
+    - 黑名单
+    - Unforgettable
+  encore_old:
     - 光之轨迹
     - 为了那些逝去的爱情
     - Remember You

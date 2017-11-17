@@ -3,29 +3,19 @@
     "caption": "false",
     "definition": "hd",
     "dimension": "2d",
-    "duration": "PT2H32M4S",
+    "duration": "PT2H31M21S",
     "hasCustomThumbnail": true,
     "licensedContent": false,
-    "projection": "rectangular",
-    "regionRestriction": {
-      "blocked": [
-        "KR",
-        "JP",
-        "NZ",
-        "US",
-        "MX",
-        "AU"
-      ]
-    }
+    "projection": "rectangular"
   },
-  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/sGsnP7kq4bf5k5RnazwnOSBvppk\"",
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/rnRjmWsZtx3bzclpAlFjDecZy2w\"",
   "fileDetails": {
     "container": "mov",
     "fileName": "unknown",
-    "fileSize": "4720577666",
+    "fileSize": "4697553033",
     "fileType": "video"
   },
-  "id": "ThRVZGCDbnE",
+  "id": "2DAEhrXQsw8",
   "kind": "youtube#video",
   "snippet": {
     "categoryId": "24",
@@ -33,13 +23,13 @@
     "channelTitle": "SNH48 Live",
     "defaultAudioLanguage": "zh-CN",
     "defaultLanguage": "zh-CN",
-    "description": "http://live.snh48.com/Index/invedio/id/378\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "description": "http://live.snh48.com/Index/invedio/id/385\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
     "liveBroadcastContent": "none",
     "localized": {
-      "description": "http://live.snh48.com/Index/invedio/id/378\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
-      "title": "20171029 SNH48 Team HⅡ H队出道三周年特别公演"
+      "description": "http://live.snh48.com/Index/invedio/id/385\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171104 SNH48 Team HⅡ 美丽世界 38"
     },
-    "publishedAt": "2017-10-29T15:47:10.000Z",
+    "publishedAt": "2017-11-04T16:09:22.000Z",
     "tags": [
       "SNH48",
       "美丽世界",
@@ -48,44 +38,44 @@
       "林楠",
       "刘佩鑫",
       "沈梦瑶",
-      "王奕",
+      "孙珍妮",
       "吴燕文",
       "谢妮",
-      "熊沁娴",
       "徐晗",
       "徐伊人",
       "许杨玉琢",
       "杨惠婷",
+      "袁航",
       "袁一琦",
       "张昕"
     ],
     "thumbnails": {
       "default": {
         "height": 90,
-        "url": "https://i.ytimg.com/vi/ThRVZGCDbnE/default.jpg",
+        "url": "https://i.ytimg.com/vi/2DAEhrXQsw8/default.jpg",
         "width": 120
       },
       "high": {
         "height": 360,
-        "url": "https://i.ytimg.com/vi/ThRVZGCDbnE/hqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/2DAEhrXQsw8/hqdefault.jpg",
         "width": 480
       },
       "maxres": {
         "height": 720,
-        "url": "https://i.ytimg.com/vi/ThRVZGCDbnE/maxresdefault.jpg",
+        "url": "https://i.ytimg.com/vi/2DAEhrXQsw8/maxresdefault.jpg",
         "width": 1280
       },
       "medium": {
         "height": 180,
-        "url": "https://i.ytimg.com/vi/ThRVZGCDbnE/mqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/2DAEhrXQsw8/mqdefault.jpg",
         "width": 320
       },
       "standard": {
         "height": 480,
-        "url": "https://i.ytimg.com/vi/ThRVZGCDbnE/sddefault.jpg",
+        "url": "https://i.ytimg.com/vi/2DAEhrXQsw8/sddefault.jpg",
         "width": 640
       }
     },
-    "title": "20171029 SNH48 Team HⅡ H队出道三周年特别公演"
+    "title": "20171104 SNH48 Team HⅡ 美丽世界 38"
   }
 }

@@ -1,0 +1,95 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT12M58S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/LhSWYmeGPRZyUeUyXg3FcNnYKz8\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127719",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "966234",
+    "container": "mov",
+    "durationMs": "777680",
+    "fileName": "unknown",
+    "fileSize": "111570716",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.777777777777778,
+        "bitrateBps": "838515",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 480,
+        "widthPixels": 852
+      }
+    ]
+  },
+  "id": "g6KQx2pfgNQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "https://weibo.com/tv/v/FtY1NAouY\n\n陈佳莹、陈问言《虫之诗》\n刘瀛、刘菊子《爱未央》\n江真仪、金莹玥《青涩的香蕉》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "https://weibo.com/tv/v/FtY1NAouY\n\n陈佳莹、陈问言《虫之诗》\n刘瀛、刘菊子《爱未央》\n江真仪、金莹玥《青涩的香蕉》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171102 SNH48 Team NⅡ 金曲大赏特别赏析环节"
+    },
+    "publishedAt": "2017-11-09T16:36:03.000Z",
+    "tags": [
+      "SNH48",
+      "NⅡ",
+      "Team NⅡ",
+      "陈佳莹",
+      "陈问言",
+      "虫之诗",
+      "刘瀛",
+      "刘菊子",
+      "爱未央",
+      "江真仪",
+      "金莹玥",
+      "青涩的香蕉"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/g6KQx2pfgNQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/g6KQx2pfgNQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/g6KQx2pfgNQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/g6KQx2pfgNQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/g6KQx2pfgNQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171102 SNH48 Team NⅡ 金曲大赏特别赏析环节"
+  }
+}

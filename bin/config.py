@@ -72,15 +72,15 @@ def load_vod_config(config_file):
         conf_dict = yaml.load(fp)
 
     conf = VodConfig()
-    for attr in ('title', 'm3u8'):
-        if attr in conf_dict:
-            setattr(conf, attr, conf_dict[attr])
-        else:
-            logger.error(f'{attr} not found in {config_file}')
-            sys.exit(1)
+    if 'title' in conf_dict:
+        conf.title = conf_dict['title']
+    else:
+        logger.error(f'title not found in {config_file}')
+        sys.exit(1)
+    conf.m3u8 = conf_dict.get('m3u8')
+    conf.vod = conf_dict.get('vod')
     # If datetime is not found in conf, use the current time.
     conf.starting_time = arrow.get(conf_dict.get('datetime'))
-    conf.vod = conf_dict.get('vod', 'http://live.snh48.com/')
     conf.tags = conf_dict.get('tags', [])
     if 'SNH48' not in conf.tags:
         conf.tags.insert(0, 'SNH48')

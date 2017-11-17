@@ -30,7 +30,9 @@ CONFIG_TEMPLATE = jinja2.Template('''\
 title: {{ title }}
 datetime: {{ datetime }}
 vod: {{ vod }}
+{% if m3u8 -%}
 m3u8: {{ m3u8 }}
+{% endif -%}
 tags:
 {% for tag in tags -%}
   - {{ tag }}
@@ -120,9 +122,6 @@ def main():
     stage = inputs('Stage: ')
 
     m3u8 = inputs('M3U8: ')
-    # A basic sanity check
-    if f'/{date}/' not in m3u8:
-        die(f'M3U8 URL does not contain the given date; probably wrong!')
 
     if not stage:
         # Special performance

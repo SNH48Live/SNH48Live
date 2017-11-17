@@ -14,6 +14,7 @@ from typing import List
 
 import config
 import mail
+import requests
 import utils
 
 from common import BIN, VIDEOS_DIR, logger, change_logging_format, mail_on_exception
@@ -22,6 +23,7 @@ from common import BIN, VIDEOS_DIR, logger, change_logging_format, mail_on_excep
 mail_on_exception()
 
 
+M3U8_URL_PATTERN = re.compile(r'https?://ts.snh48.com/chaoqing/[^"]+.m3u8[^"]*(?=")')
 MERGED_EXT = '.mp4'
 JOBS = 20
 
@@ -34,12 +36,32 @@ def log_command(args: List[str]) -> None:
     logger.debug(' '.join(shlex.quote(str(arg)) for arg in args))
 
 
-def download_m3u8(m3u8_url: str, dest: pathlib.Path, *, retry_interval: int = 60) -> None:
+def download_m3u8(m3u8_url: str, dest: pathlib.Path, *,
+                  vod_url : str = None, retry_interval: int = 60) -> None:
     dest.mkdir(parents=True, exist_ok=True)
     m3u8_file = dest / 'remote.m3u8'
     urls_file = dest / 'urls.txt'
 
     if not m3u8_file.is_file() or m3u8_file.stat().st_size == 0:
+        if not m3u8_url:
+            if not vod_url:
+                raise RuntimeError('Neither m3u8_url nor vod_url are supplied')
+
+            while not m3u8_url:
+                logger.info(f'Fetching {vod_url}')
+                resp = requests.get(vod_url)
+                code = resp.status_code
+                if code != 200:
+                    logger.warning(f'{vod_url}: HTTP {code}; retrying in {retry_interval}s')
+                    time.sleep(retry_interval)
+                    continue
+                m = M3U8_URL_PATTERN.search(resp.text)
+                if not m:
+                    logger.warning(f'{vod_url}: chaoqing M3U8 link not found')
+                    time.sleep(retry_interval)
+                    continue
+                m3u8_url = m[0]
+
         # Download m3u8 file
         logger.info(f'Downloading {m3u8_url}')
         cmd = ['curl', '-fsSL', '-w', '%{http_code}', '-o', m3u8_file, m3u8_url]
@@ -219,7 +241,7 @@ def main() -> None:
         if intermediate_file.is_file() and not args.redownload:
             logger.info(f'Already downloaded: {intermediate_file}')
         else:
-            download_m3u8(conf.m3u8, intermediate_dir)
+            download_m3u8(conf.m3u8, intermediate_dir, vod_url=conf.vod)
             merge_chunks(intermediate_dir, conf.title)
 
         # Link into videos/ and optionally remove intermediate dir

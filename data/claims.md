@@ -3,6 +3,23 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171110 SNH48 Team HⅡ 金曲大赏特别赏析环节](https://youtube.com/watch?v=nwCWFun_U4o)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 泣きながら微笑んで(Not yet ver.) - Not yet<br>Sound recording<br>3:06 - 3:47 | columbia<br>On behalf of: COLUMBIA | Monetized by copyright owner |
+| 鏡の中のｼﾞｬﾝﾇ･ﾀﾞﾙｸ - SKE48(Team E)<br>Sound recording<br>11:04 - 11:34 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+---
+
+[20171108 SNH48 Team XⅡ 金曲大赏特别赏析环节](https://youtube.com/watch?v=_5aWc6c7yTw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:02 - 10:48 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
 [20171116 SNH48 Team X 梦想的旗帜 64](https://youtube.com/watch?v=xyz4ML13C4c)
 
 | Content | Claimant | Policy |

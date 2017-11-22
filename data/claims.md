@@ -3,6 +3,33 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171122 SNH48 Team X 梦想的旗帜 65](https://youtube.com/watch?v=kmCvpAaJEhU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:21 - 3:53 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:20 - 5:04 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:52 - 4:52 | WebTVAsia (Music) | Monetized by copyright owner |
+| Vision - Lino Cannavacciuolo<br>Sound recording<br>2:40:24 - 2:41:30 | Believe Music<br>On behalf of: Lino Cannavacciuolo | Monetized by copyright owner |
+| 桜の花びらたち - SKE48(teamK II)<br>Sound recording<br>2:28:37 - 2:29:30 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171121 SNH48 48狼人杀 05](https://youtube.com/watch?v=K6Wk8OW-OD0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:54:46 - 2:00:06 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:54:46 - 1:59:59 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
 [20171110 SNH48 Team HⅡ 金曲大赏特别赏析环节](https://youtube.com/watch?v=nwCWFun_U4o)
 
 | Content | Claimant | Policy |

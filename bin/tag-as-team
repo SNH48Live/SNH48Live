@@ -19,7 +19,7 @@ def main():
         's2': ['Team SⅡ', 'Team SII', 'SⅡ', 'SII'],
         'n2': ['Team NⅡ', 'Team NII', 'NⅡ', 'NII'],
         'h2': ['Team HⅡ', 'Team HII', 'HⅡ', 'HII'],
-        'x': ['Team X', 'X'],
+        'x': ['Team X'],
         'x2': ['Team XⅡ', 'Team XII', 'XⅡ', 'XII'],
     }
 

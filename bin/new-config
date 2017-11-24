@@ -26,6 +26,14 @@ STAGES = [
     (None, '我们向前冲'),
 ]
 
+TEAM_TAGS = {
+    'Team SⅡ': ['Team SⅡ', 'SⅡ', 'Team SII', 'SII'],
+    'Team NⅡ': ['Team NⅡ', 'NⅡ', 'Team NII', 'NII'],
+    'Team HⅡ': ['Team HⅡ', 'HⅡ', 'Team HII', 'HII'],
+    'Team X': ['Team X'],
+    'Team XⅡ': ['Team XⅡ', 'XⅡ', 'Team XII', 'XII'],
+}
+
 CONFIG_TEMPLATE = jinja2.Template('''\
 title: {{ title }}
 datetime: {{ datetime }}
@@ -169,6 +177,7 @@ def main():
             title = f'{date} {stage} {perfnum:02d}'
         vod = f'http://{platform}/Index/invedio/id/{vid}'
         tags = ['SNH48', stage]
+        tags.extend(TEAM_TAGS[team])
         thumbnail = f'{date}-{stage}-{perfnum:02d}.png'
         playlists = ['全部', '全部公演']
         if team is not None:

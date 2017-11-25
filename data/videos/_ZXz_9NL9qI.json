@@ -1,0 +1,67 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT57M41S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/nfAjg9-GuoJZf00nKX35_1Ltpys\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1571400073",
+    "fileType": "video"
+  },
+  "id": "_ZXz_9NL9qI",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/408\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/408\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171124 SNH48 星梦Mini Live（祁静）"
+    },
+    "publishedAt": "2017-11-24T12:16:15.000Z",
+    "tags": [
+      "SNH48",
+      "星梦Mini Live",
+      "祁静"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/_ZXz_9NL9qI/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/_ZXz_9NL9qI/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/_ZXz_9NL9qI/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/_ZXz_9NL9qI/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/_ZXz_9NL9qI/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171124 SNH48 星梦Mini Live（祁静）"
+  }
+}

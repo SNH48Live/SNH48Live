@@ -3,6 +3,45 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171124 SNH48 Team SⅡ 第48区 21 星梦学院主题公演](https://youtube.com/watch?v=kstMxsv8HLI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:35 - 4:42 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:53 - 4:53 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20171116 SNH48 Team X 金曲大赏特别赏析环节](https://youtube.com/watch?v=_xZ7Re4JSLA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| となりのバナナ - AKB48<br>Sound recording<br>10:09 - 11:52 | AKB48 | Monetized by copyright owner |
+
+---
+
+[20171124 SNH48 星梦Mini Live（祁静）](https://youtube.com/watch?v=_ZXz_9NL9qI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 想自由<br>Music composition<br>29:51 - 32:17 | COMPASS_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+| 知足<br>Music composition<br>19:50 - 21:26 | COMPASS_CS<br>WAMI_CS<br>CASH<br>MACP<br>SOCAN | Monetized by copyright owner |
+| MES STO PARAPONO MOU<br>Music composition<br>50:34 - 51:41 | APRA_CS<br>CASH<br>MACP<br>COMPASS_CS<br>Sony ATV Publishing<br>EMI Music Publishing | Monetized by copyright owner |
+| 暖暖<br>Music composition<br>45:32 - 48:45 | APRA_CS<br>SGAE_CS<br>CASH<br>GEMA_CS<br>BUMA CS<br>MACP<br>COMPASS_CS<br>SOCAN<br>Sony ATV Publishing | Monetized by copyright owner |
+
+---
+
+[20171123 SNH48 Team HⅡ 美丽世界 41](https://youtube.com/watch?v=RhsSo9K3msI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>28:24 - 2:38:33 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
 [20171122 SNH48 Team X 梦想的旗帜 65](https://youtube.com/watch?v=kmCvpAaJEhU)
 
 | Content | Claimant | Policy |

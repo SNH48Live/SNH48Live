@@ -1,0 +1,85 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H56M33S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/5d2Vhlf9MNghHsdWX653i16Y5AQ\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4797041333",
+    "fileType": "video"
+  },
+  "id": "kstMxsv8HLI",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/409\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/409\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171124 SNH48 Team SⅡ 第48区 21 星梦学院主题公演"
+    },
+    "publishedAt": "2017-11-24T15:21:54.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "Team SⅡ",
+      "SⅡ",
+      "Team SII",
+      "SII",
+      "陈观慧",
+      "陈思",
+      "戴萌",
+      "蒋芸",
+      "李宇琪",
+      "莫寒",
+      "钱蓓婷",
+      "孙芮",
+      "吴哲晗",
+      "徐晨辰",
+      "徐子轩",
+      "许佳琪",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/kstMxsv8HLI/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/kstMxsv8HLI/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/kstMxsv8HLI/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/kstMxsv8HLI/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/kstMxsv8HLI/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171124 SNH48 Team SⅡ 第48区 21 星梦学院主题公演"
+  }
+}

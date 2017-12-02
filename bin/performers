@@ -16,7 +16,8 @@ def main():
                         help='If not given, try to fetch performers for the current livestream')
     parser.add_argument('-p', '--platform',
                         choices=('live.snh48.com', 'live.bej48.com',
-                                 'live.gnz48.com', 'live.shy48.com'),
+                                 'live.gnz48.com', 'live.shy48.com',
+                                 'live.ckg48.com'),
                         default='live.snh48.com')
     parser.add_argument('-s', '--space', action='store_true',
                         help='use space as separator instead of comma')

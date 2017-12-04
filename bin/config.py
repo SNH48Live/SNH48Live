@@ -10,7 +10,7 @@ from common import CONFIGS_DIR, THUMBNAILS_DIR, VIDEO_CONFIGS_DIR, logger
 
 CONFIG_FILE_PATTERN = re.compile(
     r'^(?P<date>\d{8})'
-    r'-(?P<live_id>\d+)-'  # 0 for absence of live.snh48.com entry
+    r'-(bej|gnz|shy|ckg)?(?P<live_id>\d+)-'  # 0 for absence of live.snh48.com entry
     r'(?P<stage>.*?)'  # for one-off special performances, this is just
                        # the title or abbreviated title
     r'(-(?P<perfnum>\d{2}))?'  # only for performances within a regular stage

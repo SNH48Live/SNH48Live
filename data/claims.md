@@ -3,6 +3,194 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171203 SNH48 Team X 梦想的旗帜 68 B50中报](https://youtube.com/watch?v=tb5-uRf_vgs)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:23 - 4:48 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:14 - 5:05 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:20:18 - 1:21:26 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:16 - 5:34 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171203 SNH48 Team HⅡ 美丽世界 43](https://youtube.com/watch?v=7_1I5hFGVeA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Koisuru Fortune Cookie - คุกกี้เสี่ยงทาย - BNK48<br>Sound recording<br>2:21:26 - 2:22:55 | Believe Music<br>On behalf of: BNK48 Office | Monetized by copyright owner |
+| Audiovisual content<br>21:19 - 21:56 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:19 - 4:13 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:51 - 4:28 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:23 - 4:14 | WebTVAsia (Music) | Monetized by copyright owner |
+| 我喜歡上你時的内心活動 - 陳綺貞<br>Sound recording<br>1:38:18 - 1:38:51 | teamear<br>AdShare for a Third Party<br>On behalf of: Teamear Music | Monetized by copyright owner |
+| Now(내일은 없어) - Trouble Maker<br>Sound recording<br>2:25:39 - 2:27:17 | Cube Entertainment<br>On behalf of: Cube Entertainment | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171202 SNH48 Team NⅡ 以爱之名 10](https://youtube.com/watch?v=UScoUIRBOL4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 1:11 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171202 SNH48 Team SⅡ 第48区 23 重庆巡演](https://youtube.com/watch?v=pyxQH_NQ8cI)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Visual content<br>4:12 - 5:26 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171202 SNH48 Team XⅡ XⅡ成立两周年特别公演](https://youtube.com/watch?v=sStiSEuqfz0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:45 - 3:14 | WebTVAsia (Music) | Monetized by copyright owner |
+| Dewi Theater - JKT48<br>Sound recording<br>16:41 - 17:51 | Audiam (Label) | Monetized by copyright owner |
+
+---
+
+[20171201 SNH48 Team SⅡ 第48区 22 重庆巡演](https://youtube.com/watch?v=DSixS-bU6-M)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Visual content<br>4:04 - 5:09 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171201 SNH48 Team X 梦想的旗帜 67](https://youtube.com/watch?v=R2jicn_N1rk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:02 - 4:55 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:28 - 5:17 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171201 SNH48 星梦Mini Live（许逸）](https://youtube.com/watch?v=Re2WVLHIXUo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 暖暖<br>Music composition<br>25:44 - 27:49 | APRA_CS<br>SGAE_CS<br>CASH<br>GEMA_CS<br>BUMA CS<br>MACP<br>COMPASS_CS<br>SOCAN<br>Sony ATV Publishing | Monetized by copyright owner |
+| BOSATSU<br>Music composition<br>1:42 - 3:39 | ICE_CS<br>COMPASS_CS<br>CASH<br>SOCAN | Monetized by copyright owner |
+
+---
+
+[20171130 SNH48 Team XⅡ 代号XⅡ 54](https://youtube.com/watch?v=fo0qsmP5ymU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>7:08 - 9:36 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>45:53 - 48:14 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>7:47 - 8:57 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171129 SNH48 Team HⅡ 美丽世界 42](https://youtube.com/watch?v=1hhGPu7j0kQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:05 - 4:26 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:16 - 4:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:22 - 4:29 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>32:34 - 35:53 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:24 - 4:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:23 - 3:54 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171128 SNH48 48狼人杀 06](https://youtube.com/watch?v=8azIGGRhtJ8)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:01:54 - 3:06:27 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171126 SNH48 Team NⅡ 以爱之名 09](https://youtube.com/watch?v=fLUJf6JxZ58)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:55 - 4:56 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:54 - 4:39 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:45 - 4:15 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171126 SNH48 Team X 梦想的旗帜 66](https://youtube.com/watch?v=1roeQhLC5Ws)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>7:31 - 9:35 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>7:04 - 7:51 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>5:59 - 8:04 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>7:04 - 9:07 | WebTVAsia (Music) | Monetized by copyright owner |
+| Vision - Lino Cannavacciuolo<br>Sound recording<br>3:07 - 3:46 | Believe Music<br>On behalf of: Lino Cannavacciuolo | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171125 SNH48 Team NⅡ 以爱之名 08 万丽娜生日主题公演](https://youtube.com/watch?v=c5VzvlgJ614)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:17 - 4:45 | WebTVAsia (Music) | Monetized by copyright owner |
+| ☆の向こう側 - AKB48<br>Sound recording<br>1:26:09 - 1:27:49 | AKB48 | Monetized by copyright owner |
+| Audiovisual content<br>2:13 - 4:45 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171125 SNH48 Team XⅡ 代号XⅡ 53](https://youtube.com/watch?v=ukytHoI0vZM)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>4:00 - 5:54 | WebTVAsia (Music) | Monetized by copyright owner |
+| Maeshika mukaenee - AKB48<br>Sound recording<br>2:36:22 - 2:38:23 | WMG<br>On behalf of: King Record Company Limited | Monetized by copyright owner |
+| Audiovisual content<br>4:55 - 7:32 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
 [20171124 SNH48 Team SⅡ 第48区 21 星梦学院主题公演](https://youtube.com/watch?v=kstMxsv8HLI)
 
 | Content | Claimant | Policy |

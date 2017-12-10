@@ -78,15 +78,25 @@ def download_m3u8(m3u8_url: str, dest: pathlib.Path, *,
     else:
         logger.info('Found remote.m3u8')
 
-    # Populate urls.txt
-    num_chunks = 0
-    with open(m3u8_file) as fin:
-        with open(urls_file, 'w') as fout:
-            for line in fin:
-                if line.startswith('#'):
-                    continue
-                num_chunks += 1
-                print(urllib.parse.urljoin(m3u8_url, line.strip()), file=fout)
+    if not urls_file.is_file() or urls_file.stat().st_size == 0:
+        if not m3u8_url:
+            logger.error(f'remote.m3u8 found but not urls.txt; '
+                         f'please remove "{m3u8_file}" and try again')
+            raise RuntimeError
+
+        # Populate urls.txt
+        num_chunks = 0
+        with open(m3u8_file) as fin:
+            with open(urls_file, 'w') as fout:
+                for line in fin:
+                    if line.startswith('#'):
+                        continue
+                    num_chunks += 1
+                    print(urllib.parse.urljoin(m3u8_url, line.strip()), file=fout)
+    else:
+        logger.info('Found urls.txt')
+        with open(urls_file) as fp:
+            num_chunks = len(list(fp))
 
     # Download chunks
     logger.info(f'Downloading {num_chunks} chunks (SIGINT to interrupt)')

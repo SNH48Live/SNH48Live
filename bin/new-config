@@ -18,6 +18,7 @@ from common import BIN, VIDEO_CONFIGS_DIR, logger
 THUMBNAILER = BIN / 'thumbnail'
 
 STAGES = [
+    ('Team X', '命运的X号'),
     ('Team SⅡ', '第48区'),
     ('Team NⅡ', '以爱之名'),
     ('Team HⅡ', '美丽世界'),

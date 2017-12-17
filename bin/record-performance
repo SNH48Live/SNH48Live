@@ -190,6 +190,8 @@ def main():
             live_id = input(f'live.snh48.com video ID [{live_id_default}]: ') or live_id_default
         else:
             live_id = input('live.snh48.com video ID: ')
+        if live_id == "0":
+            live_id = None
         snh48club_video_id = input('SNH48 Club video ID: ')
 
         if live_id:

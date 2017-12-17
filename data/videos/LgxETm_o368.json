@@ -1,0 +1,86 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3M12S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"S8kisgyDEblalhHF9ooXPiFFrkc/3gpADUQRd1HbrNp6PVSuL2Putpc\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127959",
+        "channelCount": 2,
+        "codec": "mp3"
+      }
+    ],
+    "bitrateBps": "221018",
+    "container": "mov",
+    "durationMs": "191500",
+    "fileName": "unknown",
+    "fileSize": "5517295",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.0,
+        "bitrateBps": "93059",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 1080,
+        "widthPixels": 1080
+      }
+    ]
+  },
+  "id": "LgxETm_o368",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "本音频版权归上海丝芭文化传媒集团有限公司所有。\n\n单曲：《好运来》\n歌手：SNH48\n原唱：祖海\n发行时间：2017-12-17\n\n转自咪咕音乐：http://music.migu.cn/album/1108403516",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "本音频版权归上海丝芭文化传媒集团有限公司所有。\n\n单曲：《好运来》\n歌手：SNH48\n原唱：祖海\n发行时间：2017-12-17\n\n转自咪咕音乐：http://music.migu.cn/album/1108403516",
+      "title": "SNH48《好运来》音源"
+    },
+    "publishedAt": "2017-12-17T05:02:19.000Z",
+    "tags": [
+      "SNH48",
+      "祖海",
+      "好运来"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/LgxETm_o368/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/LgxETm_o368/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/LgxETm_o368/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/LgxETm_o368/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/LgxETm_o368/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48《好运来》音源"
+  }
+}

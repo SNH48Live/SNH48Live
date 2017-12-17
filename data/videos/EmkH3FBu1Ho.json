@@ -1,0 +1,87 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H5M52S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/7rjQwxNEUUEKXOQXu9EG_tnxm40\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "5068877460",
+    "fileType": "video"
+  },
+  "id": "EmkH3FBu1Ho",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/427\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/427\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171210 SNH48 Team XⅡ 代号XⅡ 56 徐诗琪生日主题公演"
+    },
+    "publishedAt": "2017-12-10T12:55:59.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "Team XⅡ",
+      "XⅡ",
+      "Team XII",
+      "XII",
+      "陈韫凌",
+      "费沁源",
+      "洪珮雲",
+      "姜杉",
+      "蒋舒婷",
+      "李佳恩",
+      "林歆源",
+      "刘增艳",
+      "吕梦莹",
+      "潘瑛琪",
+      "陶波尔",
+      "徐诗琪",
+      "严佼君",
+      "於佳怡",
+      "曾晓雯",
+      "张文静",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/EmkH3FBu1Ho/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/EmkH3FBu1Ho/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/EmkH3FBu1Ho/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/EmkH3FBu1Ho/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/EmkH3FBu1Ho/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171210 SNH48 Team XⅡ 代号XⅡ 56 徐诗琪生日主题公演"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT4H2M32S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/X3PNGWwICnzF9STVe_cZiiXIEg4\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "5666981092",
+    "fileType": "video"
+  },
+  "id": "rJQoNH9HOhk",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/430\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/430\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171212 SNH48 48狼人杀 08"
+    },
+    "publishedAt": "2017-12-12T16:27:36.000Z",
+    "tags": [
+      "SNH48",
+      "孔肖吟",
+      "李宇琪",
+      "莫寒",
+      "钱蓓婷",
+      "孙芮",
+      "陈问言",
+      "张雨鑫",
+      "郭倩芸",
+      "郝婉晴",
+      "沈梦瑶",
+      "王奕",
+      "袁一琦",
+      "洪珮雲",
+      "刘增艳",
+      "左嘉欣",
+      "冯思佳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/rJQoNH9HOhk/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/rJQoNH9HOhk/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/rJQoNH9HOhk/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/rJQoNH9HOhk/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/rJQoNH9HOhk/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171212 SNH48 48狼人杀 08"
+  }
+}

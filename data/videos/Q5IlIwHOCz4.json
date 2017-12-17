@@ -1,0 +1,73 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H14M10S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/4sdzFqVGvjUCqgiouHXYSVI9hhs\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "3139724129",
+    "fileType": "video"
+  },
+  "id": "Q5IlIwHOCz4",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.bej48.com/Index/invedio/id/270\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.bej48.com/Index/invedio/id/270\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171207 SNH48 7SENSES 北京巡演"
+    },
+    "publishedAt": "2017-12-07T15:08:10.000Z",
+    "tags": [
+      "SNH48",
+      "7SENSES",
+      "戴萌",
+      "孔肖吟",
+      "许佳琪",
+      "张语格",
+      "赵粤",
+      "许杨玉琢",
+      "陈琳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Q5IlIwHOCz4/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Q5IlIwHOCz4/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/Q5IlIwHOCz4/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Q5IlIwHOCz4/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Q5IlIwHOCz4/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171207 SNH48 7SENSES 北京巡演"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT12M5S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/YeH49DQgfdMAlCGlDGNBZdPc6cs\"",
+  "fileDetails": {
+    "fileName": "unknown"
+  },
+  "id": "3EDH7t6_izw",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "张昕《紫荆》\n袁一琦、徐伊人《梦中的婚礼》\n刘佩鑫《纯情主义》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "张昕《紫荆》\n袁一琦、徐伊人《梦中的婚礼》\n刘佩鑫《纯情主义》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171123 SNH48 Team HⅡ 金曲大赏特别赏析环节"
+    },
+    "publishedAt": "2017-12-05T12:20:44.000Z",
+    "tags": [
+      "SNH48",
+      "张昕",
+      "紫荆",
+      "袁一琦",
+      "徐伊人",
+      "梦中的婚礼",
+      "刘佩鑫",
+      "纯情主义",
+      "Team HⅡ",
+      "HⅡ",
+      "Team HII",
+      "HII"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/3EDH7t6_izw/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/3EDH7t6_izw/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/3EDH7t6_izw/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/3EDH7t6_izw/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/3EDH7t6_izw/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171123 SNH48 Team HⅡ 金曲大赏特别赏析环节"
+  }
+}

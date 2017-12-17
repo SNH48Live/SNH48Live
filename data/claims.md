@@ -3,6 +3,205 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171217 SNH48 7SENSES 上海巡演](https://youtube.com/watch?v=ZA5ax-J63No)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 1:39 | WebTVAsia (Music) | Monetized by copyright owner |
+| ウォーリー - V.A.<br>Sound recording<br>37:51 - 38:30 | AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: WALT DISNEY RECORDS | Monetized by copyright owner |
+
+Viewing restrictions:
+- Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
+
+---
+
+[20171217 SNH48 Team X 命运的X号 03](https://youtube.com/watch?v=y0BbPY8zS4U)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:57 - 4:06 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171216 SNH48 Team X 命运的X号 02](https://youtube.com/watch?v=qNF9T3OHNP0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:23 - 3:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:48 - 3:58 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171215 SNH48 Team X 命运的X号 01](https://youtube.com/watch?v=evRIju_NkNQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:15 - 4:16 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171215 SNH48 星梦Mini Live（袁雨桢）](https://youtube.com/watch?v=VQZs-xLTZYA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| What To Do When I Like You? - Cyndi Wang<br>Sound recording<br>20:55 - 24:22 | WMG<br>On behalf of: Gold Typhoon Taiwan | Monetized by copyright owner |
+| I Want To Be Happy - Chang Hui Mei<br>Sound recording<br>30:22 - 33:49 | WMG<br>On behalf of: WM Hong Kong | Monetized by copyright owner |
+| I - Jolin Tsai<br>Sound recording<br>48:23 - 49:58 | WMG<br>On behalf of: Mars Entertainment Co., Ltd - 3rd Party Domestic | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171214 SNH48 Team SⅡ 第48区 24](https://youtube.com/watch?v=W3HFjGWEsso)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:27 - 4:40 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:25 - 4:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:27 - 4:47 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:41 - 4:49 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:12:26 - 1:13:33 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171212 SNH48 48狼人杀 08](https://youtube.com/watch?v=rJQoNH9HOhk)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:39:13 - 1:43:07 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:57:19 - 3:02:44 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171210 SNH48 Team NⅡ 以爱之名 11](https://youtube.com/watch?v=OLRiu50yl78)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:57 - 4:31 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:55 - 4:32 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:50 - 1:39:23 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171210 SNH48 Team XⅡ 代号XⅡ 56 徐诗琪生日主题公演](https://youtube.com/watch?v=EmkH3FBu1Ho)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>27:57 - 1:54:29 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171209 SNH48 Team X 梦想的旗帜 69 千秋乐](https://youtube.com/watch?v=Eo-xOg3wrzQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:41 - 6:05 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:41 - 6:05 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>4:24 - 5:28 | WebTVAsia (Music) | Monetized by copyright owner |
+| To be continued. - SKE48(Team E)<br>Sound recording<br>2:41:25 - 2:46:04 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex trax | Monetized by copyright owner |
+| Audiovisual content<br>3:41 - 4:11 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:35 - 6:04 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171208 SNH48 星梦Mini Live（李宇琪）](https://youtube.com/watch?v=QmzUiXq_Jy0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>4:44 - 1:24:57 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171207 SNH48 Team XⅡ 代号XⅡ 55](https://youtube.com/watch?v=6-8cOzTVnKw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:54:04 - 2:12:25 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>57:05 - 1:34:57 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171207 SNH48 7SENSES 北京巡演](https://youtube.com/watch?v=Q5IlIwHOCz4)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>37:25 - 41:15 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171206 SNH48 Team HⅡ 美丽世界 44](https://youtube.com/watch?v=3LjsglM69YE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>0:00 - 1:47:38 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171205 SNH48 48狼人杀 07](https://youtube.com/watch?v=CXSktryOsw0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>15:07 - 15:40 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:34:12 - 2:42:56 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171124 SNH48 Team SⅡ 金曲大赏特别赏析环节](https://youtube.com/watch?v=NnBk71Ay6uc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| 夜風の仕業 instrumental - フレンチ・キス<br>Sound recording<br>1:17 - 2:59 | AVEX GROUP HOLDINGS.INC<br>On behalf of: avex entertainment | Monetized by copyright owner |
+
+---
+
+[20171123 SNH48 Team HⅡ 金曲大赏特别赏析环节](https://youtube.com/watch?v=3EDH7t6_izw)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| JUNJOU SHUGI<br>Music composition<br>9:50 - 10:48 | WAMI_CS<br>CASH | Monetized by copyright owner |
+
+---
+
 [20171203 SNH48 Team X 梦想的旗帜 68 B50中报](https://youtube.com/watch?v=tb5-uRf_vgs)
 
 | Content | Claimant | Policy |

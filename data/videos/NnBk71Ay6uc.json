@@ -1,0 +1,76 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT10M54S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"S8kisgyDEblalhHF9ooXPiFFrkc/EIMB4I39S9AzxBKQZXsxPvPbe0E\"",
+  "fileDetails": {
+    "fileName": "unknown"
+  },
+  "id": "NnBk71Ay6uc",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "钱蓓婷《都是夜风惹的祸》\n陈观慧《黑夜女神》\n戴萌（莫寒、张语格、许佳琪、蒋芸）《女王殿下》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "钱蓓婷《都是夜风惹的祸》\n陈观慧《黑夜女神》\n戴萌（莫寒、张语格、许佳琪、蒋芸）《女王殿下》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171124 SNH48 Team SⅡ 金曲大赏特别赏析环节"
+    },
+    "publishedAt": "2017-12-05T12:20:50.000Z",
+    "tags": [
+      "SNH48",
+      "钱蓓婷",
+      "都是夜风惹的祸",
+      "陈观慧",
+      "黑夜女神",
+      "戴萌",
+      "莫寒",
+      "张语格",
+      "许佳琪",
+      "蒋芸",
+      "女王殿下",
+      "Team SⅡ",
+      "SⅡ",
+      "Team SII",
+      "SII"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/NnBk71Ay6uc/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/NnBk71Ay6uc/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/NnBk71Ay6uc/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/NnBk71Ay6uc/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/NnBk71Ay6uc/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171124 SNH48 Team SⅡ 金曲大赏特别赏析环节"
+  }
+}

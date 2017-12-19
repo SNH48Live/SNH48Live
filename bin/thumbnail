@@ -15,7 +15,7 @@ while [[ $1 == -* ]]; do
     case $1 in
         -h|--help)
             cat >&2 <<EOF
-Usage: $0:t [options] <baseimage> <date> [<identifier>]
+Usage: $0:t [options] <baseimage> [<date>] [<identifier>]
 
 Generate custom thumbnail.
 
@@ -40,9 +40,9 @@ Options:
         Print this help and exit.
     -f, --fit
         Fit the base image into the 16:9 box (preserving aspect ratio), with
-        black padding, instead of stretching it to 16:9 (the default). Used
-        when the base image is not remotely 16:9 (e.g. a square) and stretching
-        would heavily distort it.
+        black padding, instead of stretching it to 16:9. By default whether to
+        stretch is determined automatically based on how far from 16:9 the
+        input aspect ratio is.
     -z, --zh
         Use Heiti-SC-Medium for the identifier label. Used when the identifier
         is Chinese text rather than a number, e.g. "午" or "晚".
@@ -85,11 +85,11 @@ else
         fi
     fi
 fi
-[[ $date =~ ^[0-9]{8}$ ]] || die "${(q-)date} is not a valid date."
+[[ -z $date || $date =~ ^[0-9]{8}$ ]] || die "${(q-)date} is not a valid date."
 
 output_basename=${input:t:r}
 # Prepend date if the basename isn't already prefixed with the date
-[[ $output_basename == $date-* ]] || output_basename=$date-$output_basename
+[[ -z $date || $output_basename == $date-* ]] || output_basename=$date-$output_basename
 [[ -n $identifier ]] && output_basename+=-$identifier
 output_basename+=.png
 output=$generated_dir/$output_basename
@@ -102,6 +102,9 @@ identifier_label_border=24x16
 default_font=Monaco
 chinese_font=Heiti-SC-Medium
 
+input_aspect_ratio="$(identify -format '%[fx:w/h]' $input)" || die "Failed to extract aspect ratio of ${(q)input}."
+target_aspect_ratio=1.777
+(( input_aspect_ratio < target_aspect_ratio - 0.1 || input_aspect_ratio > target_aspect_ratio + 0.1 )) && fit=1
 if (( fit )); then
     input_resize_opts=(
         -resize $size
@@ -122,8 +125,10 @@ logo_opts=(
     \)
     -composite
 )
-date_label_opts=(
-    \(
+date_label_opts=()
+if [[ -n $date ]]; then
+    date_label_opts=(
+        \(
         -font $default_font
         -pointsize $date_label_pointsize
         -background white
@@ -131,9 +136,10 @@ date_label_opts=(
         -bordercolor white
         -border $date_label_border
         label:$date
-    \)
-    -composite
-)
+        \)
+        -composite
+    )
+fi
 identifier_label_opts=()
 if [[ -n $identifier ]]; then
     (( chinese_label )) && identifier_label_font=$chinese_font || identifier_label_font=$default_font

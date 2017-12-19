@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+
+import sys
+
+import config
+import stages
+import utils
+from common import DATA_DIR, logger
+
+
+ATTENDANCE_TXT = DATA_DIR / 'attendance.txt'
+
+
+def main():
+    with open(ATTENDANCE_TXT) as fp:
+        existing_content = fp.read()
+
+    for file, _ in config.list_vod_configs():
+        conf = config.load_vod_config(file)
+        title = utils.to_full_title(conf.title)
+        if title in existing_content:
+            logger.info(f'already exists: {title}')
+        else:
+            break
+    else:
+        logger.error('Current configs exhausted.')
+        sys.exit(1)
+
+    parts = []
+    stage = stages.title2stage(title)
+    if stage:
+        stage_info = stages.STAGES[stage]
+        if stage_info['preshow']:
+            parts.append(stage_info['preshow'])
+        parts.append('MC1')
+        parts.extend(stage_info['units'])
+        parts.append('生日环节' if '生日' in title else 'MC2')
+        parts.extend(['MC3', 'MC4'])
+        if '拉票' in title:
+            parts.append('拉票环节')
+
+    with open(ATTENDANCE_TXT, 'a') as fp:
+        print('', file=fp)
+        print(title, file=fp)
+        for part in parts:
+            print(f'{part}：', file=fp)
+    print(title)
+
+    utils.edit(ATTENDANCE_TXT)
+
+
+if __name__ == '__main__':
+    main()

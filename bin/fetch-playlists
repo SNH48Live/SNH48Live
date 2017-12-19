@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+
+import collections
+import json
+
+import attrdict
+
+import auth
+from common import DATA_DIR
+
+
+DATASTORE = DATA_DIR / 'playlists.json'
+
+
+# https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlists.html#list
+def list_playlists(youtube):
+    playlists = []
+    list_request = youtube.playlists().list(
+        part='snippet',
+        mine=True,
+        maxResults=50,
+    )
+    while list_request:
+        list_response = list_request.execute()
+        playlists.extend(attrdict.AttrDict(item) for item in list_response['items'])
+        list_request = youtube.playlists().list_next(list_request, list_response)
+    return playlists
+
+
+def print_playlists(playlists):
+    for playlist in playlists:
+        print(f'{playlist.id}\t{playlist.snippet.title}')
+
+
+def populate_datastore(playlists):
+    data = collections.OrderedDict((playlist.snippet.title, playlist.id) for playlist in playlists)
+    with open(DATASTORE, 'w') as fp:
+        # Printing dumps result instead of dump'ing directly to ensure final newline.
+        print(json.dumps(data, ensure_ascii=False, indent=2), file=fp)
+
+
+def main():
+    parser = auth.ArgumentParser()
+    args = parser.parse_args()
+    youtube = auth.get_youtube_client(args, 'youtube.readonly')
+
+    playlists = list_playlists(youtube)
+    print_playlists(playlists)
+    populate_datastore(playlists)
+
+
+if __name__ == '__main__':
+    main()

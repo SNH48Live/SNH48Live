@@ -4,23 +4,26 @@
 
 import argparse
 import re
-import os
 import subprocess
 import sys
 import time
 
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
+from common import BIN, DATA_DIR
+
+
+VIDEO_LIST = DATA_DIR / 'videos.txt'
+
 
 def run(command, description=None):
     if description:
         print(f'\x1b[32m{description}\x1b[m', file=sys.stderr)
-    command[0] = os.path.join(HERE, command[0])
+    command[0] = BIN / command[0]
     subprocess.run(command)
+
 
 def latest_video_ids(count=1):
     PATTERN = re.compile(r'^https://youtu.be/(?P<id>[a-zA-Z0-9_-]{11})\t')
-    with open(os.path.join(ROOT, 'videos.txt')) as fp:
+    with open(VIDEO_LIST) as fp:
         video_ids = []
         for line in fp:
             m = PATTERN.match(line)
@@ -29,26 +32,39 @@ def latest_video_ids(count=1):
                 return video_ids
         return video_ids
 
+
 def update_metadata(video_id):
-    run(['fetch-metadata', '--overwrite', video_id],
+    run(['fetch-metadata', '--overwrite', '--', video_id],
         description=f'Fetching metadata for {video_id}')
 
+
 def update_claims(video_id):
-    subprocess.run(['chrome-cli', 'open', f'https://www.youtube.com/video_copynotice?v={video_id}'])
+    copyright_page = f'https://www.youtube.com/video_copynotice?v={video_id}'
+    subprocess.run(['chrome-cli', 'open', copyright_page])
+
     # Make sure video_id is in the URL of the current active tab; if the
     # video doesn't have claims, trying to open the claims page will
     # result in a redirection to https://www.youtube.com/my_videos?o=U.
-    getinfo = lambda: subprocess.check_output(['chrome-cli', 'info'], stderr=subprocess.STDOUT).decode('utf-8')
     while True:
         time.sleep(1)
-        if 'Loading: No' in getinfo():
+        current_tab_info = subprocess.check_output(
+            ['chrome-cli', 'info'],
+            stderr=subprocess.STDOUT,
+        ).decode('utf-8')
+        if 'Loading: No' in current_tab_info:
             break
-    if not video_id in getinfo():
+
+    if 'Server Error' in current_tab_info:
+        raise RuntimeError('Encountered error page.')
+
+    if video_id not in current_tab_info:
         print(f'No claims found for {video_id}', file=sys.stderr)
     else:
         run(['extract-claims'],
             description=f'Extracting claims for {video_id}')
+
     subprocess.run(['chrome-cli', 'close'])
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -60,6 +76,7 @@ def main():
         update_metadata(video_id)
         if args.claims:
             update_claims(video_id)
+
 
 if __name__ == '__main__':
     main()

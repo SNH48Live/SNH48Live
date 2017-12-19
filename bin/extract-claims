@@ -16,13 +16,16 @@ import urllib.parse
 
 import bs4
 
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
-PARTIALLY_BLOCKED_LIST = os.path.join(ROOT, 'partially-blocked.txt')
-CLAIMS_MD = os.path.join(ROOT, 'claims.md')
-CLAIMS_JSON = os.path.join(ROOT, 'claims.json')
+from common import DATA_DIR
+
+
+PARTIALLY_BLOCKED_LIST = DATA_DIR / 'partially-blocked.txt'
+CLAIMS_MD = DATA_DIR / 'claims.md'
+CLAIMS_JSON = DATA_DIR / 'claims.json'
+
 
 Claim = collections.namedtuple('Claim', ['content', 'claimant', 'policy'])
+
 
 class VideoWithClaims(object):
 
@@ -31,6 +34,7 @@ class VideoWithClaims(object):
         self.link = link
         self.video_id = re.search(r'\?v=(?P<id>[A-Za-z0-9_-]{11})', link).group('id')
         self.claims = []
+        self.viewing_restrictions = []
 
     @property
     def youtu_be(self):
@@ -51,10 +55,14 @@ class VideoWithClaims(object):
         for claim in self.claims:
             row = '|'
             for cell in claim:
-                escaped_text = cell.replace('|', '\|')
+                escaped_text = cell.replace('|', r'\|')
                 row += f' {escaped_text} |'
             row += '\n'
             md += row
+        if self.viewing_restrictions:
+            md += '\nViewing restrictions:\n'
+            for restriction in self.viewing_restrictions:
+                md += f'- {restriction}\n'
         md += '\n---\n'
         return md
 
@@ -65,13 +73,15 @@ class VideoWithClaims(object):
             ('title', self.title),
             ('link', self.link),
             ('claims', [claim._asdict() for claim in self.claims]),
+            ('viewing_restrictions', self.viewing_restrictions),
         ])
 
+
 def init():
-    if not os.path.exists(PARTIALLY_BLOCKED_LIST):
+    if not PARTIALLY_BLOCKED_LIST.exists():
         with open(PARTIALLY_BLOCKED_LIST, 'w') as fp:
             pass
-    if not os.path.exists(CLAIMS_MD):
+    if not CLAIMS_MD.exists():
         with open(CLAIMS_MD, 'w') as fp:
             fp.write(textwrap.dedent('''\
             # Videos with copyright claims
@@ -79,11 +89,17 @@ def init():
             <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
             <!-- AUTO INSERTION POINT -->
             '''))
-    if not os.path.exists(CLAIMS_JSON):
+    if not CLAIMS_JSON.exists():
         with open(CLAIMS_JSON, 'w') as fp:
             fp.write('[]')
 
+
 def extract(html):
+    # Handle Google's generic 5XX page, and YouTube's generic 500 page.
+    if ('The server encountered a temporary error and could not complete your request.' in html or
+        'A team of highly trained monkeys has been dispatched to deal with this situation.' in html):  # noqa
+        raise RuntimeError('Encountered error page.')
+
     soup = bs4.BeautifulSoup(html, 'html.parser')
     title = soup.find(id='creator-editor-title-link').text.strip()
     link = urllib.parse.urljoin('https://youtube.com',
@@ -98,10 +114,16 @@ def extract(html):
         for td in row.find_all('td')[:3]:
             columns.append('<br>'.join(transform_cell(li.text) for li in td.find_all('li')))
         video.claims.append(Claim(*columns))
+    for viewing_restriction_tag in soup.select('.copynotice-viewing-restriction-content li'):
+        restriction = viewing_restriction_tag.get_text(': ', strip=True)
+        if restriction != 'None':
+            video.viewing_restrictions.append(restriction)
     return video
 
+
 def gethtml():
-    return subprocess.check_output(['chrome-cli', 'source'])
+    return subprocess.check_output(['chrome-cli', 'source']).decode('utf-8')
+
 
 def insert_partially_blocked_list(video):
     # Prepend entry
@@ -115,13 +137,17 @@ def insert_partially_blocked_list(video):
                 fp.write(line)
     os.unlink(bak)
 
+
 def insert_markdown(video):
-    with fileinput.FileInput([CLAIMS_MD], inplace=True) as fp:
+    # TODO: str() should not be necessary here.
+    # https://bugs.python.org/issue31281
+    with fileinput.FileInput([str(CLAIMS_MD)], inplace=True) as fp:
         for line in fp:
             print(line, end='')
             if line.strip() == '<!-- AUTO INSERTION POINT -->':
                 print()
                 print(video.markdown, end='')
+
 
 def insert_json(video):
     with open(CLAIMS_JSON) as fp:
@@ -130,16 +156,19 @@ def insert_json(video):
     with open(CLAIMS_JSON, 'w') as fp:
         json.dump(objs, fp, ensure_ascii=False, indent=2)
 
+
 def section(title):
     green = '\x1b[32m'
     reset = '\x1b[0m'
     print(f'{green}{title}{reset}')
     print(f'{green}{"=" * len(title)}{reset}')
 
+
 def show_tab_info():
     section('Tab')
     subprocess.run(['chrome-cli', 'info'])
     print()
+
 
 def pretty_print(video):
     section('Short description')
@@ -150,6 +179,7 @@ def pretty_print(video):
     section('JSON')
     print(json.dumps(video.jsonizable, ensure_ascii=False, indent=2))
 
+
 def main():
     init()
     show_tab_info()
@@ -159,6 +189,7 @@ def main():
     insert_markdown(video)
     insert_json(video)
     pretty_print(video)
+
 
 if __name__ == '__main__':
     main()

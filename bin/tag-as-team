@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+
+# Add all relevant team tags to a video.
+
+import argparse
+import subprocess
+
+from common import BIN
+
+
+def main():
+    recognized_teamids = ['s2', 's', 'n2', 'n', 'h2', 'h', 'x', 'x2']
+    normalizations = {
+        's': 's2',
+        'n': 'n2',
+        'h': 'h2',
+    }
+    tags = {
+        's2': ['Team SⅡ', 'Team SII', 'SⅡ', 'SII'],
+        'n2': ['Team NⅡ', 'Team NII', 'NⅡ', 'NII'],
+        'h2': ['Team HⅡ', 'Team HII', 'HⅡ', 'HII'],
+        'x': ['Team X'],
+        'x2': ['Team XⅡ', 'Team XII', 'XⅡ', 'XII'],
+    }
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('team_id', choices=recognized_teamids)
+    parser.add_argument('video_id')
+    args = parser.parse_args()
+
+    team_id = normalizations.get(args.team_id, args.team_id)
+    video_id = args.video_id
+
+    subprocess.run([BIN / 'update-metadata', 'tag', '--', video_id, ','.join(tags[team_id])])
+
+
+if __name__ == '__main__':
+    main()

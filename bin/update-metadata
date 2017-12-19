@@ -1,71 +1,9 @@
 #!/usr/bin/env python3
 
-import argparse
-import logging
-import os
 import re
 
-import httplib2
-
-import googleapiclient.discovery
-import oauth2client.client
-import oauth2client.file
-import oauth2client.tools
-
-
-logging.basicConfig(format='[%(levelname)s] %(name)s: %(message)s', level=logging.ERROR)
-logger = logging.getLogger('update-metadata')
-logger.setLevel(logging.INFO)
-
-YOUTUBE_SCOPE = 'https://www.googleapis.com/auth/youtube'
-YOUTUBE_API_SERVICE_NAME = 'youtube'
-YOUTUBE_API_VERSION = 'v3'
-
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
-
-# Download clients_secrets.json from
-#   https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
-# YouTube Data API needs to be enabled for the project.
-CLIENT_SECRETS_FILE = os.path.join(ROOT, 'config', 'client_secrets.json')
-
-# Auto generated.
-OAUTH_CREDENTIALS_FILE = os.path.join(ROOT, 'config', 'metadata_updater_credentials.json')
-
-# This variable defines a message to display if the CLIENT_SECRETS_FILE is
-# missing.
-MISSING_CLIENT_SECRETS_MESSAGE = f'''
-WARNING: Please configure OAuth 2.0 by downloading client_secrets.json from
-
-  https://console.developers.google.com/apis/credentials?project=YOUR_PROJECT
-
-and putting it at
-
-  {CLIENT_SECRETS_FILE}
-
-For more information about the client_secrets.json file format, please visit:
-https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
-'''
-
-
-def get_authenticated_service(args):
-    flow = oauth2client.client.flow_from_clientsecrets(
-        CLIENT_SECRETS_FILE,
-        scope=YOUTUBE_SCOPE,
-        message=MISSING_CLIENT_SECRETS_MESSAGE,
-    )
-
-    storage = oauth2client.file.Storage(OAUTH_CREDENTIALS_FILE)
-    credentials = storage.get()
-
-    if credentials is None or credentials.invalid:
-        credentials = oauth2client.tools.run_flow(flow, storage, args)
-
-    return googleapiclient.discovery.build(
-        YOUTUBE_API_SERVICE_NAME,
-        YOUTUBE_API_VERSION,
-        http=credentials.authorize(httplib2.Http()),
-    )
+import auth
+from common import logger
 
 
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.videos.html#list
@@ -83,30 +21,35 @@ def fetch_video_metadata(youtube_client, video_id):
 
 
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.videos.html#update
-def update_title(youtube_client, video_id, pattern, repl):
+def update_title(youtube_client, video_id, pattern, repl, *, dry_run=False):
     metadata = fetch_video_metadata(youtube_client, video_id)
     snippet = metadata['snippet']
     if pattern:
         title = snippet['title']
-        m = re.search(pattern, title)
+        m = re.match(pattern, title)
         if m:
+            # Make sure the entire title is matched in order to prevent accidental loss of info.
+            if not m.group(0) == title:
+                logger.warning(f'{video_id} title only partially matches {pattern}: {title}')
+                return
             new_title = m.expand(repl)
         else:
-            logger.warn(f'{video_id} title unchanged: {title}')
+            logger.warning(f'{video_id} title unchanged: {title}')
             return
     else:
         # Replace title with repl, verbatim, without consulting the existing title
         new_title = repl
 
-    snippet['title'] = new_title
-    update_request = youtube_client.videos().update(
-        part='id,snippet',
-        body=dict(
-            id=video_id,
-            snippet=snippet,
-        ),
-    )
-    update_request.execute()
+    if not dry_run:
+        snippet['title'] = new_title
+        update_request = youtube_client.videos().update(
+            part='id,snippet',
+            body=dict(
+                id=video_id,
+                snippet=snippet,
+            ),
+        )
+        update_request.execute()
     logger.info(f'{video_id} title updated: {new_title}')
 
 
@@ -134,9 +77,9 @@ def tag(youtube_client, video_id, tags, *, overwrite=False):
     if overwrite:
         snippet['tags'] = tags
     else:
-        for tag in tags:
-            if tag not in snippet['tags']:
-                snippet['tags'].append(tag)
+        for tag_ in tags:
+            if tag_ not in snippet['tags']:
+                snippet['tags'].append(tag_)
 
     update_request = youtube_client.videos().update(
         part='id,snippet',
@@ -164,8 +107,29 @@ def publish(youtube_client, video_id):
     logger.info(f'{video_id} published')
 
 
+# https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlists.html#list
+def playlist_length(youtube_client, playlist_id):
+    list_request = youtube_client.playlists().list(
+        part='contentDetails',
+        id=playlist_id,
+    )
+    list_response = list_request.execute()
+    items = list_response['items']
+    if not items:
+        raise ValueError('video_id does not exist')
+    else:
+        return items[0]['contentDetails']['itemCount']
+
+
+# A negative position is counted from the end of the playlist; e.g., -1
+# is means the video is to be inserted at the bottom.
+#
 # https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.playlistItems.html#insert
 def insert_playlist(youtube_client, video_id, playlist_id, *, position=0):
+    if position < 0:
+        length = playlist_length(youtube_client, playlist_id)
+        position += length + 1
+
     insert_request = youtube_client.playlistItems().insert(
         part='snippet',
         body=dict(
@@ -185,7 +149,7 @@ def insert_playlist(youtube_client, video_id, playlist_id, *, position=0):
 
 def update_title_handler(args):
     for video_id in args.video_ids.split(','):
-        update_title(args.youtube_client, video_id, args.pattern, args.repl)
+        update_title(args.youtube_client, video_id, args.pattern, args.repl, dry_run=args.test)
 
 
 def update_description_handler(args):
@@ -206,14 +170,12 @@ def publish_handler(args):
 def insert_playlist_handler(args):
     for video_id in args.video_ids.split(','):
         for playlist_id in args.playlist_ids.split(','):
-            insert_playlist(args.youtube_client, video_id, playlist_id)
+            insert_playlist(args.youtube_client, video_id, playlist_id,
+                            position=-1 if args.bottom else 0)
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description=__doc__,
-        parents=[oauth2client.tools.argparser],
-    )
+    parser = auth.ArgumentParser()
     subparsers = parser.add_subparsers()
 
     desc = '''If pattern is nonempty, the title is replaced with
@@ -221,6 +183,8 @@ def main():
     is directly replaced with repl.'''
     parser_update_title = subparsers.add_parser('update-title', description=desc)
     add = parser_update_title.add_argument
+    add('-t', '--test', action='store_true',
+        help='show expected renames but do not commit to them')
     add('video_ids', help='comma-delimited video IDs')
     add('pattern')
     add('repl')
@@ -246,12 +210,14 @@ def main():
 
     parser_insert_playlist = subparsers.add_parser('insert-playlist')
     add = parser_insert_playlist.add_argument
+    add('-b', '--bottom', action='store_true',
+        help='insert to the bottom of the playlist(s) instead of top')
     add('video_ids', help='comma-delimited video IDs')
     add('playlist_ids', help='comma-delimited playlist IDs')
     parser_insert_playlist.set_defaults(handler=insert_playlist_handler)
 
     args = parser.parse_args()
-    args.youtube_client = get_authenticated_service(args)
+    args.youtube_client = auth.get_youtube_client(args, 'youtube')
     args.handler(args)
 
 

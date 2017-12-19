@@ -2,19 +2,19 @@
 
 import collections
 import json
-import os
+import sys
 
+from common import DATA_DIR, logger
 from members import MEMBERS
 
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
-ATTENDANCE_SHEET = os.path.join(ROOT, 'attendance.txt')
-ATTENDANCE_JSON = os.path.join(ROOT, 'attendance.json')
+
+ATTENDANCE_TXT = DATA_DIR / 'attendance.txt'
+ATTENDANCE_JSON = DATA_DIR / 'attendance.json'
+
 
 def parse():
     data = []
-    sortkey = lambda name: MEMBERS.index(name)
-    with open(ATTENDANCE_SHEET) as fp:
+    with open(ATTENDANCE_TXT) as fp:
         final = False
         while True:
             title = next(fp).strip()
@@ -24,21 +24,35 @@ def parse():
                     line = next(fp).strip()
                     if not line:
                         break
-                    part, performers = line.split('：')
-                    parts.append((part, sorted(performers.split('、'), key=sortkey)))
+                    try:
+                        part, performers = line.split('：')
+                        performers = sorted(performers.split('、'), key=MEMBERS.index)
+                        counter = collections.Counter(performers)
+                        duplicates = [member for member, count in counter.items() if count > 1]
+                        if duplicates:
+                            logger.error(f'duplicates {",".join(duplicates)} found in line: '
+                                         f'{line}')
+                            sys.exit(1)
+                        parts.append((part, performers))
+                    except ValueError:
+                        logger.error(f'malfromed line: {line}')
+                        sys.exit(1)
             except StopIteration:
                 final = True
-            aggregated = sorted(set(sum((performers for _, performers in parts), [])), key=sortkey)
+            aggregated = sorted(set(sum((performers for _, performers in parts), [])),
+                                key=MEMBERS.index)
             parts.append(('全部', aggregated))
             data.append((title, collections.OrderedDict(parts)))
             if final:
                 break
     return collections.OrderedDict(data)
 
+
 def main():
     data = parse()
     with open(ATTENDANCE_JSON, 'w') as fp:
         print(json.dumps(data, ensure_ascii=False, indent=2), file=fp)
+
 
 if __name__ == '__main__':
     main()

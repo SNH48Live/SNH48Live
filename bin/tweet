@@ -2,22 +2,20 @@
 
 import argparse
 import json
-import os
 import subprocess
 import sys
 
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
+from common import VIDEO_METADATA_DIR
 
-VIDEO_METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
 
 def get_youtube_video_title(video_id):
-    metadata_file = os.path.join(VIDEO_METADATA_DIR, f'{video_id}.json')
-    if not os.path.isfile(metadata_file):
+    metadata_file = VIDEO_METADATA_DIR / f'{video_id}.json'
+    if not metadata_file.is_file():
         print(f'Error: {metadata_file} does not exist; please run `fetch-metadata {video_id}`')
         sys.exit(1)
     with open(metadata_file) as fp:
         return json.load(fp)['snippet']['title']
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -30,6 +28,7 @@ def main():
     tweet = f'{title}: {url} #SNH48'
 
     subprocess.run(['t', 'update', tweet])
+
 
 if __name__ == '__main__':
     main()

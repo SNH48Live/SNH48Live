@@ -1,0 +1,279 @@
+#!/usr/bin/env python3
+
+import argparse
+import os
+import pathlib
+import re
+import shlex
+import shutil
+import subprocess
+import textwrap
+import time
+import urllib.parse
+from typing import List
+
+import config
+import mail
+import requests
+import utils
+
+from common import BIN, VIDEOS_DIR, logger, change_logging_format, mail_on_exception
+
+
+mail_on_exception()
+
+
+M3U8_URL_PATTERN = re.compile(r'https?://ts.snh48.com/chaoqing/[^"]+.m3u8[^"]*(?=")')
+MERGED_EXT = '.mp4'
+JOBS = 20
+
+os.putenv('PARALLEL_SHELL', '/bin/bash')
+
+change_logging_format(fmt='[%(asctime)s] %(levelname)s: %(message)s')
+
+
+def log_command(args: List[str]) -> None:
+    logger.debug(' '.join(shlex.quote(str(arg)) for arg in args))
+
+
+def download_m3u8(m3u8_url: str, dest: pathlib.Path, *,
+                  vod_url : str = None, retry_interval: int = 60) -> None:
+    dest.mkdir(parents=True, exist_ok=True)
+    m3u8_file = dest / 'remote.m3u8'
+    urls_file = dest / 'urls.txt'
+
+    if not m3u8_file.is_file() or m3u8_file.stat().st_size == 0:
+        if not m3u8_url:
+            if not vod_url:
+                raise RuntimeError('Neither m3u8_url nor vod_url are supplied')
+
+            while not m3u8_url:
+                logger.info(f'Fetching {vod_url}')
+                resp = requests.get(vod_url)
+                code = resp.status_code
+                if code != 200:
+                    logger.warning(f'{vod_url}: HTTP {code}; retrying in {retry_interval}s')
+                    time.sleep(retry_interval)
+                    continue
+                m = M3U8_URL_PATTERN.search(resp.text)
+                if not m:
+                    logger.warning(f'{vod_url}: chaoqing M3U8 link not found')
+                    time.sleep(retry_interval)
+                    continue
+                m3u8_url = m[0]
+
+        # Download m3u8 file
+        logger.info(f'Downloading {m3u8_url}')
+        cmd = ['curl', '-fsSL', '-w', '%{http_code}', '-o', m3u8_file, m3u8_url]
+        while True:
+            try:
+                log_command(cmd)
+                subprocess.check_output(cmd)
+                break
+            except subprocess.CalledProcessError as e:
+                code = e.stdout.decode('utf-8').strip()
+                logger.warning(f'{m3u8_url}: HTTP {code}; retrying in {retry_interval}s')
+                time.sleep(retry_interval)
+
+    else:
+        logger.info('Found remote.m3u8')
+
+    if not urls_file.is_file() or urls_file.stat().st_size == 0:
+        if not m3u8_url:
+            logger.error(f'remote.m3u8 found but not urls.txt; '
+                         f'please remove "{m3u8_file}" and try again')
+            raise RuntimeError
+
+        # Populate urls.txt
+        num_chunks = 0
+        with open(m3u8_file) as fin:
+            with open(urls_file, 'w') as fout:
+                for line in fin:
+                    if line.startswith('#'):
+                        continue
+                    num_chunks += 1
+                    print(urllib.parse.urljoin(m3u8_url, line.strip()), file=fout)
+    else:
+        logger.info('Found urls.txt')
+        with open(urls_file) as fp:
+            num_chunks = len(list(fp))
+
+    # Download chunks
+    logger.info(f'Downloading {num_chunks} chunks (SIGINT to interrupt)')
+    cmd = [
+        'parallel', '--bar', '-j', str(JOBS),
+        'cd {1}; [[ -f {#}.done ]] || { wget --continue -o {#}.log -O {#}.ts {2} && touch {#}.done; }',  # noqa
+        ':::', dest,
+        '::::', urls_file,
+    ]
+    # Exponential backoff
+    interval = 1
+    max_interval = retry_interval
+    while True:
+        try:
+            log_command(cmd)
+            subprocess.check_call(cmd)
+            break
+        except KeyboardInterrupt:
+            logger.warning('Interrupted')
+            break
+        except subprocess.CalledProcessError as e:
+            logger.warning(f'exit status: {e.returncode}; retrying in {interval}s')
+            time.sleep(interval)
+            interval = min(interval * 2, max_interval)
+
+
+def merge_chunks(dest: pathlib.Path, basename: str) -> pathlib.Path:
+    # Generate local m3u8 file
+    remote_m3u8_file = dest / 'remote.m3u8'
+    local_m3u8_file = dest / 'local.m3u8'
+    num_chunks = 0
+    logger.info('Generating local.m3u8')
+    with open(remote_m3u8_file) as fin:
+        with open(local_m3u8_file, 'w') as fout:
+            for line in fin:
+                if line.startswith('#'):
+                    fout.write(line)
+                else:
+                    num_chunks += 1
+                    print(f'{num_chunks}.ts', file=fout)
+
+    # Verify chunks
+    urls_file = dest / 'urls.txt'
+    logger.info('Verifying chunks')
+    cmd = [
+        'parallel', '--bar', '-j', str(JOBS),
+        'cd {1}; ffmpeg -y -i {#}.ts -c copy -f mp4 /dev/null >/dev/null 2>&1 || echo {#}',
+        ':::', dest,
+        '::::', urls_file,
+    ]
+    log_command(cmd)
+    broken_chunks = sorted(map(int, subprocess.check_output(cmd).decode('utf-8').split()))
+
+    # Report broken chunks and quit
+    if broken_chunks:
+        num_broken_chunks = len(broken_chunks)
+        joined = ' '.join(str(chunk) for chunk in broken_chunks)
+        errmsg = f'{num_broken_chunks} broken chunks: {joined}'
+        logger.critical(errmsg)
+        raise RuntimeError(errmsg)
+
+    # Merge chunks
+    merged_file = dest / f'{basename}{MERGED_EXT}'
+    logger.info('Merging chunks')
+    cmd = ['ffmpeg', '-y', '-f', 'hls', '-i', local_m3u8_file,
+           '-c', 'copy', '-movflags', 'faststart', merged_file]
+    log_command(cmd)
+    try:
+        subprocess.check_call(cmd)
+    except subprocess.CalledProcessError:
+        errmsg = 'Failed to merge chunks'
+        logger.critical(errmsg)
+        raise RuntimeError(errmsg)
+    logger.info(f'Merged into {merged_file}')
+
+    return merged_file
+
+
+def performers(vod: str) -> List[str]:
+    vod_pattern = re.compile(r'^https?://(live\.(?:snh|bej|gnz|shy)48\.com)/.*/(\d+)$')
+    m = vod_pattern.match(vod)
+    if not m:
+        return []
+
+    cmd = [
+        BIN / 'performers',
+        '--platform', m.group(1),
+        m.group(2),
+    ]
+    log_command(cmd)
+    try:
+        output = subprocess.check_output(cmd).decode('utf-8').strip()
+        return output.split(',')
+    except subprocess.CalledProcessError:
+        logger.warning('`performers` failed')
+        return []
+
+
+def upload(file: pathlib.Path, conf: config.VodConfig):
+    full_title = utils.to_full_title(conf.title)
+    description = textwrap.dedent(f'''\
+    {conf.vod}
+
+    本视频版权归上海丝芭文化传媒集团有限公司所有。
+    ''')
+    tags = conf.tags + performers(conf.vod)
+
+    cmd = [
+        BIN / 'upload',
+        '--title', full_title,
+        '--description', description,
+        '--tags', ','.join(tags),
+        '--privacy', 'public' if conf.public else 'unlisted',
+        '--wait',
+    ]
+    if conf.thumbnail:
+        cmd += ['--thumbnail', conf.thumbnail]
+    if conf.playlists:
+        cmd += ['--playlists', ','.join(conf.playlists)]
+    cmd += [file]
+
+    log_command(cmd)
+    subprocess.check_call(cmd)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    add = parser.add_argument
+    add('config_file')
+    add('-r', '--redownload', action='store_true',
+        help='redownload and reassemble even if merged file already exists')
+    add('--public', action='store_true',
+        help='set video privacy to public when uploading')
+    add('--no-upload', action='store_true')
+    add('--keep', action='store_true',
+        help='keep downloaded intermediate files')
+    args = parser.parse_args()
+
+    conf = config.load_vod_config(args.config_file)
+    conf.public = args.public
+
+    utils.sleep_until(conf.starting_time)
+
+    filename = f'{conf.title}{MERGED_EXT}'
+    intermediate_dir = VIDEOS_DIR / conf.title
+    intermediate_file = intermediate_dir / filename
+    final_file = VIDEOS_DIR / filename
+
+    if final_file.is_file() and not args.redownload:
+        logger.info(f'Already downloaded: {final_file}')
+    else:
+        if intermediate_file.is_file() and not args.redownload:
+            logger.info(f'Already downloaded: {intermediate_file}')
+        else:
+            download_m3u8(conf.m3u8, intermediate_dir, vod_url=conf.vod)
+            merge_chunks(intermediate_dir, conf.title)
+
+        # Link into videos/ and optionally remove intermediate dir
+        try:
+            os.link(intermediate_file, final_file)
+        except FileExistsError:
+            logger.warning(f'Failed to link into {VIDEOS_DIR}: {final_file} already exists')
+            if not args.keep:
+                logger.warning(f'Not removing "{intermediate_dir}"')
+        else:
+            if not args.keep:
+                shutil.rmtree(intermediate_dir)
+                logger.info(f'Removed "{intermediate_dir}"')
+
+        if config.main.notifications:
+            mail.send_mail(f'Downloaded {conf.title}', '', config.main.mailto)
+            logger.info(f'Sent notification to {config.main.mailto}')
+
+    if not args.no_upload:
+        file = intermediate_file if intermediate_file.exists() else final_file
+        upload(file, conf)
+
+
+if __name__ == '__main__':
+    main()

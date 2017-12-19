@@ -6,7 +6,6 @@
 import argparse
 import collections
 import json
-import os
 import sys
 import textwrap
 import urllib.parse
@@ -16,28 +15,27 @@ import urllib.parse
 # implements OAuth 2.0...
 import oauth2 as oauth
 
+from common import CONFIGS_DIR, VIDEO_METADATA_DIR
+
+
 BLOG_ID = 'snh48live'
-
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
-
-VIDEO_METADATA_DIR = os.path.join(ROOT, 'videos', 'metadata')
 
 # OAuth stuff
 # Tumblr uses OAuth 1.0a. Thanks Tumblr!
 
 # A JSON file containing consumer_key and consumer_secret.
 # https://www.tumblr.com/oauth/apps
-CLIENT_SECRETS_FILE = os.path.join(ROOT, 'config', 'tumblr_client_secrets.json')
+CLIENT_SECRETS_FILE = CONFIGS_DIR / 'tumblr_client_secrets.json'
 
 # Auto-generated file containing access_token and access_token_secret in
 # addition to consumer_key and consumer_secret..
-CREDENTIALS_FILE = os.path.join(ROOT, 'config', 'tumblr_poster_credentials.json')
+CREDENTIALS_FILE = CONFIGS_DIR / 'tumblr_poster_credentials.json'
 
 API_BASE = 'https://api.tumblr.com/v2'
 REQUEST_TOKEN_URL = 'https://www.tumblr.com/oauth/request_token'
 AUTHORIZE_URL = 'https://www.tumblr.com/oauth/authorize'
 ACCESS_TOKEN_URL = 'https://www.tumblr.com/oauth/access_token'
+
 
 # Returns an OrderedDict with consumer_key, consumer_secret, access_token, and access_token_secret
 def authorize():
@@ -63,7 +61,8 @@ def authorize():
     When done, paste the redirected URL below.
     '''))
     redirect_url = input('Redirect URL: ')
-    oauth_verifier = dict(urllib.parse.parse_qsl(urllib.parse.urlparse(redirect_url).query))['oauth_verifier']
+    query_dict = dict(urllib.parse.parse_qsl(urllib.parse.urlparse(redirect_url).query))
+    oauth_verifier = query_dict['oauth_verifier']
 
     token = oauth.Token(request_token['oauth_token'], request_token['oauth_token_secret'])
     token.set_verifier(oauth_verifier)
@@ -79,6 +78,7 @@ def authorize():
         ('access_token_secret', access_token['oauth_token_secret']),
     ])
 
+
 # Returns an authorized Tumblr OAuth client
 def tumblr_client():
     try:
@@ -93,13 +93,15 @@ def tumblr_client():
     token = oauth.Token(credentials['access_token'], credentials['access_token_secret'])
     return oauth.Client(consumer, token)
 
+
 def get_youtube_video_title(video_id):
-    metadata_file = os.path.join(VIDEO_METADATA_DIR, f'{video_id}.json')
-    if not os.path.isfile(metadata_file):
+    metadata_file = VIDEO_METADATA_DIR / f'{video_id}.json'
+    if not metadata_file.is_file():
         print(f'Error: {metadata_file} does not exist; please run `fetch-metadata {video_id}`')
         sys.exit(1)
     with open(metadata_file) as fp:
         return json.load(fp)['snippet']['title']
+
 
 # https://www.tumblr.com/docs/en/api/v2#posting
 def post_youtube_video(tumblr, video_id, tags=None):
@@ -123,6 +125,7 @@ def post_youtube_video(tumblr, video_id, tags=None):
     post_url = f'https://{BLOG_ID}.tumblr.com/post/{post_id}'
     return post_url, title, video_url
 
+
 def main():
     parser = argparse.ArgumentParser()
     add = parser.add_argument
@@ -143,6 +146,7 @@ def main():
     print(post_url)
     print(title)
     print(video_url)
+
 
 if __name__ == '__main__':
     main()

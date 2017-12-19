@@ -1,0 +1,33 @@
+#!/usr/bin/env zsh
+
+# This is an internal tool that populates performances.raw.json from
+# https://github.com/SNH48Live/2017-recap, a separate repo for attendance
+# stats.
+#
+# Customize recap_root according to filesystem layout.
+
+here=$0:A:h
+root=$here:h
+performances=$root/data/performances.json
+
+recap_root=~/scratch/recap
+recap=$recap_root/data/performances.raw.json
+transform=$recap_root/bin/transform
+
+buf=()
+while IFS= read -r line; do
+    vid_title="$(jq -r '.video_id + "\t" + .title' <<<$line)"
+    vid=$vid_title[(wps:\t:)1]
+    title=$vid_title[(wps:\t:)2]
+
+    if grep -q $vid $recap; then
+        break
+    else
+        printf '%s\t%s\n' $vid $title
+        buf+=$line
+    fi
+done <$performances
+echo "$#buf new entries."
+[[ -n $buf ]] && print -Rl ${(Oa)buf} >>$recap
+
+$transform

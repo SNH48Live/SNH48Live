@@ -1,0 +1,115 @@
+#!/usr/bin/env python3
+
+import argparse
+import fileinput
+import gzip
+import os
+import re
+import sys
+import tempfile
+
+import arrow
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.ticker import MaxNLocator
+
+from common import ROOT
+
+
+LOGS_DIR = ROOT / 'logs' / 'stats'
+
+LOGFILE = re.compile(r'.*/?(\d{8})\.log(?:\.gz)?$')  # YYYYMMDD.log or YYYYMMDD.log.gz
+DATETIME = re.compile(r'^datetime: (.*)$', re.M)
+SUBSCRIBERS = re.compile(r'^subscribers: (\d+)$', re.M)
+
+
+# Aggregate daily logs created by stats-monitor
+def aggregate_logs(*, fromdate=None, todate=None):
+    logs = []
+    dates = []
+    for file in LOGS_DIR.iterdir():
+        file = str(file)
+        m = LOGFILE.match(file)
+        if not m:
+            continue
+        date = int(m.group(1))
+        if (fromdate and date < fromdate) or (todate and date > todate):
+            continue
+        logs.append(file)
+        dates.append(date)
+    return logs, min(dates or [0]), max(dates or [0])
+
+
+def plain_or_gzip_openhook(filepath, mode):
+    if mode != 'r':
+        raise NotImplementedError
+    if filepath.endswith('.gz'):
+        return gzip.open(filepath, 'rt')
+    else:
+        return open(filepath, 'r')
+
+
+def extract_data(logs):
+    timestamps = []
+    subscriber_counts = []
+    with fileinput.input(files=logs, openhook=plain_or_gzip_openhook) as fp:
+        # Sometimes a timestamp is printed, but for some reason the
+        # program failed and hence there's no corresponding subscriber
+        # count. We need to discard those timestamps.
+        timestamp = None
+        for line in fp:
+            try:
+                datetime = DATETIME.findall(line)[0]
+                timestamp = arrow.get(datetime).timestamp
+            except IndexError:
+                try:
+                    subs = int(SUBSCRIBERS.findall(line)[0])
+                    if timestamp:
+                        # Discard zeros (most likely API/monitor error)
+                        if subs:
+                            timestamps.append(timestamp)
+                            subscriber_counts.append(subs)
+                        timestamp = None
+                except IndexError:
+                    continue
+            # timestamps.extend(arrow.get(dt).timestamp for dt in DATETIME.findall(line))
+            # subscriber_counts.extend(int(subs) for subs in SUBSCRIBERS.findall(line))
+    return timestamps, subscriber_counts
+
+
+def plot(timestamps, subscriber_counts, mindate, maxdate):
+    plt.title(f'Subscribers growth ({mindate}–{maxdate})')
+    plt.xlabel('Time (days)')
+    plt.ylabel('Subscribers')
+
+    timestamps = np.array(timestamps)
+    days = (timestamps - timestamps.min()) / 86400
+    plt.plot(days, subscriber_counts, color='#00e600', linewidth=1)
+
+    # Make sure y-ticks are integral
+    plt.gca().yaxis.set_major_locator(MaxNLocator(integer=True, steps=[1, 2, 5, 10]))
+
+    fd, svgpath = tempfile.mkstemp(prefix='snh48live-subscribers-', suffix='.svg', dir='/tmp')
+    os.close(fd)
+    plt.savefig(svgpath, bbox_inches='tight')
+    print(svgpath)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    add = parser.add_argument
+    add('-f', '--from', type=int, help='lower bound on date, inclusive (YYYYMMDD)')
+    add('-t', '--to', type=int, help='upper bound on date, inclusive (YYYYMMDD)')
+    args = parser.parse_args()
+
+    # from is a keyword so we resort to getattr
+    logs, mindate, maxdate = aggregate_logs(fromdate=getattr(args, 'from'), todate=args.to)
+    if not logs:
+        print('Error: No suitable log files found.', file=sys.stderr)
+        sys.exit(1)
+    timestamps, subscriber_counts = extract_data(logs)
+    plot(timestamps, subscriber_counts, mindate, maxdate)
+
+
+if __name__ == '__main__':
+    main()

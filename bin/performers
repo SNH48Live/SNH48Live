@@ -1,28 +1,78 @@
 #!/usr/bin/env python3
 
 import argparse
+import sys
 
 import bs4
 import requests
 
+from common import CACHE_DIR, logger
 from members import MEMBERS
+
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('id', type=int)
+    parser.add_argument('id', type=int, nargs='?',
+                        help='If not given, try to fetch performers for the current livestream')
     parser.add_argument('-p', '--platform',
                         choices=('live.snh48.com', 'live.bej48.com',
-                                 'live.gnz48.com', 'live.shy48.com'),
+                                 'live.gnz48.com', 'live.shy48.com',
+                                 'live.ckg48.com'),
                         default='live.snh48.com')
+    parser.add_argument('-s', '--space', action='store_true',
+                        help='use space as separator instead of comma')
+    parser.add_argument('-S', '--separator',
+                        help='separator to use between names (default is comma)')
+    parser.add_argument('-f', '--force', action='store_true',
+                        help='bypass cache')
     args = parser.parse_args()
-    url = f'http://{args.platform}/Index/invedio/id/{args.id}'
+
+    if args.id:
+        cache_file = CACHE_DIR / 'performers' / f'{args.platform}-{args.id}.txt'
+        cache_file.parent.mkdir(parents=True, exist_ok=True)
+    else:
+        cache_file = None
+    if not args.force and cache_file and cache_file.exists():
+        with open(cache_file) as fp:
+            serialized = fp.read().strip()
+        if serialized:
+            print(serialized)
+            sys.exit(0)
+
+    if args.id:
+        url = f'http://{args.platform}/Index/invedio/id/{args.id}'
+    else:
+        url = f'http://{args.platform}/Index/inlive'
     resp = requests.get(url)
     assert resp.status_code == 200, f'GET {url}: HTTP {resp.status_code}'
     soup = bs4.BeautifulSoup(resp.text, 'html.parser')
     member_list = soup.find('ul', class_='memberlist')
     members = [p.text for p in member_list.find_all('p', class_='listname')]
-    members.sort(key=lambda name: MEMBERS.index(name))
-    print(','.join(members))
+
+    def sortkey(name):
+        try:
+            return MEMBERS.index(name)
+        except ValueError:
+            logger.warning(f'Unknown member: {name}')
+            return len(MEMBERS)
+
+    members.sort(key=sortkey)
+
+    separator = ','
+    if args.space:
+        separator = ' '
+    if args.separator is not None:
+        separator = args.separator
+    serialized = separator.join(members)
+
+    if serialized:
+        print(serialized)
+        if cache_file:
+            with open(cache_file, 'w') as fp:
+                print(serialized, file=fp)
+    else:
+        logger.error('No performers found.')
+
 
 if __name__ == '__main__':
     main()

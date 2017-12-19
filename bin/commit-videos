@@ -1,0 +1,22 @@
+#!/usr/bin/env zsh
+
+here=$0:A:h
+root=$here:h
+cd $root
+
+new_videos=( "${(f):-$(git diff HEAD -- data/videos.txt | sed -n '/^+https:/ s/^+//p')}" )
+
+case $#new_videos in
+    0)
+        echo 'No new videos.' >&2
+        exit 1
+        ;;
+    1)
+        msg_title='Add new video'
+        ;;
+    *)
+        msg_title='Add new videos'
+        ;;
+esac
+
+git commit -m "$msg_title"$'\n\n'"${(F)new_videos}"

@@ -1,0 +1,70 @@
+#!/usr/bin/env python3
+
+import attrdict
+
+import auth
+
+
+MY_CHANNEL_ID = 'UC10BBCJQasWk_08Fdz0XCsQ'
+
+
+# https://developers.google.com/resources/api-libraries/documentation/youtube/v3/python/latest/youtube_v3.search.html
+def search(youtube_client):
+    list_request = youtube_client.search().list(
+        part='snippet',
+        q='SNH48',
+        maxResults=50,
+    )
+    list_response = list_request.execute()
+    items = list_response['items']
+    assert len(items) == 50
+    return items
+
+
+# Returns an attrdict.AttrDict with the following attributes:
+# - kind (video, channel, or playlist)
+# - title
+# - channel_id
+# - channel_title
+# - id
+# - url
+def parse_search_result(item):
+    item = attrdict.AttrDict(item)
+    metadata = attrdict.AttrDict()
+    assert item.id.kind.startswith('youtube#')
+    metadata.kind = item.id.kind[8:]
+    metadata.title = item.snippet.title
+    metadata.channel_id = item.snippet.channelId
+    metadata.channel_title = item.snippet.channelTitle
+    if metadata.kind == 'video':
+        metadata.id = item.id.videoId
+        metadata.url = f'https://youtu.be/{metadata.id}'
+    elif metadata.kind == 'channel':
+        metadata.id = item.id.channelId
+        metadata.url = f'https://youtube.com/channel/{metadata.id}'
+    elif metadata.kind == 'playlist':
+        metadata.id = item.id.playlistId
+        metadata.url = f'https://youtube.com/playlist?list={metadata.id}'
+    return metadata
+
+
+def print_search_result(rank, metadata):
+    print(f'{rank:02d} [{metadata.kind}] {metadata.title}')
+    print(f'   {metadata.url}')
+    print()
+
+
+def main():
+    parser = auth.ArgumentParser()
+    args = parser.parse_args()
+
+    youtube_client = auth.get_youtube_client(args, 'youtube.readonly')
+
+    for index, item in enumerate(search(youtube_client)):
+        metadata = parse_search_result(item)
+        if metadata.channel_id == MY_CHANNEL_ID:
+            print_search_result(index + 1, metadata)
+
+
+if __name__ == '__main__':
+    main()

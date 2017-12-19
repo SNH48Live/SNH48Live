@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+# Uses https://github.com/jarun/googler for Google Search.
+# Requires GNU grep.
+#
+# Usage: birthday-party-search <name>
+
+query=咖啡店生日会-$1专场
+echo "googler --np -w shop.48.cn $query"
+item_id="$(googler --np -w shop.48.cn $query | grep -iPo '(?<=https://shop.48.cn/goods/item/)\d+' | sort -n | tail -1)"
+[[ -n $item_id ]] || { echo "Error: cannot find result of the form https://shop.48.cn/goods/item/\d+" >&2; exit 1; }
+url=https://shop.48.cn/goods/item/$item_id
+echo $url
+curl -fsS $url | grep 活动时间

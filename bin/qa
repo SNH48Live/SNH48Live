@@ -1,0 +1,33 @@
+#!/usr/bin/env zsh
+
+here=$0:A:h
+root=$here:h
+bin=$root/bin
+venvbin=$root/venv/bin
+
+qa () {
+    print "\e[34m$1:t\e[0m"
+    $venvbin/flake8 $1
+    $venvbin/pylint $1 | grep -v '************* Module'
+}
+
+[[ $1 == (-h|--help) ]] && {
+    cat >&2 <<EOF
+Usage: $0:t [file [file...]]
+
+<file> could be relevant to pwd or bin/.
+EOF
+    exit
+}
+
+if (( $# > 0 )); then
+    for file; do
+        [[ ! -f $file && -f $bin/$file ]] && file=$bin/$file
+        qa $file
+    done
+else
+    for file in $here/*(.); do
+        [[ $file == *.py ]] || head -1 $file | grep -q python || continue
+        qa $file
+    done
+fi

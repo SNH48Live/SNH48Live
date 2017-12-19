@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+
+# Shift configs via renaming.
+
+import fileinput
+import os
+import shutil
+import subprocess
+
+import config
+from common import ROOT, VIDEO_CONFIGS_DIR
+
+
+def main():
+    subprocess.run(['emacs', '-Q', VIDEO_CONFIGS_DIR])
+    for file, attrs in config.list_vod_configs():
+        backup = file.with_suffix('.yml.tmp')
+        shutil.copy(file, backup)
+
+        # TODO: os.fspath() should not be necessary here.
+        # https://bugs.python.org/issue31281
+        with fileinput.input(files=(os.fspath(file)), inplace=True) as fp:
+            for line in fp:
+                if line.startswith('vod:'):
+                    print(f'vod: http://live.snh48.com/Index/invedio/id/{attrs.live_id}')
+                else:
+                    print(line, end='')
+
+        subprocess.run(['colordiff', '--unified=0', '--label=old', '--label=new', backup, file])
+        subprocess.run(['git', '-C', ROOT, 'add', file])
+        os.unlink(backup)
+
+
+if __name__ == '__main__':
+    main()

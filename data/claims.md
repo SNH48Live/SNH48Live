@@ -3,6 +3,30 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171219 SNH48 48狼人杀 09](https://youtube.com/watch?v=8_oeQhx96Vs)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Mocha Comic Tension - Various Artists<br>Sound recording<br>3:48:03 - 3:48:38 | Loen Entertainment<br>On behalf of: SBS콘텐츠허브 (SBS Contentshub) | Monetized by copyright owner |
+| Audiovisual content<br>1:30:38 - 1:35:07 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:19:54 - 3:27:04 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171218 SNH48 7SENSES《Lucky Seven Baby》S02E01](https://youtube.com/watch?v=d1IcRjbs26U)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| ウォーリー - V.A.<br>Sound recording<br>3:37 - 4:25 | AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: WALT DISNEY RECORDS | Monetized by copyright owner |
+
+Viewing restrictions:
+- Unavailable on some devices: Your video can't be played on some devices. This can include mobile phones, video game consoles, or set-top boxes.
+
+---
+
 [20171217 SNH48 7SENSES 上海巡演](https://youtube.com/watch?v=ZA5ax-J63No)
 
 | Content | Claimant | Policy |

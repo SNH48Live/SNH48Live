@@ -1,0 +1,103 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H50M33S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "BH",
+        "SY",
+        "LB",
+        "OM",
+        "YE",
+        "QA",
+        "AF",
+        "EH",
+        "AE",
+        "SD",
+        "EG",
+        "LY",
+        "SA",
+        "KW",
+        "IR",
+        "IQ",
+        "PS",
+        "JO"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/jLYEUJP4AjxB28uIo8HnRs4ELQc\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4620126517",
+    "fileType": "video"
+  },
+  "id": "0ZsBsvk8JQk",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/292\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/292\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170818 SNH48 我们向前冲 09 赵韩倩生日主题公演"
+    },
+    "publishedAt": "2017-08-18T15:11:08.000Z",
+    "tags": [
+      "SNH48",
+      "我们向前冲",
+      "成珏",
+      "吕一",
+      "潘燕琦",
+      "赵韩倩",
+      "赵晔",
+      "江真仪",
+      "许逸",
+      "郭倩芸",
+      "王露皎",
+      "徐伊人",
+      "袁一琦",
+      "李佳恩",
+      "林歆源",
+      "陶波尔",
+      "曾晓雯"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/0ZsBsvk8JQk/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/0ZsBsvk8JQk/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/0ZsBsvk8JQk/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/0ZsBsvk8JQk/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/0ZsBsvk8JQk/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170818 SNH48 我们向前冲 09 赵韩倩生日主题公演"
+  }
+}

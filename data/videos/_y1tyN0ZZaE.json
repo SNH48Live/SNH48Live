@@ -1,0 +1,69 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT8M52S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/YGE4H4juATf4mEX_MX0kQlmCUT8\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "42362429",
+    "fileType": "video"
+  },
+  "id": "_y1tyN0ZZaE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "转自乐视视频：http://www.le.com/ptv/vplay/30979215.html\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "转自乐视视频：http://www.le.com/ptv/vplay/30979215.html\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48“我心翱翔”微记录：张怡"
+    },
+    "publishedAt": "2017-10-17T08:12:06.000Z",
+    "tags": [
+      "SNH48",
+      "我心翱翔",
+      "张怡",
+      "四选",
+      "微记录"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/_y1tyN0ZZaE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/_y1tyN0ZZaE/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/_y1tyN0ZZaE/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/_y1tyN0ZZaE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/_y1tyN0ZZaE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48“我心翱翔”微记录：张怡"
+  }
+}

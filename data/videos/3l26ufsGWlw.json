@@ -1,0 +1,91 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT13M43S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/PgE8mcVbLo6tfL-4R30L06U9O8Q\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127812",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "812338",
+    "container": "mov",
+    "durationMs": "822920",
+    "fileName": "unknown",
+    "fileSize": "113625802",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.777777777777778,
+        "bitrateBps": "684526",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 480,
+        "widthPixels": 852
+      }
+    ]
+  },
+  "id": "3l26ufsGWlw",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "https://weibo.com/tv/v/Fs0hfxVfd\n\n江真仪《梦之河》\n刘菊子、许逸《禁忌的爱》\n易嘉爱《降落伞》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "https://weibo.com/tv/v/Fs0hfxVfd\n\n江真仪《梦之河》\n刘菊子、许逸《禁忌的爱》\n易嘉爱《降落伞》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171020 SNH48 Team NⅡ 金曲大赏特别赏析环节"
+    },
+    "publishedAt": "2017-10-25T09:15:26.000Z",
+    "tags": [
+      "SNH48",
+      "江真仪",
+      "梦之河",
+      "刘菊子",
+      "许逸",
+      "禁忌的爱",
+      "易嘉爱",
+      "降落伞"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/3l26ufsGWlw/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/3l26ufsGWlw/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/3l26ufsGWlw/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/3l26ufsGWlw/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/3l26ufsGWlw/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171020 SNH48 Team NⅡ 金曲大赏特别赏析环节"
+  }
+}

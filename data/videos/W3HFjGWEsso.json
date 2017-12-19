@@ -1,0 +1,87 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H48M39S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/lkLJdd0XY4KdZTC6fYTWWmLB7Xk\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4581462605",
+    "fileType": "video"
+  },
+  "id": "W3HFjGWEsso",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/431\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/431\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171214 SNH48 Team SⅡ 第48区 24"
+    },
+    "publishedAt": "2017-12-14T15:25:03.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "Team SⅡ",
+      "SⅡ",
+      "Team SII",
+      "SII",
+      "陈观慧",
+      "陈思",
+      "成珏",
+      "戴萌",
+      "李宇琪",
+      "吕一",
+      "莫寒",
+      "钱蓓婷",
+      "孙芮",
+      "徐晨辰",
+      "徐子轩",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格",
+      "赵晔",
+      "徐伊人",
+      "冯晓菲"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/W3HFjGWEsso/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/W3HFjGWEsso/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/W3HFjGWEsso/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/W3HFjGWEsso/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/W3HFjGWEsso/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171214 SNH48 Team SⅡ 第48区 24"
+  }
+}

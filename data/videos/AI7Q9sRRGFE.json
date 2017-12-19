@@ -1,0 +1,79 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT4H18M46S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/46blO-DSK7f8uiGpXzRNT1KcH94\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "6041791286",
+    "fileType": "video"
+  },
+  "id": "AI7Q9sRRGFE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "成员：陈问言、郝婉晴、张雨鑫、孙芮、汪束、莫寒、万丽娜、洪珮雲、杨冰怡、刘增艳、钱蓓婷、张丹三。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "成员：陈问言、郝婉晴、张雨鑫、孙芮、汪束、莫寒、万丽娜、洪珮雲、杨冰怡、刘增艳、钱蓓婷、张丹三。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171107 SNH48 48狼人杀 03"
+    },
+    "publishedAt": "2017-11-07T20:31:04.000Z",
+    "tags": [
+      "SNH48",
+      "狼人杀",
+      "48狼人杀",
+      "陈问言",
+      "郝婉晴",
+      "张雨鑫",
+      "孙芮",
+      "汪束",
+      "莫寒",
+      "万丽娜",
+      "洪珮雲",
+      "杨冰怡",
+      "刘增艳",
+      "钱蓓婷",
+      "张丹三"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/AI7Q9sRRGFE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/AI7Q9sRRGFE/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/AI7Q9sRRGFE/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/AI7Q9sRRGFE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/AI7Q9sRRGFE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171107 SNH48 48狼人杀 03"
+  }
+}

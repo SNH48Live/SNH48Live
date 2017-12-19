@@ -1,0 +1,91 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT13M17S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/ytNMKCW1KHPkNKrzH5Z6BtWpGqg\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127827",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "742252",
+    "container": "mov",
+    "durationMs": "796760",
+    "fileName": "unknown",
+    "fileSize": "111519002",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.777777777777778,
+        "bitrateBps": "614425",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 480,
+        "widthPixels": 852
+      }
+    ]
+  },
+  "id": "afWC_MtjDLY",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "https://weibo.com/tv/v/FrZkOvHpp\n\n吴哲晗《Love Letter》\n戴萌《关不掉》\n李宇琪、蒋芸《天使的圈套》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "https://weibo.com/tv/v/FrZkOvHpp\n\n吴哲晗《Love Letter》\n戴萌《关不掉》\n李宇琪、蒋芸《天使的圈套》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171019 SNH48 Team SⅡ 金曲大赏特别赏析环节"
+    },
+    "publishedAt": "2017-10-25T09:00:29.000Z",
+    "tags": [
+      "SNH48",
+      "吴哲晗",
+      "Love Letter",
+      "戴萌",
+      "关不掉",
+      "李宇琪",
+      "蒋芸",
+      "天使的圈套"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/afWC_MtjDLY/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/afWC_MtjDLY/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/afWC_MtjDLY/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/afWC_MtjDLY/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/afWC_MtjDLY/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171019 SNH48 Team SⅡ 金曲大赏特别赏析环节"
+  }
+}

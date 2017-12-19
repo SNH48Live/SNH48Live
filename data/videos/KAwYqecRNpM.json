@@ -1,0 +1,82 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H15M12S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/8uFeZRv5hn6ftlQ83_Vb1sI7-Fw\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4660020146",
+    "fileType": "video"
+  },
+  "id": "KAwYqecRNpM",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "转自官方直播：https://youtu.be/Xi9J72aeWb8\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "转自官方直播：https://youtu.be/Xi9J72aeWb8\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170901 SNH48 我们向前冲 11"
+    },
+    "publishedAt": "2017-09-01T14:46:04.000Z",
+    "tags": [
+      "SNH48",
+      "我们向前冲",
+      "成珏",
+      "潘燕琦",
+      "赵晔",
+      "江真仪",
+      "刘菊子",
+      "许逸",
+      "张雨鑫",
+      "王露皎",
+      "徐伊人",
+      "袁一琦",
+      "祁静",
+      "李佳恩",
+      "林歆源",
+      "陶波尔",
+      "徐诗琪",
+      "曾晓雯"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/KAwYqecRNpM/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/KAwYqecRNpM/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/KAwYqecRNpM/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/KAwYqecRNpM/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/KAwYqecRNpM/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170901 SNH48 我们向前冲 11"
+  }
+}

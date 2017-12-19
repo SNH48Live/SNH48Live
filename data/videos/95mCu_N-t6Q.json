@@ -1,0 +1,81 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H28M55S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/uhKvKuht4YXfqrQedg5Hl-qneME\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4033872901",
+    "fileType": "video"
+  },
+  "id": "95mCu_N-t6Q",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/315\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/315\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170913 SNH48 Team HⅡ 美丽世界 31"
+    },
+    "publishedAt": "2017-09-13T17:09:06.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "郭倩芸",
+      "郝婉晴",
+      "李清扬",
+      "刘炅然",
+      "刘佩鑫",
+      "沈梦瑶",
+      "孙珍妮",
+      "王露皎",
+      "吴燕文",
+      "谢妮",
+      "徐晗",
+      "徐伊人",
+      "许杨玉琢",
+      "杨惠婷",
+      "张昕"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/95mCu_N-t6Q/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/95mCu_N-t6Q/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/95mCu_N-t6Q/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/95mCu_N-t6Q/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/95mCu_N-t6Q/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170913 SNH48 Team HⅡ 美丽世界 31"
+  }
+}

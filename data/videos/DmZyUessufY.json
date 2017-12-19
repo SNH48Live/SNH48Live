@@ -1,0 +1,73 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT15M35S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/tnbF4eGzuBCaaASME3qbjOvdzb4\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "7SENSES专属纪实综艺《Lucky Seven Baby》第二集.mp4",
+    "fileSize": "225085416",
+    "fileType": "video"
+  },
+  "id": "DmZyUessufY",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "20170505 SNH48 7SENSES《Lucky Seven Baby》第02集\n\n转自哔哩哔哩：https://www.bilibili.com/video/av10324242/\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170505 SNH48 7SENSES《Lucky Seven Baby》第02集\n\n转自哔哩哔哩：https://www.bilibili.com/video/av10324242/\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170505 SNH48 7SENSES《Lucky Seven Baby》EP02"
+    },
+    "publishedAt": "2017-05-05T07:01:46.000Z",
+    "tags": [
+      "SNH48",
+      "7SENSES",
+      "Lucky Seven Baby",
+      "赵粤",
+      "孔肖吟",
+      "戴萌",
+      "许杨玉琢",
+      "许佳琪",
+      "陈琳",
+      "张语格"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/DmZyUessufY/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/DmZyUessufY/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/DmZyUessufY/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/DmZyUessufY/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/DmZyUessufY/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170505 SNH48 7SENSES《Lucky Seven Baby》EP02"
+  }
+}

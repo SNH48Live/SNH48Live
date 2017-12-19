@@ -1,0 +1,99 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H51M18S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/zrrvuKrGXPOKUwPf681rKttoXXM\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131859",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3423007",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5031084544",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3291148",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "DHJ797A8RFA",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170625 SNH48 Team NⅡ 《专属派对》公演 第44场 龚诗淇生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/245\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170625 SNH48 Team NⅡ 《专属派对》公演 第44场 龚诗淇生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/245\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170625 SNH48 Team NⅡ 专属派对 44 龚诗淇生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-06-25T11:19:26.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "陈问言",
+      "龚诗淇",
+      "何晓玉",
+      "江真仪",
+      "金莹玥",
+      "李艺彤",
+      "刘菊子",
+      "刘瀛",
+      "万丽娜",
+      "许逸",
+      "易嘉爱",
+      "曾艳芬",
+      "张雨鑫",
+      "周怡",
+      "潘瑛琪"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/DHJ797A8RFA/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/DHJ797A8RFA/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/DHJ797A8RFA/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/DHJ797A8RFA/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/DHJ797A8RFA/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170625 SNH48 Team NⅡ 专属派对 44 龚诗淇生日主题公演暨总选拉票公演"
+  }
+}

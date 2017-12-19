@@ -1,0 +1,70 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H4M47S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/NdsjbaSauUOGNpPGkK4vXezLmxE\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "5726360216",
+    "fileType": "video"
+  },
+  "id": "pyxQH_NQ8cI",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.ckg48.com/Index/invedio/id/386\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.ckg48.com/Index/invedio/id/386\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171202 SNH48 Team SⅡ 第48区 23 重庆巡演"
+    },
+    "publishedAt": "2017-12-02T11:19:22.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "Team SⅡ",
+      "SⅡ",
+      "Team SII",
+      "SII"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/pyxQH_NQ8cI/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/pyxQH_NQ8cI/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/pyxQH_NQ8cI/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/pyxQH_NQ8cI/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/pyxQH_NQ8cI/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171202 SNH48 Team SⅡ 第48区 23 重庆巡演"
+  }
+}

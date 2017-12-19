@@ -1,0 +1,82 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H3M10S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/xN_GvNRWUcWLrRYsH5iGXgnEDyg\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4982714277",
+    "fileType": "video"
+  },
+  "id": "xyz4ML13C4c",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/401\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/401\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171116 SNH48 Team X 梦想的旗帜 64"
+    },
+    "publishedAt": "2017-11-16T16:24:41.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "祁静",
+      "邵雪聪",
+      "宋昕冉",
+      "孙歆文",
+      "孙亚萍",
+      "汪佳翎",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "张丹三",
+      "张嘉予",
+      "李佳恩"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/xyz4ML13C4c/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/xyz4ML13C4c/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/xyz4ML13C4c/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/xyz4ML13C4c/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/xyz4ML13C4c/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171116 SNH48 Team X 梦想的旗帜 64"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H6M22S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/DGVjI37wbfYjyzP8dyUMVc91iIU\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "130784",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3514465",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5474007280",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3383681",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "T3mwQtZcIMA",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170611 SNH48 Team X 《梦想的旗帜》公演 第34场 李晶生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/230\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170611 SNH48 Team X 《梦想的旗帜》公演 第34场 李晶生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/230\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170611 SNH48 Team X 梦想的旗帜 34 李晶生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-06-11T15:51:33.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "吕一",
+      "潘燕琦",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "林忆宁",
+      "祁静",
+      "孙歆文",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "姚祎纯",
+      "张丹三",
+      "张嘉予",
+      "李佳恩"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/T3mwQtZcIMA/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/T3mwQtZcIMA/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/T3mwQtZcIMA/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/T3mwQtZcIMA/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/T3mwQtZcIMA/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170611 SNH48 Team X 梦想的旗帜 34 李晶生日主题公演暨总选拉票公演"
+  }
+}

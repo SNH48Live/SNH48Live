@@ -1,0 +1,82 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H50M41S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/yzZRDH27a6m5TswkPkDTsIpvWdo\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4647437117",
+    "fileType": "video"
+  },
+  "id": "zvgqY5fMJFI",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/313\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/313\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170909 SNH48 Team SⅡ 剧场四周年特别公演"
+    },
+    "publishedAt": "2017-09-09T14:56:46.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "陈思",
+      "戴萌",
+      "蒋芸",
+      "孔肖吟",
+      "李宇琪",
+      "吕一",
+      "莫寒",
+      "潘燕琦",
+      "钱蓓婷",
+      "孙芮",
+      "吴哲晗",
+      "徐晨辰",
+      "徐子轩",
+      "袁丹妮",
+      "赵晔",
+      "冯晓菲"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/zvgqY5fMJFI/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/zvgqY5fMJFI/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/zvgqY5fMJFI/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/zvgqY5fMJFI/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/zvgqY5fMJFI/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170909 SNH48 Team SⅡ 剧场四周年特别公演"
+  }
+}

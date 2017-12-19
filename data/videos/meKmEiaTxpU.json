@@ -1,0 +1,81 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H56M10S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/EAo9koBlifW3k78A_En72-tq99I\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4800508147",
+    "fileType": "video"
+  },
+  "id": "meKmEiaTxpU",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/404\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/404\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171119 SNH48 Team SⅡ 第48区 20"
+    },
+    "publishedAt": "2017-11-19T10:12:40.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "陈观慧",
+      "陈思",
+      "蒋芸",
+      "李宇琪",
+      "吕一",
+      "莫寒",
+      "钱蓓婷",
+      "孙芮",
+      "温晶婕",
+      "吴哲晗",
+      "徐子轩",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格",
+      "冯晓菲"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/meKmEiaTxpU/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/meKmEiaTxpU/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/meKmEiaTxpU/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/meKmEiaTxpU/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/meKmEiaTxpU/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171119 SNH48 Team SⅡ 第48区 20"
+  }
+}

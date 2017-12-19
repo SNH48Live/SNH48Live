@@ -1,0 +1,66 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H50M38S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/ixtvrzooPkZBp5yCK7FbyrVxYsk\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "2398784172",
+    "fileType": "video"
+  },
+  "id": "19JQUOnrEq8",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170302 SNH48 Team SⅡ 心的旅程 44"
+    },
+    "publishedAt": "2017-10-18T10:42:01.000Z",
+    "tags": [
+      "SNH48",
+      "心的旅程"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/19JQUOnrEq8/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/19JQUOnrEq8/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/19JQUOnrEq8/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/19JQUOnrEq8/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/19JQUOnrEq8/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170302 SNH48 Team SⅡ 心的旅程 44"
+  }
+}

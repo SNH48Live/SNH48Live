@@ -1,0 +1,66 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H6M3S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/xPmfEnL3Sn-0mc9Efe4UCgo_Ad4\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1873170060",
+    "fileType": "video"
+  },
+  "id": "Pr_BVduidAQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "*1080p版：https://youtu.be/Sj43ey8tH2I*\n\n20170702 SNH48 Team SⅡ 《第48区》公演 第03场 暨李宇琪总选拉票公演\n\n转自哔哩哔哩直播：https://live.bilibili.com/48\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "*1080p版：https://youtu.be/Sj43ey8tH2I*\n\n20170702 SNH48 Team SⅡ 《第48区》公演 第03场 暨李宇琪总选拉票公演\n\n转自哔哩哔哩直播：https://live.bilibili.com/48\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170702 SNH48 Team SⅡ 第48区 03 李宇琪总选拉票公演"
+    },
+    "publishedAt": "2017-07-02T17:38:27.000Z",
+    "tags": [
+      "SNH48",
+      "第48区"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Pr_BVduidAQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Pr_BVduidAQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/Pr_BVduidAQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Pr_BVduidAQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Pr_BVduidAQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170702 SNH48 Team SⅡ 第48区 03 李宇琪总选拉票公演"
+  }
+}

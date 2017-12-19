@@ -1,0 +1,88 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3M19S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"S8kisgyDEblalhHF9ooXPiFFrkc/c9EnlpEtqwmZEWzIUziumvruen4\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "125824",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "5937859",
+    "container": "mov",
+    "durationMs": "198073",
+    "fileName": "unknown",
+    "fileSize": "90808630",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "5812035",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "SH0FMZUjAFI",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "公演：《命运的X号》\n表演：SNH48 Team X\n时间：2017-12-15（首演）\n音源：暂未全部发布\n首演全场：https://youtu.be/evRIju_NkNQ\n单曲剪辑歌单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9EFVQKhb9mrnnHI_0YdEaxF\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "公演：《命运的X号》\n表演：SNH48 Team X\n时间：2017-12-15（首演）\n音源：暂未全部发布\n首演全场：https://youtu.be/evRIju_NkNQ\n单曲剪辑歌单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9EFVQKhb9mrnnHI_0YdEaxF\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48 Team X 命运的X号《艾克斯号》现场版"
+    },
+    "publishedAt": "2017-12-17T09:33:31.000Z",
+    "tags": [
+      "SNH48",
+      "命运的X号",
+      "SNH48 Team X",
+      "Team X",
+      "艾克斯号"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/SH0FMZUjAFI/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/SH0FMZUjAFI/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/SH0FMZUjAFI/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/SH0FMZUjAFI/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/SH0FMZUjAFI/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 Team X 命运的X号《艾克斯号》现场版"
+  }
+}

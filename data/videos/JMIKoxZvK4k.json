@@ -1,0 +1,98 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H53M17S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/T-k8BlODQ1vRnYFbjqUuC3uJ0DY\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "128166",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "706573",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "2662403924",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "578407",
+        "codec": "h264",
+        "frameRateFps": 30.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "JMIKoxZvK4k",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170514 SNH48 Team X 《梦想的旗帜》公演 第30场 姚祎纯生日主题公演\nhttp://live.snh48.com/Index/invedio/id/202\n\n再次没有录播，实际转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av10559134\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170514 SNH48 Team X 《梦想的旗帜》公演 第30场 姚祎纯生日主题公演\nhttp://live.snh48.com/Index/invedio/id/202\n\n再次没有录播，实际转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av10559134\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170514 SNH48 Team X 梦想的旗帜 30 姚祎纯生日主题公演"
+    },
+    "publishedAt": "2017-05-14T18:58:30.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "吕一",
+      "潘燕琦",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "林忆宁",
+      "祁静",
+      "孙歆文",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "姚祎纯",
+      "张嘉予",
+      "李佳恩"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/JMIKoxZvK4k/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/JMIKoxZvK4k/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/JMIKoxZvK4k/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/JMIKoxZvK4k/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/JMIKoxZvK4k/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170514 SNH48 Team X 梦想的旗帜 30 姚祎纯生日主题公演"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT25M50S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/b8PjLkZVSZDMRnohPwjNsqgVy7c\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "93225",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "2135676",
+    "container": "mov",
+    "durationMs": "1549160",
+    "fileName": "20170428 SNH48 7SENSES - Lucky Seven Baby - EP01.mp4",
+    "fileSize": "496437081",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.791044776119403,
+        "bitrateBps": "2042451",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1072,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "LAW434JzKiA",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "SNH48 7SENSES专属纪实综艺《Lucky Seven Baby》第01集\n\n转自腾讯视频：https://v.qq.com/x/page/i0397m6yfha.html\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "SNH48 7SENSES专属纪实综艺《Lucky Seven Baby》第01集\n\n转自腾讯视频：https://v.qq.com/x/page/i0397m6yfha.html\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170428 SNH48 7SENSES《Lucky Seven Baby》EP01"
+    },
+    "publishedAt": "2017-04-28T09:03:59.000Z",
+    "tags": [
+      "SNH48",
+      "7SENSES",
+      "赵粤",
+      "孔肖吟",
+      "戴萌",
+      "许杨玉琢",
+      "许佳琪",
+      "陈琳",
+      "张语格",
+      "Lucky Seven Baby"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/LAW434JzKiA/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/LAW434JzKiA/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/LAW434JzKiA/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/LAW434JzKiA/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/LAW434JzKiA/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170428 SNH48 7SENSES《Lucky Seven Baby》EP01"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H25M35S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/vDyJY5ps--b3qvGqdJcteJbeRBQ\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "2328764028",
+    "fileType": "video"
+  },
+  "id": "rF-3yxWK0sE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170612 《莫莫有闻》第03期 队长甩锅？不存在的！\n主持人：莫寒\n嘉宾：张怡\n\n转自口袋48直播。\n\n原视频0:03:29–0:05:22的电视剧片段被YouTube ContentID系统全球屏蔽，已删除。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170612 《莫莫有闻》第03期 队长甩锅？不存在的！\n主持人：莫寒\n嘉宾：张怡\n\n转自口袋48直播。\n\n原视频0:03:29–0:05:22的电视剧片段被YouTube ContentID系统全球屏蔽，已删除。\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170619 《莫莫有闻》第03期 队长甩锅？不存在的！"
+    },
+    "publishedAt": "2017-06-19T15:10:04.000Z",
+    "tags": [
+      "莫莫有闻",
+      "莫寒",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/rF-3yxWK0sE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/rF-3yxWK0sE/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/rF-3yxWK0sE/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/rF-3yxWK0sE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/rF-3yxWK0sE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170619 《莫莫有闻》第03期 队长甩锅？不存在的！"
+  }
+}

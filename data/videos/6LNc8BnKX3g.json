@@ -1,0 +1,82 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H18M21S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/ydeqy7qAP5dEqs7w6l1JKTQGdZU\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4288507224",
+    "fileType": "video"
+  },
+  "id": "6LNc8BnKX3g",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/373\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/373\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171026 SNH48 Team NⅡ 以爱之名 05"
+    },
+    "publishedAt": "2017-10-26T16:02:56.000Z",
+    "tags": [
+      "SNH48",
+      "以爱之名",
+      "陈佳莹",
+      "陈问言",
+      "何晓玉",
+      "江真仪",
+      "金莹玥",
+      "刘菊子",
+      "刘瀛",
+      "陆婷",
+      "马凡",
+      "万丽娜",
+      "许逸",
+      "张雨鑫",
+      "赵粤",
+      "杨冰怡",
+      "潘瑛琪",
+      "陶波尔"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/6LNc8BnKX3g/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/6LNc8BnKX3g/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/6LNc8BnKX3g/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/6LNc8BnKX3g/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/6LNc8BnKX3g/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171026 SNH48 Team NⅡ 以爱之名 05"
+  }
+}

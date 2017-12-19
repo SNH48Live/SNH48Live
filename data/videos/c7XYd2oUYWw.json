@@ -1,0 +1,66 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H37M9S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/A7xa2qTKf-hOD3dfWHhhunXMt_I\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1415664815",
+    "fileType": "video"
+  },
+  "id": "c7XYd2oUYWw",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20160610 SNH48 Team SⅡ 心的旅程 07 成珏总选拉票公演"
+    },
+    "publishedAt": "2017-10-18T10:42:49.000Z",
+    "tags": [
+      "SNH48",
+      "心的旅程"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/c7XYd2oUYWw/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/c7XYd2oUYWw/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/c7XYd2oUYWw/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/c7XYd2oUYWw/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/c7XYd2oUYWw/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20160610 SNH48 Team SⅡ 心的旅程 07 成珏总选拉票公演"
+  }
+}

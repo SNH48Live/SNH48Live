@@ -1,0 +1,134 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H58M48S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "NZ",
+        "KR",
+        "AU",
+        "US",
+        "MX",
+        "JP"
+      ]
+    }
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/KjFJrRmhCR4Y_1Th1wjWCFAMz3o\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4148027102",
+    "fileType": "video"
+  },
+  "id": "TJ1yUaYAJnw",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/379\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/379\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171031 SNH48 万圣节特别公演"
+    },
+    "publishedAt": "2017-10-31T14:29:41.000Z",
+    "tags": [
+      "SNH48",
+      "陈观慧",
+      "陈思",
+      "成珏",
+      "蒋芸",
+      "吕一",
+      "莫寒",
+      "潘燕琦",
+      "钱蓓婷",
+      "孙芮",
+      "温晶婕",
+      "吴哲晗",
+      "徐晨辰",
+      "徐子轩",
+      "袁丹妮",
+      "袁雨桢",
+      "赵晔",
+      "陈佳莹",
+      "陈问言",
+      "冯薪朵",
+      "何晓玉",
+      "金莹玥",
+      "李艺彤",
+      "刘菊子",
+      "刘瀛",
+      "陆婷",
+      "马凡",
+      "万丽娜",
+      "许逸",
+      "张雨鑫",
+      "郭倩芸",
+      "郝婉晴",
+      "林楠",
+      "刘佩鑫",
+      "沈梦瑶",
+      "孙珍妮",
+      "王奕",
+      "吴燕文",
+      "谢妮",
+      "熊沁娴",
+      "徐晗",
+      "徐伊人",
+      "杨惠婷",
+      "袁一琦",
+      "冯晓菲",
+      "李晶",
+      "祁静",
+      "邵雪聪",
+      "孙歆文",
+      "孙亚萍",
+      "汪佳翎",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "张丹三",
+      "费沁源",
+      "洪珮雲",
+      "潘瑛琪",
+      "陶波尔"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/TJ1yUaYAJnw/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/TJ1yUaYAJnw/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/TJ1yUaYAJnw/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/TJ1yUaYAJnw/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/TJ1yUaYAJnw/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171031 SNH48 万圣节特别公演"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H10M21S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "MX",
+        "AU",
+        "NZ",
+        "KR",
+        "US"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/hoPQFf2WH4s-R5xCzdu2zqxQlFQ\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131261",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3515424",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5591045364",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3384163",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "KjQC-i-idxA",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170625 SNH48 Team X 《梦想的旗帜》公演 第37场 王晓佳生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/246\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170625 SNH48 Team X 《梦想的旗帜》公演 第37场 王晓佳生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/246\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170625 SNH48 Team X 梦想的旗帜 37 王晓佳生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-06-25T16:00:45.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "陈琳",
+      "冯晓菲",
+      "李钊",
+      "林忆宁",
+      "祁静",
+      "邵雪聪",
+      "宋昕冉",
+      "孙歆文",
+      "汪佳翎",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "杨韫玉",
+      "姚祎纯",
+      "张丹三",
+      "张嘉予"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/KjQC-i-idxA/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/KjQC-i-idxA/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/KjQC-i-idxA/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/KjQC-i-idxA/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/KjQC-i-idxA/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170625 SNH48 Team X 梦想的旗帜 37 王晓佳生日主题公演暨总选拉票公演"
+  }
+}

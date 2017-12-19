@@ -1,0 +1,86 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT34M36S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/Yd1ThMn4w5Z8LWzmNm25Q7HlVZg\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "125074",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3556952",
+    "container": "mov",
+    "durationMs": "2075920",
+    "fileName": "unknown",
+    "fileSize": "786057851",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3431878",
+        "codec": "h264",
+        "frameRateFps": 19.450653204362403,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "Re2WVLHIXUo",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/417\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/417\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171201 SNH48 星梦Mini Live（许逸）"
+    },
+    "publishedAt": "2017-12-01T13:39:34.000Z",
+    "tags": [
+      "SNH48",
+      "星梦Mini Live",
+      "许逸"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Re2WVLHIXUo/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Re2WVLHIXUo/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/Re2WVLHIXUo/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Re2WVLHIXUo/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Re2WVLHIXUo/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171201 SNH48 星梦Mini Live（许逸）"
+  }
+}

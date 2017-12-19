@@ -1,0 +1,80 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H33M15S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/pn_dnJztoKRCjo7mObGVB_L_WSs\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4150511457",
+    "fileType": "video"
+  },
+  "id": "heGDdy9ip4A",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/294\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/294\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170820 SNH48 Team X 梦想的旗帜 49"
+    },
+    "publishedAt": "2017-08-20T14:44:03.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "林忆宁",
+      "祁静",
+      "孙歆文",
+      "汪束",
+      "谢天依",
+      "杨韫玉",
+      "姚祎纯",
+      "张丹三",
+      "张嘉予",
+      "李佳恩"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/heGDdy9ip4A/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/heGDdy9ip4A/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/heGDdy9ip4A/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/heGDdy9ip4A/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/heGDdy9ip4A/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170820 SNH48 Team X 梦想的旗帜 49"
+  }
+}

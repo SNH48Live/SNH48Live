@@ -1,0 +1,109 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H14M25S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "AU",
+        "MX",
+        "US",
+        "KR",
+        "NZ"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/KcR6YEWQoFJUsCy3F9upSSds6-A\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131043",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3333045",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5707699176",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3202002",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "cYCxX4FlOaU",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170701 SNH48 Team XⅡ 《代号XⅡ》公演 第33场 蒋舒婷生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/251\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170701 SNH48 Team XⅡ 《代号XⅡ》公演 第33场 蒋舒婷生日主题公演暨总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/251\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170701 SNH48 Team XⅡ 代号XⅡ 33 蒋舒婷生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-07-01T11:54:33.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "费沁源",
+      "洪珮雲",
+      "姜杉",
+      "蒋舒婷",
+      "李佳恩",
+      "林歆源",
+      "刘增艳",
+      "吕梦莹",
+      "潘瑛琪",
+      "宋雨珊",
+      "徐诗琪",
+      "严佼君",
+      "於佳怡",
+      "曾晓雯",
+      "张文静",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/cYCxX4FlOaU/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/cYCxX4FlOaU/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/cYCxX4FlOaU/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/cYCxX4FlOaU/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/cYCxX4FlOaU/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170701 SNH48 Team XⅡ 代号XⅡ 33 蒋舒婷生日主题公演暨总选拉票公演"
+  }
+}

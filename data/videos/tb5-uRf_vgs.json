@@ -1,0 +1,82 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H12M35S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/UCk3d7uBmBJRzlj4x_ZFaW0zqCc\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "5248300544",
+    "fileType": "video"
+  },
+  "id": "tb5-uRf_vgs",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/422\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/422\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171203 SNH48 Team X 梦想的旗帜 68 B50中报"
+    },
+    "publishedAt": "2017-12-03T15:43:28.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "Team X",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "祁静",
+      "邵雪聪",
+      "宋昕冉",
+      "孙歆文",
+      "孙亚萍",
+      "汪佳翎",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "张丹三",
+      "张嘉予"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/tb5-uRf_vgs/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/tb5-uRf_vgs/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/tb5-uRf_vgs/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/tb5-uRf_vgs/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/tb5-uRf_vgs/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171203 SNH48 Team X 梦想的旗帜 68 B50中报"
+  }
+}

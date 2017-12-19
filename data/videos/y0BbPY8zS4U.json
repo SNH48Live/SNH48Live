@@ -1,0 +1,87 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H35M28S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"S8kisgyDEblalhHF9ooXPiFFrkc/pjfWMM2Uqj98Ou41wzX-ow3x2xU\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4233869576",
+    "fileType": "video"
+  },
+  "id": "y0BbPY8zS4U",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/435\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/435\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171217 SNH48 Team X 命运的X号 03"
+    },
+    "publishedAt": "2017-12-17T09:42:47.000Z",
+    "tags": [
+      "SNH48",
+      "命运的X号",
+      "Team X",
+      "吕一",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "林忆宁",
+      "祁静",
+      "邵雪聪",
+      "宋昕冉",
+      "孙歆文",
+      "孙亚萍",
+      "汪佳翎",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "杨韫玉",
+      "张丹三",
+      "张嘉予",
+      "李佳恩"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/y0BbPY8zS4U/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/y0BbPY8zS4U/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/y0BbPY8zS4U/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/y0BbPY8zS4U/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/y0BbPY8zS4U/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171217 SNH48 Team X 命运的X号 03"
+  }
+}

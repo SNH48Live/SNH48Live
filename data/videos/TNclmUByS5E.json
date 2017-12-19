@@ -1,0 +1,80 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H1M18S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/RHz5R7xjptpcRqznXJOWpB4wjUg\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4907184368",
+    "fileType": "video"
+  },
+  "id": "TNclmUByS5E",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/309\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/309\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170906 SNH48 Team XⅡ 剧场四周年特别公演"
+    },
+    "publishedAt": "2017-09-06T16:04:34.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "刘菊子",
+      "陈韫凌",
+      "费沁源",
+      "蒋舒婷",
+      "李佳恩",
+      "林歆源",
+      "吕梦莹",
+      "潘瑛琪",
+      "陶波尔",
+      "徐诗琪",
+      "严佼君",
+      "於佳怡",
+      "曾晓雯",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/TNclmUByS5E/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/TNclmUByS5E/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/TNclmUByS5E/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/TNclmUByS5E/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/TNclmUByS5E/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170906 SNH48 Team XⅡ 剧场四周年特别公演"
+  }
+}

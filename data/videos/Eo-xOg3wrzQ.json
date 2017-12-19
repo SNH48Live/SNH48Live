@@ -1,0 +1,83 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H51M30S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/udUER3dwrvenlokc-P8TK1vg65w\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4674725761",
+    "fileType": "video"
+  },
+  "id": "Eo-xOg3wrzQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/426\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/426\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171209 SNH48 Team X 梦想的旗帜 69 千秋乐"
+    },
+    "publishedAt": "2017-12-09T10:43:26.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "Team X",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "林忆宁",
+      "祁静",
+      "邵雪聪",
+      "宋昕冉",
+      "孙歆文",
+      "汪佳翎",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "杨韫玉",
+      "张丹三",
+      "张嘉予"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Eo-xOg3wrzQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Eo-xOg3wrzQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/Eo-xOg3wrzQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Eo-xOg3wrzQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Eo-xOg3wrzQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171209 SNH48 Team X 梦想的旗帜 69 千秋乐"
+  }
+}

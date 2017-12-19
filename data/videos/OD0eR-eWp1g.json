@@ -1,0 +1,76 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H32M13S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "KR",
+        "NZ",
+        "MX",
+        "AU",
+        "US"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/hlXtDUA8GZ3_klum054Rp3Ka1zc\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "5451347771",
+    "fileType": "video"
+  },
+  "id": "OD0eR-eWp1g",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "发表部分：https://youtu.be/unuU-hx2lSc\n\n转自官方直播：https://youtu.be/0juOdNXHU6g\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "发表部分：https://youtu.be/unuU-hx2lSc\n\n转自官方直播：https://youtu.be/0juOdNXHU6g\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会 演唱会部分"
+    },
+    "publishedAt": "2017-07-29T11:48:26.000Z",
+    "tags": [
+      "SNH48",
+      "我心翱翔",
+      "总选"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/OD0eR-eWp1g/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/OD0eR-eWp1g/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/OD0eR-eWp1g/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/OD0eR-eWp1g/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/OD0eR-eWp1g/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170729 “我心翱翔”SNH48 Group第四届偶像年度人气总决选演唱会 演唱会部分"
+  }
+}

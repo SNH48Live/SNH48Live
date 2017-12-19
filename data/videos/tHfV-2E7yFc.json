@@ -1,0 +1,68 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H43M59S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/IZQ-FoyG91zLJhl4MHV9JQe4WXY\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1049803149",
+    "fileType": "video"
+  },
+  "id": "tHfV-2E7yFc",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170710 《莫莫有闻》第06期 震惊！“亲”女儿居然也进不了圈？\n转自哔哩哔哩直播：https://live.bilibili.com/48\n\n主持人：莫寒\n嘉宾：张昕\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170710 《莫莫有闻》第06期 震惊！“亲”女儿居然也进不了圈？\n转自哔哩哔哩直播：https://live.bilibili.com/48\n\n主持人：莫寒\n嘉宾：张昕\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170710 《莫莫有闻》第06期 震惊！“亲”女儿居然也进不了圈？"
+    },
+    "publishedAt": "2017-07-10T13:46:46.000Z",
+    "tags": [
+      "SNH48",
+      "莫莫有闻",
+      "莫寒",
+      "张昕"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/tHfV-2E7yFc/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/tHfV-2E7yFc/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/tHfV-2E7yFc/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/tHfV-2E7yFc/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/tHfV-2E7yFc/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170710 《莫莫有闻》第06期 震惊！“亲”女儿居然也进不了圈？"
+  }
+}

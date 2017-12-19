@@ -1,0 +1,99 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H8M7S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/YMI9xJlD5sylP3w-Ih_fcXQOJnQ\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "130702",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3519115",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5525381288",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3388413",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "6YEX1es9Ctc",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/277\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/277\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170723 SNH48 Team X 梦想的旗帜 44 汪佳翎生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-07-23T15:43:16.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "林忆宁",
+      "祁静",
+      "宋昕冉",
+      "汪佳翎",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "杨韫玉",
+      "姚祎纯",
+      "张嘉予"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/6YEX1es9Ctc/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/6YEX1es9Ctc/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/6YEX1es9Ctc/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/6YEX1es9Ctc/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/6YEX1es9Ctc/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170723 SNH48 Team X 梦想的旗帜 44 汪佳翎生日主题公演暨总选拉票公演"
+  }
+}

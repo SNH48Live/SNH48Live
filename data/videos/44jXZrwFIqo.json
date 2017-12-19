@@ -1,0 +1,99 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H29M19S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/btNYnbXBuT9nmhUOmScxRSV1UEI\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "132669",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3615108",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "6148446188",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3482439",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "44jXZrwFIqo",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/181\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/181\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170422 SNH48 Team NⅡ 专属派对 35 林思意生日主题公演"
+    },
+    "publishedAt": "2017-04-22T17:28:05.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "陈佳莹",
+      "冯薪朵",
+      "何晓玉",
+      "李艺彤",
+      "林思意",
+      "万丽娜",
+      "赵粤",
+      "易嘉爱",
+      "曾艳芬",
+      "陈问言",
+      "张雨鑫",
+      "周怡",
+      "黄彤扬",
+      "刘菊子",
+      "张雅梦"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/44jXZrwFIqo/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/44jXZrwFIqo/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/44jXZrwFIqo/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/44jXZrwFIqo/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/44jXZrwFIqo/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170422 SNH48 Team NⅡ 专属派对 35 林思意生日主题公演"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H41M17S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/DPtb1HhhZFt42IEGULSIOQxm6cE\"",
+  "fileDetails": {
+    "fileName": "unknown"
+  },
+  "id": "CXSktryOsw0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/423\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/423\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171205 SNH48 48狼人杀 07"
+    },
+    "publishedAt": "2017-12-05T16:11:40.000Z",
+    "tags": [
+      "SNH48",
+      "李宇琪",
+      "莫寒",
+      "钱蓓婷",
+      "孙芮",
+      "陈问言",
+      "冯薪朵",
+      "马凡",
+      "张雨鑫",
+      "宋昕冉",
+      "孙亚萍",
+      "汪束",
+      "杨冰怡",
+      "杨韫玉",
+      "洪珮雲"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/CXSktryOsw0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/CXSktryOsw0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/CXSktryOsw0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/CXSktryOsw0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/CXSktryOsw0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171205 SNH48 48狼人杀 07"
+  }
+}

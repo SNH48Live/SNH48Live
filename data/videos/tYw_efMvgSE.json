@@ -1,0 +1,79 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H7M47S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "JP",
+        "KR",
+        "NZ",
+        "AU",
+        "US",
+        "MX"
+      ]
+    }
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/woz4xagJKcUBnRXiUSGTMWAIgrw\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "6145659912",
+    "fileType": "video"
+  },
+  "id": "tYw_efMvgSE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/400\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/400\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171115 SNH48 Team NⅡ N队成立四周年特别公演"
+    },
+    "publishedAt": "2017-11-15T16:10:54.000Z",
+    "tags": [
+      "SNH48",
+      "Team NⅡ",
+      "NⅡ",
+      "Team NII",
+      "NII"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/tYw_efMvgSE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/tYw_efMvgSE/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/tYw_efMvgSE/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/tYw_efMvgSE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/tYw_efMvgSE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171115 SNH48 Team NⅡ N队成立四周年特别公演"
+  }
+}

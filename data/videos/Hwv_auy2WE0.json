@@ -1,0 +1,108 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H36M5S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "AU",
+        "MX",
+        "US",
+        "KR",
+        "NZ"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/r4FZUM7vs-NSCLLVtftwcEs-vBU\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "129894",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "2800884",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "3957903276",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "2670990",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "Hwv_auy2WE0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170510 SNH48 Team XⅡ 《代号XⅡ》公演 第23场\nhttp://live.snh48.com/Index/invedio/id/199\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170510 SNH48 Team XⅡ 《代号XⅡ》公演 第23场\nhttp://live.snh48.com/Index/invedio/id/199\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170510 SNH48 Team XⅡ 代号XⅡ 23"
+    },
+    "publishedAt": "2017-05-10T15:55:50.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "赵韩倩",
+      "费沁源",
+      "洪珮雲",
+      "蒋舒婷",
+      "李佳恩",
+      "吕梦莹",
+      "刘增艳",
+      "潘瑛琪",
+      "宋雨珊",
+      "严佼君",
+      "於佳怡",
+      "邹佳佳",
+      "张文静",
+      "曾晓雯",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Hwv_auy2WE0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Hwv_auy2WE0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/Hwv_auy2WE0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Hwv_auy2WE0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Hwv_auy2WE0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170510 SNH48 Team XⅡ 代号XⅡ 23"
+  }
+}

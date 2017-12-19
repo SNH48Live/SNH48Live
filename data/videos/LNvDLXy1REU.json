@@ -1,0 +1,98 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H36M27S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Yqaj9K0KZbzoyURz2jy5ynCwhP4\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131483",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3617465",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4595297348",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3485982",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "LNvDLXy1REU",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170617 SNH48 Team NⅡ 《专属派对》公演 第42场 暨陆婷、刘瀛总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/235\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170617 SNH48 Team NⅡ 《专属派对》公演 第42场 暨陆婷、刘瀛总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/235\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170617 SNH48 Team NⅡ 专属派对 42 陆婷、刘瀛总选拉票公演"
+    },
+    "publishedAt": "2017-06-17T10:44:34.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "陈问言",
+      "冯薪朵",
+      "何晓玉",
+      "黄婷婷",
+      "金莹玥",
+      "刘菊子",
+      "刘瀛",
+      "陆婷",
+      "许逸",
+      "曾艳芬",
+      "张雅梦",
+      "张雨鑫",
+      "周怡",
+      "潘瑛琪"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/LNvDLXy1REU/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/LNvDLXy1REU/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/LNvDLXy1REU/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/LNvDLXy1REU/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/LNvDLXy1REU/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170617 SNH48 Team NⅡ 专属派对 42 陆婷、刘瀛总选拉票公演"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H34M36S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "US",
+        "AU",
+        "MX",
+        "NZ",
+        "KR"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/i1ol5lWT9H0tt3QCU4O_D6kDrE4\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131612",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3152138",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "3921059976",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3020526",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "jeH8wPDKWcY",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170530 SNH48 《我们向前冲》公演 第05场\nhttp://live.snh48.com/Index/invedio/id/218\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170530 SNH48 《我们向前冲》公演 第05场\nhttp://live.snh48.com/Index/invedio/id/218\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170530 SNH48 我们向前冲 05"
+    },
+    "publishedAt": "2017-05-30T09:33:57.000Z",
+    "tags": [
+      "SNH48",
+      "我们向前冲",
+      "成珏",
+      "吕一",
+      "潘燕琦",
+      "赵韩倩",
+      "赵晔",
+      "江真仪",
+      "刘菊子",
+      "许逸",
+      "张雅梦",
+      "张雨鑫",
+      "王露皎",
+      "徐伊人",
+      "袁一琦",
+      "姚祎纯",
+      "陶波尔",
+      "徐诗琪",
+      "曾晓雯"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/jeH8wPDKWcY/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/jeH8wPDKWcY/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/jeH8wPDKWcY/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/jeH8wPDKWcY/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/jeH8wPDKWcY/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170530 SNH48 我们向前冲 05"
+  }
+}

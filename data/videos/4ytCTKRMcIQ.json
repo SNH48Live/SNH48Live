@@ -1,0 +1,84 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H17M16S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/gB9LOfX9hzD9JLv-wu-GruCjVzs\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "2225777849",
+    "fileType": "video"
+  },
+  "id": "4ytCTKRMcIQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://music.migu.cn/v2/live/171\n\n本视频版权归咪咕音乐所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://music.migu.cn/v2/live/171\n\n本视频版权归咪咕音乐所有。",
+      "title": "20171126 SNH48 Team SⅡ “西湖暖风来” 咪咕音乐杭州专场"
+    },
+    "publishedAt": "2017-11-26T18:28:40.000Z",
+    "tags": [
+      "SNH48",
+      "咪咕",
+      "咪咕音乐",
+      "杭州",
+      "钱蓓婷",
+      "徐晨辰",
+      "蒋芸",
+      "徐子轩",
+      "李宇琪",
+      "莫寒",
+      "陈思",
+      "袁雨桢",
+      "孙芮",
+      "陈观慧",
+      "袁丹妮",
+      "吕一",
+      "Team SⅡ",
+      "Team SII",
+      "SⅡ",
+      "SII"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/4ytCTKRMcIQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/4ytCTKRMcIQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/4ytCTKRMcIQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/4ytCTKRMcIQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/4ytCTKRMcIQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171126 SNH48 Team SⅡ “西湖暖风来” 咪咕音乐杭州专场"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2M59S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/4lD8Nmgds1B1B0BVzZOHxsGZSVo\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "103915",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "4644849",
+    "container": "mov",
+    "durationMs": "178760",
+    "fileName": "unknown",
+    "fileSize": "59847492",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.791044776119403,
+        "bitrateBps": "4540934",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1072,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "PhyViyubeWM",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "转自腾讯视频（官方）：https://v.qq.com/x/page/x0554cxlv01.html\n《以爱之名》公演宣传页：http://www.snh48.com/event/s207/\n首演时间：2017年10月7日\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "转自腾讯视频（官方）：https://v.qq.com/x/page/x0554cxlv01.html\n《以爱之名》公演宣传页：http://www.snh48.com/event/s207/\n首演时间：2017年10月7日\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48 Team NⅡ《以爱之名》公演宣传片"
+    },
+    "publishedAt": "2017-09-26T12:35:10.000Z",
+    "tags": [
+      "SNH48",
+      "以爱之名"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/PhyViyubeWM/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/PhyViyubeWM/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/PhyViyubeWM/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/PhyViyubeWM/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/PhyViyubeWM/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 Team NⅡ《以爱之名》公演宣传片"
+  }
+}

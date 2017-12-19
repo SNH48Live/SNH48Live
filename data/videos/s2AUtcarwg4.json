@@ -1,0 +1,82 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3M8S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/v5GCRmvi75bKJ0prSX5cNtqVQw4\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127916",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3742199",
+    "container": "mov",
+    "durationMs": "187062",
+    "fileName": "unknown",
+    "fileSize": "84811571",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3614283",
+        "codec": "h264",
+        "frameRateFps": 24.823057910193818,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "s2AUtcarwg4",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "公演：《第48区》\n表演：SNH48 Team SⅡ\n时间：2017-06-30（首演）\n歌单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9EkxtEUwb7eaWDOw0Sb_9Jd\n首演全场：https://youtu.be/Q_bvusD4jgg\n\n本音频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "公演：《第48区》\n表演：SNH48 Team SⅡ\n时间：2017-06-30（首演）\n歌单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9EkxtEUwb7eaWDOw0Sb_9Jd\n首演全场：https://youtu.be/Q_bvusD4jgg\n\n本音频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48 Team SⅡ 第48区《幻》（现场版）"
+    },
+    "publishedAt": "2017-06-30T16:11:08.000Z",
+    "tags": [
+      "SNH48",
+      "SNH48 Team SⅡ",
+      "第48区",
+      "幻"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/s2AUtcarwg4/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/s2AUtcarwg4/hqdefault.jpg",
+        "width": 480
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/s2AUtcarwg4/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/s2AUtcarwg4/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 Team SⅡ 第48区《幻》（现场版）"
+  }
+}

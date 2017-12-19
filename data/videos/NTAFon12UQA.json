@@ -1,0 +1,96 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H9M3S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/k5TjaLbGPtE9lhfOaObTL-D4gQI\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "130938",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3720094",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "3790632156",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3589156",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "NTAFon12UQA",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170504 SNH48 Team NⅡ 专属派对 第37场\nhttp://live.snh48.com/Index/invedio/id/193\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170504 SNH48 Team NⅡ 专属派对 第37场\nhttp://live.snh48.com/Index/invedio/id/193\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170504 SNH48 Team NⅡ 专属派对 37"
+    },
+    "publishedAt": "2017-05-04T15:31:28.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "何晓玉",
+      "黄婷婷",
+      "林思意",
+      "陆婷",
+      "曾艳芬",
+      "陈问言",
+      "周怡",
+      "徐真",
+      "江真仪",
+      "刘菊子",
+      "张雅梦",
+      "刘瀛"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/NTAFon12UQA/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/NTAFon12UQA/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/NTAFon12UQA/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/NTAFon12UQA/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/NTAFon12UQA/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170504 SNH48 Team NⅡ 专属派对 37"
+  }
+}

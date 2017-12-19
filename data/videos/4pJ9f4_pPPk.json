@@ -1,0 +1,78 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H50M12S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/VMvcaJp7ux88ebxgIBS2hFQ9VM8\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4611430380",
+    "fileType": "video"
+  },
+  "id": "4pJ9f4_pPPk",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/305\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/305\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170902 SNH48 Team XⅡ 代号XⅡ 42 刘增艳生日主题公演"
+    },
+    "publishedAt": "2017-09-02T14:57:04.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "陈韫凌",
+      "蒋舒婷",
+      "李佳恩",
+      "林歆源",
+      "刘增艳",
+      "吕梦莹",
+      "潘瑛琪",
+      "陶波尔",
+      "徐诗琪",
+      "曾晓雯",
+      "张文静",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/4pJ9f4_pPPk/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/4pJ9f4_pPPk/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/4pJ9f4_pPPk/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/4pJ9f4_pPPk/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/4pJ9f4_pPPk/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170902 SNH48 Team XⅡ 代号XⅡ 42 刘增艳生日主题公演"
+  }
+}

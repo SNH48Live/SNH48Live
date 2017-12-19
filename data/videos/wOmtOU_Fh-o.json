@@ -1,0 +1,84 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT7M11S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/fWBJDXWF4TAnAdhXDDktUEobaY4\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "133038",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3308382",
+    "container": "mov",
+    "durationMs": "430800",
+    "fileName": "unknown",
+    "fileSize": "218563500",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.791044776119403,
+        "bitrateBps": "3175344",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1072,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "wOmtOU_Fh-o",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "转自SNH48星梦剧院4周年庆典官方活动页：http://www.snh48.com/event/s204/\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "转自SNH48星梦剧院4周年庆典官方活动页：http://www.snh48.com/event/s204/\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48星梦剧院四周年庆：经典歌曲solo集锦"
+    },
+    "publishedAt": "2017-09-05T01:30:37.000Z",
+    "tags": [
+      "SNH48"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/wOmtOU_Fh-o/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/wOmtOU_Fh-o/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/wOmtOU_Fh-o/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/wOmtOU_Fh-o/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/wOmtOU_Fh-o/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48星梦剧院四周年庆：经典歌曲solo集锦"
+  }
+}

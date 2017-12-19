@@ -1,0 +1,65 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H30M26S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/Cl12_jk6XzPzAb6jyLcHRk5V8gg\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "239841047",
+    "fileType": "video"
+  },
+  "id": "LXW_B5ca5pQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "10",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "专辑名称: SNH48 GROUP第四届偶像年度人气总决选Live版\n歌手: SNH48\n发行日期: 2017-09-20\n发行公司：永稻星（北京）文化娱乐有限公司\n\n01. 00:00:00 SNH48 - Colorful Days\n02. 00:02:54 SNH48 - H Zone\n03. 00:06:40 SNH48 - Monster\n04. 00:09:35 SNH48 - Moonlight\n05. 00:13:15 GNZ48 - Never give up\n06. 00:15:42 BEJ48 - We Are The BEJ\n07. 00:18:16 SNH48 - 彼此的未来\n08. 00:22:38 SNH48 - 初日\n09. 00:25:09 鞠婧祎 - 等不到你\n10. 00:28:36 SNH48 - 第48区\n11. 00:31:10 SHY48 - 第一只兔子\n12. 00:34:32 SNH48 - 对峙\n13. 00:36:53 SNH48 - 公主披风\n14. 00:40:16 李艺彤 - 关不掉\n15. 00:43:07 黄婷婷 - 黑夜女神\n16. 00:46:14 SNH48 - 机尾云\n17. 00:48:59 SNH48 - 剧场女神\n18. 00:51:43 GNZ48 - 梅洛斯之路\n19. 00:54:24 鞠婧祎 - 每一天\n20. 00:56:53 SNH48 - 梦\n21. 00:59:41 SNH48 - 梦想的旗帜\n22. 01:02:49 GNZ48 - 面包和奶油\n23. 01:06:15 GNZ48 - 蒲公英的脚印\n24. 01:08:58 BEJ48 - 荣耀勋章\n25. 01:11:16 SNH48 - 天使的圈套\n26. 01:13:49 SHY48 - 无尽旋转\n27. 01:16:19 SNH48 - 夏日柠檬船\n28. 01:20:24 SHY48 - 悬铃木\n29. 01:22:50 SNH48 - 勇敢的心\n30. 01:25:31 BEJ48 - 雨季之后\n31. 01:27:58 SNH48 - 钻石呐喊\n\n转自QQ音乐：https://y.qq.com/n/yqq/album/000fhFsc1CpZLT.html\n请支持正版音乐。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "专辑名称: SNH48 GROUP第四届偶像年度人气总决选Live版\n歌手: SNH48\n发行日期: 2017-09-20\n发行公司：永稻星（北京）文化娱乐有限公司\n\n01. 00:00:00 SNH48 - Colorful Days\n02. 00:02:54 SNH48 - H Zone\n03. 00:06:40 SNH48 - Monster\n04. 00:09:35 SNH48 - Moonlight\n05. 00:13:15 GNZ48 - Never give up\n06. 00:15:42 BEJ48 - We Are The BEJ\n07. 00:18:16 SNH48 - 彼此的未来\n08. 00:22:38 SNH48 - 初日\n09. 00:25:09 鞠婧祎 - 等不到你\n10. 00:28:36 SNH48 - 第48区\n11. 00:31:10 SHY48 - 第一只兔子\n12. 00:34:32 SNH48 - 对峙\n13. 00:36:53 SNH48 - 公主披风\n14. 00:40:16 李艺彤 - 关不掉\n15. 00:43:07 黄婷婷 - 黑夜女神\n16. 00:46:14 SNH48 - 机尾云\n17. 00:48:59 SNH48 - 剧场女神\n18. 00:51:43 GNZ48 - 梅洛斯之路\n19. 00:54:24 鞠婧祎 - 每一天\n20. 00:56:53 SNH48 - 梦\n21. 00:59:41 SNH48 - 梦想的旗帜\n22. 01:02:49 GNZ48 - 面包和奶油\n23. 01:06:15 GNZ48 - 蒲公英的脚印\n24. 01:08:58 BEJ48 - 荣耀勋章\n25. 01:11:16 SNH48 - 天使的圈套\n26. 01:13:49 SHY48 - 无尽旋转\n27. 01:16:19 SNH48 - 夏日柠檬船\n28. 01:20:24 SHY48 - 悬铃木\n29. 01:22:50 SNH48 - 勇敢的心\n30. 01:25:31 BEJ48 - 雨季之后\n31. 01:27:58 SNH48 - 钻石呐喊\n\n转自QQ音乐：https://y.qq.com/n/yqq/album/000fhFsc1CpZLT.html\n请支持正版音乐。",
+      "title": "SNH48 GROUP第四届偶像年度人气总决选Live版 音源"
+    },
+    "publishedAt": "2017-09-20T09:50:43.000Z",
+    "tags": [
+      "SNH48"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/LXW_B5ca5pQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/LXW_B5ca5pQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/LXW_B5ca5pQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/LXW_B5ca5pQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/LXW_B5ca5pQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 GROUP第四届偶像年度人气总决选Live版 音源"
+  }
+}

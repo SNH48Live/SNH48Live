@@ -1,0 +1,67 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H1M29S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/HpG7yXDG8M74xThgdB5_piTH5I4\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "911592484",
+    "fileType": "video"
+  },
+  "id": "_7BpfGjm14w",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/353\n转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av15356382\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/353\n转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av15356382\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171013 SNH48 星梦Mini Live（刘增艳）"
+    },
+    "publishedAt": "2017-10-13T17:49:40.000Z",
+    "tags": [
+      "SNH48",
+      "星梦Mini Live",
+      "刘增艳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/_7BpfGjm14w/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/_7BpfGjm14w/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/_7BpfGjm14w/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/_7BpfGjm14w/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/_7BpfGjm14w/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171013 SNH48 星梦Mini Live（刘增艳）"
+  }
+}

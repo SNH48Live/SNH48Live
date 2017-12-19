@@ -1,0 +1,102 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT18M11S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/e7L8ULD8N_mJ5ZmG31r5ioI0kzE\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "255892",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "327220",
+    "container": "mov",
+    "durationMs": "1090945",
+    "fileName": "unknown",
+    "fileSize": "43988538",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.0,
+        "bitrateBps": "71328",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 800,
+        "widthPixels": 800
+      }
+    ]
+  },
+  "id": "deakW_Ujifg",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "专辑名称: Chapter: Blooming（绽放）\n歌手: 7SENSES\n发行日期: 2017-11-24\n\n01. 00:00:00 Like A Diamond（闪耀）\n02. 00:03:30 KiKi’s Secret（秘密）\n03. 00:06:46 I Wanna Play\n04. 00:10:21 Lollipop（棒棒糖）\n05. 00:13:45 我只在乎你\n\n来源：QQ音乐\nhttps://y.qq.com/n/yqq/album/3304365_num.html\n\n版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "专辑名称: Chapter: Blooming（绽放）\n歌手: 7SENSES\n发行日期: 2017-11-24\n\n01. 00:00:00 Like A Diamond（闪耀）\n02. 00:03:30 KiKi’s Secret（秘密）\n03. 00:06:46 I Wanna Play\n04. 00:10:21 Lollipop（棒棒糖）\n05. 00:13:45 我只在乎你\n\n来源：QQ音乐\nhttps://y.qq.com/n/yqq/album/3304365_num.html\n\n版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48 7SENSES Chapter: Blooming（绽放）音源"
+    },
+    "publishedAt": "2017-11-24T03:25:35.000Z",
+    "tags": [
+      "SNH48",
+      "7SENSES",
+      "Chapter: Blooming",
+      "Like A Diamond",
+      "KiKi’s Secret",
+      "I Wanna Play",
+      "Lollipop",
+      "我只在乎你",
+      "绽放",
+      "闪耀",
+      "秘密",
+      "棒棒糖",
+      "张语格",
+      "孔肖吟",
+      "戴萌",
+      "许佳琪",
+      "赵粤",
+      "许杨玉琢",
+      "陈琳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/deakW_Ujifg/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/deakW_Ujifg/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/deakW_Ujifg/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/deakW_Ujifg/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/deakW_Ujifg/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 7SENSES Chapter: Blooming（绽放）音源"
+  }
+}

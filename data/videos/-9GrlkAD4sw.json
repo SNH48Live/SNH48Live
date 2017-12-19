@@ -1,0 +1,84 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3M40S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/5fe4m9uzXp4WIibMJjMPzTlP9XI\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127959",
+        "channelCount": 2,
+        "codec": "mp3"
+      }
+    ],
+    "bitrateBps": "196712",
+    "container": "mov",
+    "durationMs": "220000",
+    "fileName": "unknown",
+    "fileSize": "5236134",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 0.9944444444444445,
+        "bitrateBps": "68753",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 720,
+        "widthPixels": 716
+      }
+    ]
+  },
+  "id": "-9GrlkAD4sw",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "歌名：戎装信仰\n发行时间：2017-10-16\n咪咕音乐：http://music.migu.cn/song/1107080499/\n\n本音频版权归上海丝芭文化传媒集团有限公司所有。请支持正版音乐。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "歌名：戎装信仰\n发行时间：2017-10-16\n咪咕音乐：http://music.migu.cn/song/1107080499/\n\n本音频版权归上海丝芭文化传媒集团有限公司所有。请支持正版音乐。",
+      "title": "SNH48《戎装信仰》"
+    },
+    "publishedAt": "2017-10-16T10:30:05.000Z",
+    "tags": [
+      "SNH48"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/-9GrlkAD4sw/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/-9GrlkAD4sw/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/-9GrlkAD4sw/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/-9GrlkAD4sw/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/-9GrlkAD4sw/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48《戎装信仰》"
+  }
+}

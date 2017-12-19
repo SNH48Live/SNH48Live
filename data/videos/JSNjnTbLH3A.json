@@ -1,0 +1,94 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H3M42S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "NZ",
+        "JP",
+        "KR",
+        "US",
+        "AU",
+        "MX"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/y8j1v3DtQGXNS6gjn835xPFml7U\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "130712",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3247253",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5392174264",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3116541",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "JSNjnTbLH3A",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "20170609 SNH48 Team XⅡ 《代号XⅡ》公演 第29场 暨陶波尔、张文静总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/226\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "20170609 SNH48 Team XⅡ 《代号XⅡ》公演 第29场 暨陶波尔、张文静总选拉票公演\nhttp://live.snh48.com/Index/invedio/id/226\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170609 SNH48 Team XⅡ 代号XⅡ 29 陶波尔、张文静总选拉票公演"
+    },
+    "publishedAt": "2017-06-09T17:24:18.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/JSNjnTbLH3A/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/JSNjnTbLH3A/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/JSNjnTbLH3A/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/JSNjnTbLH3A/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/JSNjnTbLH3A/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170609 SNH48 Team XⅡ 代号XⅡ 29 陶波尔、张文静总选拉票公演"
+  }
+}

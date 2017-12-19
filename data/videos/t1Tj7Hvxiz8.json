@@ -1,0 +1,128 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H28M40S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/xdRbZgeNyn_Ds_GC-rl3mQt7Q4Y\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4947539933",
+    "fileType": "video"
+  },
+  "id": "t1Tj7Hvxiz8",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/337\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/337\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171001 SNH48 “歌唱祖国”国庆节特别公演"
+    },
+    "publishedAt": "2017-10-01T14:34:29.000Z",
+    "tags": [
+      "SNH48",
+      "成珏",
+      "戴萌",
+      "孔肖吟",
+      "吕一",
+      "莫寒",
+      "钱蓓婷",
+      "孙芮",
+      "温晶婕",
+      "吴哲晗",
+      "徐晨辰",
+      "袁丹妮",
+      "张语格",
+      "赵晔",
+      "郭倩芸",
+      "郝婉晴",
+      "李清扬",
+      "林楠",
+      "刘佩鑫",
+      "沈梦瑶",
+      "孙珍妮",
+      "王露皎",
+      "吴燕文",
+      "谢妮",
+      "徐晗",
+      "徐伊人",
+      "许杨玉琢",
+      "杨惠婷",
+      "袁航",
+      "袁一琦",
+      "张昕",
+      "陈琳",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "林忆宁",
+      "祁静",
+      "宋昕冉",
+      "孙歆文",
+      "孙亚萍",
+      "汪束",
+      "王晓佳",
+      "杨冰怡",
+      "杨韫玉",
+      "姚祎纯",
+      "张丹三",
+      "张嘉予",
+      "费沁源",
+      "洪珮雲",
+      "姜杉",
+      "蒋舒婷",
+      "李佳恩",
+      "林歆源",
+      "刘增艳",
+      "吕梦莹",
+      "潘瑛琪",
+      "宋雨珊",
+      "陶波尔",
+      "徐诗琪",
+      "严佼君",
+      "於佳怡",
+      "曾晓雯",
+      "张文静",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/t1Tj7Hvxiz8/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/t1Tj7Hvxiz8/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/t1Tj7Hvxiz8/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/t1Tj7Hvxiz8/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/t1Tj7Hvxiz8/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171001 SNH48 “歌唱祖国”国庆节特别公演"
+  }
+}

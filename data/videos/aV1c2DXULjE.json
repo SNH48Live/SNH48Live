@@ -1,0 +1,83 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H49M29S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/kcjXcqmObU6J_0Ptq6P9tGnRUzU\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4593220970",
+    "fileType": "video"
+  },
+  "id": "aV1c2DXULjE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/329\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/329\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170923 SNH48 Team SⅡ 第48区 12 吴哲晗生日主题公演"
+    },
+    "publishedAt": "2017-09-23T15:09:42.000Z",
+    "tags": [
+      "SNH48",
+      "第48区",
+      "陈观慧",
+      "陈思",
+      "戴萌",
+      "蒋芸",
+      "孔肖吟",
+      "李宇琪",
+      "吕一",
+      "莫寒",
+      "钱蓓婷",
+      "孙芮",
+      "吴哲晗",
+      "徐晨辰",
+      "徐子轩",
+      "袁丹妮",
+      "袁雨桢",
+      "张语格",
+      "冯晓菲"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/aV1c2DXULjE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/aV1c2DXULjE/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/aV1c2DXULjE/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/aV1c2DXULjE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/aV1c2DXULjE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170923 SNH48 Team SⅡ 第48区 12 吴哲晗生日主题公演"
+  }
+}

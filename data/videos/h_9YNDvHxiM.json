@@ -1,0 +1,97 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H18M3S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/6TUBCdk5vUfq2FOfsTB_IP0tVfs\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131442",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3422613",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4054810884",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3291171",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "h_9YNDvHxiM",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/177\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/177\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170419 SNH48 Team XⅡ 代号XⅡ 19"
+    },
+    "publishedAt": "2017-04-19T15:56:12.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "洪珮雲",
+      "蒋舒婷",
+      "刘增艳",
+      "潘瑛琪",
+      "宋雨珊",
+      "严佼君",
+      "邹佳佳",
+      "张文静",
+      "张怡",
+      "吕梦莹",
+      "李佳恩",
+      "曾晓雯",
+      "徐诗琪"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/h_9YNDvHxiM/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/h_9YNDvHxiM/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/h_9YNDvHxiM/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/h_9YNDvHxiM/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/h_9YNDvHxiM/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170419 SNH48 Team XⅡ 代号XⅡ 19"
+  }
+}

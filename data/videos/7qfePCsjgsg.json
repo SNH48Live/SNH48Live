@@ -1,0 +1,85 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT7M51S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/vlkEzq-trTONBmIlAI72pxWmRHk\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127575",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "965357",
+    "container": "mov",
+    "durationMs": "470120",
+    "fileName": "unknown",
+    "fileSize": "84489927",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.777777777777778,
+        "bitrateBps": "837782",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 480,
+        "widthPixels": 852
+      }
+    ]
+  },
+  "id": "7qfePCsjgsg",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "王晓佳、谢天依、祁静《青春闪电》\n杨冰怡、冯晓菲《梦中的婚礼》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "王晓佳、谢天依、祁静《青春闪电》\n杨冰怡、冯晓菲《梦中的婚礼》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171109 SNH48 Team X 金曲大赏特别赏析环节"
+    },
+    "publishedAt": "2017-11-20T23:30:07.000Z",
+    "tags": [
+      "SNH48",
+      "Team X"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/7qfePCsjgsg/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/7qfePCsjgsg/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/7qfePCsjgsg/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/7qfePCsjgsg/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/7qfePCsjgsg/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171109 SNH48 Team X 金曲大赏特别赏析环节"
+  }
+}

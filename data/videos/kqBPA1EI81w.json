@@ -1,0 +1,100 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H12M51S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Q7kkDUp8RiH0szMxi27Pw1wH0rY\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "132353",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3423285",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5664727076",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3290932",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "kqBPA1EI81w",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/176\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/176\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170416 SNH48 Team NⅡ 专属派对 34 张雨鑫生日主题公演"
+    },
+    "publishedAt": "2017-04-16T16:07:50.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "何晓玉",
+      "李艺彤",
+      "黄婷婷",
+      "林思意",
+      "万丽娜",
+      "赵粤",
+      "陆婷",
+      "曾艳芬",
+      "陈问言",
+      "张雨鑫",
+      "周怡",
+      "黄彤扬",
+      "江真仪",
+      "刘菊子",
+      "张雅梦",
+      "刘瀛"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/kqBPA1EI81w/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/kqBPA1EI81w/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/kqBPA1EI81w/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/kqBPA1EI81w/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/kqBPA1EI81w/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170416 SNH48 Team NⅡ 专属派对 34 张雨鑫生日主题公演"
+  }
+}

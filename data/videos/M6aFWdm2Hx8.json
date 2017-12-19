@@ -1,0 +1,131 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H51M39S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "MX",
+        "AU",
+        "NZ",
+        "KR",
+        "US"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/nnFuEc-uOP36xjhiMa1sbPXw_gg\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "6277163819",
+    "fileType": "video"
+  },
+  "id": "M6aFWdm2Hx8",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/300\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/300\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170827 SNH48 “佳期如梦”七夕情人节特别公演"
+    },
+    "publishedAt": "2017-08-27T16:50:10.000Z",
+    "tags": [
+      "SNH48",
+      "陈韫凌",
+      "姜杉",
+      "蒋舒婷",
+      "李佳恩",
+      "林歆源",
+      "刘增艳",
+      "吕梦莹",
+      "潘瑛琪",
+      "陶波尔",
+      "徐诗琪",
+      "严佼君",
+      "於佳怡",
+      "曾晓雯",
+      "张文静",
+      "张怡",
+      "佳期如梦",
+      "七夕",
+      "特别公演",
+      "陈观慧",
+      "蒋芸",
+      "吕一",
+      "潘燕琦",
+      "袁丹妮",
+      "赵晔",
+      "陈佳莹",
+      "陈问言",
+      "何晓玉",
+      "江真仪",
+      "金莹玥",
+      "刘菊子",
+      "刘瀛",
+      "许逸",
+      "易嘉爱",
+      "张雨鑫",
+      "郭倩芸",
+      "郝婉晴",
+      "刘炅然",
+      "刘佩鑫",
+      "沈梦瑶",
+      "王露皎",
+      "文文",
+      "吴燕文",
+      "谢妮",
+      "徐晗",
+      "徐伊人",
+      "许杨玉琢",
+      "杨惠婷",
+      "袁航",
+      "袁一琦",
+      "张昕",
+      "冯晓菲",
+      "林忆宁",
+      "宋昕冉",
+      "孙歆文",
+      "王晓佳",
+      "杨韫玉",
+      "张丹三"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/M6aFWdm2Hx8/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/M6aFWdm2Hx8/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/M6aFWdm2Hx8/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/M6aFWdm2Hx8/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/M6aFWdm2Hx8/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170827 SNH48 “佳期如梦”七夕情人节特别公演"
+  }
+}

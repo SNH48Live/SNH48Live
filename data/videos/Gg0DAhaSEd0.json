@@ -1,0 +1,83 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H31M28S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/ppFUou-tAfpMzCXuh5ytAfjMCRo\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "128690",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3421869",
+    "container": "mpeg_ts",
+    "fileName": "20170315 Team NⅡ 专属派对 32.ts",
+    "fileSize": "4456009088",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3293179",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "Gg0DAhaSEd0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/142\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\nCopyright claims:\n- Visual content, 0:00 - 4:35; WebTVAsia (Music); monetized by copyright owner.",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/142\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。\n\nCopyright claims:\n- Visual content, 0:00 - 4:35; WebTVAsia (Music); monetized by copyright owner.",
+      "title": "20170315 SNH48 Team NⅡ 专属派对 32"
+    },
+    "publishedAt": "2017-03-24T02:03:30.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/Gg0DAhaSEd0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/Gg0DAhaSEd0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/Gg0DAhaSEd0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/Gg0DAhaSEd0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/Gg0DAhaSEd0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170315 SNH48 Team NⅡ 专属派对 32"
+  }
+}

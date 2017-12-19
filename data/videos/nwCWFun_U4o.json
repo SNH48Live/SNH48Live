@@ -1,0 +1,88 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "sd",
+    "dimension": "2d",
+    "duration": "PT12M27S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/5cqZ6rmUGFwWwunK9jpq0DssBYc\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127947",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "577755",
+    "container": "mov",
+    "durationMs": "746800",
+    "fileName": "unknown",
+    "fileSize": "114483944",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.777777777777778,
+        "bitrateBps": "449808",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 480,
+        "widthPixels": 852
+      }
+    ]
+  },
+  "id": "nwCWFun_U4o",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "林楠《流着泪微笑》\n杨惠婷、谢妮、郭倩芸《美杜莎的温柔》刘佩鑫《镜中圣女》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "林楠《流着泪微笑》\n杨惠婷、谢妮、郭倩芸《美杜莎的温柔》刘佩鑫《镜中圣女》\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171110 SNH48 Team HⅡ 金曲大赏特别赏析环节"
+    },
+    "publishedAt": "2017-11-20T23:30:15.000Z",
+    "tags": [
+      "SNH48",
+      "Team HⅡ",
+      "Team HII",
+      "HⅡ",
+      "HII"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/nwCWFun_U4o/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/nwCWFun_U4o/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/nwCWFun_U4o/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/nwCWFun_U4o/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/nwCWFun_U4o/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171110 SNH48 Team HⅡ 金曲大赏特别赏析环节"
+  }
+}

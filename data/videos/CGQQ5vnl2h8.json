@@ -1,0 +1,78 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H29M48S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Kks6n62aHgjl0NRZuOM66tSLU1Q\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4057823439",
+    "fileType": "video"
+  },
+  "id": "CGQQ5vnl2h8",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/287\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/287\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170812 SNH48 Team HⅡ 美丽世界 25"
+    },
+    "publishedAt": "2017-08-12T16:02:55.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "郭倩芸",
+      "李清扬",
+      "林楠",
+      "刘炅然",
+      "刘佩鑫",
+      "王柏硕",
+      "王露皎",
+      "吴燕文",
+      "谢妮",
+      "徐伊人",
+      "许杨玉琢",
+      "张昕"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/CGQQ5vnl2h8/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/CGQQ5vnl2h8/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/CGQQ5vnl2h8/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/CGQQ5vnl2h8/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/CGQQ5vnl2h8/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170812 SNH48 Team HⅡ 美丽世界 25"
+  }
+}

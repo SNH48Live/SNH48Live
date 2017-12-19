@@ -1,0 +1,98 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H19M27S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/a1szaWZOItjQqmJmHUkD0QAeqBk\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131080",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "4032167",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "5857913620",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3901087",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "g0DB6nADShQ",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/269\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/269\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170716 SNH48 Team NⅡ 专属派对 47 赵粤生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-07-16T16:32:56.000Z",
+    "tags": [
+      "SNH48",
+      "专属派对",
+      "陈佳莹",
+      "陈问言",
+      "冯薪朵",
+      "何晓玉",
+      "金莹玥",
+      "刘菊子",
+      "刘瀛",
+      "陆婷",
+      "万丽娜",
+      "易嘉爱",
+      "曾艳芬",
+      "张雨鑫",
+      "赵粤",
+      "周怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/g0DB6nADShQ/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/g0DB6nADShQ/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/g0DB6nADShQ/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/g0DB6nADShQ/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/g0DB6nADShQ/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170716 SNH48 Team NⅡ 专属派对 47 赵粤生日主题公演暨总选拉票公演"
+  }
+}

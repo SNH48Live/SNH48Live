@@ -1,0 +1,97 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H40M10S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/V1UjryIshxdaPbzZ-EGc6bIhUC4\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131317",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3616795",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4704818064",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3485478",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "nshhVl0Nroo",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/268\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/268\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170716 SNH48 Team X 梦想的旗帜 42 张嘉予生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-07-16T12:04:00.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "陈琳",
+      "李晶",
+      "李钊",
+      "林忆宁",
+      "祁静",
+      "宋昕冉",
+      "汪佳翎",
+      "汪束",
+      "王晓佳",
+      "杨冰怡",
+      "姚祎纯",
+      "张嘉予",
+      "李佳恩"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/nshhVl0Nroo/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/nshhVl0Nroo/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/nshhVl0Nroo/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/nshhVl0Nroo/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/nshhVl0Nroo/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170716 SNH48 Team X 梦想的旗帜 42 张嘉予生日主题公演暨总选拉票公演"
+  }
+}

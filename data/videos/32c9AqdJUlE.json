@@ -1,0 +1,85 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H2M7S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"cbz3lIQ2N25AfwNr-BdxUVxJ_QY/B1vpRM88aW8CH4JJWmslQEF5eaI\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127864",
+        "channelCount": 2,
+        "codec": "mp3"
+      }
+    ],
+    "bitrateBps": "261342",
+    "container": "mov",
+    "durationMs": "3726125",
+    "fileName": "unknown",
+    "fileSize": "122087989",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.0,
+        "bitrateBps": "133478",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 960,
+        "widthPixels": 960
+      }
+    ]
+  },
+  "id": "32c9AqdJUlE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "专辑名称: 以爱之名\n歌手: SNH48\n发行日期: 2017-10-07\n\n01. 00:00:00 以爱之名\n02. 00:04:13 丘比特的失误\n03. 00:07:06 未完成少女\n04. 00:10:53 标准男友Excel\n05. 00:14:25 猎梦\n06. 00:18:34 Fire Touch\n07. 00:21:58 未接来电\n08. 00:27:03 春夏秋冬\n09. 00:31:20 梦中的婚礼\n10. 00:34:54 Feeling You\n11. 00:38:39 妄想症的解药\n12. 00:42:37 黑名单\n13. 00:45:55 Unforgettable\n14. 00:50:10 光之轨迹\n15. 00:53:55 为了那些逝去的爱情\n16. 00:58:05 Remember You\n\n来源：咪咕音乐\n http://music.migu.cn/#/album/1106940553/P7Z1Y1L1N1/1/001002C\n\n版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "专辑名称: 以爱之名\n歌手: SNH48\n发行日期: 2017-10-07\n\n01. 00:00:00 以爱之名\n02. 00:04:13 丘比特的失误\n03. 00:07:06 未完成少女\n04. 00:10:53 标准男友Excel\n05. 00:14:25 猎梦\n06. 00:18:34 Fire Touch\n07. 00:21:58 未接来电\n08. 00:27:03 春夏秋冬\n09. 00:31:20 梦中的婚礼\n10. 00:34:54 Feeling You\n11. 00:38:39 妄想症的解药\n12. 00:42:37 黑名单\n13. 00:45:55 Unforgettable\n14. 00:50:10 光之轨迹\n15. 00:53:55 为了那些逝去的爱情\n16. 00:58:05 Remember You\n\n来源：咪咕音乐\n http://music.migu.cn/#/album/1106940553/P7Z1Y1L1N1/1/001002C\n\n版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "SNH48 Team NⅡ 以爱之名 音源"
+    },
+    "publishedAt": "2017-10-07T17:26:56.000Z",
+    "tags": [
+      "SNH48",
+      "以爱之名"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/32c9AqdJUlE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/32c9AqdJUlE/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/32c9AqdJUlE/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/32c9AqdJUlE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/32c9AqdJUlE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 Team NⅡ 以爱之名 音源"
+  }
+}

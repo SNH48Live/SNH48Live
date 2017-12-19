@@ -1,0 +1,88 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H50M10S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"7991kDR-QPaa9r0pePmDjBEa2h8/FFjGZqac-Zy2M20WL4HVhAcNO1k\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4634934567",
+    "fileType": "video"
+  },
+  "id": "UScoUIRBOL4",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/420\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/420\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171202 SNH48 Team NⅡ 以爱之名 10"
+    },
+    "publishedAt": "2017-12-02T15:33:27.000Z",
+    "tags": [
+      "SNH48",
+      "以爱之名",
+      "Team NⅡ",
+      "NⅡ",
+      "Team NII",
+      "NII",
+      "陈佳莹",
+      "陈问言",
+      "冯薪朵",
+      "何晓玉",
+      "江真仪",
+      "金莹玥",
+      "刘菊子",
+      "刘瀛",
+      "陆婷",
+      "马凡",
+      "万丽娜",
+      "许逸",
+      "易嘉爱",
+      "张雨鑫",
+      "赵粤",
+      "杨冰怡",
+      "潘瑛琪",
+      "陶波尔"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/UScoUIRBOL4/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/UScoUIRBOL4/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/UScoUIRBOL4/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/UScoUIRBOL4/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/UScoUIRBOL4/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171202 SNH48 Team NⅡ 以爱之名 10"
+  }
+}

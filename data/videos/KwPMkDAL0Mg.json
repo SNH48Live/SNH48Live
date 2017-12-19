@@ -1,0 +1,83 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H34M51S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"uQc-MPTsstrHkQcRXL3IWLmeNsM/Cv5rYdOz8rPGhs5zzzjnYulfB2g\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "128807",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3520163",
+    "container": "mpeg_ts",
+    "fileName": "20170324 Team XⅡ 代号XⅡ 12.ts",
+    "fileSize": "4555810956",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3391356",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "KwPMkDAL0Mg",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/151\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/151\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170324 SNH48 Team XⅡ 代号XⅡ 12"
+    },
+    "publishedAt": "2017-03-24T17:09:24.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/KwPMkDAL0Mg/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/KwPMkDAL0Mg/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/KwPMkDAL0Mg/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/KwPMkDAL0Mg/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/KwPMkDAL0Mg/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170324 SNH48 Team XⅡ 代号XⅡ 12"
+  }
+}

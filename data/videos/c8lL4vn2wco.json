@@ -1,0 +1,81 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H36M59S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Xq9XGzr5i1_4aaaiMjWdBhauY1A\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4252179319",
+    "fileType": "video"
+  },
+  "id": "c8lL4vn2wco",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/295\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/295\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170823 SNH48 Team XⅡ 代号XⅡ 39"
+    },
+    "publishedAt": "2017-08-23T15:39:31.000Z",
+    "tags": [
+      "SNH48",
+      "代号XⅡ",
+      "陈韫凌",
+      "费沁源",
+      "姜杉",
+      "蒋舒婷",
+      "李佳恩",
+      "林歆源",
+      "刘增艳",
+      "吕梦莹",
+      "潘瑛琪",
+      "陶波尔",
+      "徐诗琪",
+      "严佼君",
+      "曾晓雯",
+      "张文静",
+      "张怡"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/c8lL4vn2wco/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/c8lL4vn2wco/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/c8lL4vn2wco/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/c8lL4vn2wco/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/c8lL4vn2wco/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170823 SNH48 Team XⅡ 代号XⅡ 39"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT46M46S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/HahC0Pf5efigigW37WMFh0VN8YA\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "1266746631",
+    "fileType": "video"
+  },
+  "id": "MGnzQWmBgtY",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/311\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/311\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170908 SNH48 星梦Mini Live（陈思）"
+    },
+    "publishedAt": "2017-09-12T08:32:41.000Z",
+    "tags": [
+      "SNH48",
+      "星梦Mini Live",
+      "陈思"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/MGnzQWmBgtY/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/MGnzQWmBgtY/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/MGnzQWmBgtY/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/MGnzQWmBgtY/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/MGnzQWmBgtY/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170908 SNH48 星梦Mini Live（陈思）"
+  }
+}

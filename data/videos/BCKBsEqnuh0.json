@@ -1,0 +1,81 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H16M51S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/TR9gQEzGlgExJA3FYT1ECXm-0JQ\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "6109719134",
+    "fileType": "video"
+  },
+  "id": "BCKBsEqnuh0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/383\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/383\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171104 SNH48 Team X 梦想的旗帜 60 冯晓菲生日主题公演"
+    },
+    "publishedAt": "2017-11-04T10:47:00.000Z",
+    "tags": [
+      "SNH48",
+      "梦想的旗帜",
+      "吕一",
+      "冯晓菲",
+      "李晶",
+      "李钊",
+      "祁静",
+      "邵雪聪",
+      "孙歆文",
+      "孙亚萍",
+      "汪束",
+      "王晓佳",
+      "谢天依",
+      "杨冰怡",
+      "杨韫玉",
+      "张丹三",
+      "李佳恩"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/BCKBsEqnuh0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/BCKBsEqnuh0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/BCKBsEqnuh0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/BCKBsEqnuh0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/BCKBsEqnuh0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171104 SNH48 Team X 梦想的旗帜 60 冯晓菲生日主题公演"
+  }
+}

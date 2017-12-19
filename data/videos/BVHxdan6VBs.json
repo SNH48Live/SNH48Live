@@ -1,0 +1,83 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H26M2S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"ld9biNPKjAjgjV7EZ4EKeEGrhao/srwhmnn9KQZfGzS6z0dIooRGgzI\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "4788806752",
+    "fileType": "video"
+  },
+  "id": "BVHxdan6VBs",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/399\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/399\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171114 SNH48 48狼人杀 04"
+    },
+    "publishedAt": "2017-11-14T16:24:36.000Z",
+    "tags": [
+      "SNH48",
+      "48狼人杀",
+      "狼人杀",
+      "李宇琪",
+      "莫寒",
+      "钱蓓婷",
+      "孙芮",
+      "张雨鑫",
+      "郭倩芸",
+      "郝婉晴",
+      "孙亚萍",
+      "汪束",
+      "王晓佳",
+      "杨冰怡",
+      "洪珮雲",
+      "姜杉",
+      "刘增艳",
+      "左嘉欣",
+      "冯思佳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/BVHxdan6VBs/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/BVHxdan6VBs/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/BVHxdan6VBs/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/BVHxdan6VBs/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/BVHxdan6VBs/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171114 SNH48 48狼人杀 04"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT2H42M20S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular",
+    "regionRestriction": {
+      "blocked": [
+        "MX",
+        "AU",
+        "US",
+        "KR",
+        "NZ"
+      ]
+    }
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/VLXLBUldy_ukpGKOssamGYCXtPU\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "131607",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "3421899",
+    "container": "mpeg_ts",
+    "fileName": "unknown",
+    "fileSize": "4768096608",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.7777777777777777,
+        "bitrateBps": "3290292",
+        "codec": "h264",
+        "frameRateFps": 25.0,
+        "heightPixels": 1080,
+        "widthPixels": 1920
+      }
+    ]
+  },
+  "id": "_nAKUlVLYh8",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/266\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/266\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170715 SNH48 Team HⅡ 美丽世界 22 李清扬生日主题公演暨总选拉票公演"
+    },
+    "publishedAt": "2017-07-15T10:53:54.000Z",
+    "tags": [
+      "SNH48",
+      "美丽世界",
+      "郭倩芸",
+      "郝婉晴",
+      "李清扬",
+      "林楠",
+      "刘佩鑫",
+      "沈梦瑶",
+      "王柏硕",
+      "王露皎",
+      "文文",
+      "吴燕文",
+      "谢妮",
+      "徐晗",
+      "徐伊人",
+      "许杨玉琢",
+      "杨惠婷",
+      "袁航",
+      "袁一琦",
+      "张昕",
+      "赵梦婷"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/_nAKUlVLYh8/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/_nAKUlVLYh8/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/_nAKUlVLYh8/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/_nAKUlVLYh8/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/_nAKUlVLYh8/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170715 SNH48 Team HⅡ 美丽世界 22 李清扬生日主题公演暨总选拉票公演"
+  }
+}

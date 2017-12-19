@@ -1,0 +1,66 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H4M41S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Xh0ft_fnJx7fAFyPPeHQxic_7Zs\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "5005096749",
+    "fileType": "video"
+  },
+  "id": "fXWIZkmrWeg",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://live.snh48.com/Index/invedio/id/279\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://live.snh48.com/Index/invedio/id/279\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20170805 SNH48 Team SⅡ 第48区 07 袁丹妮生日主题公演"
+    },
+    "publishedAt": "2017-08-05T12:03:32.000Z",
+    "tags": [
+      "SNH48",
+      "第48区"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/fXWIZkmrWeg/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/fXWIZkmrWeg/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/fXWIZkmrWeg/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/fXWIZkmrWeg/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/fXWIZkmrWeg/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20170805 SNH48 Team SⅡ 第48区 07 袁丹妮生日主题公演"
+  }
+}

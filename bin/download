@@ -177,7 +177,7 @@ def merge_chunks(dest: pathlib.Path, basename: str) -> pathlib.Path:
 
 def performers(vod: str) -> List[str]:
     vod_pattern = re.compile(r'^https?://(live\.(?:snh|bej|gnz|shy)48\.com)/.*/(\d+)$')
-    m = vod_pattern.match(vod)
+    m = vod_pattern.match(vod or '')
     if not m:
         return []
 

@@ -1,0 +1,89 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3M16S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"S8kisgyDEblalhHF9ooXPiFFrkc/MFcazv4WLdetka_w3CUVOOjdPPQ\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "255994",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "416618",
+    "container": "mov",
+    "durationMs": "195400",
+    "fileName": "unknown",
+    "fileSize": "9673749",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.0,
+        "bitrateBps": "160624",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 1080,
+        "widthPixels": 1080
+      }
+    ]
+  },
+  "id": "xAcyfYXV_Bk",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "其它曲目及整轨音源见播单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9E2tQYKkdJBfktFrIHkaHWj\n\n转自QQ音乐。本视频版权归上海丝芭文化传媒集团有限公司所有。请支持正版音乐。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "其它曲目及整轨音源见播单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9E2tQYKkdJBfktFrIHkaHWj\n\n转自QQ音乐。本视频版权归上海丝芭文化传媒集团有限公司所有。请支持正版音乐。",
+      "title": "SNH48 Team X 命运的X号《艾克斯号》音源"
+    },
+    "publishedAt": "2017-12-22T16:55:44.000Z",
+    "tags": [
+      "SNH48",
+      "SNH48 Team X",
+      "Team X",
+      "命运的X号",
+      "艾克斯号",
+      "音源"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/xAcyfYXV_Bk/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/xAcyfYXV_Bk/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/xAcyfYXV_Bk/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/xAcyfYXV_Bk/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/xAcyfYXV_Bk/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 Team X 命运的X号《艾克斯号》音源"
+  }
+}

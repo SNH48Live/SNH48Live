@@ -1,0 +1,85 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT4M40S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"S8kisgyDEblalhHF9ooXPiFFrkc/YHFy5ZMT1R5Ua7rfmvUv2GBfszo\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127999",
+        "channelCount": 2,
+        "codec": "mp3"
+      }
+    ],
+    "bitrateBps": "317326",
+    "container": "mov",
+    "durationMs": "280000",
+    "fileName": "unknown",
+    "fileSize": "10760742",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.0,
+        "bitrateBps": "189327",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 1080,
+        "widthPixels": 1080
+      }
+    ]
+  },
+  "id": "542JCK-8JNg",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "本音频版权归上海丝芭文化传媒集团有限公司所有。\n\n专辑：《甜蜜盛典》\n歌手：SNH48\n发行时间：2017-12-20\n\n转自咪咕音乐：http://music.migu.cn/album/1108418470",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "本音频版权归上海丝芭文化传媒集团有限公司所有。\n\n专辑：《甜蜜盛典》\n歌手：SNH48\n发行时间：2017-12-20\n\n转自咪咕音乐：http://music.migu.cn/album/1108418470",
+      "title": "SNH48《甜蜜盛典》音源"
+    },
+    "publishedAt": "2017-12-20T03:59:06.000Z",
+    "tags": [
+      "SNH48",
+      "甜蜜盛典"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/542JCK-8JNg/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/542JCK-8JNg/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/542JCK-8JNg/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/542JCK-8JNg/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/542JCK-8JNg/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48《甜蜜盛典》音源"
+  }
+}

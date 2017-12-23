@@ -1,0 +1,88 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT1H6M17S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"S8kisgyDEblalhHF9ooXPiFFrkc/P6crCJz2MFNpYqOhf4JHbnO4qx0\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "255738",
+        "channelCount": 2,
+        "codec": "aac"
+      }
+    ],
+    "bitrateBps": "13206658",
+    "container": "mov",
+    "durationMs": "3976945",
+    "fileName": "unknown",
+    "fileSize": "198508940",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.0,
+        "bitrateBps": "12950920",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 1080,
+        "widthPixels": 1080
+      }
+    ]
+  },
+  "id": "IS1yF7VfFoE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "公演名称: 命运的X号\n歌手: SNH48\n公演首演日期: 2017-12-15\n首演视频：https://youtu.be/evRIju_NkNQ\n\n专辑一：《命运的X号16版本》\nhttps://y.qq.com/n/yqq/album/3824897_num.html\n专辑二：《命运的X号UNIT版》\nhttps://y.qq.com/n/yqq/album/3835200_num.html\n\n分轨播单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9E2tQYKkdJBfktFrIHkaHWj\n\n01. 00:00:00 Star River\n02. 00:04:24 指南针\n03. 00:08:32 艾克斯号\n04. 00:11:48 命运的X\n05. 00:15:50 Ice Queen\n06. 00:20:55 Battle Cry\n07. 00:25:22 占卜师\n08. 00:29:47 深海之声\n09. 00:34:09 双生花\n10. 00:37:53 最后的曙光\n11. 00:41:28 钢铁之翼\n12. 00:45:06 石中花\n13. 00:48:45 梦与星光的海上\n14. 00:53:46 穿过水晶的光芒\n15. 00:57:57 新航路\n16. 01:02:19 Fire X\n\n转自QQ音乐。本视频版权归上海丝芭文化传媒集团有限公司所有。请支持正版音乐。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "公演名称: 命运的X号\n歌手: SNH48\n公演首演日期: 2017-12-15\n首演视频：https://youtu.be/evRIju_NkNQ\n\n专辑一：《命运的X号16版本》\nhttps://y.qq.com/n/yqq/album/3824897_num.html\n专辑二：《命运的X号UNIT版》\nhttps://y.qq.com/n/yqq/album/3835200_num.html\n\n分轨播单：https://www.youtube.com/playlist?list=PL0-h3TcYaV9E2tQYKkdJBfktFrIHkaHWj\n\n01. 00:00:00 Star River\n02. 00:04:24 指南针\n03. 00:08:32 艾克斯号\n04. 00:11:48 命运的X\n05. 00:15:50 Ice Queen\n06. 00:20:55 Battle Cry\n07. 00:25:22 占卜师\n08. 00:29:47 深海之声\n09. 00:34:09 双生花\n10. 00:37:53 最后的曙光\n11. 00:41:28 钢铁之翼\n12. 00:45:06 石中花\n13. 00:48:45 梦与星光的海上\n14. 00:53:46 穿过水晶的光芒\n15. 00:57:57 新航路\n16. 01:02:19 Fire X\n\n转自QQ音乐。本视频版权归上海丝芭文化传媒集团有限公司所有。请支持正版音乐。",
+      "title": "SNH48 Team X 命运的X号 音源（整轨）"
+    },
+    "publishedAt": "2017-12-22T16:55:51.000Z",
+    "tags": [
+      "SNH48",
+      "SNH48 Team X",
+      "Team X",
+      "命运的X号",
+      "音源"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/IS1yF7VfFoE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/IS1yF7VfFoE/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/IS1yF7VfFoE/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/IS1yF7VfFoE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/IS1yF7VfFoE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48 Team X 命运的X号 音源（整轨）"
+  }
+}

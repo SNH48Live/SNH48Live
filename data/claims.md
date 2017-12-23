@@ -3,6 +3,56 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171222 SNH48 7SENSES 广州巡演](https://youtube.com/watch?v=jhaZ8jDLhWU)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| ﾌﾗﾐﾝｺﾞの飛来 - ｻﾞ･ｼﾈﾏﾃｨｯｸ･ｵｰｹｽﾄﾗ<br>Sound recording<br>1:14:26 - 1:15:09 | AVEX GROUP HOLDINGS.INC<br>UMG<br>On behalf of: WALT DISNEY RECORDS | Monetized by copyright owner |
+| Audiovisual content<br>5:31 - 6:16 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171222 SNH48 星梦Mini Live（宋昕冉）](https://youtube.com/watch?v=pYBTUF2EXVQ)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Why Are You With Me, My Love - Maggie Chaing<br>Sound recording<br>17:41 - 20:20 | WMG<br>On behalf of: Gold Typhoon Taiwan | Monetized by copyright owner |
+| Bo He Yu Zhi Jia Jian - Wen Yin Liang<br>Sound recording<br>11:42 - 15:12 | UMG<br>On behalf of: Universal Music | Monetized by copyright owner |
+| Fish - Angel Hou<br>Sound recording<br>2:26 - 4:58 | WMG<br>On behalf of: Gold Typhoon Taiwan | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171221 SNH48 Team NⅡ 以爱之名 12](https://youtube.com/watch?v=PG1jH7kPano)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:51 - 18:33 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:11:02 - 2:19:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>2:24 - 4:49 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:08 - 4:49 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171220 SNH48 Team HⅡ 美丽世界 45](https://youtube.com/watch?v=Zx-fwQLpglc)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>13:00 - 2:12:58 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
 [20171219 SNH48 48狼人杀 09](https://youtube.com/watch?v=8_oeQhx96Vs)
 
 | Content | Claimant | Policy |

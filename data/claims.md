@@ -3,6 +3,35 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171224 SNH48 圣诞节特别公演](https://youtube.com/watch?v=ZUojLBiW1Mo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:42 - 3:59 | WebTVAsia (Music) | Monetized by copyright owner |
+| Christmas Song (Instrumental) - back number<br>Sound recording<br>1:52:52 - 1:55:07 | UMG<br>On behalf of: Universal Sigma | Monetized by copyright owner |
+| Gangsta - Kehlani<br>Sound recording<br>48:48 - 50:00 | WMG<br>On behalf of: Atlantic Records | Monetized by copyright owner |
+| 禁じられた2人(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>1:49:02 - 1:49:47 | Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc. | Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States |
+| 炎上路線 - AKB48<br>Sound recording<br>1:36:38 - 1:38:16 | AKB48 | Monetized by copyright owner |
+
+Viewing restrictions:
+- Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20171224 SNH48 Team X 命运的X号 04 孙歆文生日主题公演](https://youtube.com/watch?v=VD_Ko72mM8A)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:34:38 - 1:35:50 | imusician_digital<br>On behalf of: JKT48 | Monetized by copyright owner |
+| Audiovisual content<br>2:55 - 3:52 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:43 - 4:17 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
 [20171222 SNH48 7SENSES 广州巡演](https://youtube.com/watch?v=jhaZ8jDLhWU)
 
 | Content | Claimant | Policy |

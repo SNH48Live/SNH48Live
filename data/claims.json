@@ -1,5 +1,66 @@
 [
   {
+    "video_id": "ZUojLBiW1Mo",
+    "title": "20171224 SNH48 圣诞节特别公演",
+    "link": "https://youtube.com/watch?v=ZUojLBiW1Mo",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>1:42 - 3:59",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Christmas Song (Instrumental) - back number<br>Sound recording<br>1:52:52 - 1:55:07",
+        "claimant": "UMG<br>On behalf of: Universal Sigma",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Gangsta - Kehlani<br>Sound recording<br>48:48 - 50:00",
+        "claimant": "WMG<br>On behalf of: Atlantic Records",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "禁じられた2人(チームB Ver.) オリジナル・カラオケ - AKB48<br>Sound recording<br>1:49:02 - 1:49:47",
+        "claimant": "Sony Music Entertainment (Japan) Inc.<br>On behalf of: (P)2013 Defstar Records Inc.",
+        "policy": "Blocked in some countries: Australia, Japan, Mexico, New Zealand, South Korea, United States"
+      },
+      {
+        "content": "炎上路線 - AKB48<br>Sound recording<br>1:36:38 - 1:38:16",
+        "claimant": "AKB48",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": [
+      "Video blocked in 6 countries: Your video can't be played in these countries: Australia, Japan, Mexico, New Zealand, South Korea, United States",
+      "Embedding disabled: Your video can't be embedded on other sites."
+    ]
+  },
+  {
+    "video_id": "VD_Ko72mM8A",
+    "title": "20171224 SNH48 Team X 命运的X号 04 孙歆文生日主题公演",
+    "link": "https://youtube.com/watch?v=VD_Ko72mM8A",
+    "claims": [
+      {
+        "content": "Cinta Pertama Butterfly - JKT48<br>Sound recording<br>1:34:38 - 1:35:50",
+        "claimant": "imusician_digital<br>On behalf of: JKT48",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>2:55 - 3:52",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>1:43 - 4:17",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
+    ]
+  },
+  {
     "video_id": "jhaZ8jDLhWU",
     "title": "20171222 SNH48 7SENSES 广州巡演",
     "link": "https://youtube.com/watch?v=jhaZ8jDLhWU",

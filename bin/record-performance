@@ -171,10 +171,10 @@ def main():
 
         video_id_default = guess_video_id()
         if video_id_default:
-            video_id = input(f'YouTube video ID [{video_id_default}]: ') or video_id_default
+            video_id = input(f'YouTube video ID [{video_id_default}] (- for none): ') or video_id_default
         else:
             video_id = input('YouTube video ID: ')
-        if video_id:
+        if video_id and video_id != '-':
             validate_youtube_video_id(video_id)
             title = retrieve_youtube_video_title(video_id)
         else:

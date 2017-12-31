@@ -3,6 +3,22 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20171225 SNH48 48狼人杀 10](https://youtube.com/watch?v=24mxFfMJ_HE)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>2:15:48 - 2:19:41 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20171225 SNH48 7SENSES《Lucky Seven Baby》S02E02](https://youtube.com/watch?v=-IBThDiomYY)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Jacoo - Crossing Winds (Inspired by The xx - Intro) - Jacoo۰۪۫<br>Sound recording<br>4:10 - 4:55 | RepostNetwork<br>On behalf of: Jacoo۰۪۫ | Monetized by copyright owner |
+
+---
+
 [20171224 SNH48 圣诞节特别公演](https://youtube.com/watch?v=ZUojLBiW1Mo)
 
 | Content | Claimant | Policy |

@@ -1,0 +1,86 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT4M35S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"S8kisgyDEblalhHF9ooXPiFFrkc/_rR4jKPWFaAxrGm60PwA6nXMJbw\"",
+  "fileDetails": {
+    "audioStreams": [
+      {
+        "bitrateBps": "127999",
+        "channelCount": 2,
+        "codec": "mp3"
+      }
+    ],
+    "bitrateBps": "317679",
+    "container": "mov",
+    "durationMs": "274400",
+    "fileName": "unknown",
+    "fileSize": "10441992",
+    "fileType": "video",
+    "videoStreams": [
+      {
+        "aspectRatio": 1.0,
+        "bitrateBps": "189680",
+        "codec": "h264",
+        "frameRateFps": 10.0,
+        "heightPixels": 1080,
+        "widthPixels": 1080
+      }
+    ]
+  },
+  "id": "F0y-rKvR4rE",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "本音频版权归上海丝芭文化传媒集团有限公司所有。请支持正版音乐。\n\n单曲：《小团圆》\n歌手：SNH48\n发行时间：2017-12-26\n\n转自咪咕音乐：http://music.migu.cn/album/1108512591",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "本音频版权归上海丝芭文化传媒集团有限公司所有。请支持正版音乐。\n\n单曲：《小团圆》\n歌手：SNH48\n发行时间：2017-12-26\n\n转自咪咕音乐：http://music.migu.cn/album/1108512591",
+      "title": "SNH48《小团圆》音源"
+    },
+    "publishedAt": "2017-12-26T09:40:02.000Z",
+    "tags": [
+      "SNH48",
+      "小团圆",
+      "音源"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/F0y-rKvR4rE/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/F0y-rKvR4rE/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/F0y-rKvR4rE/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/F0y-rKvR4rE/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/F0y-rKvR4rE/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "SNH48《小团圆》音源"
+  }
+}

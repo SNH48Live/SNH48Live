@@ -1,0 +1,76 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT27M29S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"S8kisgyDEblalhHF9ooXPiFFrkc/FOzX1GtJ13l1ztGlft6PAN1FZc8\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "422006495",
+    "fileType": "video"
+  },
+  "id": "9A9yz6awrz0",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "Lucky Seven Baby 第二季第二集\n转自官方哔哩哔哩频道：https://www.bilibili.com/video/av17869062/\n\nLucky Seven Baby 播单（含第一季）：https://www.youtube.com/playlist?list=PL0-h3TcYaV9GGJDVxA_aOpilJK8Xhproq\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "Lucky Seven Baby 第二季第二集\n转自官方哔哩哔哩频道：https://www.bilibili.com/video/av17869062/\n\nLucky Seven Baby 播单（含第一季）：https://www.youtube.com/playlist?list=PL0-h3TcYaV9GGJDVxA_aOpilJK8Xhproq\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20180102 SNH48 7SENSES《Lucky Seven Baby》S02E03"
+    },
+    "publishedAt": "2018-01-01T18:41:55.000Z",
+    "tags": [
+      "SNH48",
+      "7SENSES",
+      "Lucky Seven",
+      "Baby",
+      "第二季",
+      "戴萌",
+      "孔肖吟",
+      "许佳琪",
+      "张语格",
+      "赵粤",
+      "许杨玉琢",
+      "陈琳"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/9A9yz6awrz0/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/9A9yz6awrz0/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/9A9yz6awrz0/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/9A9yz6awrz0/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/9A9yz6awrz0/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20180102 SNH48 7SENSES《Lucky Seven Baby》S02E03"
+  }
+}

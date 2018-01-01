@@ -1,5 +1,68 @@
 [
   {
+    "video_id": "--GdgLqhsDo",
+    "title": "20180101 SNH48 Team HⅡ 美丽世界 46",
+    "link": "https://youtube.com/watch?v=--GdgLqhsDo",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>3:10 - 3:58",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>3:10 - 4:08",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>3:32 - 4:53",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Visual content<br>2:12 - 4:41",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
+    ]
+  },
+  {
+    "video_id": "9A9yz6awrz0",
+    "title": "20180102 SNH48 7SENSES《Lucky Seven Baby》S02E03",
+    "link": "https://youtube.com/watch?v=9A9yz6awrz0",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>3:52 - 4:22",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": []
+  },
+  {
+    "video_id": "ffX9fOGy_QA",
+    "title": "20171231 SNH48 2018新年主题公演",
+    "link": "https://youtube.com/watch?v=ffX9fOGy_QA",
+    "claims": [
+      {
+        "content": "Audiovisual content<br>1:27 - 2:27",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      },
+      {
+        "content": "Audiovisual content<br>1:27 - 2:27",
+        "claimant": "WebTVAsia (Music)",
+        "policy": "Monetized by copyright owner"
+      }
+    ],
+    "viewing_restrictions": [
+      "Embedding disabled: Your video can't be embedded on other sites."
+    ]
+  },
+  {
     "video_id": "24mxFfMJ_HE",
     "title": "20171225 SNH48 48狼人杀 10",
     "link": "https://youtube.com/watch?v=24mxFfMJ_HE",

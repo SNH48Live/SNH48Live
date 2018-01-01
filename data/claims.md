@@ -3,6 +3,40 @@
 <!-- USED BY AUTOMATION SCRIPT, DO NOT DELETE -->
 <!-- AUTO INSERTION POINT -->
 
+[20180101 SNH48 Team HⅡ 美丽世界 46](https://youtube.com/watch?v=--GdgLqhsDo)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:10 - 3:58 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:10 - 4:08 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>3:32 - 4:53 | WebTVAsia (Music) | Monetized by copyright owner |
+| Visual content<br>2:12 - 4:41 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
+[20180102 SNH48 7SENSES《Lucky Seven Baby》S02E03](https://youtube.com/watch?v=9A9yz6awrz0)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>3:52 - 4:22 | WebTVAsia (Music) | Monetized by copyright owner |
+
+---
+
+[20171231 SNH48 2018新年主题公演](https://youtube.com/watch?v=ffX9fOGy_QA)
+
+| Content | Claimant | Policy |
+| --- | --- | --- |
+| Audiovisual content<br>1:27 - 2:27 | WebTVAsia (Music) | Monetized by copyright owner |
+| Audiovisual content<br>1:27 - 2:27 | WebTVAsia (Music) | Monetized by copyright owner |
+
+Viewing restrictions:
+- Embedding disabled: Your video can't be embedded on other sites.
+
+---
+
 [20171225 SNH48 48狼人杀 10](https://youtube.com/watch?v=24mxFfMJ_HE)
 
 | Content | Claimant | Policy |

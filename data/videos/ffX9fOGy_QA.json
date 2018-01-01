@@ -1,0 +1,69 @@
+{
+  "contentDetails": {
+    "caption": "false",
+    "definition": "hd",
+    "dimension": "2d",
+    "duration": "PT3H24M10S",
+    "hasCustomThumbnail": true,
+    "licensedContent": false,
+    "projection": "rectangular"
+  },
+  "etag": "\"S8kisgyDEblalhHF9ooXPiFFrkc/KaZjZajBvmKEpBLL0vwl2m7FqMM\"",
+  "fileDetails": {
+    "container": "mov",
+    "fileName": "unknown",
+    "fileSize": "2997569486",
+    "fileType": "video"
+  },
+  "id": "ffX9fOGy_QA",
+  "kind": "youtube#video",
+  "snippet": {
+    "categoryId": "24",
+    "channelId": "UC10BBCJQasWk_08Fdz0XCsQ",
+    "channelTitle": "SNH48 Live",
+    "defaultAudioLanguage": "zh-CN",
+    "defaultLanguage": "zh-CN",
+    "description": "http://music.migu.cn/v2/live/170\n转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av17850959\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+    "liveBroadcastContent": "none",
+    "localized": {
+      "description": "http://music.migu.cn/v2/live/170\n转自哔哩哔哩 寒影AkiNa：https://www.bilibili.com/video/av17850959\n\n本视频版权归上海丝芭文化传媒集团有限公司所有。",
+      "title": "20171231 SNH48 2018新年主题公演"
+    },
+    "publishedAt": "2018-01-01T10:20:58.000Z",
+    "tags": [
+      "SNH48",
+      "Team XⅡ",
+      "XⅡ",
+      "Team XII",
+      "XII"
+    ],
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/ffX9fOGy_QA/default.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/ffX9fOGy_QA/hqdefault.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/ffX9fOGy_QA/maxresdefault.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/ffX9fOGy_QA/mqdefault.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/ffX9fOGy_QA/sddefault.jpg",
+        "width": 640
+      }
+    },
+    "title": "20171231 SNH48 2018新年主题公演"
+  }
+}

@@ -18,11 +18,12 @@ from common import BIN, VIDEO_CONFIGS_DIR, logger
 THUMBNAILER = BIN / 'thumbnail'
 
 STAGES = [
+    ('Team HⅡ', 'New H Stars'),
+    ('Team Ft', '梦想的旗帜'),
     ('Team X', '命运的X号'),
     ('Team SⅡ', '第48区'),
     ('Team NⅡ', '以爱之名'),
     ('Team HⅡ', '美丽世界'),
-    ('Team X', '梦想的旗帜'),
     ('Team XⅡ', '代号XⅡ'),
     (None, '我们向前冲'),
 ]
@@ -33,6 +34,7 @@ TEAM_TAGS = {
     'Team HⅡ': ['Team HⅡ', 'HⅡ', 'Team HII', 'HII'],
     'Team X': ['Team X'],
     'Team XⅡ': ['Team XⅡ', 'XⅡ', 'Team XII', 'XII'],
+    'Team Ft': ['Team Ft', 'Ft'],
 }
 
 CONFIG_TEMPLATE = jinja2.Template('''\
@@ -107,6 +109,8 @@ def main():
     platform = inputs('platform [live.snh48.com]: ')
     if not platform:
         platform = 'live.snh48.com'
+    elif platform == 'zhibo.ckg48.com':
+        pass
     elif platform in [f'live.{g}48.com' for g in group_abbrevs]:
         pass
     elif platform in [f'{g}48' for g in group_abbrevs]:
@@ -115,7 +119,7 @@ def main():
         platform = f'live.{platform}48.com'
     else:
         die(f'unrecognized platform {platform}')
-    platform_short = platform[5:8]
+    platform_short = platform[5:8] if platform != 'zhibo.ckg48.com' else 'snh'
     assert platform_short in group_abbrevs
 
     if platform == 'live.snh48.com':
